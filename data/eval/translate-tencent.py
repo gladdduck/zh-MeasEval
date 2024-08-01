@@ -17,8 +17,8 @@ from tencentcloud.common.exception.tencent_cloud_sdk_exception import TencentClo
 from tencentcloud.tmt.v20180321 import tmt_client, models
 import time
 
-SecretId = "AKIDP3eDztjZJulbWQEwaAh4FWmyOlWFrLpA"
-SecretKey = "KVXP9NUSH0a2LXbYM5oOrDRXVMBsRtEY"
+SecretId = "1"
+SecretKey = "1"
 
 
 class Translator:

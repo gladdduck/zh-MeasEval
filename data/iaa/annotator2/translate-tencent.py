@@ -16,8 +16,8 @@ from tencentcloud.common.profile.http_profile import HttpProfile
 from tencentcloud.common.exception.tencent_cloud_sdk_exception import TencentCloudSDKException
 from tencentcloud.tmt.v20180321 import tmt_client, models
 import time
-SecretId = "AKIDc9ZnDXilghdNvGPM6dy7fO2hQE0oS5aA"
-SecretKey = "Yt1wdCXffkrx6OmDjSKMVl6IMMJAvsjT"
+SecretId = "1"
+SecretKey = "1"
 
 
 class Translator:
