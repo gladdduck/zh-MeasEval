@@ -1,0 +1,10 @@
+T1	Quantity -1 -1	55-74岁
+T2	Quantity -1 -1	40%左右
+A2	QuantityQualifier T1 IsRange
+T3	MeasuredProperty -1 -1	听力困难
+R2	HasQuantity Arg1:T3 Arg2:T2
+T4	MeasuredEntity -1 -1	55-74岁
+R1	HasProperty Arg1:T4 Arg2:T3
+A1	IsApproximate T2
+#1	AnnotatorNotes T2	%
+#2	AnnotatorNotes T1	year

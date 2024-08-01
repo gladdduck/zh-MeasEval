@@ -1,0 +1,48 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0006322312001096-1177	1	Quantity	28	32	T1-1	1985	
+S0006322312001096-1177	1	MeasuredProperty	-1	-1	T3-1	建立	{'HasQuantity': 'T1-1'}
+S0006322312001096-1177	1	MeasuredEntity	-1	-1	T2-1	Whitehall II研究	{'HasProperty': 'T3-1'}
+S0006322312001096-1177	2	Quantity	-1	-1	T51-2	35至55	{'mods': ['IsRange']}
+S0006322312001096-1177	2	MeasuredProperty	88	89	T61-2	岁	{'HasQuantity': 'T51-2'}
+S0006322312001096-1177	2	MeasuredEntity	65	69	T71-2	目标人群	{'HasProperty': 'T61-2'}
+S0006322312001096-1177	3	Quantity	97	99	T1-3	20	{'mods': ['IsCount']}
+S0006322312001096-1177	3	MeasuredEntity	-1	-1	T2-3	公务员主管部门	{'HasQuantity': 'T1-3'}
+S0006322312001096-1177	4	Quantity	-1	-1	T1-4	1985至1988	{'mods': ['IsRange']}
+S0006322312001096-1177	4	MeasuredProperty	126	128	T3-4	招聘	{'HasQuantity': 'T1-4'}
+S0006322312001096-1177	4	MeasuredEntity	65	69	T2-4	目标人群	{'HasProperty': 'T3-4'}
+S0006322312001096-1177	5	Quantity	170	173	T12-5	73%	
+S0006322312001096-1177	5	MeasuredProperty	-1	-1	T32-5	响应	{'HasQuantity': 'T12-5'}
+S0006322312001096-1177	5	MeasuredEntity	20	22	T42-5	队列	{'HasProperty': 'T32-5'}
+S0006322312001096-1177	6	Quantity	-1	-1	T2-6	10，308名员工	{'unit': 'employees'}
+S0006322312001096-1177	6	MeasuredEntity	20	22	T1-6	队列	{'HasQuantity': 'T2-6'}
+S0006322312001096-1177	7	Quantity	147	154	T1-7	6895名男性	{'unit': 'men'}
+S0006322312001096-1177	7	MeasuredEntity	20	22	T3-7	队列	{'HasQuantity': 'T1-7'}
+S0006322312001096-1177	8	Quantity	155	162	T1-8	3413名女性	{'unit': 'women'}
+S0006322312001096-1177	8	MeasuredEntity	20	22	T3-8	队列	{'HasQuantity': 'T1-8'}
+S0006322312001096-1177	9	Quantity	184	189	T23-9	大约每5年	{'mods': ['IsApproximate'], 'unit': 'years'}
+S0006322312001096-1177	9	MeasuredProperty	427	429	T83-9	发生	{'HasQuantity': 'T23-9'}
+S0006322312001096-1177	9	MeasuredEntity	-1	-1	T93-9	随访检查	{'HasProperty': 'T83-9'}
+S0006322312001096-1177	10	Quantity	-1	-1	T1-10	1991至1993	{'mods': ['IsRange']}
+S0006322312001096-1177	10	MeasuredEntity	360	362	T2-10	3期	{'HasQuantity': 'T1-10'}
+S0006322312001096-1177	11	Quantity	217	221	T3-11	8815	
+S0006322312001096-1177	11	MeasuredProperty	215	216	T2-11	n	{'HasQuantity': 'T3-11'}
+S0006322312001096-1177	11	MeasuredEntity	360	362	T1-11	3期	{'HasProperty': 'T2-11'}
+S0006322312001096-1177	12	Quantity	-1	-1	T2-12	1997至1999	{'mods': ['IsRange']}
+S0006322312001096-1177	12	MeasuredEntity	223	227	T1-12	第5阶段	{'HasQuantity': 'T2-12'}
+S0006322312001096-1177	13	Quantity	242	246	T3-13	7870	
+S0006322312001096-1177	13	MeasuredProperty	215	216	T2-13	n	{'HasQuantity': 'T3-13'}
+S0006322312001096-1177	13	MeasuredEntity	223	227	T1-13	第5阶段	{'HasProperty': 'T2-13'}
+S0006322312001096-1177	14	Quantity	-1	-1	T2-14	2003年到2004	{'mods': ['IsRange']}
+S0006322312001096-1177	14	MeasuredEntity	248	252	T1-14	第7阶段	{'HasQuantity': 'T2-14'}
+S0006322312001096-1177	15	Quantity	267	271	T2-15	6967	
+S0006322312001096-1177	15	MeasuredProperty	215	216	T3-15	n	{'HasQuantity': 'T2-15'}
+S0006322312001096-1177	15	MeasuredEntity	248	252	T1-15	第7阶段	{'HasProperty': 'T3-15'}
+S0006322312001096-1177	16	Quantity	-1	-1	T2-16	2008至2009	{'mods': ['IsRange']}
+S0006322312001096-1177	16	MeasuredEntity	-1	-1	T1-16	相9	{'HasQuantity': 'T2-16'}
+S0006322312001096-1177	17	Quantity	292	296	T3-17	6761	
+S0006322312001096-1177	17	MeasuredProperty	215	216	T2-17	n	{'HasQuantity': 'T3-17'}
+S0006322312001096-1177	17	MeasuredEntity	-1	-1	T1-17	相9	{'HasProperty': 'T2-17'}
+S0006322312001096-1177	18	Quantity	299	300	T1-18	三	{'mods': ['IsCount']}
+S0006322312001096-1177	18	MeasuredEntity	351	355	T2-18	筛查周期	{'HasQuantity': 'T1-18'}
+S0006322312001096-1177	19	Quantity	299	300	T2-19	三	{'mods': ['IsCount']}
+S0006322312001096-1177	19	MeasuredEntity	411	415	T1-19	数据周期	{'HasQuantity': 'T2-19'}

@@ -1,0 +1,5 @@
+T1	MeasuredProperty -1 -1	年龄和性别调整的赔率比
+T2	MeasuredEntity -1 -1	中风风险评分-中风事件关联
+T3	Quantity 95 99	2.84
+R1	HasProperty Arg1:T2 Arg2:T1
+R2	HasQuantity Arg1:T1 Arg2:T3

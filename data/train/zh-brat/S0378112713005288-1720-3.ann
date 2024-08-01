@@ -1,0 +1,9 @@
+T1	Quantity -1 -1	大于1000茎/公顷
+T2	Unit -1 -1	茎/公顷
+A1	QuantityQualifier T1 IsRange
+T3	Qualifier -1 -1	是说
+R1	Qualifies Arg1:T3 Arg2:T1
+T4	MeasuredProperty -1 -1	再生密度
+T5	MeasuredEntity 106 110	乡土树种
+R2	HasProperty Arg1:T5 Arg2:T4
+R3	HasQuantity Arg1:T4 Arg2:T1

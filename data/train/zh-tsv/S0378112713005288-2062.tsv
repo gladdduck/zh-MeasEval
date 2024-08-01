@@ -1,0 +1,13 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0378112713005288-2062	1	Quantity	106	113	T1-1	200,000	{'mods': ['IsCount']}
+S0378112713005288-2062	1	MeasuredEntity	91	93	T2-1	种子	{'HasQuantity': 'T1-1'}
+S0378112713005288-2062	2	Quantity	117	120	T1-2	1公斤	{'unit': 'kg'}
+S0378112713005288-2062	2	MeasuredProperty	-1	-1	T4-2	权衡	{'HasQuantity': 'T1-2'}
+S0378112713005288-2062	2	MeasuredEntity	-1	-1	T3-2	20万颗种子	{'HasProperty': 'T4-2'}
+S0378112713005288-2062	2	Qualifier	-1	-1	T5-2	罗文	{'Qualifies': 'T3-2'}
+S0378112713005288-2062	3	Quantity	-1	-1	T1-3	5.9万	{'mods': ['IsCount']}
+S0378112713005288-2062	3	MeasuredEntity	91	93	T3-3	种子	{'HasQuantity': 'T1-3'}
+S0378112713005288-2062	4	Quantity	117	120	T1-4	1公斤	{'unit': 'kg'}
+S0378112713005288-2062	4	MeasuredProperty	-1	-1	T4-4	权衡	{'HasQuantity': 'T1-4'}
+S0378112713005288-2062	4	MeasuredEntity	-1	-1	T3-4	5.9万颗种子	{'HasProperty': 'T4-4'}
+S0378112713005288-2062	4	Qualifier	136	138	T5-4	桦树	{'Qualifies': 'T3-4'}

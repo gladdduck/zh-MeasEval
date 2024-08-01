@@ -1,0 +1,7 @@
+T1	Quantity -1 -1	0.51-0.85 m。
+T2	MeasuredEntity -1 -1	撞击物搅动了火星上的土壤
+T3	MeasuredProperty -1 -1	1/e混合深度
+R1	HasQuantity Arg1:T3 Arg2:T1
+R2	HasProperty Arg1:T2 Arg2:T3
+T4	Unit 357 358	M
+A1	QuantityQualifier T1 IsRange

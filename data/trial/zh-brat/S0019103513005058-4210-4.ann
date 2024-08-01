@@ -1,0 +1,9 @@
+T104	Quantity -1 -1	0.4-0.6重量。%
+#14	AnnotatorNotes T104	wt. %
+T124	MeasuredProperty -1 -1	观察的丰度
+R11	HasQuantity Arg1:T124 Arg2:T104
+T114	MeasuredEntity -1 -1	菲尼克斯着陆点
+R12	HasProperty Arg1:T114 Arg2:T124
+T204	MeasuredEntity 8 11	高氯酸
+R13	HasProperty Arg1:T204 Arg2:T124
+T1	Unit -1 -1	重量%

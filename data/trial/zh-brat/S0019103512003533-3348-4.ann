@@ -1,0 +1,7 @@
+T14	Quantity -1 -1	5 s
+#14	AnnotatorNotes T14	s
+T104	MeasuredProperty 142 148	时间积分步骤
+R9	HasQuantity Arg1:T104 Arg2:T14
+T134	MeasuredEntity 95 102	本研究中的模拟
+R10	HasProperty Arg1:T134 Arg2:T104
+T1	Unit 0 1	S

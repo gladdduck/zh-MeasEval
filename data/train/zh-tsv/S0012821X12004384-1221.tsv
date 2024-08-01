@@ -1,0 +1,7 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0012821X12004384-1221	1	Quantity	-1	-1	T11-1	200 m至>1000 m之间	{'mods': ['IsRange'], 'unit': 'm'}
+S0012821X12004384-1221	1	MeasuredProperty	350	352	T31-1	深度	{'HasQuantity': 'T11-1'}
+S0012821X12004384-1221	1	MeasuredEntity	205	206	T21-1	水	{'HasProperty': 'T31-1'}
+S0012821X12004384-1221	2	Quantity	-1	-1	T42-2	>0.5公里	{'mods': ['IsRange'], 'unit': 'km'}
+S0012821X12004384-1221	2	MeasuredProperty	-1	-1	T62-2	古深海	{'HasQuantity': 'T42-2'}
+S0012821X12004384-1221	2	MeasuredEntity	317	323	T52-2	北海北部中部	{'HasProperty': 'T62-2'}

@@ -1,0 +1,13 @@
+T715	Quantity -1 -1	从50 ppm到150 ppm
+#115	AnnotatorNotes T715	ppm
+A115	IsApproximate T715
+A215	QuantityQualifier T715 IsRange
+T3315	MeasuredProperty 155 157	Ti
+R30	HasQuantity Arg1:T3315 Arg2:T715
+T3215	MeasuredEntity 64 67	吸附剂
+R31	HasProperty Arg1:T3215 Arg2:T3315
+T2715	Qualifier 162 164	增加
+R32	Qualifies Arg1:T2715 Arg2:T715
+T815	Qualifier -1 -1	在存在RDF的情况下循环五个周期
+R33	Qualifies Arg1:T815 Arg2:T3215
+T1	Unit 274 277	ppm

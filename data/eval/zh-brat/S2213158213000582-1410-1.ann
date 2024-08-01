@@ -1,0 +1,6 @@
+T1	Quantity 159 164	50 ms
+T2	Unit -1 -1	MS
+T3	MeasuredEntity 174 180	STG组差异
+R1	HasQuantity Arg1:T3 Arg2:T1
+T4	Qualifier 157 158	左
+R2	Qualifies Arg1:T4 Arg2:T1

@@ -1,0 +1,7 @@
+T101	Quantity -1 -1	3毫巴
+#11	AnnotatorNotes T101	mbar
+T91	MeasuredProperty 55 57	水平
+R1	HasQuantity Arg1:T91 Arg2:T101
+T31	MeasuredEntity 32 36	高层大气
+R2	HasProperty Arg1:T31 Arg2:T91
+T1	Unit -1 -1	毫巴

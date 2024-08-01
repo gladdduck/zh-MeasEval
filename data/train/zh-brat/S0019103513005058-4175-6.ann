@@ -1,0 +1,8 @@
+T1	Quantity 185 191	4.4wt%
+T2	Unit -1 -1	重量%
+A1	IsApproximate T1
+A2	QuantityQualifier T1 IsMean
+T3	MeasuredProperty 200 205	平均硫含量
+T4	MeasuredEntity 171 173	土壤
+R1	HasProperty Arg1:T4 Arg2:T3
+R2	HasQuantity Arg1:T3 Arg2:T1

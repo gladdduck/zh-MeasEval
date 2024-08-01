@@ -1,0 +1,5 @@
+T65	Quantity 63 71	60，268公里
+#15	AnnotatorNotes T65	km
+T1	MeasuredEntity -1 -1	1RS
+R1	HasQuantity Arg1:T1 Arg2:T65
+T2	Unit 27 29	公里

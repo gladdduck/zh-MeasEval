@@ -1,0 +1,10 @@
+T1	Quantity 189 202	-28.5 ± 0.33‰
+T2	MeasuredEntity 41 44	CO2
+T3	MeasuredProperty 34 40	δ 13 C
+R2	HasProperty Arg1:T2 Arg2:T3
+R3	HasQuantity Arg1:T3 Arg2:T1
+T4	Unit 59 60	‰
+A1	IsApproximate T1
+A2	QuantityQualifier T1 HasTolerance
+T5	Qualifier 167 175	大约2.5小时后
+R4	Qualifies Arg1:T5 Arg2:T3

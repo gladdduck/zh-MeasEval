@@ -1,0 +1,8 @@
+T1	Quantity 75 79	169%
+T2	MeasuredProperty -1 -1	G. Mosseae加G.线内组合
+T3	MeasuredEntity -1 -1	菌丝生长
+R1	HasProperty Arg1:T3 Arg2:T2
+R2	HasQuantity Arg1:T2 Arg2:T1
+T4	Unit 63 64	%
+T5	Qualifier -1 -1	唯根基础
+R3	Qualifies Arg1:T5 Arg2:T1

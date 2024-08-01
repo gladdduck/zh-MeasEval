@@ -1,0 +1,6 @@
+T1	Quantity 26 29	1 m
+T2	Unit -1 -1	M
+T4	MeasuredProperty 20 22	边长
+R2	HasQuantity Arg1:T4 Arg2:T1
+T5	MeasuredEntity 8 15	二维正方形系统
+R3	HasProperty Arg1:T5 Arg2:T4

@@ -1,0 +1,8 @@
+T1	Quantity -1 -1	46.8% ± 1.6%
+T2	MeasuredEntity 131 133	细胞
+T3	MeasuredProperty -1 -1	CD 34 + CD 45 + HPC
+R1	HasProperty Arg1:T2 Arg2:T3
+R2	HasQuantity Arg1:T3 Arg2:T1
+T4	Unit 307 308	%
+T5	Unit 307 308	%
+A1	QuantityQualifier T1 HasTolerance

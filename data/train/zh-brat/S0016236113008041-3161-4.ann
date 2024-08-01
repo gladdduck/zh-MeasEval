@@ -1,0 +1,9 @@
+T1	Quantity 149 158	<0.01 ppm
+T2	Unit 155 158	ppm
+T3	MeasuredEntity 98 99	P
+T4	MeasuredProperty 51 52	值
+R1	HasProperty Arg1:T3 Arg2:T4
+R2	HasQuantity Arg1:T4 Arg2:T1
+T5	Qualifier -1 -1	废气浓度
+R3	Qualifies Arg1:T5 Arg2:T4
+A1	QuantityQualifier T1 IsRange

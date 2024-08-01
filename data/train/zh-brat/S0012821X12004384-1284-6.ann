@@ -1,0 +1,4 @@
+T1	Quantity 259 267	93：7，v/v
+T2	Unit 264 267	v/v
+T3	MeasuredEntity -1 -1	二氯甲烷和甲醇的共沸混合物
+R1	HasQuantity Arg1:T3 Arg2:T1

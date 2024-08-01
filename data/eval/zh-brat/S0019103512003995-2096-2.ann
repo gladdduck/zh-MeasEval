@@ -1,0 +1,7 @@
+T1	Quantity -1 -1	8000-11，000 K
+T2	MeasuredProperty 51 55	平均温度
+T3	MeasuredEntity 222 226	H吸收层
+R1	HasProperty Arg1:T3 Arg2:T2
+R2	HasQuantity Arg1:T2 Arg2:T1
+A1	QuantityQualifier T1 IsRange
+T4	Unit 0 1	K

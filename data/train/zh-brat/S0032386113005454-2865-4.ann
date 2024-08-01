@@ -1,0 +1,7 @@
+T1	Quantity 199 205	0.18μm
+T2	MeasuredProperty 158 162	平均直径
+T4	MeasuredEntity 103 110	S-CSR颗粒
+T5	Unit 168 170	μm
+A1	QuantityQualifier T1 IsMean
+R2	HasQuantity Arg1:T2 Arg2:T1
+R1	HasProperty Arg1:T4 Arg2:T2

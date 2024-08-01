@@ -1,0 +1,7 @@
+T1	Quantity -1 -1	-55 °C至-109 °C
+A1	QuantityQualifier T1 IsRange
+T2	Unit 261 263	°C
+T3	MeasuredEntity -1 -1	测试
+T4	MeasuredProperty 275 277	温度
+R1	HasProperty Arg1:T3 Arg2:T4
+R2	HasQuantity Arg1:T4 Arg2:T1

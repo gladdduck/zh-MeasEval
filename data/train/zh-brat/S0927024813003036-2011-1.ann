@@ -1,0 +1,5 @@
+T1	Quantity -1 -1	范围1013厘米-3至1016厘米-3
+A1	QuantityQualifier T1 IsRange
+T2	Unit -1 -1	厘米-3
+T3	MeasuredEntity -1 -1	注射水平范围
+R1	HasQuantity Arg1:T3 Arg2:T1

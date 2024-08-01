@@ -1,0 +1,4 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0016236113008041-3112	1	Quantity	180	183	T11-1	10%	{'unit': '%'}
+S0016236113008041-3112	1	MeasuredProperty	184	188	T21-1	HNO3	{'HasQuantity': 'T11-1'}
+S0016236113008041-3112	1	MeasuredEntity	95	96	T31-1	酸	{'HasProperty': 'T21-1'}

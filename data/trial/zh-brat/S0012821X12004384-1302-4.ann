@@ -1,0 +1,5 @@
+T34	Quantity 498 499	两
+#14	AnnotatorNotes T34	count
+A14	IsCount T34
+T144	MeasuredEntity 211 213	样品
+R5	HasQuantity Arg1:T144 Arg2:T34

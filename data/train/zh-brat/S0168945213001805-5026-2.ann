@@ -1,0 +1,8 @@
+T1	Quantity 88 91	13%
+T2	Unit 90 91	%
+T3	MeasuredProperty -1 -1	净值增长
+T4	MeasuredEntity 61 66	野生型树木
+R1	HasProperty Arg1:T4 Arg2:T3
+R2	HasQuantity Arg1:T3 Arg2:T1
+T5	Qualifier -1 -1	少于那些过度表达来自BT的cry毒素的人
+R3	Qualifies Arg1:T5 Arg2:T1

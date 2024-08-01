@@ -1,0 +1,8 @@
+T1	Quantity 379 384	0.2μm
+T2	MeasuredProperty 384 386	距离
+T3	MeasuredEntity 359 362	比例尺
+R1	HasProperty Arg1:T3 Arg2:T2
+R2	HasQuantity Arg1:T2 Arg2:T1
+T4	Unit 374 376	μm
+T5	Qualifier 377 379	插图
+R3	Qualifies Arg1:T5 Arg2:T3

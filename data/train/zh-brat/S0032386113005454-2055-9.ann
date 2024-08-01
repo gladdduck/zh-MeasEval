@@ -1,0 +1,6 @@
+T1	Quantity -1 -1	20 °C
+T2	MeasuredEntity 237 239	室温
+R1	HasQuantity Arg1:T2 Arg2:T1
+T3	Unit -1 -1	°C
+T4	Qualifier -1 -1	根据BS ISO 1183-1方法A
+R2	Qualifies Arg1:T4 Arg2:T2

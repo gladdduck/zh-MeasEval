@@ -1,0 +1,7 @@
+T1	Quantity -1 -1	-0.43 ± 0.05个百分点每年
+T2	Unit -1 -1	每年百分点
+A1	QuantityQualifier T1 IsMeanHasTolerance
+T3	Qualifier 7 9	平均
+R1	Qualifies Arg1:T3 Arg2:T1
+T4	MeasuredEntity 2 4	措施
+R2	HasQuantity Arg1:T4 Arg2:T1

@@ -1,0 +1,4 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0022399913003358-956	1	Quantity	142	148	T1-1	40至69岁	{'mods': ['IsRange'], 'unit': 'years'}
+S0022399913003358-956	1	MeasuredProperty	147	148	T4-1	岁	{'HasQuantity': 'T1-1'}
+S0022399913003358-956	1	MeasuredEntity	148	153	T3-1	英国成年人	{'HasProperty': 'T4-1'}

@@ -1,0 +1,4 @@
+T1	Quantity 19 20	三
+T2	MeasuredEntity -1 -1	HPT磁盘的位置
+R1	HasQuantity Arg1:T2 Arg2:T1
+A1	IsCount T1

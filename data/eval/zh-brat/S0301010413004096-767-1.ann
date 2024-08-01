@@ -1,0 +1,8 @@
+T1	Quantity -1 -1	在√-2和500 meV之间
+A1	IsApproximate T1
+A2	QuantityQualifier T1 IsRange
+T2	MeasuredEntity -1 -1	惯导光谱
+T3	MeasuredProperty -1 -1	能量转移
+R1	HasProperty Arg1:T2 Arg2:T3
+R2	HasQuantity Arg1:T3 Arg2:T1
+T4	Unit -1 -1	MeV

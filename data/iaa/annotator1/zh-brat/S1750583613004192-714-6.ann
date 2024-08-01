@@ -1,0 +1,8 @@
+T1	Quantity 159 168	1012 mbsl
+T2	Unit 164 168	mbsl
+T3	Qualifier 132 136	在3年内
+R1	Qualifies Arg1:T3 Arg2:T1
+T4	MeasuredEntity 38 41	CO2
+T5	MeasuredProperty 146 148	迁移
+R2	HasProperty Arg1:T4 Arg2:T5
+R3	HasQuantity Arg1:T5 Arg2:T1

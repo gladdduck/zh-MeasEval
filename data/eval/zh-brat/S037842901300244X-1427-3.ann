@@ -1,0 +1,6 @@
+T1	Quantity 272 275	51%
+T2	Unit 274 275	%
+T3	MeasuredProperty -1 -1	下斯特里加侵扰
+T5	MeasuredEntity -1 -1	萨多雷（尼日尔）斯特里加出没的田地
+R1	HasProperty Arg1:T5 Arg2:T3
+R2	HasQuantity Arg1:T3 Arg2:T1

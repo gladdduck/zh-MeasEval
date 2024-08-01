@@ -1,0 +1,11 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S2213158213000582-1327	1	Quantity	234	236	T1-1	96	{'mods': ['IsCount']}
+S2213158213000582-1327	1	MeasuredEntity	237	242	T2-1	皮质灰质区	{'HasQuantity': 'T1-1'}
+S2213158213000582-1327	2	Quantity	247	249	T1-2	48	{'mods': ['IsCount']}
+S2213158213000582-1327	2	MeasuredEntity	196	198	T3-2	区域	{'HasQuantity': 'T1-2'}
+S2213158213000582-1327	2	Qualifier	-1	-1	T2-2	在每个半球	{'Qualifies': 'T3-2'}
+S2213158213000582-1327	3	Quantity	254	256	T1-3	21	{'mods': ['IsCount']}
+S2213158213000582-1327	3	MeasuredEntity	257	262	T2-3	皮质下区域	{'HasQuantity': 'T1-3'}
+S2213158213000582-1327	4	Quantity	-1	-1	T1-4	每边5毫米	{'unit': 'mm per side'}
+S2213158213000582-1327	4	MeasuredProperty	284	286	T4-4	体素	{'HasQuantity': 'T1-4'}
+S2213158213000582-1327	4	MeasuredEntity	292	297	T3-4	立方源网格	{'HasProperty': 'T4-4'}

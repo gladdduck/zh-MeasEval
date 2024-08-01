@@ -1,0 +1,4 @@
+T12	Quantity 27 33	55-74岁
+#12	AnnotatorNotes T12	year
+A12	QuantityQualifier T12 IsRange
+T1	Unit -1 -1	年

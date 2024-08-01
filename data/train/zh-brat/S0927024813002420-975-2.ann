@@ -1,0 +1,3 @@
+T1	Quantity 183 189	7.5-80
+T3	MeasuredEntity 214 218	直流电源
+R1	HasQuantity Arg1:T3 Arg2:T1

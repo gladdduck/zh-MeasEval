@@ -1,0 +1,5 @@
+T34	Quantity 102 110	1000 ppm
+#14	AnnotatorNotes T34	ppm
+T114	MeasuredEntity 20 23	SO2
+R8	HasQuantity Arg1:T114 Arg2:T34
+T1	Unit 43 46	ppm

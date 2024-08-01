@@ -1,0 +1,7 @@
+T1	Quantity -1 -1	约0.1毫克/升
+T2	MeasuredProperty 34 38	荧光染料
+T3	MeasuredEntity 41 42	水
+R1	HasProperty Arg1:T3 Arg2:T2
+R2	HasQuantity Arg1:T2 Arg2:T1
+T4	Unit -1 -1	mg/L
+A1	IsApproximate T1

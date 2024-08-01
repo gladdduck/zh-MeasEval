@@ -1,0 +1,6 @@
+T1	Quantity 27 30	30%
+T2	Unit 29 30	%
+T5	MeasuredProperty -1 -1	受试者成纤维细胞中MRPL 12的稳态水平
+T6	MeasuredEntity 23 26	控制值
+R2	HasProperty Arg1:T6 Arg2:T5
+R3	HasQuantity Arg1:T5 Arg2:T1

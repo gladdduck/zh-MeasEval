@@ -1,0 +1,11 @@
+T1	Quantity -1 -1	8000 K
+T2	MeasuredEntity 442 446	模型预测
+T3	Qualifier 463 465	上限
+R1	Qualifies Arg1:T3 Arg2:T1
+A1	QuantityQualifier T1 IsRange
+T4	Unit 470 471	K
+T5	MeasuredProperty -1 -1	平均（压力平均）温度
+R2	HasQuantity Arg1:T5 Arg2:T1
+R3	HasProperty Arg1:T2 Arg2:T5
+T6	Qualifier -1 -1	低于3RP
+R4	Qualifies Arg1:T6 Arg2:T2

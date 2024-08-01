@@ -1,0 +1,4 @@
+T1	Quantity 81 82	两
+T2	MeasuredEntity -1 -1	解决方案
+A1	IsCount T1
+R1	HasQuantity Arg1:T2 Arg2:T1

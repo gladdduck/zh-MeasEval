@@ -1,0 +1,6 @@
+T1	Quantity 31 36	27.5%
+T3	MeasuredProperty -1 -1	氨基酸序列与之前结晶的T。海洋L12核糖体蛋白
+T4	MeasuredEntity -1 -1	人类MRPL 12
+R1	HasProperty Arg1:T4 Arg2:T3
+R2	HasQuantity Arg1:T3 Arg2:T1
+T2	Unit 35 36	%

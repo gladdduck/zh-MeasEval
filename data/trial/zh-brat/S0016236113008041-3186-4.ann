@@ -1,0 +1,9 @@
+T24	Quantity 88 96	0.74 ppm
+#14	AnnotatorNotes T24	ppm
+T124	MeasuredProperty 12 14	浓度
+R15	HasQuantity Arg1:T124 Arg2:T24
+T114	MeasuredEntity 36 37	W
+R16	HasProperty Arg1:T114 Arg2:T124
+T34	Qualifier 54 58	13公斤
+R17	Qualifies Arg1:T34 Arg2:T124
+T1	Unit 28 31	ppm

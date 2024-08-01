@@ -1,0 +1,6 @@
+T1	Quantity 46 48	13
+T2	MeasuredEntity 38 40	蛋白
+R1	HasQuantity Arg1:T2 Arg2:T1
+A1	IsCount T1
+T3	Qualifier -1 -1	由线粒体基因组（线粒体DNA）编码
+R2	Qualifies Arg1:T3 Arg2:T2

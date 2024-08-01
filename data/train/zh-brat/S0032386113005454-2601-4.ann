@@ -1,0 +1,4 @@
+T1	Quantity -1 -1	20wt%
+T2	Unit -1 -1	重量%
+T3	MeasuredEntity -1 -1	S-CSR改性环氧聚合物
+R1	HasQuantity Arg1:T3 Arg2:T1

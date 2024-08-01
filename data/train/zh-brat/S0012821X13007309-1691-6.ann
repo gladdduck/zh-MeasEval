@@ -1,0 +1,6 @@
+T1	Quantity 273 280	<0.5 m内
+T2	MeasuredEntity 232 247	δ 13 Corg的特征正漂移
+T3	MeasuredProperty -1 -1	移位
+T4	Unit -1 -1	M
+R1	HasProperty Arg1:T2 Arg2:T3
+R2	HasQuantity Arg1:T3 Arg2:T1

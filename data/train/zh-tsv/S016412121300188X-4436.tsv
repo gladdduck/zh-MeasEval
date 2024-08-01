@@ -1,0 +1,6 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S016412121300188X-4436	1	Quantity	99	102	T1-1	10%	{'unit': '%'}
+S016412121300188X-4436	1	MeasuredEntity	26	28	T3-1	阈值	{'HasQuantity': 'T1-1'}
+S016412121300188X-4436	2	Quantity	99	102	T1-2	10%	{'unit': '%'}
+S016412121300188X-4436	2	MeasuredProperty	124	141	T2-2	产生相同的向后切片和相同的向前切片	{'HasQuantity': 'T1-2'}
+S016412121300188X-4436	2	MeasuredEntity	-1	-1	T3-2	程序的SDG顶点	{'HasProperty': 'T2-2'}

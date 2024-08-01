@@ -1,0 +1,5 @@
+T35	Quantity 69 72	27天
+#15	AnnotatorNotes T35	days
+T145	MeasuredEntity -1 -1	太阳自转周期
+R7	HasQuantity Arg1:T145 Arg2:T35
+T1	Unit 71 72	天

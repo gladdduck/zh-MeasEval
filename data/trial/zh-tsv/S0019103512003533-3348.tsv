@@ -1,0 +1,17 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0019103512003533-3348	1	Quantity	118	120	T41-1	2°	{'unit': '°'}
+S0019103512003533-3348	1	MeasuredProperty	107	109	T51-1	纬度	{'HasQuantity': 'T41-1'}
+S0019103512003533-3348	1	MeasuredEntity	95	102	T131-1	本研究中的模拟	{'HasProperty': 'T51-1'}
+S0019103512003533-3348	1	Qualifier	-1	-1	T61-1	间距	{'Qualifies': 'T51-1'}
+S0019103512003533-3348	2	Quantity	121	124	T22-2	10°	{'unit': '°'}
+S0019103512003533-3348	2	MeasuredProperty	110	112	T32-2	经度	{'HasQuantity': 'T22-2'}
+S0019103512003533-3348	2	MeasuredEntity	95	102	T132-2	本研究中的模拟	{'HasProperty': 'T32-2'}
+S0019103512003533-3348	2	Qualifier	-1	-1	T62-2	间距	{'Qualifies': 'T32-2'}
+S0019103512003533-3348	3	Quantity	-1	-1	T83-3	0.4比例高度	{'unit': 'scale heights'}
+S0019103512003533-3348	3	MeasuredProperty	125	130	T73-3	垂直分辨率	{'HasQuantity': 'T83-3'}
+S0019103512003533-3348	3	MeasuredEntity	95	102	T133-3	本研究中的模拟	{'HasProperty': 'T73-3'}
+S0019103512003533-3348	4	Quantity	-1	-1	T14-4	5 s	{'unit': 's'}
+S0019103512003533-3348	4	MeasuredProperty	142	148	T104-4	时间积分步骤	{'HasQuantity': 'T14-4'}
+S0019103512003533-3348	4	MeasuredEntity	95	102	T134-4	本研究中的模拟	{'HasProperty': 'T104-4'}
+S0019103512003533-3348	5	Quantity	158	161	T145-5	500	{'mods': ['IsCount']}
+S0019103512003533-3348	5	MeasuredEntity	-1	-1	T125-5	土星自转	{'HasQuantity': 'T145-5'}

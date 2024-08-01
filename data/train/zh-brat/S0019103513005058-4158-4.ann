@@ -1,0 +1,7 @@
+T1	Quantity -1 -1	1.5-2.6 m
+T2	Unit 357 358	M
+T3	MeasuredEntity -1 -1	三个e折叠深度
+T4	MeasuredProperty 149 151	深度
+R1	HasQuantity Arg1:T4 Arg2:T1
+R2	HasProperty Arg1:T3 Arg2:T4
+A1	QuantityQualifier T1 IsRange

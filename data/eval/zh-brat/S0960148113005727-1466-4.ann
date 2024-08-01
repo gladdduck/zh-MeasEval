@@ -1,0 +1,7 @@
+T1	Quantity -1 -1	20多年
+T2	Unit 21 22	年
+A1	QuantityQualifier T1 IsRange
+T3	MeasuredProperty -1 -1	累计寿命产量
+T4	MeasuredEntity 16 19	风电场
+R1	HasProperty Arg1:T4 Arg2:T3
+R2	HasQuantity Arg1:T3 Arg2:T1

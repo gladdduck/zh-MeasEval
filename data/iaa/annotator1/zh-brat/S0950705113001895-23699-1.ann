@@ -1,0 +1,7 @@
+T1	Quantity -1 -1	从10%到100%
+A1	QuantityQualifier T1 IsRange
+T2	MeasuredEntity 92 95	插入率
+T3	MeasuredProperty 96 98	增加
+R1	HasProperty Arg1:T2 Arg2:T3
+R2	HasQuantity Arg1:T3 Arg2:T1
+T4	Unit 129 130	%

@@ -1,0 +1,6 @@
+T1	Quantity -1 -1	1.3± 0.5wt%
+T2	MeasuredProperty 40 44	溶性硫酸
+T4	Unit 59 60	%
+T3	MeasuredEntity 23 27	火星土壤
+R1	HasProperty Arg1:T3 Arg2:T2
+R2	HasQuantity Arg1:T2 Arg2:T1

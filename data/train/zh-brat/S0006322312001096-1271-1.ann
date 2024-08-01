@@ -1,0 +1,4 @@
+T1	Quantity 239 248	274名老年参与者
+T2	Unit 243 248	老年参与者
+T3	MeasuredEntity -1 -1	验证研究
+R1	HasQuantity Arg1:T3 Arg2:T1

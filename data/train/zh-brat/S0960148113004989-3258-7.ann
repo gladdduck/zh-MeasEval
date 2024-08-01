@@ -1,0 +1,6 @@
+T1	Quantity 114 121	30.9 MW
+T2	MeasuredEntity 109 113	初始布局
+T3	Unit 105 107	MW
+T4	MeasuredProperty -1 -1	提取物
+R2	HasQuantity Arg1:T4 Arg2:T1
+R3	HasProperty Arg1:T2 Arg2:T4

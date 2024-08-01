@@ -1,0 +1,6 @@
+T1	Quantity -1 -1	7538 SDG顶点
+T2	MeasuredEntity 26 33	9438行代码
+T4	MeasuredProperty 23 25	表示
+R1	HasProperty Arg1:T2 Arg2:T4
+R2	HasQuantity Arg1:T4 Arg2:T1
+T3	Unit 18 23	SDG顶点

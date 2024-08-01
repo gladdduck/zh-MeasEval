@@ -1,0 +1,7 @@
+T1	Quantity 12 18	90 keV
+T2	Unit -1 -1	Kev
+A1	IsApproximate T1
+T3	MeasuredProperty -1 -1	能量E
+R1	HasQuantity Arg1:T3 Arg2:T1
+T4	MeasuredEntity 32 34	电子
+R2	HasProperty Arg1:T4 Arg2:T3

@@ -1,0 +1,16 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0167577X13006393-399	1	Quantity	62	75	T1-1	1065-1280厘米-1	{'mods': ['IsRange'], 'unit': 'cm−1'}
+S0167577X13006393-399	1	MeasuredProperty	78	85	T4-1	C3 O特征带	{'HasQuantity': 'T1-1'}
+S0167577X13006393-399	1	MeasuredEntity	54	60	T3-1	纯PGA光谱	{'HasProperty': 'T4-1'}
+S0167577X13006393-399	2	Quantity	112	120	T1-2	约964厘米-1	{'mods': ['IsApproximate'], 'unit': 'cm−1'}
+S0167577X13006393-399	2	MeasuredProperty	-1	-1	T3-2	v 1振动模式	{'HasQuantity': 'T1-2'}
+S0167577X13006393-399	2	MeasuredEntity	-1	-1	T2-2	HA纳米粉光谱	{'HasProperty': 'T3-2'}
+S0167577X13006393-399	3	Quantity	135	143	T1-3	1031厘米-1	{'unit': 'cm−1'}
+S0167577X13006393-399	3	MeasuredProperty	-1	-1	T3-3	v 3振动模式	{'HasQuantity': 'T1-3'}
+S0167577X13006393-399	3	MeasuredEntity	-1	-1	T2-3	HA纳米粉光谱	{'HasProperty': 'T3-3'}
+S0167577X13006393-399	4	Quantity	144	152	T1-4	1091厘米-1	{'unit': 'cm−1'}
+S0167577X13006393-399	4	MeasuredProperty	-1	-1	T3-4	v 3振动模式	{'HasQuantity': 'T1-4'}
+S0167577X13006393-399	4	MeasuredEntity	-1	-1	T2-4	HA纳米粉光谱	{'HasProperty': 'T3-4'}
+S0167577X13006393-399	4	Qualifier	164	167	T5-4	不对称	{'Qualifies': 'T3-4'}
+S0167577X13006393-399	5	Quantity	182	185	T1-5	50%	
+S0167577X13006393-399	5	MeasuredEntity	22	29	T2-5	PLGA-HA	{'HasQuantity': 'T1-5'}

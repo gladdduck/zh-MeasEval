@@ -1,0 +1,5 @@
+T3013	Quantity 324 325	八
+#113	AnnotatorNotes T3013	count
+A113	IsCount T3013
+T3113	MeasuredEntity 267 269	周期
+R28	HasQuantity Arg1:T3113 Arg2:T3013

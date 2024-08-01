@@ -1,0 +1,9 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S1359835X13001875-1359	1	Quantity	26	29	T1-1	1 m	{'unit': 'm'}
+S1359835X13001875-1359	1	MeasuredProperty	20	22	T4-1	边长	{'HasQuantity': 'T1-1'}
+S1359835X13001875-1359	1	MeasuredEntity	8	15	T5-1	二维正方形系统	{'HasProperty': 'T4-1'}
+S1359835X13001875-1359	2	Quantity	36	45	T1-2	1000个离散颗粒	{'unit': 'discrete particles'}
+S1359835X13001875-1359	2	MeasuredEntity	8	15	T3-2	二维正方形系统	{'HasQuantity': 'T1-2'}
+S1359835X13001875-1359	3	Quantity	73	81	T1-3	1000 m-2	{'unit': 'm−2'}
+S1359835X13001875-1359	3	MeasuredProperty	59	61	T3-3	密度	{'HasQuantity': 'T1-3'}
+S1359835X13001875-1359	3	MeasuredEntity	-1	-1	T4-3	number	{'HasProperty': 'T3-3'}

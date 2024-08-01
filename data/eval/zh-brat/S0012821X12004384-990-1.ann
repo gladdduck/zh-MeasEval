@@ -1,0 +1,6 @@
+T1	Quantity 6 7	两
+T2	MeasuredEntity 8 9	轴
+R1	HasQuantity Arg1:T2 Arg2:T1
+A1	IsCount T1
+T3	Qualifier -1 -1	第一
+R2	Qualifies Arg1:T3 Arg2:T1

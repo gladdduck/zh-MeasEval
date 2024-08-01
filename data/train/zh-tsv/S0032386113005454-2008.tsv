@@ -1,0 +1,5 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0032386113005454-2008	1	Quantity	-1	-1	T1-1	约-100 °C	{'mods': ['IsApproximate'], 'unit': '°C'}
+S0032386113005454-2008	1	MeasuredProperty	-1	-1	T4-1	钢化	{'HasQuantity': 'T1-1'}
+S0032386113005454-2008	1	MeasuredEntity	15	17	T3-1	颗粒	{'HasProperty': 'T4-1'}
+S0032386113005454-2008	1	Qualifier	23	28	T5-1	环氧聚合物	{'Qualifies': 'T4-1'}

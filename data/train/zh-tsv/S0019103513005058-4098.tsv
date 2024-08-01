@@ -1,0 +1,7 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0019103513005058-4098	1	Quantity	-1	-1	T1-1	从211 K到284 K	{'mods': ['IsRange'], 'unit': 'K'}
+S0019103513005058-4098	1	MeasuredProperty	110	112	T4-1	增加	{'HasQuantity': 'T1-1'}
+S0019103513005058-4098	1	MeasuredEntity	85	89	T3-1	表面温度	{'HasProperty': 'T4-1'}
+S0019103513005058-4098	2	Quantity	124	127	T1-2	35%	{'mods': ['IsApproximate'], 'unit': '%'}
+S0019103513005058-4098	2	MeasuredProperty	110	112	T4-2	增加	{'HasQuantity': 'T1-2'}
+S0019103513005058-4098	2	MeasuredEntity	2	4	T3-2	温度	{'HasProperty': 'T4-2'}

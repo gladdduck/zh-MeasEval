@@ -1,0 +1,6 @@
+T1	Quantity 144 148	10分钟
+T2	MeasuredEntity 99 102	潮汐期
+T3	MeasuredProperty 90 91	P
+T4	Unit -1 -1	min
+R1	HasQuantity Arg1:T3 Arg2:T1
+R2	HasProperty Arg1:T2 Arg2:T3

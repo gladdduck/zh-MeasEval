@@ -1,0 +1,5 @@
+T1	Quantity -1 -1	50微米和100微米
+T2	Unit 175 177	μm
+T3	MeasuredEntity 168 171	比例尺
+R1	HasQuantity Arg1:T3 Arg2:T1
+A1	QuantityQualifier T1 IsList

@@ -1,0 +1,8 @@
+T62	Quantity 118 122	1-2天
+#12	AnnotatorNotes T62	None
+A1	QuantityQualifier T62 IsRange
+T1	MeasuredProperty 114 115	1
+R1	HasQuantity Arg1:T1 Arg2:T62
+T2	Unit 112 113	天
+T3	MeasuredEntity -1 -1	四点量表
+R2	HasProperty Arg1:T3 Arg2:T1

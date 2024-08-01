@@ -1,0 +1,5 @@
+T1	Quantity 69 72	4.1
+T2	MeasuredProperty 59 67	F（3，8.9）
+R1	HasQuantity Arg1:T2 Arg2:T1
+T3	MeasuredEntity -1 -1	立地类型
+R2	HasProperty Arg1:T3 Arg2:T2

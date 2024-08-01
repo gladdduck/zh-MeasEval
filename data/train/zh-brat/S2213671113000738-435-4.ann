@@ -1,0 +1,6 @@
+T1	Quantity 126 132	100 μm
+T2	Unit 95 97	μm
+T3	MeasuredEntity 113 124	（J）-（M）和（Q）
+T4	MeasuredProperty 78 81	比例尺
+R1	HasProperty Arg1:T3 Arg2:T4
+R2	HasQuantity Arg1:T4 Arg2:T1

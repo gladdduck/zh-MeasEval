@@ -1,0 +1,10 @@
+T22	Quantity -1 -1	0%至80%
+#12	AnnotatorNotes T22	%
+A12	QuantityQualifier T22 IsRange
+T62	MeasuredProperty -1 -1	%低盐甲藻囊性
+R2	HasQuantity Arg1:T62 Arg2:T22
+T52	MeasuredEntity -1 -1	样品
+R3	HasProperty Arg1:T52 Arg2:T62
+T32	Qualifier -1 -1	也排除了少于20个标本
+R4	Qualifies Arg1:T32 Arg2:T52
+T1	Unit 117 118	%

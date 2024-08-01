@@ -1,0 +1,4 @@
+T1	Quantity -1 -1	10千电子伏
+T2	MeasuredEntity 25 27	电子
+T4	Unit -1 -1	Kev
+R1	HasQuantity Arg1:T2 Arg2:T1

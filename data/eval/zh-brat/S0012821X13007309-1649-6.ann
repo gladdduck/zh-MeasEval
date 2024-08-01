@@ -1,0 +1,6 @@
+T1	Quantity 291 303	1035.75 mbsf
+T3	MeasuredEntity 111 120	δ 13 Corg
+T4	MeasuredProperty -1 -1	最大浓缩
+R1	HasProperty Arg1:T3 Arg2:T4
+R2	HasQuantity Arg1:T4 Arg2:T1
+T5	Unit 299 303	mbsf

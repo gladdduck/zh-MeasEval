@@ -1,0 +1,6 @@
+T1	Quantity -1 -1	八个薄页岩屏障
+T3	MeasuredEntity -1 -1	浮力二氧化碳羽流
+T4	MeasuredProperty -1 -1	迅速上升通过
+T2	Unit -1 -1	薄页岩屏障
+R1	HasProperty Arg1:T3 Arg2:T4
+R2	HasQuantity Arg1:T4 Arg2:T1

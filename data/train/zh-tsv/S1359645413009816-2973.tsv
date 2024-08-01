@@ -1,0 +1,12 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S1359645413009816-2973	1	Quantity	-1	-1	T3-1	（0.28-0.42）x 10- 10 m	{'mods': ['IsRange'], 'unit': 'm'}
+S1359645413009816-2973	1	MeasuredProperty	82	85	T2-1	EGB	{'HasQuantity': 'T3-1'}
+S1359645413009816-2973	1	MeasuredEntity	-1	-1	T1-1	镍的分子动力学模拟	{'HasProperty': 'T2-1'}
+S1359645413009816-2973	1	Qualifier	-1	-1	T5-1	随机高角度颗粒边界	{'Qualifies': 'T2-1'}
+S1359645413009816-2973	2	Quantity	-1	-1	T3-2	（0.39-0.41）x 10- 10 m	{'mods': ['IsRange'], 'unit': 'm'}
+S1359645413009816-2973	2	MeasuredProperty	82	85	T2-2	EGB	{'HasQuantity': 'T3-2'}
+S1359645413009816-2973	2	MeasuredEntity	-1	-1	T1-2	镍的分子动力学模拟	{'HasProperty': 'T2-2'}
+S1359645413009816-2973	2	Qualifier	-1	-1	T5-2	(at T = 1200 K）对于√ 5粒边界	{'Qualifies': 'T2-2'}
+S1359645413009816-2973	3	Quantity	-1	-1	T1-3	1200 K	{'unit': 'K'}
+S1359645413009816-2973	3	MeasuredProperty	-1	-1	T3-3	不	{'HasQuantity': 'T1-3'}
+S1359645413009816-2973	3	MeasuredEntity	-1	-1	T2-3	镍的分子动力学模拟	{'HasProperty': 'T3-3'}

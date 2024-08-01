@@ -1,0 +1,4 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0032063313003218-6078	1	Quantity	14	17	T1-1	3小时	{'unit': 'h'}
+S0032063313003218-6078	1	MeasuredProperty	12	14	T4-1	持续	{'HasQuantity': 'T1-1'}
+S0032063313003218-6078	1	MeasuredEntity	20	26	T2-1	磁层压缩情景	{'HasProperty': 'T4-1'}

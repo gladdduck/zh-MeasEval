@@ -1,0 +1,7 @@
+T57	Quantity 409 412	81%
+#17	AnnotatorNotes T57	None
+T147	MeasuredProperty -1 -1	特异性
+R12	HasQuantity Arg1:T147 Arg2:T57
+T137	MeasuredEntity -1 -1	GHQ症状常见
+R13	HasProperty Arg1:T137 Arg2:T147
+T1	Unit 245 246	%

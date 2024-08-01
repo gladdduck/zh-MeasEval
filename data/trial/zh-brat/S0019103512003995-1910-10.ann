@@ -1,0 +1,8 @@
+T2610	Quantity -1 -1	一个半月之内
+#110	AnnotatorNotes T2610	month
+A110	QuantityQualifier T2610 IsRange
+T2310	MeasuredProperty 195 197	发生
+R17	HasQuantity Arg1:T2310 Arg2:T2610
+T2910	MeasuredEntity -1 -1	G140 M观察
+R18	HasProperty Arg1:T2910 Arg2:T2310
+T1	Unit 201 202	月

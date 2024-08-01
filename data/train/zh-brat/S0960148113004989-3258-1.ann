@@ -1,0 +1,8 @@
+T1	Quantity -1 -1	30米
+T2	Unit 105 106	M
+T3	MeasuredEntity -1 -1	三场景
+T4	MeasuredProperty 49 53	最小距离
+T5	Qualifier 41 48	每个涡轮机之间
+R1	Qualifies Arg1:T5 Arg2:T4
+R2	HasProperty Arg1:T3 Arg2:T4
+R3	HasQuantity Arg1:T4 Arg2:T1

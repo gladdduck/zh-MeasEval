@@ -1,0 +1,9 @@
+T1	Quantity 57 61	5-6天
+T2	MeasuredEntity 22 28	iPSC集落
+T3	MeasuredProperty -1 -1	悬浮生长为类胚体（EB）
+A1	QuantityQualifier T1 IsRange
+T4	Unit 60 61	天
+T5	Qualifier 30 53	在不含碱性成纤维细胞生长因子的iPSC培养基中
+R1	HasProperty Arg1:T2 Arg2:T3
+R2	HasQuantity Arg1:T3 Arg2:T1
+R3	Qualifies Arg1:T5 Arg2:T3

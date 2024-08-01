@@ -1,0 +1,8 @@
+T51	Quantity 109 113	不到一天
+#11	AnnotatorNotes T51	None
+T1	MeasuredProperty 80 81	0
+R1	HasQuantity Arg1:T1 Arg2:T51
+T2	Unit 112 113	天
+A1	QuantityQualifier T51 IsRange
+T3	MeasuredEntity -1 -1	四点量表
+R2	HasProperty Arg1:T3 Arg2:T1

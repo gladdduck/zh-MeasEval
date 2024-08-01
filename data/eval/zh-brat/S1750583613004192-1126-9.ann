@@ -1,0 +1,5 @@
+T1	Quantity 134 138	约1公里
+A1	IsApproximate T1
+T2	MeasuredEntity 502 503	冰
+R1	HasQuantity Arg1:T2 Arg2:T1
+T3	Unit 136 138	公里

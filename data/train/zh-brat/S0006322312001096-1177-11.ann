@@ -1,0 +1,5 @@
+T1	MeasuredEntity 360 362	3期
+T2	MeasuredProperty 215 216	n
+T3	Quantity 217 221	8815
+R1	HasProperty Arg1:T1 Arg2:T2
+R2	HasQuantity Arg1:T2 Arg2:T3

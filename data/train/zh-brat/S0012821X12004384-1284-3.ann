@@ -1,0 +1,6 @@
+T1	Quantity 141 146	±<0.1
+A1	QuantityQualifier T1 IsRangeHasTolerance
+T2	MeasuredProperty -1 -1	精度
+T3	MeasuredEntity 132 136	重复分析
+R1	HasProperty Arg1:T3 Arg2:T2
+R2	HasQuantity Arg1:T2 Arg2:T1

@@ -1,0 +1,5 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0022399913003358-1044	1	Quantity	-1	-1	T21-1	40%左右	{'mods': ['IsApproximate'], 'unit': '%'}
+S0022399913003358-1044	1	MeasuredProperty	5	9	T31-1	听力困难	{'HasQuantity': 'T21-1'}
+S0022399913003358-1044	1	MeasuredEntity	27	33	T41-1	55-74岁	{'HasProperty': 'T31-1'}
+S0022399913003358-1044	2	Quantity	27	33	T12-2	55-74岁	{'mods': ['IsRange'], 'unit': 'year'}

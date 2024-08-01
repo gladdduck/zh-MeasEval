@@ -1,0 +1,7 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S095741741101342X-2624	1	Quantity	28	31	T1-1	85%	{'unit': '%'}
+S095741741101342X-2624	1	MeasuredProperty	31	32	T3-1	好	{'HasQuantity': 'T1-1'}
+S095741741101342X-2624	1	MeasuredEntity	10	13	T4-1	分类器	{'HasProperty': 'T3-1'}
+S095741741101342X-2624	2	Quantity	33	36	T1-2	15%	{'unit': '%'}
+S095741741101342X-2624	2	MeasuredProperty	-1	-1	T3-2	错误类	{'HasQuantity': 'T1-2'}
+S095741741101342X-2624	2	MeasuredEntity	10	13	T4-2	分类器	{'HasProperty': 'T3-2'}

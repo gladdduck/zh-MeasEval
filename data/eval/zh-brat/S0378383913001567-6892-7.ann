@@ -1,0 +1,3 @@
+T1	Quantity -1 -1	121 × 53
+T2	MeasuredEntity 78 84	规则曲线网格
+R1	HasQuantity Arg1:T2 Arg2:T1

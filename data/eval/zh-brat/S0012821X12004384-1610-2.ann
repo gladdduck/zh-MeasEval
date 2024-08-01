@@ -1,0 +1,7 @@
+T1	Quantity 205 220	2619.6和2614.7 m
+T2	Unit 15 16	M
+A1	QuantityQualifier T1 IsList
+T3	MeasuredEntity 222 225	其他峰
+T4	Qualifier -1 -1	在Apectodium
+R1	Qualifies Arg1:T4 Arg2:T3
+R2	HasQuantity Arg1:T3 Arg2:T1

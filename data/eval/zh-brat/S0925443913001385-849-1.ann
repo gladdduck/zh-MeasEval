@@ -1,0 +1,7 @@
+T1	Quantity 99 108	2、5和10 μg
+A1	QuantityQualifier T1 IsList
+T2	Unit 106 108	μg
+T3	MeasuredEntity -1 -1	RNAs
+T4	MeasuredProperty 97 98	量
+R1	HasProperty Arg1:T3 Arg2:T4
+R2	HasQuantity Arg1:T4 Arg2:T1

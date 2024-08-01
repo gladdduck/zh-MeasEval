@@ -1,0 +1,13 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0960148113005727-1451	1	Quantity	8	9	T1-1	两	{'mods': ['IsCount']}
+S0960148113005727-1451	1	MeasuredEntity	10	12	T2-1	原因	{'HasQuantity': 'T1-1'}
+S0960148113005727-1451	1	Qualifier	-1	-1	T3-1	第一	{'Qualifies': 'T1-1'}
+S0960148113005727-1451	2	Quantity	-1	-1	T1-2	从12%降至仅2%	{'mods': ['IsRange'], 'unit': '%'}
+S0960148113005727-1451	2	MeasuredProperty	-1	-1	T2-2	负载系数	{'HasQuantity': 'T1-2'}
+S0960148113005727-1451	2	MeasuredEntity	82	86	T4-2	布莱斯港	{'HasProperty': 'T2-2'}
+S0960148113005727-1451	2	Qualifier	-1	-1	T3-2	拒绝	{'Qualifies': 'T1-2'}
+S0960148113005727-1451	2	Qualifier	-1	-1	T6-2	12岁至17岁之间	{'Qualifies': 'T4-2'}
+S0960148113005727-1451	3	Quantity	-1	-1	T1-3	12岁至17岁之间	{'mods': ['IsRange']}
+S0960148113005727-1451	3	MeasuredEntity	82	86	T2-3	布莱斯港	{'HasQuantity': 'T1-3'}
+S0960148113005727-1451	4	Quantity	145	146	T1-4	九	{'mods': ['IsCount']}
+S0960148113005727-1451	4	MeasuredEntity	147	150	T2-4	涡轮机	{'HasQuantity': 'T1-4'}

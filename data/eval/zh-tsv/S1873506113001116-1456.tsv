@@ -1,0 +1,11 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S1873506113001116-1456	1	Quantity	28	29	T1-1	两	{'mods': ['IsCount']}
+S1873506113001116-1456	1	MeasuredEntity	-1	-1	T2-1	免整合hiPSC系	{'HasQuantity': 'T1-1'}
+S1873506113001116-1456	2	Quantity	-1	-1	T1-2	100-ml	{'unit': 'ml'}
+S1873506113001116-1456	2	MeasuredEntity	21	24	T2-2	反应器	{'HasQuantity': 'T1-2'}
+S1873506113001116-1456	3	Quantity	-1	-1	T1-3	~ 20	{'mods': ['IsCount', 'IsApproximate']}
+S1873506113001116-1456	3	MeasuredEntity	-1	-1	T2-3	通道	{'HasQuantity': 'T1-3'}
+S1873506113001116-1456	4	Quantity	245	247	T1-4	5%	{'unit': '%'}
+S1873506113001116-1456	4	MeasuredProperty	-1	-1	T2-4	染色体异常细胞	{'HasQuantity': 'T1-4'}
+S1873506113001116-1456	4	MeasuredEntity	-1	-1	T3-4	测试批次的hiPSC和hESC	{'HasProperty': 'T2-4'}
+S1873506113001116-1456	4	Qualifier	196	210	T5-4	在贴壁和悬浮条件下长期培养后	{'Qualifies': 'T2-4'}

@@ -1,0 +1,6 @@
+T1	Quantity 153 154	8
+T2	MeasuredEntity 11 12	室
+T3	Qualifier 156 160	用于呼吸
+A1	IsCount T1
+R1	HasQuantity Arg1:T2 Arg2:T1
+R2	Qualifies Arg1:T3 Arg2:T1

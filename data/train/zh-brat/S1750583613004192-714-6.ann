@@ -1,0 +1,4 @@
+T1	Quantity 159 168	1012 mbsl
+T2	Unit 164 168	mbsl
+T3	MeasuredEntity -1 -1	注射点（IP）
+R1	HasQuantity Arg1:T3 Arg2:T1

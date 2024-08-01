@@ -1,0 +1,7 @@
+T1	Quantity 117 130	3.4+0.1厘米2/Vs
+T2	MeasuredEntity 104 112	ALD ZnO层
+T3	MeasuredProperty 132 137	电子迁移率
+R1	HasQuantity Arg1:T3 Arg2:T1
+R2	HasProperty Arg1:T2 Arg2:T3
+T4	Unit -1 -1	cm2/Vs
+A1	QuantityQualifier T1 IsRange

@@ -1,0 +1,6 @@
+T1	Quantity 84 86	一周
+T2	Unit 85 86	周
+T4	MeasuredProperty -1 -1	黑暗中的储存
+R2	HasQuantity Arg1:T4 Arg2:T1
+T3	MeasuredEntity 58 60	设备
+R1	HasProperty Arg1:T3 Arg2:T4

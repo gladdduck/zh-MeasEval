@@ -1,0 +1,5 @@
+T1	Quantity -1 -1	√ 100 mA m-1
+T2	Unit 169 175	mA m-1
+A1	IsApproximate T1
+T3	MeasuredEntity 175 179	磁层电场
+R1	HasQuantity Arg1:T3 Arg2:T1

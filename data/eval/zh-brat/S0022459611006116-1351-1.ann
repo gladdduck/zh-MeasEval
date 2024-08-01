@@ -1,0 +1,6 @@
+T1	Quantity -1 -1	1423 K。
+T2	Unit 6 7	K
+T3	MeasuredEntity -1 -1	淡奶油粉2
+T4	MeasuredProperty 8 10	合成
+R2	HasProperty Arg1:T3 Arg2:T4
+R3	HasQuantity Arg1:T4 Arg2:T1

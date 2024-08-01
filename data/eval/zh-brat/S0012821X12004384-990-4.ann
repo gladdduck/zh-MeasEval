@@ -1,0 +1,8 @@
+T1	Quantity 72 75	31%
+T2	Unit 37 38	%
+T3	Qualifier 22 27	每克总计数
+T4	MeasuredProperty -1 -1	轴线1
+T5	MeasuredEntity 31 34	总方差
+R1	HasProperty Arg1:T5 Arg2:T4
+R2	HasQuantity Arg1:T4 Arg2:T1
+R3	Qualifies Arg1:T3 Arg2:T5

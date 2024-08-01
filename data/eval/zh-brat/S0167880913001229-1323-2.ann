@@ -1,0 +1,9 @@
+T1	Quantity 96 103	20-40厘米
+T2	Qualifier 9 11	土壤
+T3	MeasuredProperty 11 13	深度
+T4	Unit -1 -1	cm
+A1	QuantityQualifier T1 IsRange
+R1	Qualifies Arg1:T2 Arg2:T3
+R2	HasQuantity Arg1:T3 Arg2:T1
+T5	MeasuredEntity 27 32	SOC库存
+R3	HasProperty Arg1:T5 Arg2:T3

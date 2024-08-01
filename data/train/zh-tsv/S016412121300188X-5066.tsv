@@ -1,0 +1,6 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S016412121300188X-5066	1	Quantity	-1	-1	T1-1	从78%到95%	{'mods': ['IsApproximate', 'IsRange'], 'unit': '%'}
+S016412121300188X-5066	1	MeasuredProperty	141	143	T3-1	提高	{'HasQuantity': 'T1-1'}
+S016412121300188X-5066	1	MeasuredEntity	-1	-1	T2-1	上一切片的精度	{'HasProperty': 'T3-1'}
+S016412121300188X-5066	2	Quantity	180	182	T1-2	30	{'mods': ['IsCount']}
+S016412121300188X-5066	2	MeasuredEntity	-1	-1	T2-2	生产方案	{'HasQuantity': 'T1-2'}

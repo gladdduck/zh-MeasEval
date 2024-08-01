@@ -1,0 +1,4 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0167610513001001-858	1	Quantity	2	6	T1-1	60分钟	{'mods': ['IsApproximate'], 'unit': 'min'}
+S0167610513001001-858	1	MeasuredProperty	7	11	T3-1	平均周期	{'HasQuantity': 'T1-1'}
+S0167610513001001-858	1	MeasuredEntity	12	41	T4-1	由于采样率，激光雷达误差方差的平均值、中位数和四分位间范围	{'HasProperty': 'T3-1'}

@@ -1,0 +1,7 @@
+T1	Quantity 147 152	10 eV
+T2	MeasuredEntity 44 47	重离子
+T3	MeasuredProperty 143 145	能量
+R1	HasProperty Arg1:T2 Arg2:T3
+A1	IsApproximate T1
+T4	Unit -1 -1	EV
+R2	HasQuantity Arg1:T3 Arg2:T1

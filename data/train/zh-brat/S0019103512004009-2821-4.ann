@@ -1,0 +1,6 @@
+T1	Quantity -1 -1	3RP
+T2	MeasuredEntity 442 446	模型预测
+R1	HasQuantity Arg1:T2 Arg2:T1
+T3	Qualifier -1 -1	下面
+R2	Qualifies Arg1:T3 Arg2:T1
+T4	Unit 362 364	Rp

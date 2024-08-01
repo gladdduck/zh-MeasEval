@@ -1,0 +1,4 @@
+T1	Quantity 167 168	两
+T2	MeasuredEntity -1 -1	较低的土壤深度
+R1	HasQuantity Arg1:T2 Arg2:T1
+A1	IsCount T1

@@ -1,0 +1,21 @@
+T1	MeasuredEntity -1 -1	沃孔蒂盆地
+T2	Quantity -1 -1	北纬30°
+#1	AnnotatorNotes T2	°N
+R1	HasQuantity Arg1:T1 Arg2:T2
+T3	Quantity 793 797	20 m
+A1	IsApproximate T3
+#2	AnnotatorNotes T3	m
+T4	MeasuredProperty -1 -1	厚
+T5	MeasuredEntity -1 -1	富含有机物的黑色石灰质页岩包，被称为“尼夫火山”
+R2	HasProperty Arg1:T5 Arg2:T4
+R3	HasQuantity Arg1:T4 Arg2:T3
+T6	Quantity 1001 1005	24 m
+#3	AnnotatorNotes T6	m
+T7	MeasuredEntity -1 -1	伊索尔桥段
+R4	HasQuantity Arg1:T7 Arg2:T6
+T8	MeasuredEntity -1 -1	一些样品
+T9	Quantity 1384 1387	n=4
+#4	AnnotatorNotes T9	n
+T10	MeasuredProperty -1 -1	来自眩晕
+R5	HasProperty Arg1:T8 Arg2:T10
+R6	HasQuantity Arg1:T10 Arg2:T9

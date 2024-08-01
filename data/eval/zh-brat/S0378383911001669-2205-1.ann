@@ -1,0 +1,4 @@
+T1	Quantity -1 -1	0.772米
+T2	Unit -1 -1	M
+T3	MeasuredEntity -1 -1	1.3毫米粗砂海滩和5.4毫米粗砾石海滩
+R1	HasQuantity Arg1:T3 Arg2:T1

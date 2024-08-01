@@ -1,0 +1,7 @@
+T12	Quantity 94 97	31%
+#12	AnnotatorNotes T12	None
+T52	MeasuredProperty -1 -1	妇女
+R3	HasQuantity Arg1:T52 Arg2:T12
+T42	MeasuredEntity -1 -1	5318名参与者
+R4	HasProperty Arg1:T42 Arg2:T52
+T1	Unit 96 97	%

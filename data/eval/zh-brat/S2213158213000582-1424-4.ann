@@ -1,0 +1,6 @@
+T1	Quantity -1 -1	100 ms
+T2	Unit -1 -1	MS
+T3	MeasuredProperty 330 334	听觉活动
+T4	MeasuredEntity -1 -1	颞中回、顶叶、扣带和枕叶区
+R1	HasProperty Arg1:T4 Arg2:T3
+R2	HasQuantity Arg1:T3 Arg2:T1

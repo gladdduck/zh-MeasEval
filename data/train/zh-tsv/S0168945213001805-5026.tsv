@@ -1,0 +1,9 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0168945213001805-5026	1	Quantity	-1	-1	T1-1	四岁	{'unit': 'year-old'}
+S0168945213001805-5026	1	MeasuredEntity	-1	-1	T3-1	野生型杨	{'HasQuantity': 'T1-1'}
+S0168945213001805-5026	2	Quantity	88	91	T1-2	13%	{'unit': '%'}
+S0168945213001805-5026	2	MeasuredProperty	-1	-1	T3-2	净值增长	{'HasQuantity': 'T1-2'}
+S0168945213001805-5026	2	MeasuredEntity	61	66	T4-2	野生型树木	{'HasProperty': 'T3-2'}
+S0168945213001805-5026	2	Qualifier	-1	-1	T5-2	少于那些过度表达来自BT的cry毒素的人	{'Qualifies': 'T1-2'}
+S0168945213001805-5026	3	Quantity	146	147	T1-3	三	{'mods': ['IsCount']}
+S0168945213001805-5026	3	MeasuredEntity	24	26	T2-3	甲虫	{'HasQuantity': 'T1-3'}

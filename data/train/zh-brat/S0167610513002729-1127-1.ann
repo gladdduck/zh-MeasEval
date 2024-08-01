@@ -1,0 +1,4 @@
+T1	Quantity 0 3	45°
+T2	Unit 2 3	°
+T3	MeasuredEntity 3 5	情况
+R1	HasQuantity Arg1:T3 Arg2:T1

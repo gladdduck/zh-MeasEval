@@ -1,0 +1,7 @@
+T1	Quantity 97 102	大于70%
+T2	MeasuredProperty 92 97	基因靶向率
+R1	HasQuantity Arg1:T2 Arg2:T1
+A1	QuantityQualifier T1 IsRange
+T3	Unit 101 102	%
+T4	MeasuredEntity -1 -1	Sox2
+R2	HasProperty Arg1:T4 Arg2:T2

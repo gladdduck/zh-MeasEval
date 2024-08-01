@@ -1,0 +1,5 @@
+T1	Quantity 94 95	3
+T2	MeasuredProperty 101 102	n
+T3	MeasuredEntity 138 144	流式细胞术图
+R1	HasProperty Arg1:T3 Arg2:T2
+R2	HasQuantity Arg1:T2 Arg2:T1

@@ -1,0 +1,6 @@
+T1	Quantity 17 22	40 μm
+T2	MeasuredProperty -1 -1	厚度
+T3	MeasuredEntity -1 -1	固定的冷冻大脑被切片
+R1	HasProperty Arg1:T3 Arg2:T2
+R2	HasQuantity Arg1:T2 Arg2:T1
+T4	Unit 20 22	μm

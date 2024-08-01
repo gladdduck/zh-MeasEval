@@ -1,0 +1,7 @@
+T1	Quantity 17 26	1000 °C以上
+T2	Unit 22 24	°C
+T3	MeasuredProperty -1 -1	报告发生
+A1	QuantityQualifier T1 IsRange
+T5	MeasuredEntity 4 12	纯HA颗粒的烧成
+R1	HasProperty Arg1:T5 Arg2:T3
+R2	HasQuantity Arg1:T3 Arg2:T1

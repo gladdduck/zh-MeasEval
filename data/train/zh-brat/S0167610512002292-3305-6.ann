@@ -1,0 +1,6 @@
+T1	Quantity -1 -1	126公里/小时
+T2	Unit -1 -1	公里/小时
+T3	MeasuredProperty 97 99	风速
+R1	HasQuantity Arg1:T3 Arg2:T1
+T4	MeasuredEntity 92 96	流入条件
+R2	HasProperty Arg1:T4 Arg2:T3

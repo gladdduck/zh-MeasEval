@@ -1,0 +1,65 @@
+T2	Quantity 339 345	9 ± 6%
+T3	Quantity -1 -1	27天
+T5	Quantity -1 -1	10-11天
+T6	Quantity -1 -1	约2小时
+A1	QuantityQualifier T2 IsMeanHasTolerance
+T7	Quantity -1 -1	四个半
+T8	MeasuredEntity -1 -1	太阳周期
+T9	Qualifier -1 -1	1947年至1999年间
+T10	Quantity -1 -1	1947年和1999年
+A2	QuantityQualifier T10 IsRange
+R1	Qualifies Arg1:T9 Arg2:T8
+R2	HasQuantity Arg1:T8 Arg2:T7
+T12	MeasuredEntity -1 -1	莱曼阿尔法排放量
+T11	MeasuredProperty -1 -1	变异性
+T1	Quantity -1 -1	1%和37%
+A3	QuantityQualifier T1 IsRange
+R4	HasQuantity Arg1:T11 Arg2:T1
+T4	Qualifier -1 -1	在太阳自转的一个时期
+T13	Quantity -1 -1	一
+T14	MeasuredEntity -1 -1	太阳自转周期
+T17	MeasuredProperty -1 -1	变异性
+T18	Qualifier -1 -1	在一次太阳自转期间
+T19	Quantity -1 -1	一
+T20	MeasuredProperty -1 -1	太阳自转
+#1	AnnotatorNotes T20	Period
+R9	HasQuantity Arg1:T20 Arg2:T19
+R10	Qualifies Arg1:T18 Arg2:T17
+R11	HasQuantity Arg1:T17 Arg2:T2
+T22	MeasuredProperty -1 -1	旋转周期
+A5	QuantityQualifier T5 IsRange
+R12	HasQuantity Arg1:T22 Arg2:T5
+T26	Quantity -1 -1	一个半月之内
+A7	QuantityQualifier T26 IsRange
+T29	MeasuredEntity -1 -1	G140 M观察
+T24	Quantity -1 -1	三
+T25	MeasuredProperty -1 -1	时间
+T30	MeasuredEntity -1 -1	观察
+R16	HasProperty Arg1:T30 Arg2:T25
+R17	HasQuantity Arg1:T25 Arg2:T6
+#2	AnnotatorNotes T10	Unspecified
+R18	HasProperty Arg1:T12 Arg2:T11
+#3	AnnotatorNotes T1	%
+A9	IsCount T7
+#4	AnnotatorNotes T3	days
+R3	HasQuantity Arg1:T14 Arg2:T3
+R5	HasQuantity Arg1:T14 Arg2:T13
+R6	Qualifies Arg1:T4 Arg2:T1
+T15	Qualifier -1 -1	平均
+A4	IsCount T13
+R7	Qualifies Arg1:T15 Arg2:T2
+A10	IsCount T19
+#5	AnnotatorNotes T2	%
+T16	MeasuredEntity 432 440	HD209458
+R8	HasProperty Arg1:T16 Arg2:T22
+A6	IsApproximate T5
+A11	IsCount T24
+T21	MeasuredEntity -1 -1	凌日
+R13	HasQuantity Arg1:T21 Arg2:T24
+T23	MeasuredProperty -1 -1	发生
+R14	HasProperty Arg1:T29 Arg2:T23
+R15	HasQuantity Arg1:T23 Arg2:T26
+A8	IsApproximate T6
+#6	AnnotatorNotes T6	h
+#7	AnnotatorNotes T26	month
+#8	AnnotatorNotes T5	days

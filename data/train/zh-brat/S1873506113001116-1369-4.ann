@@ -1,0 +1,6 @@
+T1	Quantity 152 154	4天
+T2	MeasuredProperty -1 -1	分化培养基中的凝胶包被组织培养板
+T3	MeasuredEntity -1 -1	所有三个种系的细胞
+R1	HasProperty Arg1:T3 Arg2:T2
+R2	HasQuantity Arg1:T2 Arg2:T1
+T4	Unit 61 62	天

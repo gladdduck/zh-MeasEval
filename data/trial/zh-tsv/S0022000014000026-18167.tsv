@@ -1,0 +1,9 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0022000014000026-18167	1	Quantity	119	120	T11-1	7	{'mods': ['IsCount']}
+S0022000014000026-18167	1	MeasuredEntity	-1	-1	T41-1	每个通道的电线	{'HasQuantity': 'T11-1'}
+S0022000014000026-18167	2	Quantity	-1	-1	T22-2	1位	{'unit': 'bit'}
+S0022000014000026-18167	2	MeasuredEntity	-1	-1	T32-2	导线	{'HasQuantity': 'T22-2'}
+S0022000014000026-18167	3	Quantity	-1	-1	T63-3	10%	{'unit': '%'}
+S0022000014000026-18167	3	MeasuredProperty	1266	1268	T53-3	概率	{'HasQuantity': 'T63-3'}
+S0022000014000026-18167	3	MeasuredEntity	146	148	T73-3	节点	{'HasProperty': 'T53-3'}
+S0022000014000026-18167	3	Qualifier	-1	-1	T83-3	是有故障的	{'Qualifies': 'T53-3'}

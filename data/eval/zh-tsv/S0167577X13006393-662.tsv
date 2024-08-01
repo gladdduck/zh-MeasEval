@@ -1,0 +1,9 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0167577X13006393-662	1	Quantity	-1	-1	T1-1	1毫升或5毫升	{'mods': ['IsList'], 'unit': 'ml'}
+S0167577X13006393-662	1	MeasuredEntity	22	25	T3-1	注射器	{'HasQuantity': 'T1-1'}
+S0167577X13006393-662	2	Quantity	-1	-1	T1-2	1 ml/H	{'unit': 'ml/h'}
+S0167577X13006393-662	2	MeasuredProperty	-1	-1	T3-2	率	{'HasQuantity': 'T1-2'}
+S0167577X13006393-662	2	MeasuredEntity	51	60	T4-2	将溶液推向电纺喷嘴	{'HasProperty': 'T3-2'}
+S0167577X13006393-662	3	Quantity	-1	-1	T1-3	12.2 kV	{'unit': 'kV'}
+S0167577X13006393-662	3	MeasuredProperty	61	63	T3-3	电压	{'HasQuantity': 'T1-3'}
+S0167577X13006393-662	3	MeasuredEntity	56	60	T4-3	电纺喷嘴	{'HasProperty': 'T3-3'}

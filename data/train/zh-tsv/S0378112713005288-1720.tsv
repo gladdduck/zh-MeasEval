@@ -1,0 +1,13 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0378112713005288-1720	1	Quantity	71	73	T1-1	15	{'mods': ['IsCount']}
+S0378112713005288-1720	1	MeasuredEntity	-1	-1	T2-1	高地地点	{'HasQuantity': 'T1-1'}
+S0378112713005288-1720	2	Quantity	-1	-1	T1-2	120 m至380 m	{'mods': ['IsRange'], 'unit': 'm'}
+S0378112713005288-1720	2	MeasuredProperty	77	79	T3-2	海拔	{'HasQuantity': 'T1-2'}
+S0378112713005288-1720	2	MeasuredEntity	-1	-1	T2-2	高地地点	{'HasProperty': 'T3-2'}
+S0378112713005288-1720	2	Qualifier	77	79	T5-2	海拔	{'Qualifies': 'T1-2'}
+S0378112713005288-1720	3	Quantity	-1	-1	T1-3	大于1000茎/公顷	{'mods': ['IsRange'], 'unit': 'stems/ha'}
+S0378112713005288-1720	3	MeasuredProperty	-1	-1	T4-3	再生密度	{'HasQuantity': 'T1-3'}
+S0378112713005288-1720	3	MeasuredEntity	106	110	T5-3	乡土树种	{'HasProperty': 'T4-3'}
+S0378112713005288-1720	3	Qualifier	-1	-1	T3-3	是说	{'Qualifies': 'T1-3'}
+S0378112713005288-1720	4	Quantity	161	163	T1-4	10	{'mods': ['IsCount']}
+S0378112713005288-1720	4	MeasuredEntity	-1	-1	T2-4	本土木质树种	{'HasQuantity': 'T1-4'}

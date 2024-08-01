@@ -1,0 +1,6 @@
+T1	Quantity -1 -1	35米/秒
+T2	MeasuredProperty 97 99	风速
+T3	Unit 103 106	m/s
+R1	HasQuantity Arg1:T2 Arg2:T1
+T4	MeasuredEntity 92 96	流入条件
+R2	HasProperty Arg1:T4 Arg2:T2

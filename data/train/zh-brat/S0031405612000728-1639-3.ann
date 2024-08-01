@@ -1,0 +1,8 @@
+T1	Quantity -1 -1	超过60天
+T2	Unit 365 366	天
+T3	MeasuredEntity 185 191	团聚体稳定性
+T4	MeasuredProperty 401 403	期间
+R1	HasProperty Arg1:T3 Arg2:T4
+R2	HasQuantity Arg1:T4 Arg2:T1
+T6	Qualifier 404 416	从第一个月到第三个月收获
+R4	Qualifies Arg1:T6 Arg2:T4

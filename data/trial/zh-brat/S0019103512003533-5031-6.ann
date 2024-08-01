@@ -1,0 +1,6 @@
+T56	Quantity -1 -1	大约450 K
+#16	AnnotatorNotes T56	K
+A16	IsApproximate T56
+T116	MeasuredEntity -1 -1	低纬度和中纬度外大气温度
+R8	HasQuantity Arg1:T116 Arg2:T56
+T1	Unit 41 42	K

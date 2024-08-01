@@ -1,0 +1,7 @@
+T84	Quantity -1 -1	3毫巴
+#14	AnnotatorNotes T84	mbar
+T94	MeasuredEntity 304 306	水平
+R6	HasQuantity Arg1:T94 Arg2:T84
+T74	Qualifier -1 -1	气氛
+R7	Qualifies Arg1:T74 Arg2:T94
+T1	Unit -1 -1	毫巴

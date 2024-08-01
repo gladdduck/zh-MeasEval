@@ -1,0 +1,5 @@
+T1	Quantity -1 -1	百分之三十以上
+T2	MeasuredEntity 0 3	饱和度
+R1	HasQuantity Arg1:T2 Arg2:T1
+T3	Unit 96 98	百分
+A1	QuantityQualifier T1 IsRange

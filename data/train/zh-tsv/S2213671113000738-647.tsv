@@ -1,0 +1,9 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S2213671113000738-647	1	Quantity	3	4	T1-1	两	{'mods': ['IsCount']}
+S2213671113000738-647	1	MeasuredEntity	5	7	T2-1	动物	{'HasQuantity': 'T1-1'}
+S2213671113000738-647	2	Quantity	3	4	T1-2	两	{'mods': ['IsCount']}
+S2213671113000738-647	2	MeasuredEntity	5	7	T2-2	动物	{'HasQuantity': 'T1-2'}
+S2213671113000738-647	2	Qualifier	-1	-1	T3-2	其他	{'Qualifies': 'T2-2'}
+S2213671113000738-647	3	Quantity	340	344	T1-3	12周内	{'mods': ['IsRange'], 'unit': 'weeks'}
+S2213671113000738-647	3	MeasuredProperty	-1	-1	T2-3	产生胎瘤	{'HasQuantity': 'T1-3'}
+S2213671113000738-647	3	MeasuredEntity	-1	-1	T3-3	严重联合免疫缺陷（DID）小鼠的睾丸	{'HasProperty': 'T2-3'}

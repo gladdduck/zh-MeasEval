@@ -1,0 +1,5 @@
+T196	Quantity 66 67	一
+#16	AnnotatorNotes T196	count
+A16	IsCount T196
+T206	MeasuredEntity 62 66	太阳自转
+R8	HasQuantity Arg1:T206 Arg2:T196

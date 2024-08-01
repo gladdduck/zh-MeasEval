@@ -1,0 +1,14 @@
+T1	Quantity 257 263	8250 K
+T2	Quantity -1 -1	接近1 μ巴
+T3	MeasuredEntity -1 -1	热H层
+T4	MeasuredProperty -1 -1	基地
+R1	HasProperty Arg1:T3 Arg2:T4
+R2	HasQuantity Arg1:T4 Arg2:T2
+T5	MeasuredProperty -1 -1	平均温度
+R3	HasQuantity Arg1:T5 Arg2:T1
+A1	IsApproximate T2
+R4	HasProperty Arg1:T3 Arg2:T5
+#1	AnnotatorNotes T1	K
+T6	Quantity -1 -1	3RP
+#2	AnnotatorNotes T6	Rp
+#3	AnnotatorNotes T2	μbar

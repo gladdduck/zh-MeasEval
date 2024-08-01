@@ -1,0 +1,7 @@
+T94	Quantity 53 56	78°
+#14	AnnotatorNotes T94	°
+T64	MeasuredProperty 35 37	纬度
+R7	HasQuantity Arg1:T64 Arg2:T94
+T44	MeasuredEntity 119 121	土星
+R8	HasProperty Arg1:T44 Arg2:T64
+T1	Unit 34 35	°

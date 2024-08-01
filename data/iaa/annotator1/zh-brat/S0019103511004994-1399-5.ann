@@ -1,0 +1,10 @@
+T1	Quantity -1 -1	14倍
+T2	MeasuredProperty -1 -1	飞过土卫二
+T3	MeasuredEntity -1 -1	卡西尼号飞船
+T4	Qualifier 280 291	2005年至2010年
+A1	IsCount T1
+R1	HasProperty Arg1:T3 Arg2:T2
+R2	HasQuantity Arg1:T2 Arg2:T1
+R3	Qualifies Arg1:T4 Arg2:T2
+T5	Qualifier -1 -1	在围绕土星的轨道上
+R4	Qualifies Arg1:T5 Arg2:T3

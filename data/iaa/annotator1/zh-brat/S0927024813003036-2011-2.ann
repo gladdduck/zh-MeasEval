@@ -1,0 +1,4 @@
+T1	Quantity 170 174	10分钟
+T2	MeasuredEntity 175 178	预退火
+R1	HasQuantity Arg1:T2 Arg2:T1
+T3	Unit -1 -1	min

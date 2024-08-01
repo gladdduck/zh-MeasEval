@@ -1,0 +1,20 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0019103512004009-3976	1	Quantity	-1	-1	T1-1	0.1至1	{'mods': ['IsRange']}
+S0019103512004009-3976	1	MeasuredProperty	-1	-1	T2-1	n网	{'HasQuantity': 'T1-1'}
+S0019103512004009-3976	1	MeasuredEntity	2	6	T3-1	加热效率	{'HasProperty': 'T2-1'}
+S0019103512004009-3976	2	Quantity	-1	-1	T1-2	从2.6公里s-1增加到25公里s-1	{'mods': ['IsRange'], 'unit': 'km s−1'}
+S0019103512004009-3976	2	MeasuredProperty	7	9	T2-2	速度	{'HasQuantity': 'T1-2'}
+S0019103512004009-3976	2	MeasuredEntity	43	46	T3-2	上边界	{'HasProperty': 'T2-2'}
+S0019103512004009-3976	3	Quantity	-1	-1	T1-3	100×	{'unit': '×'}
+S0019103512004009-3976	3	MeasuredEntity	104	106	T2-3	情况	{'HasQuantity': 'T1-3'}
+S0019103512004009-3976	4	Quantity	-1	-1	T1-4	30公里秒-1	{'unit': 'km s−1'}
+S0019103512004009-3976	4	MeasuredProperty	7	9	T2-4	速度	{'HasQuantity': 'T1-4'}
+S0019103512004009-3976	4	MeasuredEntity	43	46	T3-4	上边界	{'HasProperty': 'T2-4'}
+S0019103512004009-3976	5	Quantity	28	31	T1-5	0.1	
+S0019103512004009-3976	5	MeasuredProperty	-1	-1	T2-5	n网	{'HasQuantity': 'T1-5'}
+S0019103512004009-3976	5	MeasuredEntity	2	6	T3-5	加热效率	{'HasProperty': 'T2-5'}
+S0019103512004009-3976	6	Quantity	30	31	T1-6	1	
+S0019103512004009-3976	6	MeasuredEntity	-1	-1	T2-6	n网	{'HasQuantity': 'T1-6'}
+S0019103512004009-3976	7	Quantity	215	219	T1-7	4 RP	{'unit': 'Rp'}
+S0019103512004009-3976	7	MeasuredProperty	188	190	T2-7	位于	{'HasQuantity': 'T1-7'}
+S0019103512004009-3976	7	MeasuredEntity	184	188	T3-7	恒温音点	{'HasProperty': 'T2-7'}

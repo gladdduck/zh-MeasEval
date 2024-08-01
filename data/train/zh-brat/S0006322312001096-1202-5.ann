@@ -1,0 +1,8 @@
+T33	Quantity 127 131	3-4天
+#13	AnnotatorNotes T33	None
+T1	Unit 112 113	天
+T2	MeasuredProperty 69 70	2
+R1	HasQuantity Arg1:T2 Arg2:T33
+A1	QuantityQualifier T33 IsRange
+T3	MeasuredEntity -1 -1	四点量表
+R2	HasProperty Arg1:T3 Arg2:T2

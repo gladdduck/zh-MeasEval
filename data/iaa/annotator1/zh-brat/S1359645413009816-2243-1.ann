@@ -1,0 +1,8 @@
+T1	Quantity -1 -1	1.5 nm
+T2	MeasuredEntity 21 39	LEO 1525场发射扫描电子显微镜
+T3	MeasuredProperty -1 -1	标称分辨率
+T4	Unit -1 -1	nm
+R1	HasProperty Arg1:T2 Arg2:T3
+R2	HasQuantity Arg1:T3 Arg2:T1
+T5	Qualifier -1 -1	在20kv下
+R3	Qualifies Arg1:T5 Arg2:T1

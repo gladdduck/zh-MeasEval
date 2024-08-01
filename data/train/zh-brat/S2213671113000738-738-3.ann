@@ -1,0 +1,5 @@
+T1	Quantity 308 312	1/10
+T3	MeasuredProperty 276 284	MHC-I的表达
+T2	MeasuredEntity 296 307	未经处理的猴外周血细胞
+R1	HasProperty Arg1:T2 Arg2:T3
+R2	HasQuantity Arg1:T3 Arg2:T1

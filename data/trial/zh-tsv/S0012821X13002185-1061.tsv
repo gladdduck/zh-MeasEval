@@ -1,0 +1,16 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0012821X13002185-1061	1	Quantity	45	52	T21-1	33.7 Ma	{'mods': ['IsApproximate'], 'unit': 'Ma'}
+S0012821X13002185-1061	1	MeasuredEntity	-1	-1	T61-1	Oi 1	{'HasQuantity': 'T21-1'}
+S0012821X13002185-1061	2	Quantity	-1	-1	T12-2	60%至100%之间	{'mods': ['IsRange'], 'unit': '%'}
+S0012821X13002185-1061	2	MeasuredProperty	-1	-1	T72-2	今天出现在南极洲	{'HasQuantity': 'T12-2'}
+S0012821X13002185-1061	2	MeasuredEntity	102	104	T32-2	冰量	{'HasProperty': 'T72-2'}
+S0012821X13002185-1061	2	Qualifier	-1	-1	T92-2	Oi 1	{'Qualifies': 'T32-2'}
+S0012821X13002185-1061	3	Quantity	-1	-1	T53-3	400 ka	{'mods': ['IsApproximate'], 'unit': 'ka'}
+S0012821X13002185-1061	3	MeasuredProperty	-1	-1	T83-3	冰体的就位	{'HasQuantity': 'T53-3'}
+S0012821X13002185-1061	3	MeasuredEntity	-1	-1	T43-3	Oi 1	{'HasProperty': 'T83-3'}
+S0012821X13002185-1061	4	Quantity	128	131	T104-4	百万年	{'unit': 'year'}
+S0012821X13002185-1061	4	MeasuredEntity	132	136	T114-4	时间尺度	{'HasQuantity': 'T104-4'}
+S0012821X13002185-1061	5	Quantity	-1	-1	T145-5	2马	{'mods': ['IsApproximate'], 'unit': 'Ma'}
+S0012821X13002185-1061	5	MeasuredProperty	35	37	T135-5	开始	{'HasQuantity': 'T145-5'}
+S0012821X13002185-1061	5	MeasuredEntity	193	195	T125-5	下降	{'HasProperty': 'T135-5'}
+S0012821X13002185-1061	5	Qualifier	-1	-1	T155-5	在南极冰川作用的地质和稳定同位素证据出现之前	{'Qualifies': 'T145-5'}

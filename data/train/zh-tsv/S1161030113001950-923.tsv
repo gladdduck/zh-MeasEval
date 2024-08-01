@@ -1,0 +1,9 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S1161030113001950-923	1	Quantity	304	305	T1-1	4	{'mods': ['IsCount']}
+S1161030113001950-923	1	MeasuredEntity	613	614	T2-1	类	{'HasQuantity': 'T1-1'}
+S1161030113001950-923	2	Quantity	487	493	T1-2	90-95%	{'mods': ['IsRange'], 'unit': '%'}
+S1161030113001950-923	2	MeasuredProperty	-1	-1	T3-2	年度最高收益率	{'HasQuantity': 'T1-2'}
+S1161030113001950-923	2	MeasuredEntity	-1	-1	T4-2	营养充足度推荐系统	{'HasProperty': 'T3-2'}
+S1161030113001950-923	3	Quantity	536	540	T1-3	4-8年	{'mods': ['IsRange'], 'unit': 'years'}
+S1161030113001950-923	3	MeasuredProperty	-1	-1	T3-3	段时间	{'HasQuantity': 'T1-3'}
+S1161030113001950-923	3	MeasuredEntity	527	532	T4-3	土壤测试值	{'HasProperty': 'T3-3'}

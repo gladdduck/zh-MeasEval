@@ -1,0 +1,17 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0019103512003995-3548	1	Quantity	-1	-1	T41-1	1 μ巴	{'unit': 'μbar'}
+S0019103512003995-3548	1	MeasuredProperty	143	145	T141-1	压力	{'HasQuantity': 'T41-1'}
+S0019103512003995-3548	1	MeasuredEntity	303	305	T51-1	下限	{'HasProperty': 'T141-1'}
+S0019103512003995-3548	2	Quantity	-1	-1	T12-2	约8250 K	{'mods': ['IsMean', 'IsApproximate'], 'unit': 'K'}
+S0019103512003995-3548	2	MeasuredProperty	121	123	T62-2	温度	{'HasQuantity': 'T12-2'}
+S0019103512003995-3548	2	MeasuredEntity	-1	-1	T72-2	热层低于3RP	{'HasProperty': 'T62-2'}
+S0019103512003995-3548	2	Qualifier	-1	-1	T102-2	是说	{'Qualifies': 'T12-2'}
+S0019103512003995-3548	3	Quantity	-1	-1	T33-3	约6000 K	{'mods': ['IsApproximate'], 'unit': 'K'}
+S0019103512003995-3548	3	MeasuredProperty	121	123	T113-3	温度	{'HasQuantity': 'T33-3'}
+S0019103512003995-3548	3	MeasuredEntity	-1	-1	T73-3	热层低于3RP	{'HasProperty': 'T113-3'}
+S0019103512003995-3548	3	Qualifier	300	301	T83-3	上	{'Qualifies': 'T113-3'}
+S0019103512003995-3548	4	Quantity	-1	-1	T24-4	11，000 K	{'mods': ['IsApproximate'], 'unit': 'K'}
+S0019103512003995-3548	4	MeasuredProperty	121	123	T2-4	温度	{'HasQuantity': 'T24-4'}
+S0019103512003995-3548	4	MeasuredEntity	-1	-1	T3-4	热层低于3RP	{'HasProperty': 'T2-4'}
+S0019103512003995-3548	4	Qualifier	-1	-1	T94-4	低	{'Qualifies': 'T2-4'}
+S0019103512003995-3548	4	Qualifier	208	209	T134-4	约	{'Qualifies': 'T24-4'}

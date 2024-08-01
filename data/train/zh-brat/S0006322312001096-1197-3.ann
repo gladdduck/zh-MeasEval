@@ -1,0 +1,6 @@
+T1	Quantity 123 126	1或0
+A1	QuantityQualifier T1 IsList
+T2	MeasuredProperty 120 122	得分
+T3	MeasuredEntity -1 -1	响应类别
+R1	HasProperty Arg1:T3 Arg2:T2
+R2	HasQuantity Arg1:T2 Arg2:T1

@@ -1,0 +1,10 @@
+T1	Quantity -1 -1	每兆瓦时约90英镑[4，5]至98英镑
+T2	Unit -1 -1	╱兆瓦时
+T3	Qualifier -1 -1	降解增加
+T4	MeasuredEntity 104 106	电力
+T5	MeasuredProperty -1 -1	平准成本
+R1	HasProperty Arg1:T4 Arg2:T5
+R2	HasQuantity Arg1:T5 Arg2:T1
+R3	Qualifies Arg1:T3 Arg2:T5
+A1	IsApproximate T1
+A2	QuantityQualifier T1 IsRange

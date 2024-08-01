@@ -1,0 +1,7 @@
+T52	Quantity -1 -1	100 °C
+#12	AnnotatorNotes T52	°C
+T82	MeasuredProperty -1 -1	通过湿碱性消化溶解
+R3	HasQuantity Arg1:T82 Arg2:T52
+T1	Unit 68 70	°C
+T2	MeasuredEntity -1 -1	清洁的海绵和藻类蛋白石
+R1	HasProperty Arg1:T2 Arg2:T82

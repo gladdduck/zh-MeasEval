@@ -1,0 +1,6 @@
+T1	Quantity 124 130	8.5 mm
+T2	Unit 121 123	mm
+T3	MeasuredProperty -1 -1	名义沉积物直径
+T4	MeasuredEntity 101 105	海滩材料
+R1	HasProperty Arg1:T4 Arg2:T3
+R2	HasQuantity Arg1:T3 Arg2:T1

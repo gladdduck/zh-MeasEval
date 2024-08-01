@@ -1,0 +1,9 @@
+T2	Unit -1 -1	每年%
+T3	MeasuredEntity -1 -1	英国的风电场
+T1	Quantity -1 -1	每年5-13%
+A1	QuantityQualifier T1 IsRange
+T5	Qualifier -1 -1	拒绝
+T4	MeasuredProperty -1 -1	荷载系数
+R1	HasProperty Arg1:T3 Arg2:T4
+R2	HasQuantity Arg1:T4 Arg2:T1
+R3	Qualifies Arg1:T5 Arg2:T4

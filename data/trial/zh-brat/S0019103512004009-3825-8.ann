@@ -1,0 +1,4 @@
+T208	Quantity 31 32	1
+#18	AnnotatorNotes T208	Unspecified
+T198	MeasuredEntity -1 -1	n网
+R16	HasQuantity Arg1:T198 Arg2:T208

@@ -1,0 +1,6 @@
+T1	Quantity 247 249	48
+T2	Qualifier -1 -1	在每个半球
+T3	MeasuredEntity 196 198	区域
+A1	IsCount T1
+R1	HasQuantity Arg1:T3 Arg2:T1
+R2	Qualifies Arg1:T2 Arg2:T3

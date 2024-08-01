@@ -1,0 +1,10 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0167610512002292-3187	1	Quantity	2	3	T1-1	7	{'mods': ['IsCount']}
+S0167610512002292-3187	1	MeasuredEntity	4	8	T2-1	初始方向	{'HasQuantity': 'T1-1'}
+S0167610512002292-3187	2	Quantity	-1	-1	T1-2	0.563米	{'unit': 'm'}
+S0167610512002292-3187	2	MeasuredEntity	33	36	T3-2	方形板	{'HasQuantity': 'T1-2'}
+S0167610512002292-3187	3	Quantity	-1	-1	T1-3	0.025 m。	{'unit': 'm'}
+S0167610512002292-3187	3	MeasuredProperty	16	18	T2-3	厚度	{'HasQuantity': 'T1-3'}
+S0167610512002292-3187	3	MeasuredEntity	33	36	T3-3	方形板	{'HasProperty': 'T2-3'}
+S0167610512002292-3187	4	Quantity	90	91	T1-4	两	{'mods': ['IsCount']}
+S0167610512002292-3187	4	MeasuredEntity	-1	-1	T2-4	案例集	{'HasQuantity': 'T1-4'}

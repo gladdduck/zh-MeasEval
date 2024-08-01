@@ -1,0 +1,8 @@
+T1	Quantity -1 -1	5‰
+T2	MeasuredEntity -1 -1	古新世-始新世界线段
+T3	Qualifier -1 -1	从北海盆地中部
+R1	Qualifies Arg1:T3 Arg2:T2
+T4	MeasuredProperty -1 -1	负碳同位素漂移
+R2	HasProperty Arg1:T2 Arg2:T4
+R3	HasQuantity Arg1:T4 Arg2:T1
+T5	Unit -1 -1	‰

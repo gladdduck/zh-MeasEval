@@ -1,0 +1,12 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0019103512004009-4350	1	Quantity	-1	-1	T1-1	1000 K	{'mods': ['IsApproximate'], 'unit': 'K'}
+S0019103512004009-4350	1	MeasuredProperty	183	187	T2-1	最高温度	{'HasQuantity': 'T1-1'}
+S0019103512004009-4350	1	MeasuredEntity	0	4	T3-1	C3模型	{'HasProperty': 'T2-1'}
+S0019103512004009-4350	1	Qualifier	-1	-1	T4-1	凉爽的	{'Qualifies': 'T2-1'}
+S0019103512004009-4350	1	Qualifier	-1	-1	T6-1	与C1型号相比	{'Qualifies': 'T3-1'}
+S0019103512004009-4350	2	Quantity	-1	-1	T1-2	1000-2000 K	{'mods': ['IsRange'], 'unit': 'K'}
+S0019103512004009-4350	2	MeasuredProperty	183	187	T7-2	最高温度	{'HasQuantity': 'T1-2'}
+S0019103512004009-4350	2	MeasuredEntity	0	4	T2-2	C3模型	{'HasProperty': 'T7-2'}
+S0019103512004009-4350	2	Qualifier	201	204	T3-2	高海拔	{'Qualifies': 'T2-2'}
+S0019103512004009-4350	2	Qualifier	-1	-1	T4-2	凉爽的	{'Qualifies': 'T1-2'}
+S0019103512004009-4350	2	Qualifier	-1	-1	T5-2	与C1型号相比	{'Qualifies': 'T7-2'}

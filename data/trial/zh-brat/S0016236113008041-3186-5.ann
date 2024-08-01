@@ -1,0 +1,5 @@
+T75	Quantity 48 58	4.5、6和13公斤
+#15	AnnotatorNotes T75	kg
+T135	MeasuredEntity 44 46	库存
+R19	HasQuantity Arg1:T135 Arg2:T75
+T175	Unit -1 -1	kg

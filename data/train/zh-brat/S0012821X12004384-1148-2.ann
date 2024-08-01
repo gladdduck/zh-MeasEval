@@ -1,0 +1,8 @@
+T1	Quantity -1 -1	北纬54 °
+T2	Unit 78 80	°N
+T3	MeasuredProperty 73 76	古纬度
+T4	MeasuredEntity -1 -1	北大西洋岩浆省（NAIP）、基尔达盆地和北部雨林
+R1	HasProperty Arg1:T4 Arg2:T3
+T5	Qualifier 349 355	PETM期间
+R2	Qualifies Arg1:T5 Arg2:T3
+R3	HasQuantity Arg1:T3 Arg2:T1

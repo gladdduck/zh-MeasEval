@@ -1,0 +1,6 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S1389128612002496-6119	1	Quantity	75	88	T1-1	从10 ms到0.1 ms	{'mods': ['IsRange'], 'unit': 'ms'}
+S1389128612002496-6119	1	MeasuredEntity	69	71	T4-1	TB	{'HasQuantity': 'T1-1'}
+S1389128612002496-6119	1	Qualifier	-1	-1	T5-1	减小	{'Qualifies': 'T1-1'}
+S1389128612002496-6119	2	Quantity	117	125	T1-2	0.5 ms左右	{'mods': ['IsApproximate'], 'unit': 'ms'}
+S1389128612002496-6119	2	MeasuredEntity	69	71	T3-2	TB	{'HasQuantity': 'T1-2'}

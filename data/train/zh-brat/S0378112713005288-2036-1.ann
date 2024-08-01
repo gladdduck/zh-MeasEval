@@ -1,0 +1,7 @@
+T1	Quantity -1 -1	100米以内
+T2	Unit 218 219	M
+A1	QuantityQualifier T1 IsRange
+T3	MeasuredEntity -1 -1	种子源
+T4	MeasuredProperty -1 -1	大部分橡树再生
+R1	HasProperty Arg1:T3 Arg2:T4
+R2	HasQuantity Arg1:T4 Arg2:T1

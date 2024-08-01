@@ -1,0 +1,7 @@
+T34	Quantity 109 112	10%
+#14	AnnotatorNotes T34	None
+T74	MeasuredProperty 107 109	增加
+R4	HasQuantity Arg1:T74 Arg2:T34
+T84	MeasuredEntity 165 178	弗雷明汉心血管疾病风险评分
+R5	HasProperty Arg1:T84 Arg2:T74
+T1	Unit 111 112	%

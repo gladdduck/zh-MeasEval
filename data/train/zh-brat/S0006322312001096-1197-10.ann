@@ -1,0 +1,4 @@
+T1	Quantity -1 -1	274名参与者
+T2	Unit 30 33	参与者
+T3	MeasuredEntity -1 -1	亚组
+R1	HasQuantity Arg1:T3 Arg2:T1

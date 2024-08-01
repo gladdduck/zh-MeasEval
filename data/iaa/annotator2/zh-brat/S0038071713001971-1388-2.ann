@@ -1,0 +1,10 @@
+T1	Quantity 87 90	63%
+T2	Unit 55 56	%
+T3	MeasuredEntity -1 -1	OTUs
+T4	Qualifier -1 -1	在患病土壤中
+T5	MeasuredProperty -1 -1	被抑制（沮丧）
+T6	Qualifier -1 -1	由一组特定的土壤变量决定
+R1	HasProperty Arg1:T3 Arg2:T5
+R2	HasQuantity Arg1:T5 Arg2:T1
+R3	Qualifies Arg1:T4 Arg2:T3
+R4	Qualifies Arg1:T6 Arg2:T5

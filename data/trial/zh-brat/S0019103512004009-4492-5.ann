@@ -1,0 +1,6 @@
+T1	Quantity -1 -1	∼ 16
+A1	IsApproximate T1
+T2	MeasuredProperty -1 -1	X0
+T3	MeasuredEntity 64 68	C1模型
+R1	HasProperty Arg1:T3 Arg2:T2
+R2	HasQuantity Arg1:T2 Arg2:T1

@@ -1,0 +1,4 @@
+T1	Quantity -1 -1	六
+T2	MeasuredEntity 78 81	数据集
+A1	IsCount T1
+R1	HasQuantity Arg1:T2 Arg2:T1

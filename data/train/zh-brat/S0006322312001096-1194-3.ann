@@ -1,0 +1,5 @@
+T22	Quantity 100 103	95%
+#12	AnnotatorNotes T22	None
+T82	MeasuredEntity 103 111	置信区间[CI]
+R3	HasQuantity Arg1:T82 Arg2:T22
+T3	Unit 81 82	%

@@ -1,0 +1,7 @@
+T78	Quantity 308 313	59.9%
+#18	AnnotatorNotes T78	None
+T208	MeasuredProperty 315 322	也有GHQ症状
+R16	HasQuantity Arg1:T208 Arg2:T78
+T198	MeasuredEntity 121 135	有CES-D抑郁症状的参与者
+R17	HasProperty Arg1:T198 Arg2:T208
+T1	Unit 96 97	%

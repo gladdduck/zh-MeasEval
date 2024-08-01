@@ -1,0 +1,7 @@
+T1	Quantity -1 -1	~ 79 kR
+T2	Unit 117 119	kR
+T3	MeasuredEntity -1 -1	案例EF
+A1	IsApproximate T1
+T4	MeasuredProperty -1 -1	极光卵
+R1	HasProperty Arg1:T3 Arg2:T4
+R2	HasQuantity Arg1:T4 Arg2:T1

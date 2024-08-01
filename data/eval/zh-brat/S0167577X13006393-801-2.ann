@@ -1,0 +1,9 @@
+T1	Quantity -1 -1	1200 °C以下
+T2	MeasuredProperty 302 306	烧结温度
+T3	MeasuredEntity 270 273	脱羟基
+T4	Qualifier 281 284	纯HA
+R3	HasQuantity Arg1:T2 Arg2:T1
+A1	QuantityQualifier T1 IsRange
+T5	Unit 297 299	°C
+R1	HasProperty Arg1:T3 Arg2:T2
+R2	Qualifies Arg1:T4 Arg2:T3

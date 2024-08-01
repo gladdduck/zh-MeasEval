@@ -1,0 +1,20 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0012821X12004384-1265	1	Quantity	20	22	T1-1	71	{'mods': ['IsCount']}
+S0012821X12004384-1265	1	MeasuredEntity	-1	-1	T2-1	传粉样本	{'HasQuantity': 'T1-1'}
+S0012821X12004384-1265	2	Quantity	-1	-1	T1-2	1/100th	
+S0012821X12004384-1265	2	MeasuredProperty	-1	-1	T3-2	每张幻灯片都是制作的	{'HasQuantity': 'T1-2'}
+S0012821X12004384-1265	2	MeasuredEntity	-1	-1	T2-2	加工材料总数	{'HasProperty': 'T3-2'}
+S0012821X12004384-1265	3	Quantity	-1	-1	T11-3	5 g	{'unit': 'g'}
+S0012821X12004384-1265	3	MeasuredProperty	177	181	T81-3	初始重量	{'HasQuantity': 'T11-3'}
+S0012821X12004384-1265	3	MeasuredEntity	-1	-1	T91-3	干沉积物	{'HasProperty': 'T81-3'}
+S0012821X12004384-1265	4	Quantity	-1	-1	T22-4	0.05 G	{'unit': 'g'}
+S0012821X12004384-1265	4	MeasuredEntity	-1	-1	T32-4	干沉积物	{'HasQuantity': 'T22-4'}
+S0012821X12004384-1265	5	Quantity	-1	-1	T53-5	>250 μm	{'mods': ['IsRange'], 'unit': 'μm'}
+S0012821X12004384-1265	5	MeasuredProperty	-1	-1	T113-5	级分	{'HasQuantity': 'T53-5'}
+S0012821X12004384-1265	6	Quantity	377	381	T44-6	>90%	{'mods': ['IsRange'], 'unit': '%'}
+S0012821X12004384-1265	6	MeasuredProperty	-1	-1	T2-6	无定形有机物（AOM）	{'HasQuantity': 'T44-6'}
+S0012821X12004384-1265	6	MeasuredEntity	-1	-1	T1-6	>250 μm级分	{'HasProperty': 'T2-6'}
+S0012821X12004384-1265	7	Quantity	401	407	T75-7	20至60克	{'mods': ['IsRange'], 'unit': 'g'}
+S0012821X12004384-1265	7	MeasuredEntity	-1	-1	T145-7	干沉积物	{'HasQuantity': 'T75-7'}
+S0012821X12004384-1265	8	Quantity	-1	-1	T66-8	63 μm	{'unit': 'μm'}
+S0012821X12004384-1265	8	MeasuredEntity	424	425	T106-8	筛	{'HasQuantity': 'T66-8'}

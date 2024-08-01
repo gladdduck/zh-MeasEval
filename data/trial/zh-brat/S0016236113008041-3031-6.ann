@@ -1,0 +1,5 @@
+T196	Quantity 324 325	八
+#16	AnnotatorNotes T196	count
+A16	IsCount T196
+T206	MeasuredEntity 267 269	周期
+R13	HasQuantity Arg1:T206 Arg2:T196

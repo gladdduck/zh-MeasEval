@@ -1,0 +1,10 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S2213158213000582-1410	1	Quantity	159	164	T1-1	50 ms	{'unit': 'ms'}
+S2213158213000582-1410	1	MeasuredEntity	174	180	T3-1	STG组差异	{'HasQuantity': 'T1-1'}
+S2213158213000582-1410	1	Qualifier	157	158	T4-1	左	{'Qualifies': 'T1-1'}
+S2213158213000582-1410	2	Quantity	167	173	T1-2	100 ms	{'unit': 'ms'}
+S2213158213000582-1410	2	MeasuredEntity	174	180	T3-2	STG组差异	{'HasQuantity': 'T1-2'}
+S2213158213000582-1410	2	Qualifier	-1	-1	T4-2	双边	{'Qualifies': 'T1-2'}
+S2213158213000582-1410	3	Quantity	191	200	T1-3	50和100 ms	{'mods': ['IsList'], 'unit': 'ms'}
+S2213158213000582-1410	3	MeasuredEntity	-1	-1	T3-3	群体差异	{'HasQuantity': 'T1-3'}
+S2213158213000582-1410	3	Qualifier	-1	-1	T4-3	双边	{'Qualifies': 'T1-3'}

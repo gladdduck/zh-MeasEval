@@ -1,0 +1,6 @@
+T1	Quantity 372 375	76%
+T2	Qualifier -1 -1	钦扎纳
+T3	MeasuredEntity -1 -1	手术遗传性
+T4	Unit 274 275	%
+R1	HasQuantity Arg1:T3 Arg2:T1
+R2	Qualifies Arg1:T2 Arg2:T3

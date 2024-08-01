@@ -1,0 +1,18 @@
+T1	Quantity 776 779	93%
+T2	MeasuredProperty -1 -1	恒定光电子加热效率
+T3	Qualifier -1 -1	在所有高度和光电子能
+R1	HasQuantity Arg1:T2 Arg2:T1
+R2	Qualifies Arg1:T3 Arg2:T1
+T4	Quantity 894 899	50 eV
+T5	MeasuredEntity -1 -1	光子
+T6	Qualifier -1 -1	电子混合比xe = 0.1
+T7	MeasuredEntity -1 -1	xe的电子混合比
+T8	Quantity 944 947	0.1
+R3	HasQuantity Arg1:T7 Arg2:T8
+R4	HasQuantity Arg1:T5 Arg2:T4
+R5	Qualifies Arg1:T6 Arg2:T5
+T9	MeasuredEntity -1 -1	型号C1
+R6	HasProperty Arg1:T9 Arg2:T2
+#1	AnnotatorNotes T1	%
+#2	AnnotatorNotes T4	eV
+#3	AnnotatorNotes T8	Unspecified

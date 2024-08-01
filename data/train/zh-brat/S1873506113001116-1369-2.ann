@@ -1,0 +1,4 @@
+T1	Quantity 96 99	10%
+T2	MeasuredEntity 100 102	血清
+R1	HasQuantity Arg1:T2 Arg2:T1
+T3	Unit 98 99	%

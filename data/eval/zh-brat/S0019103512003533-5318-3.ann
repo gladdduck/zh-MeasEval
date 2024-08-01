@@ -1,0 +1,4 @@
+T1	Quantity 106 107	两
+T2	MeasuredEntity 108 114	磁层强迫参数
+R1	HasQuantity Arg1:T2 Arg2:T1
+A1	IsCount T1

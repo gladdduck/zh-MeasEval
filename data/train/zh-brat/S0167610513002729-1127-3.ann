@@ -1,0 +1,5 @@
+T1	Quantity -1 -1	0.52 H
+T2	Unit 52 53	H
+T3	MeasuredEntity 46 47	z
+T4	Qualifier 41 43	快照
+R1	Qualifies Arg1:T4 Arg2:T3

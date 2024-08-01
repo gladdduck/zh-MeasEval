@@ -1,0 +1,7 @@
+T66	Quantity 405 408	80%
+#16	AnnotatorNotes T66	None
+T156	MeasuredProperty 311 314	灵敏度
+R10	HasQuantity Arg1:T156 Arg2:T66
+T136	MeasuredEntity -1 -1	GHQ症状常见
+R11	HasProperty Arg1:T136 Arg2:T156
+T1	Unit 245 246	%

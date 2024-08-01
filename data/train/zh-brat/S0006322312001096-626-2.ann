@@ -1,0 +1,8 @@
+T1	Quantity 17 19	65
+A1	QuantityQualifier T1 IsRange
+T2	MeasuredProperty -1 -1	年龄
+T3	Qualifier 20 22	前后
+T4	MeasuredEntity 24 28	抑郁症状
+R2	HasProperty Arg1:T4 Arg2:T2
+R3	HasQuantity Arg1:T2 Arg2:T1
+R4	Qualifies Arg1:T3 Arg2:T2

@@ -1,0 +1,9 @@
+T1	Quantity -1 -1	~ 58%
+T2	Unit 481 482	%
+A1	IsApproximate T1
+T3	Qualifier 311 313	IP
+T4	MeasuredEntity 512 514	控制
+R1	HasProperty Arg1:T4 Arg2:T5
+T5	MeasuredProperty -1 -1	MRPL 12水平
+R2	HasQuantity Arg1:T5 Arg2:T1
+R3	Qualifies Arg1:T3 Arg2:T5

@@ -1,0 +1,13 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0169433213008933-689	1	Quantity	-1	-1	T1-1	(80/20	
+S0169433213008933-689	1	MeasuredProperty	31	34	T3-1	金/钯	{'HasQuantity': 'T1-1'}
+S0169433213008933-689	1	MeasuredEntity	41	43	T2-1	合金	{'HasProperty': 'T3-1'}
+S0169433213008933-689	2	Quantity	81	95	T1-2	0.06-0.07 mBar	{'mods': ['IsRange'], 'unit': 'mBar'}
+S0169433213008933-689	2	MeasuredProperty	-1	-1	T3-2	压力	{'HasQuantity': 'T1-2'}
+S0169433213008933-689	2	MeasuredEntity	-1	-1	T4-2	氩气	{'HasProperty': 'T3-2'}
+S0169433213008933-689	3	Quantity	-1	-1	T1-3	240 S	{'unit': 's'}
+S0169433213008933-689	3	MeasuredProperty	114	116	T2-3	处理	{'HasQuantity': 'T1-3'}
+S0169433213008933-689	3	MeasuredEntity	54	56	T4-3	样品	{'HasProperty': 'T2-3'}
+S0169433213008933-689	4	Quantity	106	111	T1-4	30 mA	{'unit': 'mA'}
+S0169433213008933-689	4	MeasuredProperty	111	113	T3-4	电流	{'HasQuantity': 'T1-4'}
+S0169433213008933-689	4	MeasuredEntity	114	116	T4-4	处理	{'HasProperty': 'T3-4'}

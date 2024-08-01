@@ -1,0 +1,8 @@
+T1	Quantity 248 250	4‰
+T2	MeasuredProperty -1 -1	移位
+T3	MeasuredEntity 232 247	δ 13 Corg的特征正漂移
+R1	HasProperty Arg1:T3 Arg2:T2
+T4	Unit 222 223	‰
+R2	HasQuantity Arg1:T2 Arg2:T1
+T5	Qualifier 270 280	发生在<0.5 m内
+R3	Qualifies Arg1:T5 Arg2:T2

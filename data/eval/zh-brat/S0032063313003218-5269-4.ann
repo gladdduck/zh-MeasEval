@@ -1,0 +1,5 @@
+T1	Quantity -1 -1	在九月8日
+T4	MeasuredEntity 28 34	极光加热事件
+T2	MeasuredProperty 35 39	红外数据
+R2	HasProperty Arg1:T4 Arg2:T2
+R1	HasQuantity Arg1:T2 Arg2:T1

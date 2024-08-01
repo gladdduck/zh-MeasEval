@@ -1,0 +1,5 @@
+T1	Quantity 43 49	至少一只耳朵
+A1	QuantityQualifier T1 IsRange
+T2	MeasuredEntity 63 68	含有生物膜
+R1	HasQuantity Arg1:T2 Arg2:T1
+T3	Unit 12 14	耳朵

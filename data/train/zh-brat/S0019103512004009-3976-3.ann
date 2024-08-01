@@ -1,0 +1,4 @@
+T1	Quantity -1 -1	100×
+T2	MeasuredEntity 104 106	情况
+T3	Unit -1 -1	×
+R1	HasQuantity Arg1:T2 Arg2:T1

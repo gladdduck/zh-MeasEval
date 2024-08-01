@@ -1,0 +1,6 @@
+T1	Quantity -1 -1	4-7 kV
+T2	MeasuredEntity -1 -1	DC
+T3	MeasuredProperty -1 -1	偏置电压
+T4	Unit 153 155	kV
+R1	HasQuantity Arg1:T3 Arg2:T1
+R2	HasProperty Arg1:T2 Arg2:T3

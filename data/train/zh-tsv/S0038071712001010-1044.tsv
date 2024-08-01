@@ -1,0 +1,6 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0038071712001010-1044	1	Quantity	-1	-1	T1-1	0.4 mm2	{'mods': ['IsApproximate'], 'unit': 'mm2'}
+S0038071712001010-1044	1	MeasuredEntity	-1	-1	T2-1	小孔隙	{'HasQuantity': 'T1-1'}
+S0038071712001010-1044	2	Quantity	845	848	T1-2	84天	{'unit': 'days'}
+S0038071712001010-1044	2	MeasuredProperty	842	844	T3-2	持续	{'HasQuantity': 'T1-2'}
+S0038071712001010-1044	2	MeasuredEntity	145	147	T2-2	实验	{'HasProperty': 'T3-2'}

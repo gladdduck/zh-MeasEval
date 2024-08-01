@@ -1,0 +1,7 @@
+T1	Quantity 123 127	至少3代
+A1	QuantityQualifier T1 IsRange
+T2	MeasuredEntity -1 -1	BC 1细胞
+T3	Unit -1 -1	通道
+T4	MeasuredProperty -1 -1	在E8无饲养物条件下培养
+R1	HasProperty Arg1:T2 Arg2:T4
+R2	HasQuantity Arg1:T4 Arg2:T1

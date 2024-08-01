@@ -1,0 +1,8 @@
+T1	Quantity 8 9	两
+T2	MeasuredProperty -1 -1	正在调查的FTD患者
+A1	IsCount T1
+R1	HasQuantity Arg1:T2 Arg2:T1
+T3	MeasuredEntity -1 -1	本研究
+R2	HasProperty Arg1:T3 Arg2:T2
+T4	Qualifier -1 -1	加州大学旧金山分校记忆与衰老中心的纵向痴呆症研究项目
+R3	Qualifies Arg1:T4 Arg2:T3

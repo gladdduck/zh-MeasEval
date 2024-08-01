@@ -1,0 +1,7 @@
+T63	Quantity -1 -1	1 Kev
+#13	AnnotatorNotes T63	keV
+T23	MeasuredProperty -1 -1	Erk水平
+R4	HasQuantity Arg1:T23 Arg2:T63
+T53	MeasuredEntity 15 17	电子
+R5	HasProperty Arg1:T53 Arg2:T23
+T1	Unit -1 -1	Kev

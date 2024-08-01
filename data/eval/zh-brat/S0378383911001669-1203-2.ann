@@ -1,0 +1,4 @@
+T1	Quantity 118 125	0.072 m
+T2	Unit -1 -1	M
+T3	MeasuredEntity -1 -1	1.3毫米粗沙海滩
+R1	HasQuantity Arg1:T3 Arg2:T1

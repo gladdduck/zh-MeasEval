@@ -1,0 +1,4 @@
+T1	Quantity 73 75	55
+A1	IsCount T1
+T2	MeasuredEntity 76 80	梯度评估
+R1	HasQuantity Arg1:T2 Arg2:T1

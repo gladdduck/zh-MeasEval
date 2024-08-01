@@ -1,0 +1,5 @@
+T1	Quantity 152 153	零
+T2	MeasuredProperty 10 14	沉积速度
+T3	MeasuredEntity 104 108	所有物种
+R1	HasProperty Arg1:T3 Arg2:T2
+R2	HasQuantity Arg1:T2 Arg2:T1

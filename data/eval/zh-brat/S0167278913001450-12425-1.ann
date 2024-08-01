@@ -1,0 +1,7 @@
+T1	Quantity 7 26	100、500、1000和1500 m
+T2	Unit -1 -1	M
+A1	QuantityQualifier T1 IsList
+T3	MeasuredProperty -1 -1	深处
+R1	HasQuantity Arg1:T3 Arg2:T1
+T4	MeasuredEntity 28 33	稳定四极流
+R2	HasProperty Arg1:T4 Arg2:T3

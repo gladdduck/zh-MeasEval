@@ -1,0 +1,5 @@
+T1	Quantity -1 -1	经过13段之后
+A1	QuantityQualifier T1 IsRange
+T2	MeasuredEntity -1 -1	静电悬浮
+R1	HasQuantity Arg1:T2 Arg2:T1
+T3	Unit -1 -1	通道

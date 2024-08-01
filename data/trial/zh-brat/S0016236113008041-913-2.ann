@@ -1,0 +1,7 @@
+T44	Quantity 43 47	13公斤
+#14	AnnotatorNotes T44	kg
+T54	MeasuredProperty 47 52	CaCO3
+R4	HasQuantity Arg1:T54 Arg2:T44
+T64	MeasuredEntity -1 -1	床存量
+R5	HasProperty Arg1:T64 Arg2:T54
+T1	Unit -1 -1	kg

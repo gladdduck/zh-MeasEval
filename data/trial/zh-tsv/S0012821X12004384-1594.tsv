@@ -1,0 +1,6 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0012821X12004384-1594	1	Quantity	33	41	T11-1	2618 m以上	{'mods': ['IsRange'], 'unit': 'm'}
+S0012821X12004384-1594	1	MeasuredEntity	-1	-1	T21-1	IE开始	{'HasQuantity': 'T11-1'}
+S0012821X12004384-1594	2	Quantity	-1	-1	T62-2	北纬40度	{'unit': '°N'}
+S0012821X12004384-1594	2	MeasuredProperty	74	78	T42-2	南部边界	{'HasQuantity': 'T62-2'}
+S0012821X12004384-1594	2	MeasuredEntity	65	69	T52-2	北部雨带	{'HasProperty': 'T42-2'}

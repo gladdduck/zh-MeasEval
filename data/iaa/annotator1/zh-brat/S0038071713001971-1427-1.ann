@@ -1,0 +1,7 @@
+T1	Quantity 18 20	两年
+T2	Unit 19 20	年
+A1	IsCount T1
+T3	MeasuredEntity -1 -1	收益率记录
+T4	MeasuredProperty -1 -1	最近
+R1	HasProperty Arg1:T3 Arg2:T4
+R2	HasQuantity Arg1:T4 Arg2:T1

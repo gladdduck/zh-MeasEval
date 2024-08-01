@@ -1,0 +1,4 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0925443913003037-654	1	Quantity	-1	-1	T1-1	2.5年	{'unit': 'years'}
+S0925443913003037-654	1	MeasuredProperty	-1	-1	T2-1	年龄	{'HasQuantity': 'T1-1'}
+S0925443913003037-654	1	MeasuredEntity	5	12	T4-1	进行头颅MRI	{'HasProperty': 'T2-1'}

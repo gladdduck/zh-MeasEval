@@ -1,0 +1,4 @@
+T1	Quantity 10 11	五
+T2	MeasuredEntity 14 16	集群
+A1	IsCount T1
+R1	HasQuantity Arg1:T2 Arg2:T1

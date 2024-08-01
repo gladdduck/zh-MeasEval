@@ -1,0 +1,40 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0006322312001096-1194	1	Quantity	79	82	T31-1	10%	{'unit': '%'}
+S0006322312001096-1194	1	MeasuredProperty	-1	-1	T61-1	增量	{'HasQuantity': 'T31-1'}
+S0006322312001096-1194	1	MeasuredEntity	18	20	T71-1	风险	{'HasProperty': 'T61-1'}
+S0006322312001096-1194	2	Quantity	95	99	T3-2	2.84	
+S0006322312001096-1194	2	MeasuredProperty	-1	-1	T1-2	年龄和性别调整的赔率比	{'HasQuantity': 'T3-2'}
+S0006322312001096-1194	2	MeasuredEntity	-1	-1	T2-2	中风风险评分-中风事件关联	{'HasProperty': 'T1-2'}
+S0006322312001096-1194	3	Quantity	100	103	T22-3	95%	{'unit': '%'}
+S0006322312001096-1194	3	MeasuredEntity	103	111	T82-3	置信区间[CI]	{'HasQuantity': 'T22-3'}
+S0006322312001096-1194	4	Quantity	112	121	T4-4	1.66-4.88	{'mods': ['IsRange']}
+S0006322312001096-1194	4	MeasuredProperty	-1	-1	T1-4	年龄和性别调整的赔率比	{'HasQuantity': 'T4-4'}
+S0006322312001096-1194	4	MeasuredEntity	-1	-1	T2-4	中风风险评分-中风事件关联	{'HasProperty': 'T1-4'}
+S0006322312001096-1194	4	Qualifier	100	111	T3-4	95%置信区间[CI]	{'Qualifies': 'T1-4'}
+S0006322312001096-1194	5	Quantity	152	156	T2-5	2.25	
+S0006322312001096-1194	5	MeasuredProperty	-1	-1	T1-5	年龄和性别调整的赔率比	{'HasQuantity': 'T2-5'}
+S0006322312001096-1194	5	MeasuredEntity	-1	-1	T3-5	CHD风险评分-CHD事件关联	{'HasProperty': 'T1-5'}
+S0006322312001096-1194	6	Quantity	100	103	T13-6	95%	{'unit': '%'}
+S0006322312001096-1194	6	MeasuredEntity	108	110	T93-6	CI	{'HasQuantity': 'T13-6'}
+S0006322312001096-1194	7	Quantity	169	178	T3-7	1.92-2.65	{'mods': ['IsRange']}
+S0006322312001096-1194	7	MeasuredProperty	-1	-1	T1-7	年龄和性别调整的赔率比	{'HasQuantity': 'T3-7'}
+S0006322312001096-1194	7	MeasuredEntity	-1	-1	T2-7	CHD风险评分-CHD事件关联	{'HasProperty': 'T1-7'}
+S0006322312001096-1194	7	Qualifier	-1	-1	T4-7	95% CI	{'Qualifies': 'T1-7'}
+S0006322312001096-1194	8	Quantity	207	211	T3-8	1.34	
+S0006322312001096-1194	8	MeasuredProperty	-1	-1	T1-8	比值比	{'HasQuantity': 'T3-8'}
+S0006322312001096-1194	8	MeasuredEntity	-1	-1	T2-8	CVD	{'HasProperty': 'T1-8'}
+S0006322312001096-1194	9	Quantity	100	103	T54-9	95%	{'unit': '%'}
+S0006322312001096-1194	9	MeasuredEntity	108	110	T104-9	CI	{'HasQuantity': 'T54-9'}
+S0006322312001096-1194	10	Quantity	218	227	T1-10	1.11-1.62	
+S0006322312001096-1194	10	MeasuredProperty	-1	-1	T3-10	比值比	{'HasQuantity': 'T1-10'}
+S0006322312001096-1194	10	MeasuredEntity	-1	-1	T2-10	CVD	{'HasProperty': 'T3-10'}
+S0006322312001096-1194	10	Qualifier	-1	-1	T4-10	95% CI	{'Qualifies': 'T3-10'}
+S0006322312001096-1194	11	Quantity	229	233	T3-11	2.14	
+S0006322312001096-1194	11	MeasuredProperty	-1	-1	T1-11	比值比	{'HasQuantity': 'T3-11'}
+S0006322312001096-1194	11	MeasuredEntity	123	126	T2-11	CHD	{'HasProperty': 'T1-11'}
+S0006322312001096-1194	12	Quantity	100	103	T45-12	95%	{'unit': '%'}
+S0006322312001096-1194	12	MeasuredEntity	108	110	T115-12	CI	{'HasQuantity': 'T45-12'}
+S0006322312001096-1194	13	Quantity	240	249	T1-13	1.85-2.48	
+S0006322312001096-1194	13	MeasuredProperty	-1	-1	T3-13	比值比	{'HasQuantity': 'T1-13'}
+S0006322312001096-1194	13	MeasuredEntity	123	126	T2-13	CHD	{'HasProperty': 'T3-13'}
+S0006322312001096-1194	13	Qualifier	-1	-1	T4-13	95% CI	{'Qualifies': 'T3-13'}

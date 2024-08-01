@@ -1,0 +1,4 @@
+T1	Quantity 24 27	7个月
+T2	Unit 26 27	月
+T3	MeasuredEntity 125 127	实验
+R1	HasQuantity Arg1:T3 Arg2:T1

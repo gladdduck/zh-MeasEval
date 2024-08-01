@@ -1,0 +1,6 @@
+T105	Quantity -1 -1	1至20厘米
+#15	AnnotatorNotes T105	cm
+A15	QuantityQualifier T105 IsRange
+T95	MeasuredEntity -1 -1	膨润土单位
+R6	HasQuantity Arg1:T95 Arg2:T105
+T1	Unit -1 -1	cm

@@ -1,0 +1,4 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S2213671113000908-643	1	Quantity	5	8	T1-1	25天	{'unit': 'days'}
+S2213671113000908-643	1	MeasuredProperty	3	5	T4-1	分化	{'HasQuantity': 'T1-1'}
+S2213671113000908-643	1	MeasuredEntity	10	12	T2-1	细胞	{'HasProperty': 'T4-1'}

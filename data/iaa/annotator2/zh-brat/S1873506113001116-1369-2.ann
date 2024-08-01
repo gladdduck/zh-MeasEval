@@ -1,0 +1,5 @@
+T1	Quantity 96 99	10%
+T2	MeasuredProperty 100 102	血清
+T3	MeasuredEntity 69 74	分化培养基
+R1	HasQuantity Arg1:T2 Arg2:T1
+R2	HasProperty Arg1:T3 Arg2:T2

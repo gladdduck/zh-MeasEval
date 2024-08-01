@@ -1,0 +1,4 @@
+T1	Quantity 297 302	24小时后
+T2	MeasuredEntity -1 -1	第二寿命测量
+T3	Unit 493 494	H
+R1	HasQuantity Arg1:T2 Arg2:T1

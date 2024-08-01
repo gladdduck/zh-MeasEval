@@ -1,0 +1,14 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S1388248113001951-339	1	Quantity	73	78	T1-1	4.0 V	{'unit': 'V'}
+S1388248113001951-339	1	MeasuredProperty	-1	-1	T3-1	带电	{'HasQuantity': 'T1-1'}
+S1388248113001951-339	1	MeasuredEntity	46	48	T4-1	细胞	{'HasProperty': 'T3-1'}
+S1388248113001951-339	2	Quantity	58	67	T1-2	12 mA g-1	{'unit': 'mA g− 1'}
+S1388248113001951-339	2	MeasuredProperty	51	52	T3-2	率	{'HasQuantity': 'T1-2'}
+S1388248113001951-339	2	MeasuredEntity	46	48	T4-2	细胞	{'HasProperty': 'T3-2'}
+S1388248113001951-339	2	Qualifier	-1	-1	T5-2	带电	{'Qualifies': 'T3-2'}
+S1388248113001951-339	3	Quantity	91	124	T1-3	1/20（12 mA g-1）-30 C（7260 mA g-1）	{'mods': ['IsRange'], 'unit': 'mA g− 1'}
+S1388248113001951-339	3	MeasuredProperty	51	52	T3-3	率	{'HasQuantity': 'T1-3'}
+S1388248113001951-339	3	MeasuredEntity	46	48	T5-3	细胞	{'HasProperty': 'T3-3'}
+S1388248113001951-339	3	Qualifier	-1	-1	T4-3	排出	{'Qualifies': 'T3-3'}
+S1388248113001951-339	4	Quantity	-1	-1	T1-4	(a)1.3（b）2.4和（c）2.2毫克厘米-2	{'mods': ['IsList'], 'unit': 'mg cm− 2'}
+S1388248113001951-339	4	MeasuredEntity	129	131	T4-4	样品	{'HasQuantity': 'T1-4'}

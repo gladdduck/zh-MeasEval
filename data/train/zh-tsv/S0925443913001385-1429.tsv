@@ -1,0 +1,25 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0925443913001385-1429	1	Quantity	14	17	T1-1	10%	
+S0925443913001385-1429	1	MeasuredProperty	22	31	T2-1	胎牛血清（FCS）	{'HasQuantity': 'T1-1'}
+S0925443913001385-1429	1	MeasuredEntity	-1	-1	T3-1	DMEM培养基	{'HasProperty': 'T2-1'}
+S0925443913001385-1429	1	Qualifier	12	14	T4-1	补充	{'Qualifies': 'T3-1'}
+S0925443913001385-1429	1	Qualifier	17	22	T5-1	（v/v）	{'Qualifies': 'T1-1'}
+S0925443913001385-1429	2	Quantity	-1	-1	T1-2	2毫米	{'unit': 'mM'}
+S0925443913001385-1429	2	MeasuredProperty	-1	-1	T5-2	k谷	{'HasQuantity': 'T1-2'}
+S0925443913001385-1429	2	MeasuredEntity	-1	-1	T2-2	DMEM培养基	{'HasProperty': 'T5-2'}
+S0925443913001385-1429	2	Qualifier	12	14	T3-2	补充	{'Qualifies': 'T2-2'}
+S0925443913001385-1429	3	Quantity	44	52	T1-3	50 μg/ml	{'unit': 'μg/ml'}
+S0925443913001385-1429	3	MeasuredEntity	-1	-1	T5-3	DMEM培养基	{'HasQuantity': 'T1-3'}
+S0925443913001385-1429	3	Qualifier	12	14	T4-3	补充	{'Qualifies': 'T5-3'}
+S0925443913001385-1429	4	Quantity	55	64	T1-4	110 μg/ml	{'unit': 'μg/ml'}
+S0925443913001385-1429	4	MeasuredProperty	64	67	T3-4	丙酮酸	{'HasQuantity': 'T1-4'}
+S0925443913001385-1429	4	MeasuredEntity	-1	-1	T4-4	DMEM培养基	{'HasProperty': 'T3-4'}
+S0925443913001385-1429	4	Qualifier	12	14	T5-4	补充	{'Qualifies': 'T4-4'}
+S0925443913001385-1429	5	Quantity	68	79	T1-5	10，000 U/ml	{'unit': 'U/ml'}
+S0925443913001385-1429	5	MeasuredProperty	79	83	T3-5	青霉素G	{'HasQuantity': 'T1-5'}
+S0925443913001385-1429	5	MeasuredEntity	-1	-1	T4-5	DMEM培养基	{'HasProperty': 'T3-5'}
+S0925443913001385-1429	5	Qualifier	12	14	T5-5	补充	{'Qualifies': 'T4-5'}
+S0925443913001385-1429	6	Quantity	84	96	T1-6	10，000 μg/ml	{'unit': 'μg/ml'}
+S0925443913001385-1429	6	MeasuredProperty	-1	-1	T3-6	链霉素	{'HasQuantity': 'T1-6'}
+S0925443913001385-1429	6	MeasuredEntity	-1	-1	T4-6	DMEM培养基	{'HasProperty': 'T3-6'}
+S0925443913001385-1429	6	Qualifier	12	14	T5-6	补充	{'Qualifies': 'T4-6'}

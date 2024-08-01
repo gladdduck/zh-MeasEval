@@ -1,0 +1,17 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0019103512004009-4492	1	Quantity	-1	-1	T81-1	7.2Rp	{'unit': 'Rp'}
+S0019103512004009-4492	1	MeasuredProperty	74	76	T101-1	位于	{'HasQuantity': 'T81-1'}
+S0019103512004009-4492	1	MeasuredEntity	64	68	T91-1	C1模型	{'HasProperty': 'T101-1'}
+S0019103512004009-4492	2	Quantity	-1	-1	T12-2	7.2公里秒-1	{'unit': 'km s−1'}
+S0019103512004009-4492	2	MeasuredEntity	84	88	T112-2	c（c）	{'HasQuantity': 'T12-2'}
+S0019103512004009-4492	3	Quantity	-1	-1	T33-3	约7100 K	{'mods': ['IsApproximate', 'IsMean'], 'unit': 'K'}
+S0019103512004009-4492	3	MeasuredProperty	111	117	T43-3	体积平均温度	{'HasQuantity': 'T33-3'}
+S0019103512004009-4492	3	MeasuredEntity	64	68	T53-3	C1模型	{'HasProperty': 'T43-3'}
+S0019103512004009-4492	4	Quantity	119	125	T24-4	7100 K	{'unit': 'K'}
+S0019103512004009-4492	4	MeasuredProperty	4	6	T1-4	T0	{'HasQuantity': 'T24-4'}
+S0019103512004009-4492	4	MeasuredEntity	64	68	T2-4	C1模型	{'HasProperty': 'T1-4'}
+S0019103512004009-4492	5	Quantity	-1	-1	T1-5	∼ 16	{'mods': ['IsApproximate']}
+S0019103512004009-4492	5	MeasuredProperty	-1	-1	T2-5	X0	{'HasQuantity': 'T1-5'}
+S0019103512004009-4492	5	MeasuredEntity	64	68	T3-5	C1模型	{'HasProperty': 'T2-5'}
+S0019103512004009-4492	6	Quantity	204	209	T65-6	0.9mH	{'mods': ['IsMean'], 'unit': 'mH'}
+S0019103512004009-4492	6	MeasuredEntity	193	199	T75-6	平均原子量2	{'HasQuantity': 'T65-6'}

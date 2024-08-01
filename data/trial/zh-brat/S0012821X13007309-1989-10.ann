@@ -1,0 +1,7 @@
+T2810	Quantity 561 564	20倍
+#110	AnnotatorNotes T2810	times
+T2910	MeasuredEntity 565 567	气体
+R23	HasQuantity Arg1:T2910 Arg2:T2810
+T3010	Qualifier -1 -1	花岗岩的
+R24	Qualifies Arg1:T3010 Arg2:T2810
+T1	Unit 563 564	倍

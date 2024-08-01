@@ -1,0 +1,5 @@
+T1	Quantity 35 46	-1.6 ± 0.2%
+T2	MeasuredEntity 30 33	年退化
+R1	HasQuantity Arg1:T2 Arg2:T1
+A1	QuantityQualifier T1 HasTolerance
+T3	Unit 45 46	%

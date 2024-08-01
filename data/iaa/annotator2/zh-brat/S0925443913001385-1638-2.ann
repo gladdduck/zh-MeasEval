@@ -1,0 +1,7 @@
+T1	Quantity -1 -1	~ 30%
+T2	MeasuredProperty -1 -1	mt-LSU蛋白ICT 1
+T3	MeasuredEntity 23 26	控制值
+A1	IsApproximate T1
+R1	HasQuantity Arg1:T2 Arg2:T1
+R2	HasProperty Arg1:T3 Arg2:T2
+T4	Unit 29 30	%

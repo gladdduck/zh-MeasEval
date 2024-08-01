@@ -1,0 +1,5 @@
+T1	Quantity 148 157	> 107公斤-1
+T2	Unit 153 157	公斤-1
+A1	QuantityQualifier T1 IsRange
+T3	MeasuredEntity 146 148	M今
+R1	HasQuantity Arg1:T3 Arg2:T1

@@ -1,0 +1,9 @@
+T1	Quantity -1 -1	38 Mpa至185 Mpa
+T2	MeasuredProperty 47 49	模量
+T3	Qualifier 126 128	平均
+R1	Qualifies Arg1:T3 Arg2:T1
+T4	Unit 307 310	MPa
+A1	QuantityQualifier T1 IsRange
+R2	HasQuantity Arg1:T2 Arg2:T1
+T5	MeasuredEntity 245 249	表面硬度
+R3	HasProperty Arg1:T5 Arg2:T2

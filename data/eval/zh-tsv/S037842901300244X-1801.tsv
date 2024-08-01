@@ -1,0 +1,8 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S037842901300244X-1801	1	Quantity	123	125	T1-1	三周	{'unit': 'weeks'}
+S037842901300244X-1801	1	MeasuredProperty	19	20	T4-1	花	{'HasQuantity': 'T1-1'}
+S037842901300244X-1801	1	MeasuredEntity	115	119	T5-1	S1后代	{'HasProperty': 'T4-1'}
+S037842901300244X-1801	1	Qualifier	-1	-1	T2-1	晚于FS	{'Qualifies': 'T4-1'}
+S037842901300244X-1801	2	Quantity	-1	-1	T1-2	484克m-2	{'unit': 'g m−2'}
+S037842901300244X-1801	2	MeasuredProperty	165	168	T2-2	穗产量	{'HasQuantity': 'T1-2'}
+S037842901300244X-1801	2	MeasuredEntity	120	122	T3-2	FS	{'HasProperty': 'T2-2'}

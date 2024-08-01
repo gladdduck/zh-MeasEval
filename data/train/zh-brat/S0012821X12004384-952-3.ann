@@ -1,0 +1,5 @@
+T1	Quantity -1 -1	2614.7和2619.6 m
+T2	MeasuredEntity 304 307	阴影值
+R1	HasQuantity Arg1:T2 Arg2:T1
+T3	Unit 27 28	M
+A1	QuantityQualifier T1 IsList

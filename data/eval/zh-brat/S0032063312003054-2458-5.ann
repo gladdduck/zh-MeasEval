@@ -1,0 +1,8 @@
+T1	Quantity 172 176	3.4%
+T2	Unit 48 49	%
+T3	MeasuredProperty -1 -1	加速电子沉淀的特征
+T4	Qualifier 133 139	“倒V”电子
+R1	Qualifies Arg1:T4 Arg2:T3
+T5	MeasuredEntity 22 27	MEX轨道
+R2	HasProperty Arg1:T5 Arg2:T3
+R3	HasQuantity Arg1:T3 Arg2:T1

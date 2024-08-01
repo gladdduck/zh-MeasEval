@@ -1,0 +1,32 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0006322312001096-1202	1	Quantity	-1	-1	T1-1	20项	{'unit': 'items'}
+S0006322312001096-1202	1	MeasuredEntity	30	35	T3-1	CES-D	{'HasQuantity': 'T1-1'}
+S0006322312001096-1202	2	Quantity	-1	-1	T1-2	四点	{'unit': 'point'}
+S0006322312001096-1202	2	MeasuredEntity	-1	-1	T3-2	规模	{'HasQuantity': 'T1-2'}
+S0006322312001096-1202	3	Quantity	109	113	T51-3	不到一天	{'mods': ['IsRange'], 'unit': 'day'}
+S0006322312001096-1202	3	MeasuredProperty	80	81	T1-3	0	{'HasQuantity': 'T51-3'}
+S0006322312001096-1202	3	MeasuredEntity	-1	-1	T3-3	四点量表	{'HasProperty': 'T1-3'}
+S0006322312001096-1202	4	Quantity	118	122	T62-4	1-2天	{'mods': ['IsRange'], 'unit': 'days'}
+S0006322312001096-1202	4	MeasuredProperty	114	115	T1-4	1	{'HasQuantity': 'T62-4'}
+S0006322312001096-1202	4	MeasuredEntity	-1	-1	T3-4	四点量表	{'HasProperty': 'T1-4'}
+S0006322312001096-1202	5	Quantity	127	131	T33-5	3-4天	{'mods': ['IsRange'], 'unit': 'days'}
+S0006322312001096-1202	5	MeasuredProperty	69	70	T2-5	2	{'HasQuantity': 'T33-5'}
+S0006322312001096-1202	5	MeasuredEntity	-1	-1	T3-5	四点量表	{'HasProperty': 'T2-5'}
+S0006322312001096-1202	6	Quantity	136	140	T44-6	5-7天	{'mods': ['IsRange'], 'unit': 'days'}
+S0006322312001096-1202	6	MeasuredProperty	127	128	T2-6	3	{'HasQuantity': 'T44-6'}
+S0006322312001096-1202	6	MeasuredEntity	-1	-1	T3-6	四点量表	{'HasProperty': 'T2-6'}
+S0006322312001096-1202	7	Quantity	-1	-1	T1-7	0到60之间	{'mods': ['IsRange']}
+S0006322312001096-1202	7	MeasuredEntity	176	178	T2-7	总分	{'HasQuantity': 'T1-7'}
+S0006322312001096-1202	8	Quantity	-1	-1	T1-8	≥16	
+S0006322312001096-1202	8	MeasuredProperty	156	158	T3-8	评分	{'HasQuantity': 'T1-8'}
+S0006322312001096-1202	8	MeasuredEntity	-1	-1	T4-8	定义为有CES-D抑郁症状	{'HasProperty': 'T3-8'}
+S0006322312001096-1202	9	Quantity	212	223	T1-9	274名白厅II参与者	{'unit': 'Whitehall II participants'}
+S0006322312001096-1202	9	MeasuredEntity	226	230	T3-9	验证研究	{'HasQuantity': 'T1-9'}
+S0006322312001096-1202	10	Quantity	266	269	T25-10	89%	{'unit': '%'}
+S0006322312001096-1202	10	MeasuredProperty	-1	-1	T85-10	灵敏度	{'HasQuantity': 'T25-10'}
+S0006322312001096-1202	10	MeasuredEntity	-1	-1	T2-10	结构性精神病学访谈	{'HasProperty': 'T85-10'}
+S0006322312001096-1202	10	Qualifier	194	203	T105-10	CES-D抑郁症状	{'Qualifies': 'T85-10'}
+S0006322312001096-1202	11	Quantity	270	273	T16-11	86%	{'unit': '%'}
+S0006322312001096-1202	11	MeasuredProperty	260	263	T96-11	特异性	{'HasQuantity': 'T16-11'}
+S0006322312001096-1202	11	MeasuredEntity	-1	-1	T2-11	结构性精神病学访谈	{'HasProperty': 'T96-11'}
+S0006322312001096-1202	11	Qualifier	194	203	T106-11	CES-D抑郁症状	{'Qualifies': 'T96-11'}

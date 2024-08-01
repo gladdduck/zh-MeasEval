@@ -1,0 +1,14 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0021979713004438-1401	1	Quantity	25	30	T1-1	10wt%	{'unit': 'wt.%'}
+S0021979713004438-1401	1	MeasuredProperty	-1	-1	T5-1	NaOH	{'HasQuantity': 'T1-1'}
+S0021979713004438-1401	1	MeasuredEntity	42	44	T4-1	溶液	{'HasProperty': 'T5-1'}
+S0021979713004438-1401	2	Quantity	61	66	T1-2	99.5%	{'unit': '%'}
+S0021979713004438-1401	2	MeasuredEntity	66	69	T2-2	纯乙醇	{'HasQuantity': 'T1-2'}
+S0021979713004438-1401	3	Quantity	231	238	T1-3	69 ± 3°	{'mods': ['HasTolerance'], 'unit': '°'}
+S0021979713004438-1401	3	MeasuredProperty	227	230	T3-3	接触角	{'HasQuantity': 'T1-3'}
+S0021979713004438-1401	3	MeasuredEntity	226	227	T4-3	水	{'HasProperty': 'T3-3'}
+S0021979713004438-1401	3	Qualifier	127	131	T5-3	海姆表面	{'Qualifies': 'T3-3'}
+S0021979713004438-1401	4	Quantity	-1	-1	T1-4	-0.72 V	{'unit': 'V'}
+S0021979713004438-1401	4	MeasuredProperty	-1	-1	T3-4	开路电位	{'HasQuantity': 'T1-4'}
+S0021979713004438-1401	4	MeasuredEntity	127	131	T5-4	海姆表面	{'HasProperty': 'T3-4'}
+S0021979713004438-1401	4	Qualifier	-1	-1	T4-4	相对于银/氯化银	{'Qualifies': 'T3-4'}

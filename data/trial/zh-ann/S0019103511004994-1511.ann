@@ -1,0 +1,62 @@
+T1	Quantity -1 -1	86年代，名义上
+T2	Quantity -1 -1	5.65 S
+T3	Quantity 978 982	86 s
+T4	Quantity -1 -1	0.66 S
+T5	Quantity -1 -1	约20 keV至数十MeV之间
+T7	MeasuredProperty -1 -1	能量范围
+R1	HasQuantity Arg1:T7 Arg2:T5
+T8	MeasuredEntity -1 -1	带电离子
+T9	MeasuredEntity -1 -1	电子
+R3	HasProperty Arg1:T9 Arg2:T7
+R4	HasProperty Arg1:T8 Arg2:T7
+T10	MeasuredEntity -1 -1	活动转盘
+T11	MeasuredProperty -1 -1	绕内航天器的-y轴旋转
+R5	HasProperty Arg1:T10 Arg2:T11
+R6	HasQuantity Arg1:T11 Arg2:T1
+T12	MeasuredEntity -1 -1	低能量望远镜
+T13	MeasuredProperty -1 -1	成角度的点
+T14	Quantity 1542 1548	77.45°
+R7	HasProperty Arg1:T12 Arg2:T13
+R8	HasQuantity Arg1:T13 Arg2:T14
+T15	MeasuredProperty -1 -1	仪器的时间分辨率
+T16	Quantity -1 -1	16倍
+T17	MeasuredEntity -1 -1	速率信道
+T18	MeasuredEntity -1 -1	优先级信道
+T19	Qualifier -1 -1	旋转模式
+T20	Qualifier -1 -1	非旋转模式
+A1	IsApproximate T5
+A2	QuantityQualifier T5 IsRange
+#1	AnnotatorNotes T5	keV / MeV
+T6	MeasuredEntity -1 -1	检测器
+T21	Quantity -1 -1	两
+A4	IsCount T21
+R2	HasQuantity Arg1:T6 Arg2:T21
+T22	MeasuredEntity -1 -1	检测器
+T23	Quantity -1 -1	五
+A5	IsCount T23
+R18	HasQuantity Arg1:T22 Arg2:T23
+A3	IsApproximate T1
+T24	Qualifier -1 -1	从-z方向转向-x方向
+R19	Qualifies Arg1:T24 Arg2:T13
+#2	AnnotatorNotes T14	°
+R10	HasProperty Arg1:T17 Arg2:T15
+T25	MeasuredEntity -1 -1	给定的指向/俯仰角
+#3	AnnotatorNotes T3	s
+#4	AnnotatorNotes T4	s
+#5	AnnotatorNotes T2	s
+T26	Qualifier -1 -1	比旋转模式更好
+R13	Qualifies Arg1:T20 Arg2:T3
+R15	Qualifies Arg1:T19 Arg2:T2
+T27	MeasuredProperty -1 -1	仪器的时间分辨率
+T28	MeasuredProperty -1 -1	仪器的时间分辨率
+R11	HasProperty Arg1:T25 Arg2:T27
+R16	HasQuantity Arg1:T27 Arg2:T16
+R17	Qualifies Arg1:T26 Arg2:T16
+R12	Qualifies Arg1:T20 Arg2:T16
+R20	HasQuantity Arg1:T27 Arg2:T3
+R9	HasQuantity Arg1:T15 Arg2:T2
+R14	HasProperty Arg1:T18 Arg2:T28
+R21	HasQuantity Arg1:T28 Arg2:T4
+R22	Qualifies Arg1:T19 Arg2:T4
+#6	AnnotatorNotes T1	s
+#7	AnnotatorNotes T16	times

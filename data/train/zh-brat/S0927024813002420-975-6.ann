@@ -1,0 +1,8 @@
+T1	Quantity -1 -1	0.5-5
+T2	Unit -1 -1	/秒
+A1	IsApproximate T1
+A2	QuantityQualifier T1 IsRange
+T3	MeasuredEntity -1 -1	PTh和C60沉积
+T4	MeasuredProperty 269 270	率
+R1	HasProperty Arg1:T3 Arg2:T4
+R2	HasQuantity Arg1:T4 Arg2:T1

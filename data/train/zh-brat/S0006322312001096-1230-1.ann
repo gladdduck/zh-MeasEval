@@ -1,0 +1,5 @@
+T211	Quantity 83 85	5年
+#11	AnnotatorNotes T211	None
+T221	MeasuredEntity 86 90	数据周期
+R1	HasQuantity Arg1:T221 Arg2:T211
+T1	Unit 84 85	年

@@ -1,0 +1,8 @@
+T1	Quantity -1 -1	少于√ 10次
+T2	Unit 300 301	倍
+A2	IsApproximate T1
+A3	QuantityQualifier T1 IsRange
+T3	MeasuredEntity -1 -1	HD209458 b上的太阳平均值
+T4	MeasuredProperty 159 163	能量输入
+R2	HasQuantity Arg1:T4 Arg2:T1
+R1	HasProperty Arg1:T3 Arg2:T4

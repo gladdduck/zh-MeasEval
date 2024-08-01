@@ -1,0 +1,7 @@
+T13	Quantity 93 97	50分钟
+#13	AnnotatorNotes T13	min
+T23	MeasuredProperty 88 92	扫描时间
+R4	HasQuantity Arg1:T23 Arg2:T13
+T53	MeasuredEntity 51 55	初始扫描
+R5	HasProperty Arg1:T53 Arg2:T23
+T1	Unit -1 -1	min

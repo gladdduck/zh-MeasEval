@@ -1,0 +1,4 @@
+T1	Quantity 128 131	6公斤
+T2	MeasuredEntity 19 21	库存
+T3	Unit -1 -1	kg
+R1	HasQuantity Arg1:T2 Arg2:T1

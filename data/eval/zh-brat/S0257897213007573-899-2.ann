@@ -1,0 +1,5 @@
+T1	Quantity 205 209	1.32
+T2	MeasuredEntity 196 201	ID/IG
+T3	MeasuredProperty 194 195	比
+R1	HasProperty Arg1:T2 Arg2:T3
+R2	HasQuantity Arg1:T3 Arg2:T1

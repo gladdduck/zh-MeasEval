@@ -1,0 +1,17 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0019103512003533-5031	1	Quantity	-1	-1	T11-1	约450 K	{'mods': ['IsApproximate'], 'unit': 'K'}
+S0019103512003533-5031	1	MeasuredEntity	-1	-1	T61-1	外大气温度	{'HasQuantity': 'T11-1'}
+S0019103512003533-5031	1	Qualifier	32	36	T71-1	极点附近	{'Qualifies': 'T11-1'}
+S0019103512003533-5031	2	Quantity	-1	-1	T22-2	约180 K	{'mods': ['IsApproximate'], 'unit': 'K'}
+S0019103512003533-5031	2	MeasuredEntity	-1	-1	T62-2	外大气温度	{'HasQuantity': 'T22-2'}
+S0019103512003533-5031	2	Qualifier	45	49	T82-2	赤道附近	{'Qualifies': 'T22-2'}
+S0019103512003533-5031	3	Quantity	-1	-1	T33-3	420 ± 30 K	{'mods': ['HasTolerance'], 'unit': 'K'}
+S0019103512003533-5031	3	MeasuredEntity	-1	-1	T103-3	外大气温度	{'HasQuantity': 'T33-3'}
+S0019103512003533-5031	3	Qualifier	-1	-1	T93-3	北纬29.5°附近	{'Qualifies': 'T33-3'}
+S0019103512003533-5031	3	Qualifier	-1	-1	T2-3	旅行者2号UVS δ-Sco的掩星	{'Qualifies': 'T103-3'}
+S0019103512003533-5031	4	Quantity	76	82	T124-4	29.5°N	{'unit': '°N'}
+S0019103512003533-5031	5	Quantity	-1	-1	T45-5	488 ± 14 K	{'mods': ['HasTolerance'], 'unit': 'K'}
+S0019103512003533-5031	5	MeasuredEntity	-1	-1	T105-5	外大气温度	{'HasQuantity': 'T45-5'}
+S0019103512003533-5031	5	Qualifier	-1	-1	T2-5	最近对Voyager UVS数据的重新分析推断	{'Qualifies': 'T45-5'}
+S0019103512003533-5031	6	Quantity	-1	-1	T56-6	大约450 K	{'mods': ['IsApproximate'], 'unit': 'K'}
+S0019103512003533-5031	6	MeasuredEntity	-1	-1	T116-6	低纬度和中纬度外大气温度	{'HasQuantity': 'T56-6'}

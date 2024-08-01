@@ -1,0 +1,9 @@
+T112	Quantity -1 -1	66.8 ppm
+#112	AnnotatorNotes T112	ppm
+T2112	MeasuredProperty 10 12	浓度
+R37	HasQuantity Arg1:T2112 Arg2:T112
+T4012	MeasuredEntity -1 -1	Zn
+R38	HasProperty Arg1:T4012 Arg2:T2112
+T2512	Qualifier -1 -1	2000 ppm
+R39	Qualifies Arg1:T2512 Arg2:T112
+T1	Unit 79 82	ppm

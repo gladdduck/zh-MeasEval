@@ -1,0 +1,4 @@
+T1	Quantity 140 141	六
+A1	IsCount T1
+T2	MeasuredEntity -1 -1	意大利地中海森林遗址
+R1	HasQuantity Arg1:T2 Arg2:T1

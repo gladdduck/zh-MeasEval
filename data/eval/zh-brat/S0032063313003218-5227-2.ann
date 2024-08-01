@@ -1,0 +1,9 @@
+T1	Quantity 92 96	40多年
+A1	QuantityQualifier T1 IsRange
+T2	Unit 95 96	年
+T3	MeasuredEntity 85 88	科学家
+T4	MeasuredProperty -1 -1	疑惑
+R1	HasProperty Arg1:T3 Arg2:T4
+R2	HasQuantity Arg1:T4 Arg2:T1
+T5	Qualifier 68 84	木星和其他巨型行星的“能源危机”
+R3	Qualifies Arg1:T5 Arg2:T4

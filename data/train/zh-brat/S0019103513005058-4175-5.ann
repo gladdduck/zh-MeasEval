@@ -1,0 +1,6 @@
+T1	Quantity 193 199	顶部几十厘米
+T2	Unit 197 199	厘米
+A1	IsApproximate T1
+A2	QuantityQualifier T1 IsRange
+T3	MeasuredEntity 171 173	土壤
+R1	HasQuantity Arg1:T3 Arg2:T1

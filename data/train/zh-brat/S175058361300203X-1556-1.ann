@@ -1,0 +1,4 @@
+T1	Quantity 5 10	34 °C
+T2	Unit 8 10	°C
+T3	MeasuredEntity 16 18	选项
+R1	HasQuantity Arg1:T3 Arg2:T1

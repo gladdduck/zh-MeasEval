@@ -1,0 +1,8 @@
+T1	Quantity -1 -1	10多篇文章
+T2	Unit -1 -1	通道
+A1	QuantityQualifier T1 IsRange
+A2	IsCount T1
+T3	MeasuredEntity -1 -1	hiPSCs
+T4	MeasuredProperty 67 69	培养
+R1	HasProperty Arg1:T3 Arg2:T4
+R2	HasQuantity Arg1:T4 Arg2:T1

@@ -1,0 +1,4 @@
+T1	Quantity -1 -1	50微克
+T2	Unit 106 108	μg
+T3	MeasuredEntity -1 -1	细胞裂解物
+R2	HasQuantity Arg1:T3 Arg2:T1

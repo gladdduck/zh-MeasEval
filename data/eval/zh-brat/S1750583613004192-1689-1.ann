@@ -1,0 +1,5 @@
+T1	Quantity 121 124	数百米
+T2	MeasuredEntity 115 116	冰
+R1	HasQuantity Arg1:T2 Arg2:T1
+A1	IsApproximate T1
+T3	Unit 123 124	米

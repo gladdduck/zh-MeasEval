@@ -1,0 +1,7 @@
+T1	Quantity 93 96	21%
+T2	Qualifier 88 91	19岁
+T3	MeasuredProperty 70 76	平均负载系数
+R1	Qualifies Arg1:T2 Arg2:T3
+R2	HasQuantity Arg1:T3 Arg2:T1
+T4	MeasuredEntity 46 51	风力涡轮机
+R3	HasProperty Arg1:T4 Arg2:T3

@@ -1,0 +1,35 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S2213158213000582-1340	1	Quantity	15	22	T1-1	5-55 Hz	{'unit': 'Hz'}
+S2213158213000582-1340	1	MeasuredEntity	-1	-1	T3-1	带通滤波器	{'HasQuantity': 'T1-1'}
+S2213158213000582-1340	2	Quantity	40	49	T1-2	30-130 ms	{'mods': ['IsRange'], 'unit': 'ms'}
+S2213158213000582-1340	2	MeasuredProperty	-1	-1	T3-2	检查的活动	{'HasQuantity': 'T1-2'}
+S2213158213000582-1340	2	MeasuredEntity	1	9	T2-2	VESTAL分析	{'HasProperty': 'T3-2'}
+S2213158213000582-1340	2	Qualifier	37	40	T5-2	刺激后	{'Qualifies': 'T1-2'}
+S2213158213000582-1340	3	Quantity	113	119	T1-3	95.81%	{'mods': ['IsMean'], 'unit': '%'}
+S2213158213000582-1340	3	MeasuredProperty	-1	-1	T2-3	平均百分比方差解释	{'HasQuantity': 'T1-3'}
+S2213158213000582-1340	3	MeasuredEntity	-1	-1	T3-3	使用VESTAL的梯度计数据	{'HasProperty': 'T2-3'}
+S2213158213000582-1340	3	Qualifier	110	112	T4-3	HC	{'Qualifies': 'T2-3'}
+S2213158213000582-1340	4	Quantity	125	131	T1-4	94.38%	{'unit': '%'}
+S2213158213000582-1340	4	MeasuredProperty	-1	-1	T2-4	平均百分比方差解释	{'HasQuantity': 'T1-4'}
+S2213158213000582-1340	4	MeasuredEntity	-1	-1	T5-4	使用VESTAL的梯度计数据	{'HasProperty': 'T2-4'}
+S2213158213000582-1340	4	Qualifier	-1	-1	T4-4	SZ	{'Qualifies': 'T2-4'}
+S2213158213000582-1340	5	Quantity	163	169	T1-5	96.24%	{'mods': ['IsMean'], 'unit': '%'}
+S2213158213000582-1340	5	MeasuredProperty	-1	-1	T2-5	平均百分比方差解释	{'HasQuantity': 'T1-5'}
+S2213158213000582-1340	5	MeasuredEntity	-1	-1	T3-5	使用VESTAL的磁力计数据	{'HasProperty': 'T2-5'}
+S2213158213000582-1340	5	Qualifier	110	112	T5-5	HC	{'Qualifies': 'T2-5'}
+S2213158213000582-1340	6	Quantity	175	181	T1-6	93.17%	{'mods': ['IsMean'], 'unit': '%'}
+S2213158213000582-1340	6	MeasuredProperty	-1	-1	T2-6	平均百分比方差解释	{'HasQuantity': 'T1-6'}
+S2213158213000582-1340	6	MeasuredEntity	-1	-1	T3-6	使用VESTAL的磁力计数据	{'HasProperty': 'T2-6'}
+S2213158213000582-1340	6	Qualifier	-1	-1	T5-6	SZ	{'Qualifies': 'T2-6'}
+S2213158213000582-1340	7	Quantity	195	199	T1-7	1.16	
+S2213158213000582-1340	7	MeasuredProperty	188	193	T3-7	t（39）	{'HasQuantity': 'T1-7'}
+S2213158213000582-1340	7	MeasuredEntity	182	187	T2-7	梯度计数据	{'HasProperty': 'T3-7'}
+S2213158213000582-1340	8	Quantity	204	208	T1-8	0.25	
+S2213158213000582-1340	8	MeasuredProperty	200	201	T3-8	p	{'HasQuantity': 'T1-8'}
+S2213158213000582-1340	8	MeasuredEntity	182	187	T2-8	梯度计数据	{'HasProperty': 'T3-8'}
+S2213158213000582-1340	9	Quantity	223	227	T1-9	1.31	
+S2213158213000582-1340	9	MeasuredProperty	188	193	T3-9	t（39）	{'HasQuantity': 'T1-9'}
+S2213158213000582-1340	9	MeasuredEntity	145	150	T2-9	磁力计数据	{'HasProperty': 'T3-9'}
+S2213158213000582-1340	10	Quantity	233	236	T1-10	.20	
+S2213158213000582-1340	10	MeasuredProperty	200	201	T2-10	p	{'HasQuantity': 'T1-10'}
+S2213158213000582-1340	10	MeasuredEntity	145	150	T3-10	磁力计数据	{'HasProperty': 'T2-10'}

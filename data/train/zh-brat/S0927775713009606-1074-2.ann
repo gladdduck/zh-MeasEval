@@ -1,0 +1,7 @@
+T1	Quantity -1 -1	> 0.5厘米3克-1
+T2	Unit -1 -1	厘米3克-1
+A1	QuantityQualifier T1 IsRange
+T3	MeasuredProperty -1 -1	维梅索
+R1	HasQuantity Arg1:T3 Arg2:T1
+T4	MeasuredEntity -1 -1	中孔域
+R2	HasProperty Arg1:T4 Arg2:T3

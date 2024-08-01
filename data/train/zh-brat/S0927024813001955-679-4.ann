@@ -1,0 +1,7 @@
+T1	Quantity 232 237	200天后
+T2	MeasuredEntity 191 193	性能
+A1	QuantityQualifier T1 IsRange
+T3	Unit 235 236	天
+T4	MeasuredProperty 244 246	保持
+R2	HasProperty Arg1:T2 Arg2:T4
+R3	HasQuantity Arg1:T4 Arg2:T1

@@ -1,0 +1,9 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S2211124712002884-1060	1	Quantity	180	183	T1-1	10%	{'unit': '%'}
+S2211124712002884-1060	1	MeasuredProperty	183	187	T3-1	胎牛血清	{'HasQuantity': 'T1-1'}
+S2211124712002884-1060	1	MeasuredEntity	-1	-1	T2-1	Dulbecco改良的Eagle培养基	{'HasProperty': 'T3-1'}
+S2211124712002884-1060	1	Qualifier	-1	-1	T5-1	补充有	{'Qualifies': 'T3-1'}
+S2211124712002884-1060	2	Quantity	205	213	T1-2	100 U/ml	{'unit': 'U/ml'}
+S2211124712002884-1060	2	MeasuredProperty	-1	-1	T3-2	青霉素/链霉素	{'HasQuantity': 'T1-2'}
+S2211124712002884-1060	2	MeasuredEntity	-1	-1	T4-2	Dulbecco改良的Eagle培养基	{'HasProperty': 'T3-2'}
+S2211124712002884-1060	2	Qualifier	-1	-1	T5-2	补充有	{'Qualifies': 'T3-2'}

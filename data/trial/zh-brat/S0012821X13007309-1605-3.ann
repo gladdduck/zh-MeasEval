@@ -1,0 +1,5 @@
+T63	Quantity -1 -1	24 m
+#13	AnnotatorNotes T63	m
+T73	MeasuredEntity -1 -1	伊索尔桥段
+R4	HasQuantity Arg1:T73 Arg2:T63
+T1	Unit -1 -1	M

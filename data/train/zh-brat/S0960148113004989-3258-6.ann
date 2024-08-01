@@ -1,0 +1,4 @@
+T1	Quantity 127 130	31%
+T2	MeasuredEntity 124 126	增加
+R1	HasQuantity Arg1:T2 Arg2:T1
+T3	Unit 129 130	%

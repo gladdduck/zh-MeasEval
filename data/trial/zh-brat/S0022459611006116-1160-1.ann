@@ -1,0 +1,5 @@
+T21	Quantity 28 33	99.9%
+#11	AnnotatorNotes T21	%
+T11	MeasuredEntity 16 21	无水硫酸镁
+R1	HasQuantity Arg1:T11 Arg2:T21
+T1	Unit 32 33	%

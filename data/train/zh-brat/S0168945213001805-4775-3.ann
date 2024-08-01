@@ -1,0 +1,7 @@
+T1	Quantity -1 -1	降至-18 °C
+T2	MeasuredProperty -1 -1	承受冬季气温
+T3	Unit 271 273	°C
+R1	HasQuantity Arg1:T2 Arg2:T1
+A1	QuantityQualifier T1 IsRange
+T4	MeasuredEntity -1 -1	古尼桉树
+R2	HasProperty Arg1:T4 Arg2:T2

@@ -1,0 +1,5 @@
+T1	Quantity 29 34	56 Ma
+T2	Unit -1 -1	马
+T3	MeasuredEntity -1 -1	古新世-始新世最热期（PETM
+R1	HasQuantity Arg1:T3 Arg2:T1
+A1	IsApproximate T1

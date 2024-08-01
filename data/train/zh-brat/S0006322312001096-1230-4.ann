@@ -1,0 +1,7 @@
+T24	Quantity 93 97	2.1%
+#14	AnnotatorNotes T24	None
+T134	MeasuredProperty -1 -1	开始这样的药物治疗
+R6	HasQuantity Arg1:T134 Arg2:T24
+T124	MeasuredEntity -1 -1	未接受抗抑郁治疗的人
+R7	HasProperty Arg1:T124 Arg2:T134
+T1	Unit 96 97	%

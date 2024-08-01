@@ -1,0 +1,3 @@
+T1	Quantity 237 239	室温
+T2	MeasuredEntity 202 204	环氧
+R1	HasQuantity Arg1:T2 Arg2:T1

@@ -1,0 +1,6 @@
+T1	Quantity 256 258	2天
+T2	Unit 147 148	天
+T4	MeasuredEntity 259 265	体内纤维生长
+R2	HasQuantity Arg1:T4 Arg2:T1
+T5	Qualifier 253 256	移植后
+R3	Qualifies Arg1:T5 Arg2:T1

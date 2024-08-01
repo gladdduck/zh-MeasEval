@@ -1,0 +1,7 @@
+T41	Quantity -1 -1	70或更高
+#11	AnnotatorNotes T41	None
+A11	QuantityQualifier T41 IsRange
+T51	MeasuredEntity 50 53	成年人
+T1	MeasuredProperty 46 47	岁
+R2	HasQuantity Arg1:T1 Arg2:T41
+R1	HasProperty Arg1:T51 Arg2:T1

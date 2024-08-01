@@ -1,0 +1,6 @@
+T1	Quantity -1 -1	好于5%
+T2	Unit 263 264	%
+T3	MeasuredProperty -1 -1	重量
+T4	MeasuredEntity 277 280	不确定
+R1	HasProperty Arg1:T4 Arg2:T3
+R2	HasQuantity Arg1:T3 Arg2:T1

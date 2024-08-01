@@ -1,0 +1,6 @@
+T1	Quantity 54 60	500 ms
+T2	MeasuredEntity -1 -1	双耳咔嗒声
+T3	MeasuredProperty -1 -1	刺激间隔
+R1	HasProperty Arg1:T2 Arg2:T3
+R2	HasQuantity Arg1:T3 Arg2:T1
+T4	Unit -1 -1	MS

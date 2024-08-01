@@ -1,0 +1,4 @@
+T1	Quantity -1 -1	34 °C
+T2	Unit 148 150	°C
+T3	MeasuredEntity 392 396	环境温度
+R1	HasQuantity Arg1:T3 Arg2:T1

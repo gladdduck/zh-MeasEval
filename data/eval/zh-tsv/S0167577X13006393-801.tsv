@@ -1,0 +1,12 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0167577X13006393-801	1	Quantity	-1	-1	T1-1	小于10nm	{'mods': ['IsRange'], 'unit': 'nm'}
+S0167577X13006393-801	1	MeasuredProperty	61	65	T3-1	分析深度	{'HasQuantity': 'T1-1'}
+S0167577X13006393-801	1	MeasuredEntity	0	3	T4-1	XPS	{'HasProperty': 'T3-1'}
+S0167577X13006393-801	2	Quantity	-1	-1	T1-2	1200 °C以下	{'mods': ['IsRange'], 'unit': '°C'}
+S0167577X13006393-801	2	MeasuredProperty	302	306	T2-2	烧结温度	{'HasQuantity': 'T1-2'}
+S0167577X13006393-801	2	MeasuredEntity	270	273	T3-2	脱羟基	{'HasProperty': 'T2-2'}
+S0167577X13006393-801	2	Qualifier	281	284	T4-2	纯HA	{'Qualifies': 'T3-2'}
+S0167577X13006393-801	3	Quantity	-1	-1	T1-3	0.4至0.5	{'mods': ['IsRange']}
+S0167577X13006393-801	3	MeasuredProperty	-1	-1	T3-3	转化程度	{'HasQuantity': 'T1-3'}
+S0167577X13006393-801	3	MeasuredEntity	270	273	T2-3	脱羟基	{'HasProperty': 'T3-3'}
+S0167577X13006393-801	3	Qualifier	281	284	T4-3	纯HA	{'Qualifies': 'T2-3'}

@@ -1,0 +1,9 @@
+T1	Quantity -1 -1	高达100m
+T2	Unit -1 -1	M
+A1	QuantityQualifier T1 IsRange
+T3	MeasuredEntity -1 -1	动物散布物种
+T4	MeasuredProperty 8 10	距离
+T5	Qualifier -1 -1	从源
+R1	Qualifies Arg1:T5 Arg2:T1
+R2	HasProperty Arg1:T3 Arg2:T4
+R3	HasQuantity Arg1:T4 Arg2:T1

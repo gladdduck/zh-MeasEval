@@ -1,0 +1,7 @@
+T1	Quantity 5 19	4.5公斤、6公斤和13公斤
+T2	Unit -1 -1	kg
+T3	MeasuredEntity -1 -1	床位库存
+T4	Qualifier 19 24	CaCO3
+R1	Qualifies Arg1:T4 Arg2:T3
+A1	QuantityQualifier T1 IsList
+R2	HasQuantity Arg1:T3 Arg2:T1

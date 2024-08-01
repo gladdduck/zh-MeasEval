@@ -1,0 +1,7 @@
+T1	Quantity 54 60	约-14 ‰
+T2	Unit 59 60	‰
+A1	IsApproximate T1
+T4	MeasuredEntity -1 -1	环境CO2
+R1	HasProperty Arg1:T4 Arg2:T5
+T5	MeasuredProperty 34 40	δ 13 C
+R3	HasQuantity Arg1:T5 Arg2:T1

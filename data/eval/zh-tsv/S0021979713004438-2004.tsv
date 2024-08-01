@@ -1,0 +1,5 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0021979713004438-2004	1	Quantity	-1	-1	T1-1	38 Mpa至185 Mpa	{'mods': ['IsRange'], 'unit': 'MPa'}
+S0021979713004438-2004	1	MeasuredProperty	47	49	T2-1	模量	{'HasQuantity': 'T1-1'}
+S0021979713004438-2004	1	MeasuredEntity	245	249	T5-1	表面硬度	{'HasProperty': 'T2-1'}
+S0021979713004438-2004	1	Qualifier	126	128	T3-1	平均	{'Qualifies': 'T1-1'}

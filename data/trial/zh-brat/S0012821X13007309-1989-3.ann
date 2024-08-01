@@ -1,0 +1,6 @@
+T163	Quantity 206 210	0.13
+#13	AnnotatorNotes T163	Unspecified
+T153	MeasuredProperty -1 -1	187 O/188 O
+R8	HasQuantity Arg1:T153 Arg2:T163
+T143	MeasuredEntity 191 194	玄武岩
+R9	HasProperty Arg1:T143 Arg2:T153

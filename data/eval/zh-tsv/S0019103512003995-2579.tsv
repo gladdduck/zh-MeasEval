@@ -1,0 +1,8 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0019103512003995-2579	1	Quantity	-1	-1	T1-1	低于3RP	{'mods': ['IsRange'], 'unit': '3Rp'}
+S0019103512003995-2579	1	MeasuredProperty	-1	-1	T4-1	流体静力平衡	{'HasQuantity': 'T1-1'}
+S0019103512003995-2579	1	MeasuredEntity	20	24	T2-1	密度分布	{'HasProperty': 'T4-1'}
+S0019103512003995-2579	1	Qualifier	7	9	T3-1	模型	{'Qualifies': 'T2-1'}
+S0019103512003995-2579	2	Quantity	190	196	T1-2	6300 K	{'mods': ['IsMean'], 'unit': 'K'}
+S0019103512003995-2579	2	MeasuredProperty	197	201	T3-2	平均温度	{'HasQuantity': 'T1-2'}
+S0019103512003995-2579	2	MeasuredEntity	-1	-1	T4-2	C2模型的中性密度剖面	{'HasProperty': 'T3-2'}

@@ -1,0 +1,5 @@
+T86	Quantity 190 200	6公斤超过4.5公斤
+#16	AnnotatorNotes T86	kg
+T136	MeasuredEntity -1 -1	床存量
+R15	HasQuantity Arg1:T136 Arg2:T86
+T1	Unit -1 -1	kg

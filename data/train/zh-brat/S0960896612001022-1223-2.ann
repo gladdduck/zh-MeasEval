@@ -1,0 +1,7 @@
+T1	Quantity -1 -1	大于0.1克/升
+A1	QuantityQualifier T1 IsRange
+T2	Unit 65 68	g/L
+T3	MeasuredEntity -1 -1	脑脊髓液（CSF）
+T4	MeasuredProperty 56 60	蛋白浓度
+R1	HasProperty Arg1:T3 Arg2:T4
+R2	HasQuantity Arg1:T4 Arg2:T1

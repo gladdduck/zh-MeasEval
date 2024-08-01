@@ -1,0 +1,7 @@
+T1	Quantity 474 482	0.047 AU
+T2	Unit 480 482	AU
+T3	MeasuredEntity 442 446	模型预测
+T4	MeasuredProperty -1 -1	平均太阳X紫外光通量
+R1	HasQuantity Arg1:T4 Arg2:T1
+R2	HasProperty Arg1:T3 Arg2:T4
+A1	QuantityQualifier T1 IsMean

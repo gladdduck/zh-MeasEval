@@ -1,0 +1,5 @@
+T104	Quantity 128 131	百万年
+#14	AnnotatorNotes T104	year
+T114	MeasuredEntity 132 136	时间尺度
+R7	HasQuantity Arg1:T114 Arg2:T104
+T1	Unit 66 67	年

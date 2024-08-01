@@ -1,0 +1,4 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0032386113005454-2886	1	Quantity	-1	-1	T1-1	-55 °C至-109 °C	{'mods': ['IsRange'], 'unit': '°C'}
+S0032386113005454-2886	1	MeasuredProperty	275	277	T4-1	温度	{'HasQuantity': 'T1-1'}
+S0032386113005454-2886	1	MeasuredEntity	-1	-1	T3-1	测试	{'HasProperty': 'T4-1'}

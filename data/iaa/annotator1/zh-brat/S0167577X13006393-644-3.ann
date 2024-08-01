@@ -1,0 +1,6 @@
+T1	Quantity 129 137	低至800 °C
+T2	MeasuredEntity -1 -1	HA分解
+T3	MeasuredProperty 138 141	温度下
+R1	HasProperty Arg1:T2 Arg2:T3
+R2	HasQuantity Arg1:T3 Arg2:T1
+T4	Unit 22 24	°C

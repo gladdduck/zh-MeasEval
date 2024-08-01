@@ -1,0 +1,7 @@
+T17	Quantity 477 480	75%
+#17	AnnotatorNotes T17	%
+T57	MeasuredProperty -1 -1	从唇部
+R17	HasQuantity Arg1:T57 Arg2:T17
+T37	MeasuredEntity -1 -1	OS贡献
+R18	HasProperty Arg1:T37 Arg2:T57
+T1	Unit 479 480	%

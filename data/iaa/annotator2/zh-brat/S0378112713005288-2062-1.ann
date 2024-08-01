@@ -1,0 +1,4 @@
+T1	Quantity 106 113	200,000
+T2	MeasuredEntity 91 93	种子
+R1	HasQuantity Arg1:T2 Arg2:T1
+A1	IsCount T1

@@ -1,0 +1,9 @@
+T16	Quantity 270 273	86%
+#16	AnnotatorNotes T16	None
+T96	MeasuredProperty 260 263	特异性
+R4	HasQuantity Arg1:T96 Arg2:T16
+T106	Qualifier 194 203	CES-D抑郁症状
+R1	Qualifies Arg1:T106 Arg2:T96
+T1	Unit 268 269	%
+T2	MeasuredEntity -1 -1	结构性精神病学访谈
+R2	HasProperty Arg1:T2 Arg2:T96

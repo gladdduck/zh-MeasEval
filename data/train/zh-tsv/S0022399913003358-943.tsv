@@ -1,0 +1,6 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0022399913003358-943	1	Quantity	389	396	T1-1	530名参与者	{'unit': 'participants'}
+S0022399913003358-943	1	MeasuredEntity	-1	-1	T2-1	横截面样品	{'HasQuantity': 'T1-1'}
+S0022399913003358-943	2	Quantity	397	400	T1-2	50%	{'unit': '%'}
+S0022399913003358-943	2	MeasuredProperty	402	406	T3-2	慢性耳鸣	{'HasQuantity': 'T1-2'}
+S0022399913003358-943	2	MeasuredEntity	389	396	T2-2	530名参与者	{'HasProperty': 'T3-2'}

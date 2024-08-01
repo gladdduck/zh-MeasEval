@@ -1,0 +1,8 @@
+T1	Quantity -1 -1	约5-20%
+T2	Unit 254 255	%
+A1	IsApproximate T1
+A2	QuantityQualifier T1 IsRange
+T3	MeasuredProperty 244 248	体积分数
+T4	MeasuredEntity 221 229	橡胶或热塑性颗粒
+R1	HasProperty Arg1:T4 Arg2:T3
+R2	HasQuantity Arg1:T3 Arg2:T1

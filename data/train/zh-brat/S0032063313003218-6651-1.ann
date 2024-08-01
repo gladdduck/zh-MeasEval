@@ -1,0 +1,5 @@
+T1	Quantity 115 119	~1kR
+T2	Unit 117 119	kR
+A1	IsApproximate T1
+T3	MeasuredEntity -1 -1	当前HST可检测性的极限
+R1	HasQuantity Arg1:T3 Arg2:T1

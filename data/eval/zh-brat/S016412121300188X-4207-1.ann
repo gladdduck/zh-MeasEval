@@ -1,0 +1,6 @@
+T1	Quantity 10 11	两
+A1	IsCount T1
+T2	MeasuredEntity 12 14	设置
+T3	Qualifier 8 9	低
+R1	Qualifies Arg1:T3 Arg2:T2
+R2	HasQuantity Arg1:T2 Arg2:T1

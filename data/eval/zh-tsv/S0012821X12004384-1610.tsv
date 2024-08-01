@@ -1,0 +1,7 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0012821X12004384-1610	1	Quantity	-1	-1	T1-1	2617.4米	{'unit': 'm'}
+S0012821X12004384-1610	1	MeasuredEntity	47	51	T3-1	短暂峰值	{'HasQuantity': 'T1-1'}
+S0012821X12004384-1610	1	Qualifier	-1	-1	T4-1	在Apectodium	{'Qualifies': 'T3-1'}
+S0012821X12004384-1610	2	Quantity	205	220	T1-2	2619.6和2614.7 m	{'mods': ['IsList'], 'unit': 'm'}
+S0012821X12004384-1610	2	MeasuredEntity	222	225	T3-2	其他峰	{'HasQuantity': 'T1-2'}
+S0012821X12004384-1610	2	Qualifier	-1	-1	T4-2	在Apectodium	{'Qualifies': 'T3-2'}

@@ -1,0 +1,11 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0168945213001805-4775	1	Quantity	54	55	T1-1	两	{'mods': ['IsCount']}
+S0168945213001805-4775	1	MeasuredEntity	-1	-1	T2-1	内源冷结合因子/干旱响应元件结合（CBF/DREB）1样基因	{'HasQuantity': 'T1-1'}
+S0168945213001805-4775	2	Quantity	54	55	T1-2	两	{'mods': ['IsCount']}
+S0168945213001805-4775	2	MeasuredEntity	-1	-1	T2-2	CBF/DREB基因	{'HasQuantity': 'T1-2'}
+S0168945213001805-4775	3	Quantity	-1	-1	T1-3	降至-18 °C	{'mods': ['IsRange'], 'unit': '°C'}
+S0168945213001805-4775	3	MeasuredProperty	-1	-1	T2-3	承受冬季气温	{'HasQuantity': 'T1-3'}
+S0168945213001805-4775	3	MeasuredEntity	-1	-1	T4-3	古尼桉树	{'HasProperty': 'T2-3'}
+S0168945213001805-4775	4	Quantity	-1	-1	T1-4	-8 °C	{'unit': '°C'}
+S0168945213001805-4775	4	MeasuredProperty	-1	-1	T2-4	稳定耐受性	{'HasQuantity': 'T1-4'}
+S0168945213001805-4775	4	MeasuredEntity	-1	-1	T3-4	热带E grandis x E.表达应激诱导rd 29 a启动子-CBF 2转录因子盒的尾叶	{'HasProperty': 'T2-4'}

@@ -1,0 +1,6 @@
+T1	Quantity -1 -1	240 S
+T2	MeasuredProperty 114 116	处理
+T3	Unit 5 6	S
+T4	MeasuredEntity 54 56	样品
+R1	HasProperty Arg1:T4 Arg2:T2
+R2	HasQuantity Arg1:T2 Arg2:T1

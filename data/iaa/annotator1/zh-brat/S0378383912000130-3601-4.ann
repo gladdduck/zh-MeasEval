@@ -1,0 +1,6 @@
+T1	Quantity -1 -1	600毫米
+T2	Unit 121 123	mm
+T3	MeasuredProperty 179 183	初始水深
+R1	HasQuantity Arg1:T3 Arg2:T1
+T4	MeasuredEntity -1 -1	储水器
+R2	HasProperty Arg1:T4 Arg2:T3

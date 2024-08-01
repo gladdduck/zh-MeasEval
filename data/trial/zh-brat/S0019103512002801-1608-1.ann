@@ -1,0 +1,6 @@
+T11	Quantity -1 -1	大约5公里s-1
+#11	AnnotatorNotes T11	km s−1
+A11	IsApproximate T11
+T21	MeasuredEntity 27 33	向外半径速度
+R1	HasQuantity Arg1:T21 Arg2:T11
+T1	Unit -1 -1	公里秒-1

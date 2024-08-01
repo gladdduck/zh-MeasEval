@@ -1,0 +1,7 @@
+T1	Quantity 180 185	超过10%
+T2	MeasuredEntity -1 -1	程序声明
+T3	MeasuredProperty 44 46	集群
+R1	HasProperty Arg1:T2 Arg2:T3
+R2	HasQuantity Arg1:T3 Arg2:T1
+T4	Unit 130 131	%
+A1	QuantityQualifier T1 IsRange

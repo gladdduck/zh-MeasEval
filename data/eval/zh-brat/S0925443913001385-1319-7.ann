@@ -1,0 +1,5 @@
+T1	Quantity -1 -1	~ 2兆道尔顿
+A1	IsApproximate T1
+T2	Unit -1 -1	兆道尔顿
+T3	MeasuredEntity -1 -1	哺乳动物有丝分裂体（55 S）
+R1	HasQuantity Arg1:T3 Arg2:T1

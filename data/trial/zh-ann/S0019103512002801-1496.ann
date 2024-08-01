@@ -1,0 +1,17 @@
+T1	Quantity -1 -1	5.7秒
+T2	MeasuredProperty -1 -1	速率通道时间分辨率
+T4	MeasuredEntity -1 -1	LEMMS频道
+R2	HasQuantity Arg1:T2 Arg2:T1
+T5	Quantity -1 -1	十六倍
+T8	MeasuredProperty -1 -1	时间分辨率
+R4	HasQuantity Arg1:T8 Arg2:T5
+R5	HasProperty Arg1:T4 Arg2:T2
+T6	MeasuredEntity -1 -1	优先级信道
+R1	HasProperty Arg1:T6 Arg2:T8
+T7	Qualifier -1 -1	更高
+R6	Qualifies Arg1:T7 Arg2:T5
+T9	Qualifier -1 -1	比典型速率通道时间分辨率
+R7	Qualifies Arg1:T9 Arg2:T8
+#1	AnnotatorNotes T5	times
+A1	IsApproximate T1
+#2	AnnotatorNotes T1	s

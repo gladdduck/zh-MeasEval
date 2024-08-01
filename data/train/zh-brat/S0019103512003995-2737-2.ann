@@ -1,0 +1,5 @@
+T1	Quantity -1 -1	8000至9000 K之间
+T2	Unit 57 58	K
+A1	QuantityQualifier T1 IsRange
+T3	MeasuredEntity 61 65	平均温度
+R2	HasQuantity Arg1:T3 Arg2:T1

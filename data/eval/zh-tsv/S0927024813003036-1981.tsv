@@ -1,0 +1,15 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0927024813003036-1981	1	Quantity	99	105	T1-1	99.95%	{'unit': '%'}
+S0927024813003036-1981	1	MeasuredProperty	105	107	T4-1	纯度	{'HasQuantity': 'T1-1'}
+S0927024813003036-1981	1	MeasuredEntity	73	75	T3-1	铁片	{'HasProperty': 'T4-1'}
+S0927024813003036-1981	2	Quantity	-1	-1	T1-2	高达798 °C	{'mods': ['IsRange'], 'unit': '°C'}
+S0927024813003036-1981	2	MeasuredProperty	-1	-1	T4-2	在预热炉中在一定温度下的空气中进行了热处理	{'HasQuantity': 'T1-2'}
+S0927024813003036-1981	2	MeasuredEntity	16	18	T3-2	样品	{'HasProperty': 'T4-2'}
+S0927024813003036-1981	3	Quantity	-1	-1	T1-3	摄氏100 °C以下	{'mods': ['IsRange', 'IsApproximate'], 'unit': '°C'}
+S0927024813003036-1981	3	MeasuredProperty	201	203	T5-3	冷却	{'HasQuantity': 'T1-3'}
+S0927024813003036-1981	3	MeasuredEntity	16	18	T4-3	样品	{'HasProperty': 'T5-3'}
+S0927024813003036-1981	3	Qualifier	229	231	T3-3	估计	{'Qualifies': 'T1-3'}
+S0927024813003036-1981	4	Quantity	-1	-1	T1-4	<10秒	{'mods': ['IsRange', 'IsApproximate'], 'unit': 's'}
+S0927024813003036-1981	4	MeasuredProperty	201	203	T4-4	冷却	{'HasQuantity': 'T1-4'}
+S0927024813003036-1981	4	MeasuredEntity	16	18	T3-4	样品	{'HasProperty': 'T4-4'}
+S0927024813003036-1981	4	Qualifier	229	231	T5-4	估计	{'Qualifies': 'T1-4'}

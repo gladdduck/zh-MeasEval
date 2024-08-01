@@ -1,0 +1,14 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0927024813002961-1322	1	Quantity	-1	-1	T1-1	约±3%	{'mods': ['IsApproximate', 'IsRange'], 'unit': '%'}
+S0927024813002961-1322	1	MeasuredProperty	-1	-1	T3-1	效果帐户	{'HasQuantity': 'T1-1'}
+S0927024813002961-1322	1	MeasuredEntity	107	119	T5-1	产生的短路电流的相对变化	{'HasProperty': 'T3-1'}
+S0927024813002961-1322	1	Qualifier	122	131	T4-1	CIGS和c-Si	{'Qualifies': 'T1-1'}
+S0927024813002961-1322	1	Qualifier	-1	-1	T2-1	频谱	{'Qualifies': 'T3-1'}
+S0927024813002961-1322	2	Quantity	151	160	T1-2	+10%至-20%	{'mods': ['IsRange'], 'unit': '%'}
+S0927024813002961-1322	2	MeasuredProperty	-1	-1	T3-2	效果帐户	{'HasQuantity': 'T1-2'}
+S0927024813002961-1322	2	MeasuredEntity	107	119	T5-2	产生的短路电流的相对变化	{'HasProperty': 'T3-2'}
+S0927024813002961-1322	2	Qualifier	140	146	T2-2	a-Si器件	{'Qualifies': 'T1-2'}
+S0927024813002961-1322	2	Qualifier	-1	-1	T4-2	频谱	{'Qualifies': 'T3-2'}
+S0927024813002961-1322	3	Quantity	201	202	T1-3	零	
+S0927024813002961-1322	3	MeasuredProperty	172	183	T2-3	对年能源产量的总体影响	{'HasQuantity': 'T1-3'}
+S0927024813002961-1322	3	MeasuredEntity	191	195	T3-3	其他技术	{'HasProperty': 'T2-3'}

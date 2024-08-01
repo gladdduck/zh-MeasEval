@@ -1,0 +1,8 @@
+T1	Quantity 173 178	不到几千年
+A1	IsApproximate T1
+A2	QuantityQualifier T1 IsRange
+T2	Unit 177 178	年
+T3	MeasuredEntity 117 119	消融
+T4	MeasuredProperty -1 -1	timespan
+R1	HasProperty Arg1:T3 Arg2:T4
+R2	HasQuantity Arg1:T4 Arg2:T1

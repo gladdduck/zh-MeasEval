@@ -1,0 +1,7 @@
+T1	Quantity -1 -1	高达798 °C
+T2	Unit 122 124	°C
+T3	MeasuredEntity 16 18	样品
+T4	MeasuredProperty -1 -1	在预热炉中在一定温度下的空气中进行了热处理
+R1	HasProperty Arg1:T3 Arg2:T4
+R2	HasQuantity Arg1:T4 Arg2:T1
+A1	QuantityQualifier T1 IsRange

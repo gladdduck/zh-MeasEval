@@ -1,0 +1,8 @@
+T1	Quantity 60 64	115%
+T2	Unit 63 64	%
+T3	MeasuredProperty 55 59	生长反应
+T4	MeasuredEntity -1 -1	菌根
+R1	HasProperty Arg1:T4 Arg2:T3
+R2	HasQuantity Arg1:T3 Arg2:T1
+T5	Qualifier -1 -1	整厂基础
+R3	Qualifies Arg1:T5 Arg2:T1

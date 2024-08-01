@@ -1,0 +1,5 @@
+T1	Quantity 680 685	1/100
+T2	MeasuredProperty -1 -1	人类胚胎干细胞（hECs）和iPSC神经分化过程中HLA-I的表达
+T3	MeasuredEntity -1 -1	hESC和iPSC中的人外周血细胞
+R1	HasProperty Arg1:T3 Arg2:T2
+R2	HasQuantity Arg1:T2 Arg2:T1

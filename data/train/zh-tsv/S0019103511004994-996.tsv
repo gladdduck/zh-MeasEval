@@ -1,0 +1,6 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0019103511004994-996	1	Quantity	73	76	T1-1	0.1	
+S0019103511004994-996	1	MeasuredEntity	67	70	T2-1	参数a	{'HasQuantity': 'T1-1'}
+S0019103511004994-996	2	Quantity	92	95	T1-2	10%	{'unit': '%'}
+S0019103511004994-996	2	MeasuredProperty	-1	-1	T4-2	假设表面速度	{'HasQuantity': 'T1-2'}
+S0019103511004994-996	2	MeasuredEntity	87	91	T3-2	上游速度	{'HasProperty': 'T4-2'}

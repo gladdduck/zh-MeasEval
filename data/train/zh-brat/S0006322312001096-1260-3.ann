@@ -1,0 +1,8 @@
+T13	Quantity -1 -1	了6年
+#13	AnnotatorNotes T13	None
+T33	MeasuredProperty -1 -1	随访
+R4	HasQuantity Arg1:T33 Arg2:T13
+T23	MeasuredEntity 170 173	老年人
+R5	HasProperty Arg1:T23 Arg2:T33
+A1	QuantityQualifier T13 IsRange
+T1	Unit 32 33	年

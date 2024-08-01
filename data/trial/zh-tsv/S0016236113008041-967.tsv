@@ -1,0 +1,3 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0016236113008041-967	1	Quantity	0	14	T11-1	4.5公斤、6公斤和13公斤	{'mods': ['IsList'], 'unit': 'kg'}
+S0016236113008041-967	1	MeasuredEntity	-1	-1	T41-1	吸附剂	{'HasQuantity': 'T11-1'}

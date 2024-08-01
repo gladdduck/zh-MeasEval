@@ -1,0 +1,12 @@
+T1	Quantity -1 -1	从2632米到2618米
+T3	MeasuredProperty -1 -1	壳样囊肿
+T4	MeasuredEntity 34 37	DA1
+R1	HasProperty Arg1:T4 Arg2:T3
+T5	Quantity -1 -1	平均5%
+R2	HasQuantity Arg1:T3 Arg2:T5
+T2	MeasuredEntity -1 -1	甲藻囊群1（DA 1
+R3	HasQuantity Arg1:T2 Arg2:T1
+A1	QuantityQualifier T1 IsRange
+#1	AnnotatorNotes T1	m
+A2	QuantityQualifier T5 IsMean
+#2	AnnotatorNotes T5	%

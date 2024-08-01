@@ -1,0 +1,5 @@
+T1	MeasuredProperty 71 72	比
+T2	Quantity 74 78	1.67
+T3	MeasuredEntity -1 -1	帽
+R1	HasProperty Arg1:T3 Arg2:T1
+R2	HasQuantity Arg1:T1 Arg2:T2

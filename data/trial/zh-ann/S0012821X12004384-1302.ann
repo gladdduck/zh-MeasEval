@@ -1,0 +1,24 @@
+T1	Quantity -1 -1	2619.60、2617.35、2617.44、2614.73和2614.71 m
+T2	Quantity -1 -1	2619.60、2614.73和2614.71 m
+T9	Quantity -1 -1	五
+T10	MeasuredEntity -1 -1	样品
+T11	MeasuredEntity -1 -1	样品
+R7	HasQuantity Arg1:T11 Arg2:T2
+T13	Quantity -1 -1	2619.60和2614.71
+T14	MeasuredEntity -1 -1	样品
+R10	HasQuantity Arg1:T14 Arg2:T13
+#5	AnnotatorNotes T10	Property for the quantities is probably 'depth'
+A1	IsCount T9
+R11	HasQuantity Arg1:T10 Arg2:T9
+T15	Qualifier -1 -1	低于CIC
+A2	QuantityQualifier T1 IsList
+#1	AnnotatorNotes T1	m
+R1	Qualifies Arg1:T15 Arg2:T1
+R2	HasQuantity Arg1:T10 Arg2:T1
+A3	QuantityQualifier T2 IsList
+#2	AnnotatorNotes T2	m
+T3	Quantity -1 -1	两
+A4	IsCount T3
+R3	HasQuantity Arg1:T14 Arg2:T3
+A5	QuantityQualifier T13 IsList
+#3	AnnotatorNotes T13	Unspecified

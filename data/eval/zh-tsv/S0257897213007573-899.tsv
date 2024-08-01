@@ -1,0 +1,11 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0257897213007573-899	1	Quantity	8	18	T1-1	~ 1354厘米-1	{'mods': ['IsApproximate'], 'unit': 'cm− 1'}
+S0257897213007573-899	1	MeasuredProperty	5	7	T3-1	位置	{'HasQuantity': 'T1-1'}
+S0257897213007573-899	1	MeasuredEntity	-1	-1	T2-1	d频段	{'HasProperty': 'T3-1'}
+S0257897213007573-899	1	Qualifier	-1	-1	T5-1	CVD层	{'Qualifies': 'T2-1'}
+S0257897213007573-899	2	Quantity	205	209	T1-2	1.32	
+S0257897213007573-899	2	MeasuredProperty	194	195	T3-2	比	{'HasQuantity': 'T1-2'}
+S0257897213007573-899	2	MeasuredEntity	196	201	T2-2	ID/IG	{'HasProperty': 'T3-2'}
+S0257897213007573-899	3	Quantity	-1	-1	T1-3	3.75 nm	{'unit': 'nm'}
+S0257897213007573-899	3	MeasuredProperty	220	222	T3-3	La	{'HasQuantity': 'T1-3'}
+S0257897213007573-899	3	MeasuredEntity	-1	-1	T4-3	CVD层	{'HasProperty': 'T3-3'}

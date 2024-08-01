@@ -1,0 +1,9 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0019103512002801-1824	1	Quantity	-1	-1	T11-1	6%至13%之间	{'mods': ['IsRange'], 'unit': '%'}
+S0019103512002801-1824	1	MeasuredProperty	-1	-1	T41-1	观察到的B干扰	{'HasQuantity': 'T11-1'}
+S0019103512002801-1824	1	MeasuredEntity	-1	-1	T51-1	瑞亚	{'HasProperty': 'T41-1'}
+S0019103512002801-1824	1	Qualifier	-1	-1	T61-1	关于背景' B '	{'Qualifies': 'T41-1'}
+S0019103512002801-1824	2	Quantity	-1	-1	T32-2	6-8%	{'mods': ['IsRange'], 'unit': '%'}
+S0019103512002801-1824	2	MeasuredProperty	-1	-1	T42-2	观察到的B干扰	{'HasQuantity': 'T32-2'}
+S0019103512002801-1824	2	MeasuredEntity	-1	-1	T22-2	卫二	{'HasProperty': 'T42-2'}
+S0019103512002801-1824	2	Qualifier	-1	-1	T62-2	关于背景' B '	{'Qualifies': 'T42-2'}

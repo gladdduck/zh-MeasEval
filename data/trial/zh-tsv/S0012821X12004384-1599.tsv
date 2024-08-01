@@ -1,0 +1,7 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0012821X12004384-1599	1	Quantity	-1	-1	T21-1	从103年起	{'mods': ['IsRange'], 'unit': 'yrs'}
+S0012821X12004384-1599	1	MeasuredProperty	81	83	T41-1	之前	{'HasQuantity': 'T21-1'}
+S0012821X12004384-1599	1	MeasuredEntity	256	260	T31-1	IE开始	{'HasProperty': 'T41-1'}
+S0012821X12004384-1599	2	Quantity	-1	-1	T12-2	2618 m以上	{'mods': ['IsRange'], 'unit': 'm'}
+S0012821X12004384-1599	2	MeasuredProperty	81	83	T42-2	之前	{'HasQuantity': 'T12-2'}
+S0012821X12004384-1599	2	MeasuredEntity	256	260	T32-2	IE开始	{'HasProperty': 'T42-2'}

@@ -1,0 +1,4 @@
+T1	Quantity -1 -1	0.1 mg/ml
+T2	MeasuredEntity -1 -1	聚-d-赖氨酸
+T3	Unit -1 -1	mg/ml
+R1	HasQuantity Arg1:T2 Arg2:T1

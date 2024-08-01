@@ -1,0 +1,7 @@
+T81	Quantity -1 -1	7.2Rp
+#11	AnnotatorNotes T81	Rp
+T101	MeasuredProperty 74 76	位于
+R1	HasQuantity Arg1:T101 Arg2:T81
+T91	MeasuredEntity 64 68	C1模型
+R2	HasProperty Arg1:T91 Arg2:T101
+T1	Unit -1 -1	Rp

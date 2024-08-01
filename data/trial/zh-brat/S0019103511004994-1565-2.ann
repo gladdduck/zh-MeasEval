@@ -1,0 +1,8 @@
+T42	Quantity -1 -1	56-100 keV
+#12	AnnotatorNotes T42	meV
+A12	QuantityQualifier T42 IsRange
+T62	MeasuredProperty -1 -1	测得的差强度
+R3	HasQuantity Arg1:T62 Arg2:T42
+T52	MeasuredEntity 38 40	电子
+R4	HasProperty Arg1:T52 Arg2:T62
+T1	Unit -1 -1	Kev

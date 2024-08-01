@@ -1,0 +1,7 @@
+T12	Quantity 109 112	10%
+#12	AnnotatorNotes T12	None
+T62	MeasuredProperty 105 109	绝对增加
+R2	HasQuantity Arg1:T62 Arg2:T12
+T1	MeasuredEntity 33 37	风险评分
+R1	HasProperty Arg1:T1 Arg2:T62
+T2	Unit 111 112	%

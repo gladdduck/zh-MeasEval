@@ -1,0 +1,10 @@
+T123	Quantity -1 -1	接近1.5RP
+#13	AnnotatorNotes T123	Rp
+A13	IsApproximate T123
+T113	MeasuredProperty -1 -1	温度峰值
+R5	HasQuantity Arg1:T113 Arg2:T123
+T83	MeasuredEntity -1 -1	H50型号
+R6	HasProperty Arg1:T83 Arg2:T113
+T173	Qualifier -1 -1	p = 0.3 nbar
+R7	Qualifies Arg1:T173 Arg2:T123
+T1	Unit 97 99	Rp

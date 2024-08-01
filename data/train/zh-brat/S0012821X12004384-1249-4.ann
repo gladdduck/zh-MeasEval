@@ -1,0 +1,6 @@
+T93	Quantity -1 -1	每毫米1至25个
+#13	AnnotatorNotes T93	None
+A13	QuantityQualifier T93 IsRange
+T83	MeasuredEntity -1 -1	交替浅色和深色的薄片对联
+R6	HasQuantity Arg1:T83 Arg2:T93
+T1	Unit -1 -1	mm

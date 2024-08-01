@@ -1,0 +1,6 @@
+T11	Quantity -1 -1	之前（103年）
+#11	AnnotatorNotes T11	None
+T1	Unit -1 -1	岁
+T2	MeasuredEntity -1 -1	盐斜分层和陆上沉积
+R3	HasQuantity Arg1:T2 Arg2:T11
+A1	QuantityQualifier T11 IsRange

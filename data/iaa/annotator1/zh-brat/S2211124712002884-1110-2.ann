@@ -1,0 +1,6 @@
+T1	Quantity 77 79	十天
+T2	Unit 60 61	天
+T3	MeasuredProperty -1 -1	老
+R1	HasQuantity Arg1:T3 Arg2:T1
+T4	MeasuredEntity -1 -1	莲座丛
+R2	HasProperty Arg1:T4 Arg2:T3

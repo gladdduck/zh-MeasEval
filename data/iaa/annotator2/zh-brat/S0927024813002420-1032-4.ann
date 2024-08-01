@@ -1,0 +1,8 @@
+T1	Quantity 176 187	0.40-0.45 V
+A1	IsApproximate T1
+A2	QuantityQualifier T1 IsRange
+T2	MeasuredProperty -1 -1	VOC
+T3	MeasuredEntity 144 150	平面异结器件
+R1	HasProperty Arg1:T3 Arg2:T2
+R2	HasQuantity Arg1:T2 Arg2:T1
+T4	Unit 170 171	V

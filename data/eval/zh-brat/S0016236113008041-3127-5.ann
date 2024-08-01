@@ -1,0 +1,8 @@
+T1	Quantity -1 -1	20 °C
+T2	Unit 274 276	°C
+T3	MeasuredProperty -1 -1	步骤
+R1	HasQuantity Arg1:T3 Arg2:T1
+T4	MeasuredEntity 117 119	建模
+R2	HasProperty Arg1:T4 Arg2:T3
+T5	Qualifier 255 257	温度
+R3	Qualifies Arg1:T5 Arg2:T3

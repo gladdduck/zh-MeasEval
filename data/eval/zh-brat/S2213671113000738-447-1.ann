@@ -1,0 +1,7 @@
+T1	Quantity 73 77	>10%
+T2	MeasuredProperty 48 52	彩色字母
+T3	MeasuredEntity -1 -1	DNA序列读数
+R1	HasProperty Arg1:T3 Arg2:T2
+R2	HasQuantity Arg1:T2 Arg2:T1
+T4	Unit 76 77	%
+A1	QuantityQualifier T1 IsRange

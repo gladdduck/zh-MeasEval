@@ -1,0 +1,9 @@
+T13	Quantity -1 -1	1%和37%
+#13	AnnotatorNotes T13	%
+A13	QuantityQualifier T13 IsRange
+T113	MeasuredProperty 53 56	变异性
+R3	HasQuantity Arg1:T113 Arg2:T13
+T123	MeasuredEntity -1 -1	莱曼阿尔法排放量
+R4	HasProperty Arg1:T123 Arg2:T113
+T43	Qualifier -1 -1	在太阳自转的一个时期
+R5	Qualifies Arg1:T43 Arg2:T113

@@ -1,0 +1,8 @@
+T1	Quantity 199 201	一年
+T2	Unit 63 64	年
+T3	MeasuredEntity 203 208	MRI扫描
+T4	MeasuredProperty -1 -1	显示萎缩和神经胶质增生进展
+R1	HasProperty Arg1:T3 Arg2:T4
+R2	HasQuantity Arg1:T4 Arg2:T1
+T5	Qualifier -1 -1	后来
+R3	Qualifies Arg1:T5 Arg2:T1

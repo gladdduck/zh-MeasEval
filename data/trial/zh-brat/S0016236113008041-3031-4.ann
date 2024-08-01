@@ -1,0 +1,5 @@
+T354	Quantity 303 305	第一
+#14	AnnotatorNotes T354	count
+A14	IsCount T354
+T364	MeasuredEntity 267 269	周期
+R8	HasQuantity Arg1:T364 Arg2:T354

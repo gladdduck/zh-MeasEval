@@ -1,0 +1,13 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0167577X13006393-644	1	Quantity	17	26	T1-1	1000 °C以上	{'mods': ['IsRange'], 'unit': '°C'}
+S0167577X13006393-644	1	MeasuredProperty	-1	-1	T3-1	报告发生	{'HasQuantity': 'T1-1'}
+S0167577X13006393-644	1	MeasuredEntity	4	12	T5-1	纯HA颗粒的烧成	{'HasProperty': 'T3-1'}
+S0167577X13006393-644	2	Quantity	74	78	T2-2	1.67	
+S0167577X13006393-644	2	MeasuredProperty	71	72	T1-2	比	{'HasQuantity': 'T2-2'}
+S0167577X13006393-644	2	MeasuredEntity	-1	-1	T3-2	帽	{'HasProperty': 'T1-2'}
+S0167577X13006393-644	3	Quantity	82	91	T1-3	高达1200 °C	{'mods': ['IsRange'], 'unit': '°C'}
+S0167577X13006393-644	3	MeasuredProperty	29	31	T3-3	温度	{'HasQuantity': 'T1-3'}
+S0167577X13006393-644	3	MeasuredEntity	-1	-1	T4-3	纯HA（CaP比例=1.67）在空气和氦气气氛中稳定	{'HasProperty': 'T3-3'}
+S0167577X13006393-644	4	Quantity	129	137	T1-4	低至800 °C	{'unit': '°C'}
+S0167577X13006393-644	4	MeasuredProperty	138	141	T3-4	温度下	{'HasQuantity': 'T1-4'}
+S0167577X13006393-644	4	MeasuredEntity	-1	-1	T2-4	HA分解	{'HasProperty': 'T3-4'}

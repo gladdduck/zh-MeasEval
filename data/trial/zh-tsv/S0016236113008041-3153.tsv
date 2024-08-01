@@ -1,0 +1,6 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0016236113008041-3153	1	Quantity	65	69	T11-1	13公斤	{'unit': 'kg'}
+S0016236113008041-3153	1	MeasuredEntity	-1	-1	T31-1	床存量	{'HasQuantity': 'T11-1'}
+S0016236113008041-3153	2	Quantity	110	116	T22-2	<2 ppm	{'mods': ['IsRange'], 'unit': 'ppm'}
+S0016236113008041-3153	2	MeasuredProperty	104	106	T42-2	浓度	{'HasQuantity': 'T22-2'}
+S0016236113008041-3153	2	MeasuredEntity	-1	-1	T62-2	元件	{'HasProperty': 'T42-2'}

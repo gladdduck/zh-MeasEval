@@ -1,0 +1,4 @@
+T1	Quantity -1 -1	4 °C/分钟
+T2	MeasuredEntity -1 -1	加热速率
+T3	Unit -1 -1	°C/分钟
+R1	HasQuantity Arg1:T2 Arg2:T1

@@ -1,0 +1,11 @@
+T1	Quantity -1 -1	3.5-4个月
+T2	Unit 172 174	个月
+A1	QuantityQualifier T1 IsRange
+T3	MeasuredEntity 357 364	CD45+细胞
+T4	MeasuredProperty -1 -1	堆积在同种移植物中
+T5	Qualifier 325 328	移植后
+R1	Qualifies Arg1:T5 Arg2:T1
+R2	HasProperty Arg1:T3 Arg2:T4
+R3	HasQuantity Arg1:T4 Arg2:T1
+T6	Qualifier -1 -1	包括CD 8+细胞
+R4	Qualifies Arg1:T6 Arg2:T3

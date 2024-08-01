@@ -1,0 +1,6 @@
+T1	Quantity 75 78	37%
+T2	MeasuredProperty -1 -1	MRPL 3
+T3	MeasuredEntity 23 26	控制值
+R1	HasProperty Arg1:T3 Arg2:T2
+R2	HasQuantity Arg1:T2 Arg2:T1
+T4	Unit 29 30	%

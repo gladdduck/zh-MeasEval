@@ -1,0 +1,9 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0960148113002048-3775	1	Quantity	30	31	T1-1	两	{'mods': ['IsCount']}
+S0960148113002048-3775	1	MeasuredEntity	-1	-1	T2-1	大趋势	{'HasQuantity': 'T1-1'}
+S0960148113002048-3775	2	Quantity	158	169	T1-2	0.01-0.03赫兹	{'mods': ['IsRange'], 'unit': 'Hz'}
+S0960148113002048-3775	2	MeasuredProperty	59	61	T3-2	频率	{'HasQuantity': 'T1-2'}
+S0960148113002048-3775	2	MeasuredEntity	39	40	T2-2	风	{'HasProperty': 'T3-2'}
+S0960148113002048-3775	3	Quantity	-1	-1	T1-3	0.003赫兹以上	{'mods': ['IsRange'], 'unit': 'Hz'}
+S0960148113002048-3775	3	MeasuredProperty	59	61	T3-3	频率	{'HasQuantity': 'T1-3'}
+S0960148113002048-3775	3	MeasuredEntity	39	40	T2-3	风	{'HasProperty': 'T3-3'}

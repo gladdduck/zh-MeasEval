@@ -1,0 +1,4 @@
+T1	Quantity 61 66	99.5%
+T2	Unit 29 30	%
+T3	MeasuredEntity 67 69	乙醇
+R1	HasQuantity Arg1:T3 Arg2:T1

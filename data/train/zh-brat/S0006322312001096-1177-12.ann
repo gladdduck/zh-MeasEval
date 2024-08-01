@@ -1,0 +1,4 @@
+T1	MeasuredEntity 223 227	第5阶段
+T2	Quantity -1 -1	1997至1999
+A1	QuantityQualifier T2 IsRange
+R1	HasQuantity Arg1:T1 Arg2:T2

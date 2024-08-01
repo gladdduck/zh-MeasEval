@@ -1,0 +1,8 @@
+T1	Quantity 144 152	1091厘米-1
+T2	MeasuredEntity -1 -1	HA纳米粉光谱
+T3	MeasuredProperty -1 -1	v 3振动模式
+T4	Unit 71 75	厘米-1
+T5	Qualifier 164 167	不对称
+R1	Qualifies Arg1:T5 Arg2:T3
+R2	HasQuantity Arg1:T3 Arg2:T1
+R3	HasProperty Arg1:T2 Arg2:T3

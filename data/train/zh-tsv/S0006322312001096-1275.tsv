@@ -1,0 +1,4 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0006322312001096-1275	1	Quantity	-1	-1	T11-1	范围66%至88%	{'mods': ['IsRange'], 'unit': '%'}
+S0006322312001096-1275	1	MeasuredProperty	-1	-1	T21-1	响应	{'HasQuantity': 'T11-1'}
+S0006322312001096-1275	1	MeasuredEntity	13	15	T31-1	调查	{'HasProperty': 'T21-1'}

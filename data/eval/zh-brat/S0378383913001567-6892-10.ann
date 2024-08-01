@@ -1,0 +1,5 @@
+T1	Quantity 157 160	2.5
+T2	MeasuredProperty 148 152	弗劳德数
+R1	HasQuantity Arg1:T2 Arg2:T1
+T3	MeasuredEntity 130 137	初始和流入条件
+R2	HasProperty Arg1:T3 Arg2:T2

@@ -1,0 +1,4 @@
+T1	Quantity 75 80	38 °C
+T2	MeasuredEntity 67 69	注射
+T3	Unit 62 64	°C
+R1	HasQuantity Arg1:T2 Arg2:T1

@@ -1,0 +1,5 @@
+T1	Quantity 249 256	±70 m/s
+A1	QuantityQualifier T1 HasTolerance
+T2	Unit 166 169	m/s
+T3	MeasuredEntity 96 98	VP
+R1	HasQuantity Arg1:T3 Arg2:T1

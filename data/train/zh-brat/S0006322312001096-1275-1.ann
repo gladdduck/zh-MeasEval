@@ -1,0 +1,8 @@
+T11	Quantity -1 -1	范围66%至88%
+#11	AnnotatorNotes T11	None
+A11	QuantityQualifier T11 IsRange
+T21	MeasuredProperty -1 -1	响应
+R1	HasQuantity Arg1:T21 Arg2:T11
+T31	MeasuredEntity 13 15	调查
+R2	HasProperty Arg1:T31 Arg2:T21
+T1	Unit 27 28	%

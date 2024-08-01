@@ -1,0 +1,14 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0031405612000728-1639	1	Quantity	19	20	T1-1	7	{'mods': ['IsCount']}
+S0031405612000728-1639	1	MeasuredEntity	20	22	T2-1	个月	{'HasQuantity': 'T1-1'}
+S0031405612000728-1639	2	Quantity	-1	-1	T1-2	范围从4天到88天	{'mods': ['IsRange'], 'unit': 'days'}
+S0031405612000728-1639	2	MeasuredProperty	362	363	T4-2	率	{'HasQuantity': 'T1-2'}
+S0031405612000728-1639	2	MeasuredEntity	-1	-1	T3-2	总营业额	{'HasProperty': 'T4-2'}
+S0031405612000728-1639	3	Quantity	-1	-1	T1-3	超过60天	{'unit': 'day'}
+S0031405612000728-1639	3	MeasuredProperty	401	403	T4-3	期间	{'HasQuantity': 'T1-3'}
+S0031405612000728-1639	3	MeasuredEntity	185	191	T3-3	团聚体稳定性	{'HasProperty': 'T4-3'}
+S0031405612000728-1639	3	Qualifier	404	416	T6-3	从第一个月到第三个月收获	{'Qualifies': 'T4-3'}
+S0031405612000728-1639	4	Quantity	-1	-1	T1-4	超过120天	{'unit': 'day'}
+S0031405612000728-1639	4	MeasuredProperty	401	403	T2-4	期间	{'HasQuantity': 'T1-4'}
+S0031405612000728-1639	4	MeasuredEntity	-1	-1	T4-4	聚集体斥水性	{'HasProperty': 'T2-4'}
+S0031405612000728-1639	4	Qualifier	-1	-1	T6-4	从第一到第五个月的收获	{'Qualifies': 'T2-4'}

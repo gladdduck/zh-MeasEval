@@ -1,0 +1,7 @@
+T1	Quantity -1 -1	高达40%
+T2	Unit 110 111	%
+A1	QuantityQualifier T1 IsRange
+T3	MeasuredEntity -1 -1	初级生产
+T4	MeasuredProperty -1 -1	硅质壁自流生物
+R1	HasProperty Arg1:T3 Arg2:T4
+R2	HasQuantity Arg1:T4 Arg2:T1

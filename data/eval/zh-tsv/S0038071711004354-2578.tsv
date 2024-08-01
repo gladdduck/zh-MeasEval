@@ -1,0 +1,4 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0038071711004354-2578	1	Quantity	18	25	T1-1	顶部30厘米内	{'mods': ['IsRange'], 'unit': 'cm'}
+S0038071711004354-2578	1	MeasuredProperty	-1	-1	T4-1	CO2生产	{'HasQuantity': 'T1-1'}
+S0038071711004354-2578	1	MeasuredEntity	14	18	T3-1	土壤剖面	{'HasProperty': 'T4-1'}

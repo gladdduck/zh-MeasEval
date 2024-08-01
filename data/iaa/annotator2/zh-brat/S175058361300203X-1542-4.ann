@@ -1,0 +1,7 @@
+T1	Quantity 195 198	±5%
+T2	MeasuredEntity 141 146	CO2饱和
+T3	MeasuredProperty 198 200	误差
+R1	HasQuantity Arg1:T3 Arg2:T1
+R2	HasProperty Arg1:T2 Arg2:T3
+T4	Unit 139 140	%
+A1	QuantityQualifier T1 IsRange

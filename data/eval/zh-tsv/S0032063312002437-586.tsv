@@ -1,0 +1,11 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0032063312002437-586	1	Quantity	99	104	T1-1	400公里	{'mods': ['IsRange'], 'unit': 'km'}
+S0032063312002437-586	1	MeasuredProperty	97	99	T4-1	海拔	{'HasQuantity': 'T1-1'}
+S0032063312002437-586	1	MeasuredEntity	2	5	T5-1	电离层	{'HasProperty': 'T4-1'}
+S0032063312002437-586	1	Qualifier	-1	-1	T2-1	上述	{'Qualifies': 'T1-1'}
+S0032063312002437-586	2	Quantity	144	151	T1-2	400公里以下	{'mods': ['IsRange']}
+S0032063312002437-586	2	MeasuredProperty	97	99	T3-2	海拔	{'HasQuantity': 'T1-2'}
+S0032063312002437-586	2	MeasuredEntity	2	5	T2-2	电离层	{'HasProperty': 'T3-2'}
+S0032063312002437-586	3	Quantity	318	323	T1-3	140公里	{'mods': ['IsApproximate'], 'unit': 'km'}
+S0032063312002437-586	3	MeasuredProperty	97	99	T2-3	海拔	{'HasQuantity': 'T1-3'}
+S0032063312002437-586	3	MeasuredEntity	2	5	T4-3	电离层	{'HasProperty': 'T2-3'}

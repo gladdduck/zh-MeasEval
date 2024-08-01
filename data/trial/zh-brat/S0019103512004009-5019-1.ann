@@ -1,0 +1,7 @@
+T41	Quantity 101 108	30 nbar
+#11	AnnotatorNotes T41	nbar
+T31	MeasuredProperty -1 -1	下边界
+R1	HasQuantity Arg1:T31 Arg2:T41
+T51	MeasuredEntity 7 9	模型
+R2	HasProperty Arg1:T51 Arg2:T31
+T1	Unit -1 -1	NBAR

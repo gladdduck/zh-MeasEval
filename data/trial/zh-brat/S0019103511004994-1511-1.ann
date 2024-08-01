@@ -1,0 +1,11 @@
+T51	Quantity -1 -1	约20 keV至数十MeV之间
+#11	AnnotatorNotes T51	keV / MeV
+A11	IsApproximate T51
+A21	QuantityQualifier T51 IsRange
+T71	MeasuredProperty 72 76	能量范围
+R1	HasQuantity Arg1:T71 Arg2:T51
+T91	MeasuredEntity 88 90	电子
+R2	HasProperty Arg1:T91 Arg2:T71
+T81	MeasuredEntity 83 87	带电离子
+R3	HasProperty Arg1:T81 Arg2:T71
+T1	Unit 68 71	MeV

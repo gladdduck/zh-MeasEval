@@ -1,0 +1,9 @@
+T1	Quantity -1 -1	约210 Mpa
+T2	Unit -1 -1	MPa
+A1	IsApproximate T1
+T3	MeasuredProperty -1 -1	相当于静水压
+T4	Qualifier 256 260	裂纹尖端
+R1	Qualifies Arg1:T4 Arg2:T3
+R2	HasQuantity Arg1:T3 Arg2:T1
+T5	MeasuredEntity -1 -1	施加的单轴应力约为70 Mpa
+R3	HasProperty Arg1:T5 Arg2:T3

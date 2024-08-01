@@ -1,0 +1,8 @@
+T1	Quantity -1 -1	200 °C
+T2	Unit 161 163	°C
+T3	MeasuredProperty 175 178	预退火
+R1	HasQuantity Arg1:T3 Arg2:T1
+T4	Qualifier 170 174	10分钟
+R2	Qualifies Arg1:T4 Arg2:T3
+T5	MeasuredEntity -1 -1	消除了B-氧缺陷
+R3	HasProperty Arg1:T5 Arg2:T3

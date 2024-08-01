@@ -1,0 +1,9 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0378383912000130-3745	1	Quantity	-1	-1	T1-1	8.5 mm	{'unit': 'mm'}
+S0378383912000130-3745	1	MeasuredEntity	7	9	T2-1	海滩	{'HasQuantity': 'T1-1'}
+S0378383912000130-3745	2	Quantity	17	23	T1-2	1980毫米	{'unit': 'mm'}
+S0378383912000130-3745	2	MeasuredProperty	-1	-1	T3-2	X	{'HasQuantity': 'T1-2'}
+S0378383912000130-3745	2	MeasuredEntity	94	96	T4-2	建模	{'HasProperty': 'T3-2'}
+S0378383912000130-3745	3	Quantity	41	47	T1-3	2780毫米	{'unit': 'mm'}
+S0378383912000130-3745	3	MeasuredProperty	-1	-1	T2-3	X	{'HasQuantity': 'T1-3'}
+S0378383912000130-3745	3	MeasuredEntity	94	96	T4-3	建模	{'HasProperty': 'T2-3'}

@@ -1,0 +1,7 @@
+T1	Quantity 231 233	2%
+A1	IsApproximate T1
+T2	Unit 232 233	%
+T3	MeasuredEntity 226 230	平均风速
+T4	MeasuredProperty -1 -1	更正
+R1	HasProperty Arg1:T3 Arg2:T4
+R2	HasQuantity Arg1:T4 Arg2:T1

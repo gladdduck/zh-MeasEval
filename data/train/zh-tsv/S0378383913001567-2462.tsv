@@ -1,0 +1,7 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0378383913001567-2462	1	Quantity	5	11	T1-1	0.5 Hz	{'unit': 'Hz'}
+S0378383913001567-2462	1	MeasuredProperty	0	2	T3-1	FP	{'HasQuantity': 'T1-1'}
+S0378383913001567-2462	1	MeasuredEntity	-1	-1	T2-1	JONSWAP谱	{'HasProperty': 'T3-1'}
+S0378383913001567-2462	2	Quantity	-1	-1	T1-2	1.8 cm	{'unit': 'cm'}
+S0378383913001567-2462	2	MeasuredProperty	12	14	T4-2	HP	{'HasQuantity': 'T1-2'}
+S0378383913001567-2462	2	MeasuredEntity	-1	-1	T5-2	JONSWAP谱	{'HasProperty': 'T4-2'}

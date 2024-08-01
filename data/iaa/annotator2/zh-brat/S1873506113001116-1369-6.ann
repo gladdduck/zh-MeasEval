@@ -1,0 +1,9 @@
+T1	Quantity 355 356	3
+T2	MeasuredEntity -1 -1	CD 34 + CD 45 + HPC
+T3	MeasuredProperty 17 18	n
+R1	HasQuantity Arg1:T3 Arg2:T1
+R2	HasProperty Arg1:T2 Arg2:T3
+T4	Qualifier 331 337	分化第14天
+T5	Qualifier 341 344	BC1
+R3	Qualifies Arg1:T5 Arg2:T2
+R4	Qualifies Arg1:T4 Arg2:T2

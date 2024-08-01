@@ -1,0 +1,4 @@
+T1	Quantity 85 87	1%
+T2	MeasuredEntity 82 84	硝酸
+R1	HasQuantity Arg1:T2 Arg2:T1
+T3	Unit 86 87	%

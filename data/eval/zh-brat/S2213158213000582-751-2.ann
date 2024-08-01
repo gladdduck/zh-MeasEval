@@ -1,0 +1,5 @@
+T1	Quantity 34 38	0.05
+T2	MeasuredProperty -1 -1	Q
+R2	HasQuantity Arg1:T2 Arg2:T1
+T3	MeasuredEntity -1 -1	FDR
+R1	HasProperty Arg1:T3 Arg2:T2

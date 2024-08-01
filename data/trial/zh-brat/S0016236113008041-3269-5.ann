@@ -1,0 +1,7 @@
+T75	Quantity -1 -1	1000 ppm
+#15	AnnotatorNotes T75	ppm
+T365	MeasuredProperty 10 12	浓度
+R9	HasQuantity Arg1:T365 Arg2:T75
+T225	MeasuredEntity 7 10	SO2
+R10	HasProperty Arg1:T225 Arg2:T365
+T1	Unit 79 82	ppm

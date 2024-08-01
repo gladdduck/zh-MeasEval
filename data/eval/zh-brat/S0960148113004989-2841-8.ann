@@ -1,0 +1,6 @@
+T1	Quantity -1 -1	640 m x 320 m。
+T2	MeasuredEntity 240 242	矩形
+T3	MeasuredProperty -1 -1	大小
+T4	Unit -1 -1	M
+R1	HasProperty Arg1:T2 Arg2:T3
+R2	HasQuantity Arg1:T3 Arg2:T1

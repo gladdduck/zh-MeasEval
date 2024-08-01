@@ -1,0 +1,14 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0016236113008041-3290	1	Quantity	40	46	T11-1	<1 ppm	{'mods': ['IsRange'], 'unit': 'ppm'}
+S0016236113008041-3290	1	MeasuredProperty	12	14	T71-1	浓度	{'HasQuantity': 'T11-1'}
+S0016236113008041-3290	1	MeasuredEntity	6	12	T81-1	气态主要元素	{'HasProperty': 'T71-1'}
+S0016236113008041-3290	2	Quantity	61	65	T52-2	0.63	{'unit': 'ppm'}
+S0016236113008041-3290	2	MeasuredProperty	12	14	T182-2	浓度	{'HasQuantity': 'T52-2'}
+S0016236113008041-3290	2	MeasuredEntity	-1	-1	T92-2	Fe	{'HasProperty': 'T182-2'}
+S0016236113008041-3290	3	Quantity	66	74	T23-3	0.51 ppm	{'unit': 'ppm'}
+S0016236113008041-3290	3	MeasuredProperty	12	14	T103-3	浓度	{'HasQuantity': 'T23-3'}
+S0016236113008041-3290	3	MeasuredEntity	-1	-1	T193-3	Si	{'HasProperty': 'T103-3'}
+S0016236113008041-3290	4	Quantity	102	110	T34-4	1000 ppm	{'unit': 'ppm'}
+S0016236113008041-3290	4	MeasuredEntity	20	23	T114-4	SO2	{'HasQuantity': 'T34-4'}
+S0016236113008041-3290	5	Quantity	85	95	T45-5	0和2000 ppm	{'mods': ['IsList'], 'unit': 'ppm'}
+S0016236113008041-3290	5	MeasuredEntity	20	23	T65-5	SO2	{'HasQuantity': 'T45-5'}

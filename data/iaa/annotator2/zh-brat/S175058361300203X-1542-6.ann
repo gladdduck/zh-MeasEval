@@ -1,0 +1,5 @@
+T1	Quantity -1 -1	34和38 °C
+T2	MeasuredEntity 288 295	不同的温度场景
+R1	HasQuantity Arg1:T2 Arg2:T1
+A1	QuantityQualifier T1 IsList
+T3	Unit 28 30	°C

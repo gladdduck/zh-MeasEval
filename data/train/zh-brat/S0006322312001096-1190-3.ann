@@ -1,0 +1,8 @@
+T23	Quantity 241 246	72小时内
+#13	AnnotatorNotes T23	None
+A13	QuantityQualifier T23 IsRange
+T113	MeasuredProperty 248 250	测定
+R3	HasQuantity Arg1:T113 Arg2:T23
+T93	MeasuredEntity -1 -1	用于脂质分析的血清
+R4	HasProperty Arg1:T93 Arg2:T113
+T1	Unit 214 216	小时

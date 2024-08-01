@@ -1,0 +1,4 @@
+T1	Quantity 389 396	530名参与者
+T2	MeasuredEntity -1 -1	横截面样品
+R1	HasQuantity Arg1:T2 Arg2:T1
+T3	Unit 393 396	参与者

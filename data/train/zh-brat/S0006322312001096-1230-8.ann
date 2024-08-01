@@ -1,0 +1,5 @@
+T1	Quantity 274 277	.64
+T2	MeasuredProperty -1 -1	R
+T3	MeasuredEntity -1 -1	第7阶段的皮尔逊相关性
+R1	HasProperty Arg1:T3 Arg2:T2
+R2	HasQuantity Arg1:T2 Arg2:T1

@@ -1,0 +1,7 @@
+T1	Quantity -1 -1	约75°
+T2	Unit 196 197	°
+T3	MeasuredEntity 8 11	E13
+T4	MeasuredProperty -1 -1	测量的局部俯仰角
+R1	HasQuantity Arg1:T4 Arg2:T1
+R2	HasProperty Arg1:T3 Arg2:T4
+A1	IsApproximate T1

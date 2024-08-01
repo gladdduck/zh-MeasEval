@@ -1,0 +1,12 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S1750583613004192-1689	1	Quantity	121	124	T1-1	数百米	{'mods': ['IsApproximate'], 'unit': 'meters'}
+S1750583613004192-1689	1	MeasuredEntity	115	116	T2-1	冰	{'HasQuantity': 'T1-1'}
+S1750583613004192-1689	2	Quantity	-1	-1	T1-2	10 MPa	{'unit': 'MPa'}
+S1750583613004192-1689	2	MeasuredProperty	100	102	T2-2	超压	{'HasQuantity': 'T1-2'}
+S1750583613004192-1689	2	MeasuredEntity	-1	-1	T4-2	短暂冰盖负荷	{'HasProperty': 'T2-2'}
+S1750583613004192-1689	3	Quantity	173	178	T1-3	不到几千年	{'mods': ['IsApproximate', 'IsRange'], 'unit': 'years'}
+S1750583613004192-1689	3	MeasuredProperty	-1	-1	T4-3	timespan	{'HasQuantity': 'T1-3'}
+S1750583613004192-1689	3	MeasuredEntity	117	119	T3-3	消融	{'HasProperty': 'T4-3'}
+S1750583613004192-1689	4	Quantity	-1	-1	T1-4	10 MPa	{'unit': 'MPa'}
+S1750583613004192-1689	4	MeasuredProperty	100	102	T2-4	超压	{'HasQuantity': 'T1-4'}
+S1750583613004192-1689	4	MeasuredEntity	-1	-1	T4-4	短暂冰盖负荷	{'HasProperty': 'T2-4'}

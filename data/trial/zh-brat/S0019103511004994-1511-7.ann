@@ -1,0 +1,9 @@
+T27	Quantity 506 512	5.65 S
+#17	AnnotatorNotes T27	s
+T157	MeasuredProperty 481 489	仪器的时间分辨率
+R15	HasQuantity Arg1:T157 Arg2:T27
+T177	MeasuredEntity -1 -1	速率信道
+R16	HasProperty Arg1:T177 Arg2:T157
+T197	Qualifier 474 478	旋转模式
+R17	Qualifies Arg1:T197 Arg2:T157
+T1	Unit 39 40	S

@@ -1,0 +1,9 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0019103512002801-1496	1	Quantity	-1	-1	T51-1	十六倍	{'unit': 'times'}
+S0019103512002801-1496	1	MeasuredProperty	20	25	T81-1	时间分辨率	{'HasQuantity': 'T51-1'}
+S0019103512002801-1496	1	MeasuredEntity	-1	-1	T61-1	优先级信道	{'HasProperty': 'T81-1'}
+S0019103512002801-1496	1	Qualifier	-1	-1	T71-1	更高	{'Qualifies': 'T51-1'}
+S0019103512002801-1496	1	Qualifier	13	25	T91-1	比典型速率通道时间分辨率	{'Qualifies': 'T81-1'}
+S0019103512002801-1496	2	Quantity	-1	-1	T12-2	5.7秒	{'mods': ['IsApproximate'], 'unit': 's'}
+S0019103512002801-1496	2	MeasuredProperty	16	25	T22-2	速率通道时间分辨率	{'HasQuantity': 'T12-2'}
+S0019103512002801-1496	2	MeasuredEntity	-1	-1	T42-2	LEMMS频道	{'HasProperty': 'T22-2'}

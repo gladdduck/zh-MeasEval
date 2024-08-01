@@ -1,0 +1,7 @@
+T55	Quantity 186 190	5.4%
+#15	AnnotatorNotes T55	None
+T155	MeasuredProperty -1 -1	使用过的抗抑郁药物
+R8	HasQuantity Arg1:T155 Arg2:T55
+T145	MeasuredEntity -1 -1	GHQ症状病例
+R10	HasProperty Arg1:T145 Arg2:T155
+T1	Unit 96 97	%

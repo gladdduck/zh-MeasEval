@@ -1,0 +1,14 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S2213671113001306-910	1	Quantity	-1	-1	T1-1	10，500 x	{'unit': '×'}
+S2213671113001306-910	1	MeasuredProperty	-1	-1	T2-1	放大率	{'HasQuantity': 'T1-1'}
+S2213671113001306-910	1	MeasuredEntity	-1	-1	T3-1	左图像	{'HasProperty': 'T2-1'}
+S2213671113001306-910	2	Quantity	-1	-1	T1-2	25，000 x	{'unit': '×'}
+S2213671113001306-910	2	MeasuredProperty	-1	-1	T3-2	放大率	{'HasQuantity': 'T1-2'}
+S2213671113001306-910	2	MeasuredEntity	336	342	T2-2	右侧显微照片	{'HasProperty': 'T3-2'}
+S2213671113001306-910	3	Quantity	-1	-1	T1-3	2 μm	{'unit': 'μm'}
+S2213671113001306-910	3	MeasuredProperty	384	386	T4-3	距离	{'HasQuantity': 'T1-3'}
+S2213671113001306-910	3	MeasuredEntity	359	362	T3-3	比例尺	{'HasProperty': 'T4-3'}
+S2213671113001306-910	4	Quantity	379	384	T1-4	0.2μm	{'unit': 'μm'}
+S2213671113001306-910	4	MeasuredProperty	384	386	T2-4	距离	{'HasQuantity': 'T1-4'}
+S2213671113001306-910	4	MeasuredEntity	359	362	T3-4	比例尺	{'HasProperty': 'T2-4'}
+S2213671113001306-910	4	Qualifier	377	379	T5-4	插图	{'Qualifies': 'T3-4'}

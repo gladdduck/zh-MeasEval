@@ -1,0 +1,9 @@
+T1	Quantity 172 176	30分钟
+T2	MeasuredEntity -1 -1	更深层次的BS 2功能
+T3	MeasuredProperty -1 -1	应该越过中央子午线
+A1	QuantityQualifier T1 IsRange
+T4	Qualifier 209 215	BS 1之后
+R1	Qualifies Arg1:T4 Arg2:T1
+R2	HasProperty Arg1:T2 Arg2:T3
+R3	HasQuantity Arg1:T3 Arg2:T1
+T5	Unit -1 -1	min

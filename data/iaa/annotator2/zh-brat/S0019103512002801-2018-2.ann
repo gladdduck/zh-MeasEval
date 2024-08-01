@@ -1,0 +1,9 @@
+T1	Quantity -1 -1	至少10%
+T2	MeasuredProperty 430 432	时间
+R1	HasQuantity Arg1:T2 Arg2:T1
+T3	Unit 428 429	%
+T4	MeasuredEntity 414 422	ULF波活动增强
+R2	HasProperty Arg1:T4 Arg2:T2
+T5	Qualifier -1 -1	事实证明，自取过程具有领先作用
+R3	Qualifies Arg1:T5 Arg2:T4
+A1	QuantityQualifier T1 IsRange

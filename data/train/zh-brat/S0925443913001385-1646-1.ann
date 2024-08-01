@@ -1,0 +1,5 @@
+T1	Quantity 69 75	10-30%
+T2	MeasuredEntity -1 -1	等动力糖梯度
+R1	HasQuantity Arg1:T2 Arg2:T1
+T3	Unit 74 75	%
+A1	QuantityQualifier T1 IsRange

@@ -1,0 +1,6 @@
+T1	Quantity 57 60	12%
+T2	MeasuredProperty 25 32	重离子同时加速
+R1	HasQuantity Arg1:T2 Arg2:T1
+T3	Unit 50 51	%
+T4	MeasuredEntity -1 -1	MEX轨道上有0.5%出现降水特征
+R2	HasProperty Arg1:T4 Arg2:T2

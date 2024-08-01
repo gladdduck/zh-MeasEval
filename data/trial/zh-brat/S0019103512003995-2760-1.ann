@@ -1,0 +1,9 @@
+T11	Quantity -1 -1	11公里秒-1
+#11	AnnotatorNotes T11	km s−1
+T21	MeasuredProperty 85 89	径向速度
+R1	HasQuantity Arg1:T21 Arg2:T11
+T31	MeasuredEntity -1 -1	SAL 2模型
+R2	HasProperty Arg1:T31 Arg2:T21
+T41	Qualifier -1 -1	按5 RP
+R3	Qualifies Arg1:T41 Arg2:T21
+T1	Unit -1 -1	公里秒-1

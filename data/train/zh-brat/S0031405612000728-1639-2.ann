@@ -1,0 +1,7 @@
+T1	Quantity -1 -1	范围从4天到88天
+A1	QuantityQualifier T1 IsRange
+T2	Unit 365 366	天
+T3	MeasuredEntity -1 -1	总营业额
+T4	MeasuredProperty 362 363	率
+R1	HasProperty Arg1:T3 Arg2:T4
+R2	HasQuantity Arg1:T4 Arg2:T1

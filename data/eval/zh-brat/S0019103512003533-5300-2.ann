@@ -1,0 +1,9 @@
+T1	Quantity -1 -1	0.2至1.2兆瓦m-2
+T2	Unit -1 -1	兆瓦m-2
+T3	MeasuredProperty 5 8	能通量
+T4	MeasuredEntity 3 5	电子
+R1	HasProperty Arg1:T4 Arg2:T3
+R2	HasQuantity Arg1:T3 Arg2:T1
+A1	QuantityQualifier T1 IsRange
+T5	Qualifier 46 48	增加
+R3	Qualifies Arg1:T5 Arg2:T3

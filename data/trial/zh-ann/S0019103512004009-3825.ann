@@ -1,0 +1,49 @@
+T1	Quantity 28 31	50%
+T5	MeasuredProperty -1 -1	净热效率
+T6	MeasuredProperty -1 -1	最高温度
+T7	MeasuredProperty -1 -1	最高温度
+R1	HasQuantity Arg1:T5 Arg2:T1
+T8	MeasuredEntity -1 -1	H50型号
+R2	HasProperty Arg1:T8 Arg2:T7
+T9	MeasuredProperty -1 -1	n网
+R4	HasProperty Arg1:T8 Arg2:T9
+T10	Quantity -1 -1	0.1至1
+R5	HasQuantity Arg1:T9 Arg2:T10
+A1	QuantityQualifier T10 IsRange
+R6	HasProperty Arg1:T8 Arg2:T6
+T3	Quantity -1 -1	10，000 K至13，200 K
+A2	QuantityQualifier T3 IsRange
+R7	HasQuantity Arg1:T6 Arg2:T3
+T4	Quantity -1 -1	1.4RP（0.5 nbar）至1.9RP（0.1 nbar）
+A3	QuantityQualifier T4 IsRange
+T11	MeasuredProperty -1 -1	温度峰值
+T13	MeasuredProperty -1 -1	峰值
+R9	HasProperty Arg1:T8 Arg2:T13
+T2	Quantity -1 -1	11，500 K
+R3	HasQuantity Arg1:T7 Arg2:T2
+T14	MeasuredEntity -1 -1	典型的气态巨星（以下简称H50模型）
+R10	HasProperty Arg1:T14 Arg2:T5
+T12	Quantity -1 -1	接近1.5RP
+T15	MeasuredEntity 90 91	p
+T16	Quantity -1 -1	0.3 NBAR
+R8	HasQuantity Arg1:T15 Arg2:T16
+T17	Qualifier 320 332	p = 0.3 nbar
+R11	Qualifies Arg1:T17 Arg2:T12
+R12	HasProperty Arg1:T8 Arg2:T11
+R13	HasQuantity Arg1:T11 Arg2:T12
+T18	Qualifier -1 -1	偏离
+R14	Qualifies Arg1:T18 Arg2:T4
+#1	AnnotatorNotes T18	Change
+R15	HasQuantity Arg1:T13 Arg2:T4
+T19	MeasuredEntity -1 -1	n网
+T20	Quantity 111 112	1
+R16	HasQuantity Arg1:T19 Arg2:T20
+#2	AnnotatorNotes T1	%
+#3	AnnotatorNotes T2	K
+#4	AnnotatorNotes T12	Rp
+A4	IsApproximate T12
+#5	AnnotatorNotes T16	nbar
+#6	AnnotatorNotes T10	Unspecified
+#7	AnnotatorNotes T4	Rp / nbar
+#8	AnnotatorNotes T3	K
+#9	AnnotatorNotes T20	Unspecified

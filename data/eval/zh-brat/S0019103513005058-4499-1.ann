@@ -1,0 +1,8 @@
+T1	Quantity -1 -1	接近280 K
+T2	Unit 191 192	K
+T3	MeasuredProperty -1 -1	表面温度
+T4	MeasuredEntity 12 14	火星
+R2	HasQuantity Arg1:T3 Arg2:T1
+R1	HasProperty Arg1:T4 Arg2:T3
+A1	IsApproximate T1
+A2	QuantityQualifier T1 IsRange

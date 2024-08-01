@@ -1,0 +1,3 @@
+T1	Quantity 262 267	0.725
+T2	MeasuredEntity -1 -1	前沿因素
+R1	HasQuantity Arg1:T2 Arg2:T1

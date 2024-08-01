@@ -1,0 +1,7 @@
+T1	Quantity 255 261	高达100%
+T2	Unit 260 261	%
+A1	QuantityQualifier T1 IsRange
+T3	MeasuredProperty -1 -1	可见光透射率
+T4	MeasuredEntity 148 149	膜
+R1	HasProperty Arg1:T4 Arg2:T3
+R2	HasQuantity Arg1:T3 Arg2:T1

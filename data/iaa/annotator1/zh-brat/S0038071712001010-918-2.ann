@@ -1,0 +1,7 @@
+T1	Quantity 58 68	9.9%-16.2%
+T2	MeasuredProperty -1 -1	殖民程度
+T3	MeasuredEntity -1 -1	个体接种物
+R1	HasProperty Arg1:T3 Arg2:T2
+R2	HasQuantity Arg1:T2 Arg2:T1
+T4	Unit 61 62	%
+A1	QuantityQualifier T1 IsRange

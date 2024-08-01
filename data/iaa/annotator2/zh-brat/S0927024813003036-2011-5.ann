@@ -1,0 +1,7 @@
+T1	Quantity -1 -1	<20 ms
+T2	Unit -1 -1	MS
+T3	MeasuredEntity 206 208	闪光
+T4	MeasuredProperty -1 -1	总照明时间
+R1	HasProperty Arg1:T3 Arg2:T4
+R2	HasQuantity Arg1:T4 Arg2:T1
+A1	QuantityQualifier T1 IsRange

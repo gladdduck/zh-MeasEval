@@ -1,0 +1,7 @@
+T1	Quantity 213 222	5 ± 0.2 K
+T2	Unit 221 222	K
+A1	QuantityQualifier T1 HasTolerance
+T3	MeasuredEntity 208 212	电加热器
+T4	MeasuredProperty 232 234	温度
+R1	HasQuantity Arg1:T4 Arg2:T1
+R2	HasProperty Arg1:T3 Arg2:T4

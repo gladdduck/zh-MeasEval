@@ -1,0 +1,13 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0012821X13007309-1509	1	Quantity	-1	-1	T11-1	2–3‰	{'mods': ['IsRange'], 'unit': '‰'}
+S0012821X13007309-1509	1	MeasuredProperty	-1	-1	T21-1	积极的转变	{'HasQuantity': 'T11-1'}
+S0012821X13007309-1509	1	MeasuredEntity	46	60	T31-1	VDBC δ 13 Corg	{'HasProperty': 'T21-1'}
+S0012821X13007309-1509	2	Quantity	-1	-1	T52-2	∼−27‰	{'unit': '‰'}
+S0012821X13007309-1509	2	MeasuredProperty	46	60	T42-2	VDBC δ 13 Corg	{'HasQuantity': 'T52-2'}
+S0012821X13007309-1509	2	MeasuredEntity	-1	-1	T62-2	哈特兰上页岩	{'HasProperty': 'T42-2'}
+S0012821X13007309-1509	3	Quantity	-1	-1	T83-3	4.3 M	{'unit': 'm'}
+S0012821X13007309-1509	3	MeasuredProperty	-1	-1	T73-3	CTB以下	{'HasQuantity': 'T83-3'}
+S0012821X13007309-1509	3	MeasuredEntity	-1	-1	T63-3	哈特兰上页岩	{'HasProperty': 'T73-3'}
+S0012821X13007309-1509	4	Quantity	-1	-1	T104-4	∼−27‰	{'mods': ['IsApproximate'], 'unit': '‰'}
+S0012821X13007309-1509	4	MeasuredProperty	-1	-1	T114-4	逐渐下降	{'HasQuantity': 'T104-4'}
+S0012821X13007309-1509	4	MeasuredEntity	51	60	T94-4	δ 13 Corg	{'HasProperty': 'T114-4'}

@@ -1,0 +1,5 @@
+T1	Quantity 302 305	40%
+T2	MeasuredProperty 296 298	下限
+R1	HasQuantity Arg1:T2 Arg2:T1
+T3	MeasuredEntity 281 288	羽流平均饱和度
+R2	HasProperty Arg1:T3 Arg2:T2

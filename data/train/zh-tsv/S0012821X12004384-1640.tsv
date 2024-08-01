@@ -1,0 +1,11 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0012821X12004384-1640	1	Quantity	-1	-1	T1-1	5‰	{'unit': '‰'}
+S0012821X12004384-1640	1	MeasuredProperty	-1	-1	T4-1	负碳同位素漂移	{'HasQuantity': 'T1-1'}
+S0012821X12004384-1640	1	MeasuredEntity	-1	-1	T2-1	古新世-始新世界线段	{'HasProperty': 'T4-1'}
+S0012821X12004384-1640	1	Qualifier	-1	-1	T3-1	从北海盆地中部	{'Qualifies': 'T2-1'}
+S0012821X12004384-1640	2	Quantity	-1	-1	T1-2	从4m	{'mods': ['IsRange'], 'unit': 'm'}
+S0012821X12004384-1640	2	MeasuredEntity	-1	-1	T3-2	盐斜分层和陆上输入增强	{'HasQuantity': 'T1-2'}
+S0012821X12004384-1640	2	Qualifier	-1	-1	T4-2	在英国国际经济委员会之前	{'Qualifies': 'T1-2'}
+S0012821X12004384-1640	3	Quantity	-1	-1	T1-3	54在	{'unit': 'oN'}
+S0012821X12004384-1640	3	MeasuredProperty	358	361	T3-3	古纬度	{'HasQuantity': 'T1-3'}
+S0012821X12004384-1640	3	MeasuredEntity	-1	-1	T4-3	位置	{'HasProperty': 'T3-3'}

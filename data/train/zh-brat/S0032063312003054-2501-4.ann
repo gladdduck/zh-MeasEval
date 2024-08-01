@@ -1,0 +1,5 @@
+T1	Quantity 49 51	5%
+T2	MeasuredEntity 43 48	MEX轨道
+R1	HasQuantity Arg1:T2 Arg2:T1
+T3	Unit 50 51	%
+A1	IsApproximate T1

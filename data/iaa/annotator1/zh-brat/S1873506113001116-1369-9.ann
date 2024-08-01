@@ -1,0 +1,5 @@
+T1	Quantity 473 479	0.0307
+T2	MeasuredEntity -1 -1	CFO总数相当或明显更大
+T3	MeasuredProperty 22 23	P
+R1	HasProperty Arg1:T2 Arg2:T3
+R2	HasQuantity Arg1:T3 Arg2:T1

@@ -1,0 +1,4 @@
+T1	Quantity 172 182	9.81 m s-2
+T2	Unit 177 182	m s-2
+T3	MeasuredEntity -1 -1	G
+R1	HasQuantity Arg1:T3 Arg2:T1

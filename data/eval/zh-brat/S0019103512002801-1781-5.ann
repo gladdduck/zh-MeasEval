@@ -1,0 +1,9 @@
+T1	Quantity -1 -1	≈ 170°
+T2	Unit 30 31	°
+A1	IsApproximate T1
+T3	MeasuredEntity -1 -1	间距
+T4	MeasuredProperty -1 -1	角度
+R1	HasProperty Arg1:T3 Arg2:T4
+R2	HasQuantity Arg1:T4 Arg2:T1
+T5	Qualifier 202 208	整个飞越过程
+R3	Qualifies Arg1:T5 Arg2:T4

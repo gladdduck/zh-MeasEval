@@ -1,0 +1,7 @@
+T21	Quantity 243 246	84%
+#11	AnnotatorNotes T21	None
+T71	MeasuredProperty 239 241	敏感
+R1	HasQuantity Arg1:T71 Arg2:T21
+T81	MeasuredEntity -1 -1	GHQ透明
+R2	HasProperty Arg1:T81 Arg2:T71
+T1	Unit 245 246	%

@@ -1,0 +1,7 @@
+T148	Quantity -1 -1	1260厘米-1
+#18	AnnotatorNotes T148	cm−1
+T128	MeasuredProperty 283 284	峰
+R13	HasQuantity Arg1:T128 Arg2:T148
+T178	MeasuredEntity -1 -1	现场ATR-FT光谱
+R14	HasProperty Arg1:T178 Arg2:T128
+T1	Unit -1 -1	厘米-1

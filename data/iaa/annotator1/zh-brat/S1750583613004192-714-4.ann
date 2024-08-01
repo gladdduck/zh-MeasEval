@@ -1,0 +1,5 @@
+T1	Quantity 121 125	1999
+T2	MeasuredEntity 114 116	九层
+T3	MeasuredProperty -1 -1	最早出现
+R1	HasProperty Arg1:T2 Arg2:T3
+R2	HasQuantity Arg1:T3 Arg2:T1

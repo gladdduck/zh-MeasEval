@@ -1,0 +1,4 @@
+T1	Quantity 73 74	两
+T2	MeasuredEntity 95 97	研究
+R1	HasQuantity Arg1:T2 Arg2:T1
+A1	IsCount T1

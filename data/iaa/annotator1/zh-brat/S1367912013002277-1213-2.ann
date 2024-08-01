@@ -1,0 +1,7 @@
+T1	Quantity 83 91	小于2.5 μm
+T2	MeasuredEntity 59 64	收集的颗粒
+T3	Qualifier 92 97	PM2.5
+R1	Qualifies Arg1:T3 Arg2:T2
+T4	Unit 74 76	μm
+R2	HasQuantity Arg1:T2 Arg2:T1
+A1	QuantityQualifier T1 IsRange

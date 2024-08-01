@@ -1,0 +1,4 @@
+T1	Quantity 36 45	1000个离散颗粒
+T3	MeasuredEntity 8 15	二维正方形系统
+T2	Unit 41 45	离散颗粒
+R1	HasQuantity Arg1:T3 Arg2:T1

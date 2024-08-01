@@ -1,0 +1,5 @@
+T1	Quantity -1 -1	34 ℃和38 ℃
+A1	QuantityQualifier T1 IsList
+T3	Unit 62 64	°C
+T4	MeasuredEntity 23 27	储层温度
+R1	HasQuantity Arg1:T4 Arg2:T1

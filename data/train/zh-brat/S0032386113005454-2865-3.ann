@@ -1,0 +1,7 @@
+T1	Quantity -1 -1	0.296 μm
+T2	MeasuredProperty 158 162	平均直径
+A1	QuantityQualifier T1 IsMean
+T4	Unit 168 170	μm
+T5	MeasuredEntity -1 -1	腔
+R2	HasProperty Arg1:T5 Arg2:T2
+R3	HasQuantity Arg1:T2 Arg2:T1

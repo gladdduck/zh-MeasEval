@@ -1,0 +1,33 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S2213158213001253-2433	1	Quantity	0	1	T1-1	三	{'mods': ['IsCount']}
+S2213158213001253-2433	1	MeasuredEntity	2	5	T2-1	分类器	{'HasQuantity': 'T1-1'}
+S2213158213001253-2433	2	Quantity	90	94	T1-2	0.90	{'mods': ['IsRange']}
+S2213158213001253-2433	2	MeasuredProperty	79	82	T3-2	AUC	{'HasQuantity': 'T1-2'}
+S2213158213001253-2433	2	MeasuredEntity	73	78	T2-2	组合分类器	{'HasProperty': 'T3-2'}
+S2213158213001253-2433	2	Qualifier	88	90	T4-2	高达	{'Qualifies': 'T1-2'}
+S2213158213001253-2433	3	Quantity	95	99	T1-3	0.89	{'mods': ['IsRange']}
+S2213158213001253-2433	3	MeasuredProperty	83	86	T3-3	EER	{'HasQuantity': 'T1-3'}
+S2213158213001253-2433	3	MeasuredEntity	73	78	T2-3	组合分类器	{'HasProperty': 'T3-3'}
+S2213158213001253-2433	3	Qualifier	88	90	T4-3	高达	{'Qualifies': 'T1-3'}
+S2213158213001253-2433	4	Quantity	161	165	T1-4	100%	{'unit': '%'}
+S2213158213001253-2433	4	MeasuredProperty	183	187	T2-4	真阳性率	{'HasQuantity': 'T1-4'}
+S2213158213001253-2433	4	MeasuredEntity	34	41	T3-4	sMRI分类器	{'HasProperty': 'T2-4'}
+S2213158213001253-2433	4	Qualifier	174	178	T4-4	没有达到	{'Qualifies': 'T1-4'}
+S2213158213001253-2433	4	Qualifier	22	25	T6-4	ROC	{'Qualifies': 'T3-4'}
+S2213158213001253-2433	5	Quantity	159	165	T1-5	接近100%	{'mods': ['IsRange'], 'unit': '%'}
+S2213158213001253-2433	5	MeasuredProperty	155	159	T3-5	假阳性率	{'HasQuantity': 'T1-5'}
+S2213158213001253-2433	5	MeasuredEntity	34	41	T4-5	sMRI分类器	{'HasProperty': 'T3-5'}
+S2213158213001253-2433	5	Qualifier	22	25	T5-5	ROC	{'Qualifies': 'T4-5'}
+S2213158213001253-2433	6	Quantity	163	165	T1-6	0%	{'unit': '%'}
+S2213158213001253-2433	6	MeasuredProperty	155	159	T4-6	假阳性率	{'HasQuantity': 'T1-6'}
+S2213158213001253-2433	6	MeasuredEntity	-1	-1	T2-6	fMRI的ROC	{'HasProperty': 'T4-6'}
+S2213158213001253-2433	6	Qualifier	174	178	T3-6	没有达到	{'Qualifies': 'T1-6'}
+S2213158213001253-2433	7	Quantity	-1	-1	T1-7	接近0%	{'mods': ['IsRange'], 'unit': '%'}
+S2213158213001253-2433	7	MeasuredProperty	183	187	T3-7	真阳性率	{'HasQuantity': 'T1-7'}
+S2213158213001253-2433	7	MeasuredEntity	-1	-1	T4-7	fMRI的ROC	{'HasProperty': 'T3-7'}
+S2213158213001253-2433	8	Quantity	381	382	T1-8	两	{'mods': ['IsCount']}
+S2213158213001253-2433	8	MeasuredEntity	382	386	T2-8	组受试者	{'HasQuantity': 'T1-8'}
+S2213158213001253-2433	9	Quantity	381	382	T1-9	两	{'mods': ['IsCount']}
+S2213158213001253-2433	9	MeasuredEntity	60	61	T2-9	组	{'HasQuantity': 'T1-9'}
+S2213158213001253-2433	10	Quantity	381	382	T1-10	两	{'mods': ['IsCount']}
+S2213158213001253-2433	10	MeasuredEntity	382	386	T2-10	组受试者	{'HasQuantity': 'T1-10'}

@@ -1,0 +1,15 @@
+T1	Quantity -1 -1	50分钟
+T2	MeasuredProperty -1 -1	扫描时间
+T3	MeasuredProperty -1 -1	步长
+T4	Quantity 205 210	0.02°
+T5	MeasuredEntity -1 -1	初始扫描
+T6	Quantity -1 -1	5 & 2 °/° & 80
+A1	QuantityQualifier T6 IsRange
+R1	HasQuantity Arg1:T5 Arg2:T6
+R2	HasProperty Arg1:T5 Arg2:T3
+R3	HasQuantity Arg1:T3 Arg2:T4
+R4	HasProperty Arg1:T5 Arg2:T2
+R5	HasQuantity Arg1:T2 Arg2:T1
+#1	AnnotatorNotes T6	Unspecified
+#2	AnnotatorNotes T4	°
+#3	AnnotatorNotes T1	min

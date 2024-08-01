@@ -1,0 +1,5 @@
+T1	Quantity -1 -1	美国东部时间05：28至05：47美国东部时间
+T2	MeasuredEntity 5 7	数据
+R1	HasQuantity Arg1:T2 Arg2:T1
+T3	Unit 191 193	UT
+A1	QuantityQualifier T1 IsRange

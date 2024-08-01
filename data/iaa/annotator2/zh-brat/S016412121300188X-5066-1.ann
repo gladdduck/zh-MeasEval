@@ -1,0 +1,9 @@
+T1	Quantity -1 -1	从78%到95%
+A1	QuantityQualifier T1 IsRange
+T2	Unit 140 141	%
+T3	MeasuredEntity -1 -1	高效的切片逼近哈希算法
+T4	MeasuredProperty 141 143	提高
+T5	Qualifier -1 -1	先前切片逼近的精度
+R1	Qualifies Arg1:T5 Arg2:T4
+R2	HasProperty Arg1:T3 Arg2:T4
+R3	HasQuantity Arg1:T4 Arg2:T1

@@ -1,0 +1,7 @@
+T1	Quantity 40 46	5°至85°
+T2	Unit 41 42	°
+A1	QuantityQualifier T1 IsRange
+T3	MeasuredEntity 47 52	2 °范围
+R1	HasQuantity Arg1:T3 Arg2:T1
+T4	Qualifier 61 80	步进大小为0.1°，每步计数时间为4秒
+R2	Qualifies Arg1:T4 Arg2:T1

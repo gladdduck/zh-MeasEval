@@ -1,0 +1,4 @@
+T1	Quantity 18 25	1000 °C
+T2	Unit 23 25	°C
+T3	MeasuredEntity -1 -1	硅胶管炉
+R1	HasQuantity Arg1:T3 Arg2:T1

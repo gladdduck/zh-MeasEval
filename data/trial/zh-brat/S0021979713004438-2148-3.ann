@@ -1,0 +1,7 @@
+T53	Quantity -1 -1	1540厘米-1
+#13	AnnotatorNotes T53	cm−1
+T83	MeasuredProperty -1 -1	峰值
+R3	HasQuantity Arg1:T83 Arg2:T53
+T173	MeasuredEntity -1 -1	现场ATR-FT光谱
+R4	HasProperty Arg1:T173 Arg2:T83
+T1	Unit -1 -1	厘米-1

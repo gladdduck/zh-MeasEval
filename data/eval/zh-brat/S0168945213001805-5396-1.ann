@@ -1,0 +1,6 @@
+T1	Quantity 149 152	10年
+T2	MeasuredProperty 198 199	老
+R1	HasQuantity Arg1:T2 Arg2:T1
+T3	Unit 69 70	年
+T4	MeasuredEntity 153 155	杨树
+R2	HasProperty Arg1:T4 Arg2:T2

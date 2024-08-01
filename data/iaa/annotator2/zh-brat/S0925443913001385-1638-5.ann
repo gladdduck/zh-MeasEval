@@ -1,0 +1,7 @@
+T1	Quantity -1 -1	~ 60-80%
+A1	IsApproximate T1
+A2	QuantityQualifier T1 IsRange
+T2	MeasuredEntity 23 25	控制
+T3	MeasuredProperty -1 -1	MRPS18 B、MRPS25和DAB 3
+R1	HasProperty Arg1:T2 Arg2:T3
+R2	HasQuantity Arg1:T3 Arg2:T1

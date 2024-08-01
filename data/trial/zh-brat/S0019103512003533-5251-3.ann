@@ -1,0 +1,10 @@
+T93	Quantity 226 241	（563-624）± 30 K
+#13	AnnotatorNotes T93	K
+A13	QuantityQualifier T93 IsRangeHasTolerance
+T73	MeasuredProperty 17 19	温度
+R5	HasQuantity Arg1:T73 Arg2:T93
+T83	MeasuredEntity -1 -1	土星的极光椭圆形
+R6	HasProperty Arg1:T83 Arg2:T73
+T1	Unit 25 26	K
+T2	Qualifier -1 -1	源自卡西尼号GMS观测
+R1	Qualifies Arg1:T2 Arg2:T73

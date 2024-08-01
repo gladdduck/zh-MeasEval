@@ -1,0 +1,10 @@
+T83	Quantity 60 70	1600 m s-1
+#13	AnnotatorNotes T83	m s−1
+A13	IsApproximate T83
+T103	Qualifier 53 58	78°附近
+R6	Qualifies Arg1:T103 Arg2:T3
+T1	Unit 46 51	m s-1
+T2	MeasuredEntity -1 -1	强风西风（次同向）
+T3	MeasuredProperty 27 31	峰值速度
+R1	HasProperty Arg1:T2 Arg2:T3
+R2	HasQuantity Arg1:T3 Arg2:T83

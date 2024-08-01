@@ -1,0 +1,6 @@
+T1	Quantity -1 -1	10，500 x
+T2	MeasuredProperty -1 -1	放大率
+T3	MeasuredEntity -1 -1	左图像
+R1	HasProperty Arg1:T3 Arg2:T2
+R2	HasQuantity Arg1:T2 Arg2:T1
+T4	Unit 349 350	×

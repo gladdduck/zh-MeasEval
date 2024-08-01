@@ -1,0 +1,10 @@
+T1	Quantity -1 -1	11公里秒-1
+T2	MeasuredProperty -1 -1	径向速度
+T3	MeasuredEntity -1 -1	SAL 2模型
+R1	HasProperty Arg1:T3 Arg2:T2
+R2	HasQuantity Arg1:T2 Arg2:T1
+T4	Qualifier -1 -1	按5 RP
+R3	Qualifies Arg1:T4 Arg2:T1
+#1	AnnotatorNotes T1	km s−1
+T5	Quantity 337 340	5Rp
+#2	AnnotatorNotes T5	Rp

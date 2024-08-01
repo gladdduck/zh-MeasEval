@@ -1,0 +1,25 @@
+T1	Quantity 46 50	2–3‰
+A1	QuantityQualifier T1 IsRange
+#1	AnnotatorNotes T1	‰
+T2	MeasuredProperty -1 -1	积极的转变
+T3	MeasuredEntity -1 -1	VDBC δ 13 Corg
+R1	HasProperty Arg1:T3 Arg2:T2
+R2	HasQuantity Arg1:T2 Arg2:T1
+T4	MeasuredProperty -1 -1	VDBC δ 13 Corg
+T5	Quantity 94 99	∼−27‰
+#2	AnnotatorNotes T5	‰
+R3	HasQuantity Arg1:T4 Arg2:T5
+T6	MeasuredEntity -1 -1	哈特兰上页岩
+R4	HasProperty Arg1:T6 Arg2:T4
+T7	MeasuredProperty -1 -1	CTB以下
+T8	Quantity -1 -1	4.3 M
+#3	AnnotatorNotes T8	m
+R5	HasQuantity Arg1:T7 Arg2:T8
+R6	HasProperty Arg1:T6 Arg2:T7
+T9	MeasuredEntity -1 -1	δ 13 Corg
+T10	Quantity 94 99	∼−27‰
+A2	IsApproximate T10
+#4	AnnotatorNotes T10	‰
+T11	MeasuredProperty -1 -1	逐渐下降
+R7	HasProperty Arg1:T9 Arg2:T11
+R8	HasQuantity Arg1:T11 Arg2:T10

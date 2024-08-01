@@ -1,0 +1,7 @@
+T1	Quantity -1 -1	低于10%
+T2	MeasuredEntity -1 -1	重新分配行动
+T3	MeasuredProperty 72 74	执行
+R1	HasProperty Arg1:T2 Arg2:T3
+R2	HasQuantity Arg1:T3 Arg2:T1
+T4	Unit 119 120	%
+A1	QuantityQualifier T1 IsRange

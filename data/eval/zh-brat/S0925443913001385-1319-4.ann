@@ -1,0 +1,5 @@
+T1	Quantity -1 -1	一百多种蛋白质
+A1	QuantityQualifier T1 IsRange
+T3	MeasuredEntity -1 -1	机械
+T2	Unit 38 40	蛋白
+R1	HasQuantity Arg1:T3 Arg2:T1

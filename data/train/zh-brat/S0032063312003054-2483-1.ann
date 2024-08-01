@@ -1,0 +1,7 @@
+T1	Quantity -1 -1	格林尼治标准时间01：25：00至01：25：40之间
+A1	QuantityQualifier T1 IsRange
+T2	Unit 42 44	UT
+T3	MeasuredProperty -1 -1	加速度
+T4	MeasuredEntity 58 61	重离子
+R1	HasProperty Arg1:T4 Arg2:T3
+R2	HasQuantity Arg1:T3 Arg2:T1

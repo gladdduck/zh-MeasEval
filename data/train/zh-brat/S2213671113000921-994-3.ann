@@ -1,0 +1,6 @@
+T1	Quantity 165 168	72%
+T2	Unit 167 168	%
+T3	MeasuredEntity 125 127	克隆
+T4	MeasuredProperty -1 -1	发现在SOX 2基因座中携带GFP-Neo盒
+R1	HasProperty Arg1:T3 Arg2:T4
+R2	HasQuantity Arg1:T4 Arg2:T1

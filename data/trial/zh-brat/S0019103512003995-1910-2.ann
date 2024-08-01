@@ -1,0 +1,5 @@
+T102	Quantity -1 -1	1947年至1999年间
+#12	AnnotatorNotes T102	Unspecified
+A12	QuantityQualifier T102 IsRange
+T1	MeasuredEntity 37 41	卫星观测
+R1	HasQuantity Arg1:T1 Arg2:T102

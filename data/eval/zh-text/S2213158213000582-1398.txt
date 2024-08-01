@@ -1,0 +1,1 @@
+与50 ms组图类似，100 ms时的组对比图（图4）显示STG和非STG区域的组差异（HDR q < 0.05）。100 ms时，HC在L-STG、R-STG、R-ITG、R-IFG和右侧SFG后部（R-SFG_p）/SM中的活性高于ZZ。100 ms时，ZZ在R-SFG、左侧SFG后部（L-SFG_p）/SM和L-SMG中的活性高于HC。

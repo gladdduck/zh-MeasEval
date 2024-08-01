@@ -1,0 +1,8 @@
+T1	Quantity 123 125	三周
+T2	Qualifier -1 -1	晚于FS
+R1	Qualifies Arg1:T2 Arg2:T4
+T3	Unit 124 125	周
+T4	MeasuredProperty 19 20	花
+T5	MeasuredEntity 115 119	S1后代
+R2	HasProperty Arg1:T5 Arg2:T4
+R3	HasQuantity Arg1:T4 Arg2:T1

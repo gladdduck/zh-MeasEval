@@ -1,0 +1,8 @@
+T1	Quantity 94 99	3-4周后
+T2	Unit 97 98	周
+A1	QuantityQualifier T1 IsRange
+T4	MeasuredEntity 90 93	神经球
+T3	MeasuredProperty -1 -1	解离
+R1	HasQuantity Arg1:T3 Arg2:T1
+R2	HasProperty Arg1:T4 Arg2:T3
+A2	IsApproximate T1

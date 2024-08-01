@@ -1,0 +1,6 @@
+T21	Quantity -1 -1	北纬30°
+#11	AnnotatorNotes T21	°N
+A11	IsApproximate T21
+T11	MeasuredEntity -1 -1	沃孔蒂盆地
+R1	HasQuantity Arg1:T11 Arg2:T21
+T1	Unit 20 22	°N

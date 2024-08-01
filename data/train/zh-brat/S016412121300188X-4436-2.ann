@@ -1,0 +1,6 @@
+T1	Quantity 99 102	10%
+T2	MeasuredProperty 124 141	产生相同的向后切片和相同的向前切片
+T3	MeasuredEntity -1 -1	程序的SDG顶点
+R1	HasProperty Arg1:T3 Arg2:T2
+R2	HasQuantity Arg1:T2 Arg2:T1
+T4	Unit 101 102	%

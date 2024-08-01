@@ -1,0 +1,9 @@
+T39	Quantity -1 -1	86 s
+#19	AnnotatorNotes T39	s
+T279	MeasuredProperty 481 489	仪器的时间分辨率
+R21	HasQuantity Arg1:T279 Arg2:T39
+T259	MeasuredEntity 534 543	给定的指向/俯仰角
+R22	HasProperty Arg1:T259 Arg2:T279
+T209	Qualifier 473 478	非旋转模式
+R23	Qualifies Arg1:T209 Arg2:T279
+T1	Unit 39 40	S

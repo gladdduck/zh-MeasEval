@@ -1,0 +1,13 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0927024813002961-1051	1	Quantity	221	222	T1-1	五	{'mods': ['IsCount']}
+S0927024813002961-1051	1	MeasuredEntity	-1	-1	T2-1	主要贡献者	{'HasQuantity': 'T1-1'}
+S0927024813002961-1051	2	Quantity	249	250	T1-2	两	{'mods': ['IsCount']}
+S0927024813002961-1051	2	MeasuredEntity	264	266	T2-2	影响	{'HasQuantity': 'T1-2'}
+S0927024813002961-1051	3	Quantity	-1	-1	T1-3	2-7%	{'unit': '%'}
+S0927024813002961-1051	3	MeasuredEntity	-1	-1	T2-3	性能变化	{'HasQuantity': 'T1-3'}
+S0927024813002961-1051	4	Quantity	-1	-1	T1-4	10-15%的范围	{'mods': ['IsRange'], 'unit': '%'}
+S0927024813002961-1051	4	MeasuredEntity	-1	-1	T3-4	性能变化	{'HasQuantity': 'T1-4'}
+S0927024813002961-1051	5	Quantity	451	456	T1-5	高达25%	{'mods': ['IsRange'], 'unit': '%'}
+S0927024813002961-1051	5	MeasuredProperty	306	308	T3-5	变化	{'HasQuantity': 'T1-5'}
+S0927024813002961-1051	5	MeasuredEntity	442	446	T5-5	不同设备	{'HasProperty': 'T3-5'}
+S0927024813002961-1051	5	Qualifier	-1	-1	T2-5	衰老原因	{'Qualifies': 'T5-5'}

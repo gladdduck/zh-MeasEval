@@ -1,0 +1,4 @@
+T1	Quantity 509 513	145°
+T2	MeasuredEntity -1 -1	反向散射堤岸
+T3	Unit 512 513	°
+R1	HasQuantity Arg1:T2 Arg2:T1

@@ -1,0 +1,4 @@
+T1	Quantity 81 83	26
+T2	MeasuredEntity 69 71	功能
+R1	HasQuantity Arg1:T2 Arg2:T1
+A1	IsCount T1

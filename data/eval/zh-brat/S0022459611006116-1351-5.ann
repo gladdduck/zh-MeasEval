@@ -1,0 +1,8 @@
+T1	Quantity 155 161	10.042
+T2	Unit -1 -1	Å
+T3	MeasuredProperty 74 75	C
+R1	HasQuantity Arg1:T3 Arg2:T1
+T4	MeasuredEntity -1 -1	四方单位细胞
+R2	HasProperty Arg1:T4 Arg2:T3
+T5	Qualifier 142 145	文献值
+R3	Qualifies Arg1:T5 Arg2:T3

@@ -1,0 +1,5 @@
+T1	Quantity 88 90	19
+T2	MeasuredProperty 24 26	年龄
+T3	MeasuredEntity 46 51	风力涡轮机
+R1	HasProperty Arg1:T3 Arg2:T2
+R2	HasQuantity Arg1:T2 Arg2:T1

@@ -1,0 +1,6 @@
+T1	Quantity 73 81	1000 m-2
+T2	Unit 78 81	m-2
+T3	MeasuredProperty 59 61	密度
+T4	MeasuredEntity -1 -1	number
+R1	HasProperty Arg1:T4 Arg2:T3
+R2	HasQuantity Arg1:T3 Arg2:T1

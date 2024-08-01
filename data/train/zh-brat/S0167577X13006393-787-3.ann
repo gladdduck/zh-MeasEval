@@ -1,0 +1,5 @@
+T1	Quantity 90 94	1.67
+T2	MeasuredProperty 32 33	比
+T3	MeasuredEntity -1 -1	缺陷HA在低于纯HA的温度下开始分解
+R1	HasProperty Arg1:T3 Arg2:T2
+R2	HasQuantity Arg1:T2 Arg2:T1

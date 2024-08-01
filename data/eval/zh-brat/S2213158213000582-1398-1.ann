@@ -1,0 +1,4 @@
+T1	Quantity 1 6	50 ms
+T2	MeasuredEntity -1 -1	组映射
+R1	HasQuantity Arg1:T2 Arg2:T1
+T3	Unit -1 -1	MS

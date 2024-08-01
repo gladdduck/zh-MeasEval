@@ -1,0 +1,5 @@
+T1	Quantity 41 53	100至200 ms之间
+A1	QuantityQualifier T1 IsRange
+T2	Unit -1 -1	MS
+T3	MeasuredEntity -1 -1	MMNm组件
+R1	HasQuantity Arg1:T3 Arg2:T1

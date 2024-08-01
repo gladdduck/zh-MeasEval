@@ -1,0 +1,5 @@
+T34	Quantity -1 -1	60 K
+#14	AnnotatorNotes T34	K
+T114	MeasuredEntity 191 193	差异
+R10	HasQuantity Arg1:T114 Arg2:T34
+T1	Unit 240 241	K

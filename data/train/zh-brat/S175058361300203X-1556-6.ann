@@ -1,0 +1,5 @@
+T1	Quantity 262 267	大于10%
+A1	QuantityQualifier T1 IsRange
+T2	MeasuredEntity -1 -1	标准化根均方（NRMS）差
+R1	HasQuantity Arg1:T2 Arg2:T1
+T3	Unit 233 234	%

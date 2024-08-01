@@ -1,0 +1,7 @@
+T1	Quantity 87 90	30度
+T3	MeasuredProperty 90 92	视野
+R1	HasQuantity Arg1:T3 Arg2:T1
+T2	MeasuredEntity -1 -1	装置
+R2	HasProperty Arg1:T2 Arg2:T3
+T4	Qualifier 210 215	HRA模式
+R3	Qualifies Arg1:T4 Arg2:T2

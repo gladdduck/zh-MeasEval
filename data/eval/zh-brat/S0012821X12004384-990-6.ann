@@ -1,0 +1,5 @@
+T1	Quantity -1 -1	2619.60 m和2614.71 m
+A1	QuantityQualifier T1 IsList
+T2	Unit -1 -1	M
+T3	MeasuredEntity 185 187	样品
+R1	HasQuantity Arg1:T3 Arg2:T1

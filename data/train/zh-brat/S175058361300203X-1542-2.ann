@@ -1,0 +1,4 @@
+T1	Quantity 137 140	50%
+T2	MeasuredEntity 141 146	CO2饱和
+T4	Unit 139 140	%
+R1	HasQuantity Arg1:T2 Arg2:T1

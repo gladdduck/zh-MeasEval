@@ -1,0 +1,6 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S027737911400050X-2401	1	Quantity	222	231	T1-1	几百年甚至一千多年	{'mods': ['IsRange'], 'unit': 'years'}
+S027737911400050X-2401	1	MeasuredProperty	210	212	T2-1	偏离	{'HasQuantity': 'T1-1'}
+S027737911400050X-2401	1	MeasuredEntity	139	143	T3-1	真实年龄	{'HasProperty': 'T2-1'}
+S027737911400050X-2401	2	Quantity	-1	-1	T1-2	3.00-3.05 ka	{'mods': ['IsRange'], 'unit': 'ka'}
+S027737911400050X-2401	2	MeasuredEntity	-1	-1	T3-2	calm BP Alpehué Pumice（So-A）喷发	{'HasQuantity': 'T1-2'}

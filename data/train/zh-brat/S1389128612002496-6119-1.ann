@@ -1,0 +1,8 @@
+T1	Quantity 75 88	从10 ms到0.1 ms
+T2	Unit -1 -1	M
+T3	Unit -1 -1	MS
+A1	QuantityQualifier T1 IsRange
+T4	MeasuredEntity 69 71	TB
+T5	Qualifier -1 -1	减小
+R1	Qualifies Arg1:T5 Arg2:T1
+R2	HasQuantity Arg1:T4 Arg2:T1

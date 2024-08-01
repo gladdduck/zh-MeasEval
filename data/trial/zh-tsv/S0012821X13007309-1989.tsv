@@ -1,0 +1,35 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0012821X13007309-1989	1	Quantity	140	143	T81-1	0.8	{'mods': ['IsApproximate', 'IsMean']}
+S0012821X13007309-1989	1	MeasuredProperty	-1	-1	T101-1	187 O/188 O	{'HasQuantity': 'T81-1'}
+S0012821X13007309-1989	1	MeasuredEntity	70	72	T71-1	海水	{'HasProperty': 'T101-1'}
+S0012821X13007309-1989	1	Qualifier	-1	-1	T91-1	在LIP发作之前	{'Qualifies': 'T101-1'}
+S0012821X13007309-1989	1	Qualifier	123	125	T321-1	平均	{'Qualifies': 'T81-1'}
+S0012821X13007309-1989	2	Quantity	-1	-1	T112-2	10 ppq	{'mods': ['IsMean'], 'unit': 'ppq'}
+S0012821X13007309-1989	2	MeasuredProperty	-1	-1	T122-2	骨丰富度	{'HasQuantity': 'T112-2'}
+S0012821X13007309-1989	2	MeasuredEntity	70	72	T132-2	海水	{'HasProperty': 'T122-2'}
+S0012821X13007309-1989	2	Qualifier	123	125	T312-2	平均	{'Qualifies': 'T112-2'}
+S0012821X13007309-1989	3	Quantity	206	210	T163-3	0.13	
+S0012821X13007309-1989	3	MeasuredProperty	-1	-1	T153-3	187 O/188 O	{'HasQuantity': 'T163-3'}
+S0012821X13007309-1989	3	MeasuredEntity	191	194	T143-3	玄武岩	{'HasProperty': 'T153-3'}
+S0012821X13007309-1989	4	Quantity	-1	-1	T194-4	1至600 ppb	{'mods': ['IsRange'], 'unit': 'ppt'}
+S0012821X13007309-1989	4	MeasuredProperty	-1	-1	T184-4	O丰富度	{'HasQuantity': 'T194-4'}
+S0012821X13007309-1989	4	MeasuredEntity	191	194	T174-4	玄武岩	{'HasProperty': 'T184-4'}
+S0012821X13007309-1989	5	Quantity	-1	-1	T205-5	1至30 ppb	{'mods': ['IsRange'], 'unit': 'ppt'}
+S0012821X13007309-1989	5	MeasuredProperty	-1	-1	T185-5	O丰富度	{'HasQuantity': 'T205-5'}
+S0012821X13007309-1989	5	MeasuredEntity	191	194	T175-5	玄武岩	{'HasProperty': 'T185-5'}
+S0012821X13007309-1989	5	Qualifier	-1	-1	T215-5	典型值	{'Qualifies': 'T205-5'}
+S0012821X13007309-1989	6	Quantity	-1	-1	T246-6	30个百分点	{'unit': 'ppt'}
+S0012821X13007309-1989	6	MeasuredProperty	-1	-1	T226-6	骨丰富度	{'HasQuantity': 'T246-6'}
+S0012821X13007309-1989	6	MeasuredEntity	191	194	T236-6	玄武岩	{'HasProperty': 'T226-6'}
+S0012821X13007309-1989	7	Quantity	477	480	T17-7	75%	{'unit': '%'}
+S0012821X13007309-1989	7	MeasuredProperty	-1	-1	T57-7	从唇部	{'HasQuantity': 'T17-7'}
+S0012821X13007309-1989	7	MeasuredEntity	-1	-1	T37-7	OS贡献	{'HasProperty': 'T57-7'}
+S0012821X13007309-1989	8	Quantity	583	586	T28-8	25%	{'unit': '%'}
+S0012821X13007309-1989	8	MeasuredProperty	-1	-1	T68-8	从唇部	{'HasQuantity': 'T28-8'}
+S0012821X13007309-1989	8	MeasuredEntity	-1	-1	T48-8	O输入	{'HasProperty': 'T68-8'}
+S0012821X13007309-1989	9	Quantity	-1	-1	T279-9	100 ppb	{'unit': 'ppt'}
+S0012821X13007309-1989	9	MeasuredProperty	-1	-1	T269-9	O丰富度	{'HasQuantity': 'T279-9'}
+S0012821X13007309-1989	9	MeasuredEntity	-1	-1	T259-9	LIP页岩	{'HasProperty': 'T269-9'}
+S0012821X13007309-1989	10	Quantity	561	564	T2810-10	20倍	{'unit': 'times'}
+S0012821X13007309-1989	10	MeasuredEntity	565	567	T2910-10	气体	{'HasQuantity': 'T2810-10'}
+S0012821X13007309-1989	10	Qualifier	-1	-1	T3010-10	花岗岩的	{'Qualifies': 'T2810-10'}

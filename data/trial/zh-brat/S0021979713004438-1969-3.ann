@@ -1,0 +1,5 @@
+T13	Quantity 97 100	10%
+#13	AnnotatorNotes T13	%
+T123	MeasuredEntity -1 -1	NaOH
+R3	HasQuantity Arg1:T123 Arg2:T13
+T1	Unit 99 100	%

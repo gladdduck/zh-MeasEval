@@ -1,0 +1,8 @@
+T1	Quantity -1 -1	0.36 m s-1
+T2	MeasuredEntity -1 -1	激光雷达风速
+T3	MeasuredProperty 167 169	误差
+T4	Unit 84 89	m s-1
+T5	Qualifier 184 188	稳定条件
+R1	Qualifies Arg1:T5 Arg2:T3
+R2	HasProperty Arg1:T2 Arg2:T3
+R3	HasQuantity Arg1:T3 Arg2:T1

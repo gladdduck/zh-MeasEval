@@ -1,0 +1,4 @@
+T1	Quantity 152 158	835 μg
+T2	Unit 106 108	μg
+T3	MeasuredEntity -1 -1	线粒体裂解物
+R1	HasQuantity Arg1:T3 Arg2:T1

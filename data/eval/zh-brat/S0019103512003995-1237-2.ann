@@ -1,0 +1,8 @@
+T1	Quantity -1 -1	-6.6公里s-1
+T2	Unit -1 -1	公里秒-1
+T3	MeasuredProperty 120 124	相对速度
+T4	MeasuredEntity 64 67	ISM
+T5	Qualifier 114 119	相对于地球
+R1	Qualifies Arg1:T5 Arg2:T3
+R2	HasProperty Arg1:T4 Arg2:T3
+R3	HasQuantity Arg1:T3 Arg2:T1

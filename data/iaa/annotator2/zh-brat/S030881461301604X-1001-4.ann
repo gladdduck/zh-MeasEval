@@ -1,0 +1,4 @@
+T1	Quantity 99 102	98%
+T2	Unit 68 69	%
+T3	MeasuredEntity -1 -1	甲酸
+R1	HasQuantity Arg1:T3 Arg2:T1

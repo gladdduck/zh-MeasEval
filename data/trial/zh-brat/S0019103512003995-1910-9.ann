@@ -1,0 +1,5 @@
+T249	Quantity 187 188	三
+#19	AnnotatorNotes T249	count
+A19	IsCount T249
+T219	MeasuredEntity 192 194	凌日
+R16	HasQuantity Arg1:T219 Arg2:T249

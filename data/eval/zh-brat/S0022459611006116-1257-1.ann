@@ -1,0 +1,6 @@
+T1	Quantity -1 -1	1323 K
+T2	Unit 5 6	K
+T3	MeasuredEntity -1 -1	镁3NF3
+T4	MeasuredProperty 10 12	合成
+R1	HasProperty Arg1:T3 Arg2:T4
+R2	HasQuantity Arg1:T4 Arg2:T1

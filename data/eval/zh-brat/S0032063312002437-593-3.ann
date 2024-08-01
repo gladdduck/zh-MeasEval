@@ -1,0 +1,9 @@
+T1	Quantity 69 74	约10分钟
+T2	Qualifier 19 28	金星快车（VEX）
+T3	MeasuredEntity 29 31	轨道
+R1	Qualifies Arg1:T2 Arg2:T3
+A1	IsApproximate T1
+T4	Unit -1 -1	min
+T5	MeasuredProperty -1 -1	在电离层度过
+R2	HasProperty Arg1:T3 Arg2:T5
+R3	HasQuantity Arg1:T5 Arg2:T1

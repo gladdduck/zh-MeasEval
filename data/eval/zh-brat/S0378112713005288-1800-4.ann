@@ -1,0 +1,7 @@
+T1	Quantity -1 -1	>50厘米
+T2	MeasuredEntity 192 194	树苗
+T3	MeasuredProperty 161 163	高度
+T4	Unit 177 179	cm
+A1	QuantityQualifier T1 IsRange
+R1	HasProperty Arg1:T2 Arg2:T3
+R2	HasQuantity Arg1:T3 Arg2:T1

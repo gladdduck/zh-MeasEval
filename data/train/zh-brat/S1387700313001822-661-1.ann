@@ -1,0 +1,6 @@
+T1	Quantity 104 110	260 nm
+T2	Unit 108 110	nm
+T4	MeasuredProperty -1 -1	阴性条带
+R3	HasQuantity Arg1:T4 Arg2:T1
+T3	MeasuredEntity -1 -1	GMP的固体CD光谱
+R1	HasProperty Arg1:T3 Arg2:T4

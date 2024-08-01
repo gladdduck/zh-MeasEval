@@ -1,0 +1,8 @@
+T115	Quantity -1 -1	pH ' 2
+#15	AnnotatorNotes T115	pH
+T125	MeasuredEntity 92 94	样品
+A1	IsApproximate T115
+T1	Unit 107 109	pH
+T2	MeasuredProperty 104 106	酸化
+R1	HasProperty Arg1:T125 Arg2:T2
+R2	HasQuantity Arg1:T2 Arg2:T115

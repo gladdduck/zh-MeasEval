@@ -1,0 +1,6 @@
+T1	Quantity 215 219	4 RP
+T2	MeasuredProperty 188 190	位于
+T3	MeasuredEntity 184 188	恒温音点
+T4	Unit -1 -1	Rp
+R1	HasProperty Arg1:T3 Arg2:T2
+R2	HasQuantity Arg1:T2 Arg2:T1

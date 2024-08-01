@@ -1,0 +1,7 @@
+T137	Quantity -1 -1	1485厘米-1
+#17	AnnotatorNotes T137	cm−1
+T127	MeasuredProperty 283 284	峰
+R11	HasQuantity Arg1:T127 Arg2:T137
+T177	MeasuredEntity -1 -1	现场ATR-FT光谱
+R12	HasProperty Arg1:T177 Arg2:T127
+T1	Unit -1 -1	厘米-1

@@ -1,0 +1,11 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0032063312003054-1990	1	Quantity	-1	-1	T1-1	12 min	{'unit': 'min'}
+S0032063312003054-1990	1	MeasuredProperty	30	34	T3-1	时间间隔	{'HasQuantity': 'T1-1'}
+S0032063312003054-1990	1	MeasuredEntity	23	29	T4-1	ELS光谱图	{'HasProperty': 'T3-1'}
+S0032063312003054-1990	2	Quantity	36	39	T1-2	2分钟	{'unit': 'min'}
+S0032063312003054-1990	2	MeasuredProperty	-1	-1	T4-2	超过	{'HasQuantity': 'T1-2'}
+S0032063312003054-1990	2	MeasuredEntity	-1	-1	T3-2	清晰的“倒V”结构	{'HasProperty': 'T4-2'}
+S0032063312003054-1990	2	Qualifier	-1	-1	T5-2	频谱图中心的间隔	{'Qualifies': 'T1-2'}
+S0032063312003054-1990	3	Quantity	-1	-1	T1-3	大约60 eV。	{'mods': ['IsApproximate'], 'unit': 'eV'}
+S0032063312003054-1990	3	MeasuredProperty	-1	-1	T3-3	能源	{'HasQuantity': 'T1-3'}
+S0032063312003054-1990	3	MeasuredEntity	11	13	T4-3	峰值	{'HasProperty': 'T3-3'}

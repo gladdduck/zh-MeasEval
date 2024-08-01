@@ -1,0 +1,3 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0301010413004096-646	1	Quantity	121	124	T1-1	5 K	{'unit': 'K'}
+S0301010413004096-646	1	MeasuredEntity	-1	-1	T3-1	吸收H2	{'HasQuantity': 'T1-1'}

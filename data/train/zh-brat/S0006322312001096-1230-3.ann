@@ -1,0 +1,7 @@
+T13	Quantity 116 120	4.6%
+#13	AnnotatorNotes T13	None
+T113	MeasuredProperty -1 -1	随访时出现这样的症状
+R4	HasQuantity Arg1:T113 Arg2:T13
+T103	MeasuredEntity -1 -1	没有CES-D抑郁症状的人
+R5	HasProperty Arg1:T103 Arg2:T113
+T1	Unit 96 97	%

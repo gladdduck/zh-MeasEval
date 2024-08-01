@@ -1,0 +1,8 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0950705113001895-23699	1	Quantity	-1	-1	T1-1	从10%到100%	{'mods': ['IsRange'], 'unit': '%'}
+S0950705113001895-23699	1	MeasuredProperty	96	98	T3-1	增加	{'HasQuantity': 'T1-1'}
+S0950705113001895-23699	1	MeasuredEntity	92	95	T2-1	插入率	{'HasProperty': 'T3-1'}
+S0950705113001895-23699	2	Quantity	-1	-1	T1-2	低于85%	{'mods': ['IsRange'], 'unit': '%'}
+S0950705113001895-23699	2	MeasuredEntity	92	95	T2-2	插入率	{'HasQuantity': 'T1-2'}
+S0950705113001895-23699	3	Quantity	-1	-1	T1-3	超过85%	{'mods': ['IsRange'], 'unit': '%'}
+S0950705113001895-23699	3	MeasuredEntity	92	95	T2-3	插入率	{'HasQuantity': 'T1-3'}

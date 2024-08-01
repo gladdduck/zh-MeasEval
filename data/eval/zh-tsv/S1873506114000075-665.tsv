@@ -1,0 +1,7 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S1873506114000075-665	1	Quantity	-1	-1	T1-1	100-mm	{'unit': 'mm'}
+S1873506114000075-665	1	MeasuredEntity	-1	-1	T3-1	菜	{'HasQuantity': 'T1-1'}
+S1873506114000075-665	2	Quantity	-1	-1	T1-2	50微米和100微米	{'mods': ['IsList'], 'unit': 'μm'}
+S1873506114000075-665	2	MeasuredEntity	168	171	T3-2	比例尺	{'HasQuantity': 'T1-2'}
+S1873506114000075-665	3	Quantity	178	184	T1-3	100 μm	{'unit': 'μm'}
+S1873506114000075-665	3	MeasuredEntity	168	171	T2-3	比例尺	{'HasQuantity': 'T1-3'}

@@ -1,0 +1,11 @@
+T166	Quantity 495 498	16倍
+#16	AnnotatorNotes T166	times
+T276	MeasuredProperty 481 489	仪器的时间分辨率
+R11	HasQuantity Arg1:T276 Arg2:T166
+T256	MeasuredEntity 534 543	给定的指向/俯仰角
+R12	HasProperty Arg1:T256 Arg2:T276
+T266	Qualifier -1 -1	比旋转模式更好
+R13	Qualifies Arg1:T266 Arg2:T166
+T206	Qualifier 473 478	非旋转模式
+R14	Qualifies Arg1:T206 Arg2:T276
+T1	Unit 497 498	倍

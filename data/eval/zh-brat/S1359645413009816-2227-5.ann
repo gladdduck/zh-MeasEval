@@ -1,0 +1,7 @@
+T1	Quantity -1 -1	9.3 r = 7.3毫米
+T2	MeasuredEntity 85 89	四个样品
+T3	MeasuredProperty 35 37	半径
+T4	Unit 42 44	mm
+R1	HasProperty Arg1:T2 Arg2:T3
+R2	HasQuantity Arg1:T3 Arg2:T1
+A1	QuantityQualifier T1 IsList

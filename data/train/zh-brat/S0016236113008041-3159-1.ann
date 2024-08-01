@@ -1,0 +1,4 @@
+T1	Quantity 50 56	6和13公斤
+T2	Unit -1 -1	kg
+T3	MeasuredEntity -1 -1	床位库存
+R1	HasQuantity Arg1:T3 Arg2:T1

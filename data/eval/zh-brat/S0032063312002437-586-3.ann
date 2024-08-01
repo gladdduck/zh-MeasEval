@@ -1,0 +1,7 @@
+T1	Quantity 318 323	140公里
+T2	MeasuredProperty 97 99	海拔
+T4	MeasuredEntity 2 5	电离层
+R2	HasProperty Arg1:T4 Arg2:T2
+R3	HasQuantity Arg1:T2 Arg2:T1
+T5	Unit 102 104	公里
+A1	IsApproximate T1

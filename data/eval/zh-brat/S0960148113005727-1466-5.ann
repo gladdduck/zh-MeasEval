@@ -1,0 +1,8 @@
+T1	Quantity -1 -1	-0.41分
+T2	Unit 65 66	点
+T3	MeasuredEntity 45 47	农场
+T4	MeasuredProperty 52 57	线性年恶化
+R1	HasProperty Arg1:T3 Arg2:T4
+R2	HasQuantity Arg1:T4 Arg2:T1
+T5	Qualifier 48 52	第一年后
+R3	Qualifies Arg1:T5 Arg2:T4

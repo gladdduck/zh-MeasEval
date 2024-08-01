@@ -1,0 +1,8 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0019103512002801-1927	1	Quantity	50	61	T21-1	0.1-0.2 s-1	{'mods': ['IsRange'], 'unit': 's−1'}
+S0019103512002801-1927	1	MeasuredProperty	43	48	T41-1	线性增长率	{'HasQuantity': 'T21-1'}
+S0019103512002801-1927	1	MeasuredEntity	-1	-1	T31-1	不稳定凹槽	{'HasProperty': 'T41-1'}
+S0019103512002801-1927	2	Quantity	-1	-1	T12-2	5-10 S	{'mods': ['IsRange'], 'unit': 's'}
+S0019103512002801-1927	2	MeasuredProperty	-1	-1	T52-2	生长时间	{'HasQuantity': 'T12-2'}
+S0019103512002801-1927	2	MeasuredEntity	-1	-1	T32-2	不稳定凹槽	{'HasProperty': 'T52-2'}
+S0019103512002801-1927	3	Quantity	147	153	T73-3	10 RRh	{'unit': 'RRh'}

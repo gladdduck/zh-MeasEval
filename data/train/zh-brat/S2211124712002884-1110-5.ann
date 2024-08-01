@@ -1,0 +1,4 @@
+T1	Quantity -1 -1	10 μg/m
+T2	MeasuredEntity 151 155	粘连蛋白
+T3	Unit -1 -1	μg/m
+R1	HasQuantity Arg1:T2 Arg2:T1

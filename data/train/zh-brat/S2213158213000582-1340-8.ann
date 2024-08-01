@@ -1,0 +1,5 @@
+T1	Quantity 204 208	0.25
+T2	MeasuredEntity 182 187	梯度计数据
+T3	MeasuredProperty 200 201	p
+R1	HasProperty Arg1:T2 Arg2:T3
+R2	HasQuantity Arg1:T3 Arg2:T1

@@ -1,0 +1,5 @@
+T66	Quantity -1 -1	63 μm
+#16	AnnotatorNotes T66	None
+T106	MeasuredEntity 424 425	筛
+R6	HasQuantity Arg1:T106 Arg2:T66
+T1	Unit 363 365	μm

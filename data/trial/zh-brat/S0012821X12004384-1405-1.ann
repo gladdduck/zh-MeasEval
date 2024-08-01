@@ -1,0 +1,5 @@
+T41	Quantity 29 31	20
+#11	AnnotatorNotes T41	count
+A11	IsCount T41
+T11	MeasuredEntity -1 -1	标本
+R1	HasQuantity Arg1:T11 Arg2:T41

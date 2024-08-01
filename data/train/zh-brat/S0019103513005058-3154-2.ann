@@ -1,0 +1,9 @@
+T1	Quantity -1 -1	0.5wt%
+A1	IsApproximate T1
+T2	Unit -1 -1	重量%
+T3	MeasuredEntity 25 27	土壤
+T4	MeasuredProperty -1 -1	高氯酸盐（ClO 4-）
+T5	Qualifier -1 -1	推断
+R1	Qualifies Arg1:T5 Arg2:T1
+R2	HasProperty Arg1:T3 Arg2:T4
+R3	HasQuantity Arg1:T4 Arg2:T1

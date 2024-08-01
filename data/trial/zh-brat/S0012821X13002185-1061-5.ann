@@ -1,0 +1,10 @@
+T145	Quantity -1 -1	2马
+#15	AnnotatorNotes T145	Ma
+A15	IsApproximate T145
+T135	MeasuredProperty 35 37	开始
+R8	HasQuantity Arg1:T135 Arg2:T145
+T125	MeasuredEntity 193 195	下降
+R9	HasProperty Arg1:T125 Arg2:T135
+T155	Qualifier -1 -1	在南极冰川作用的地质和稳定同位素证据出现之前
+R10	Qualifies Arg1:T155 Arg2:T145
+T1	Unit -1 -1	马

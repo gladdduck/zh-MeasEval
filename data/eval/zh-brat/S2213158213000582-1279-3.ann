@@ -1,0 +1,7 @@
+T1	Quantity -1 -1	7岁到11岁之间
+T2	MeasuredEntity -1 -1	双耳咔嗒声
+T3	MeasuredProperty -1 -1	试验间间隔抖动
+T4	Unit 41 42	S
+R1	HasProperty Arg1:T2 Arg2:T3
+R2	HasQuantity Arg1:T3 Arg2:T1
+A1	QuantityQualifier T1 IsRange

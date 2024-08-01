@@ -1,0 +1,9 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0019103512002801-1849	1	Quantity	11	14	T31-1	350	{'mods': ['IsCount']}
+S0019103512002801-1849	1	MeasuredEntity	15	17	T41-1	电子	{'HasQuantity': 'T31-1'}
+S0019103512002801-1849	2	Quantity	44	46	T12-2	1%	{'unit': '%'}
+S0019103512002801-1849	2	MeasuredProperty	-1	-1	T22-2	Erk水平	{'HasQuantity': 'T12-2'}
+S0019103512002801-1849	2	MeasuredEntity	15	17	T52-2	电子	{'HasProperty': 'T22-2'}
+S0019103512002801-1849	3	Quantity	-1	-1	T63-3	1 Kev	{'unit': 'keV'}
+S0019103512002801-1849	3	MeasuredProperty	-1	-1	T23-3	Erk水平	{'HasQuantity': 'T63-3'}
+S0019103512002801-1849	3	MeasuredEntity	15	17	T53-3	电子	{'HasProperty': 'T23-3'}

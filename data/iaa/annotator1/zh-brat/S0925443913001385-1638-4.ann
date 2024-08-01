@@ -1,0 +1,5 @@
+T1	Quantity -1 -1	三种蛋白质
+T2	Unit 44 46	蛋白
+A1	IsCount T1
+T3	MeasuredEntity -1 -1	小核糖体亚基
+R1	HasQuantity Arg1:T3 Arg2:T1

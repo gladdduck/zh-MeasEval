@@ -1,0 +1,4 @@
+T1	Quantity 7 10	10%
+T2	Unit 9 10	%
+T3	MeasuredEntity 10 20	中性缓冲福尔马林溶液
+R1	HasQuantity Arg1:T3 Arg2:T1

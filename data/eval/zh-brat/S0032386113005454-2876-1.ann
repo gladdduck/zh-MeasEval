@@ -1,0 +1,6 @@
+T1	Quantity -1 -1	20 °C
+T2	Unit 101 103	°C
+T3	MeasuredEntity -1 -1	S-CSR改性环氧聚合物
+T4	MeasuredProperty -1 -1	骨折
+R1	HasProperty Arg1:T3 Arg2:T4
+R2	HasQuantity Arg1:T4 Arg2:T1

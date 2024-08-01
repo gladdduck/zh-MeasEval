@@ -1,0 +1,8 @@
+T611	Quantity -1 -1	约2小时
+#111	AnnotatorNotes T611	h
+A111	IsApproximate T611
+T2511	MeasuredProperty 210 212	时间
+R19	HasQuantity Arg1:T2511 Arg2:T611
+T3011	MeasuredEntity 206 208	观察
+R20	HasProperty Arg1:T3011 Arg2:T2511
+T1	Unit 111 112	H

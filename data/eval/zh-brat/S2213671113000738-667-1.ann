@@ -1,0 +1,6 @@
+T1	Quantity 134 142	25 ng/ml
+T2	Unit 137 142	ng/ml
+T3	MeasuredEntity -1 -1	干扰素γ（干扰素-γ
+R1	HasQuantity Arg1:T3 Arg2:T1
+T4	Qualifier -1 -1	中48小时
+R2	Qualifies Arg1:T4 Arg2:T3

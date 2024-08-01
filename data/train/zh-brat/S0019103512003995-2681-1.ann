@@ -1,0 +1,8 @@
+T1	Quantity -1 -1	5Rp
+T2	Unit -1 -1	Rp
+T3	MeasuredProperty 5 9	截止水平
+T4	Qualifier -1 -1	仅离子
+T5	MeasuredEntity -1 -1	M7型号
+R1	Qualifies Arg1:T4 Arg2:T3
+R2	HasQuantity Arg1:T3 Arg2:T1
+R3	HasProperty Arg1:T5 Arg2:T3

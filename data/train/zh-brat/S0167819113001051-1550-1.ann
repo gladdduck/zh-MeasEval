@@ -1,0 +1,7 @@
+T1	Quantity -1 -1	大约2%
+T2	MeasuredEntity -1 -1	出现故障的时候
+T3	Unit 38 39	%
+T4	MeasuredProperty -1 -1	常规单元陷入僵局
+A1	IsApproximate T1
+R1	HasProperty Arg1:T2 Arg2:T4
+R2	HasQuantity Arg1:T4 Arg2:T1

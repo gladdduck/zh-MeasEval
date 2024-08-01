@@ -1,0 +1,7 @@
+T1	Quantity -1 -1	24h内
+A1	QuantityQualifier T1 IsRange
+T2	Unit 432 433	H
+T3	MeasuredEntity 131 133	细胞
+T4	MeasuredProperty -1 -1	幸存下来并形成凸盘状聚集体
+R1	HasProperty Arg1:T3 Arg2:T4
+R2	HasQuantity Arg1:T4 Arg2:T1

@@ -1,0 +1,8 @@
+T1	Quantity 125 131	5 K/分钟
+T2	MeasuredProperty -1 -1	加热速率
+T3	MeasuredEntity 86 91	显微镜样本
+R1	HasProperty Arg1:T3 Arg2:T2
+T4	Qualifier -1 -1	退火
+R2	Qualifies Arg1:T4 Arg2:T3
+R3	HasQuantity Arg1:T2 Arg2:T1
+T5	Unit -1 -1	K/min

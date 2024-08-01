@@ -1,0 +1,4 @@
+T1	Quantity 143 148	20 °C
+T2	Unit 146 148	°C
+T3	MeasuredEntity -1 -1	未改性的环氧聚合物
+R1	HasQuantity Arg1:T3 Arg2:T1

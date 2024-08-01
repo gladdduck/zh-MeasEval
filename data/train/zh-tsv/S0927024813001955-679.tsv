@@ -1,0 +1,14 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0927024813001955-679	1	Quantity	-1	-1	T1-1	<200nm的	{'mods': ['IsRange'], 'unit': 'nm'}
+S0927024813001955-679	1	MeasuredProperty	26	27	T4-1	薄	{'HasQuantity': 'T1-1'}
+S0927024813001955-679	1	MeasuredEntity	39	40	T2-1	膜	{'HasProperty': 'T4-1'}
+S0927024813001955-679	1	Qualifier	27	30	T3-1	ZnO	{'Qualifies': 'T2-1'}
+S0927024813001955-679	2	Quantity	117	130	T1-2	3.4+0.1厘米2/Vs	{'mods': ['IsRange'], 'unit': 'cm2/Vs'}
+S0927024813001955-679	2	MeasuredProperty	132	137	T3-2	电子迁移率	{'HasQuantity': 'T1-2'}
+S0927024813001955-679	2	MeasuredEntity	104	112	T2-2	ALD ZnO层	{'HasProperty': 'T3-2'}
+S0927024813001955-679	3	Quantity	144	150	T1-3	高达100%	{'mods': ['IsRange'], 'unit': '%'}
+S0927024813001955-679	3	MeasuredProperty	-1	-1	T3-3	可见光透过率	{'HasQuantity': 'T1-3'}
+S0927024813001955-679	3	MeasuredEntity	104	112	T4-3	ALD ZnO层	{'HasProperty': 'T3-3'}
+S0927024813001955-679	4	Quantity	232	237	T1-4	200天后	{'mods': ['IsRange'], 'unit': 'days'}
+S0927024813001955-679	4	MeasuredProperty	244	246	T4-4	保持	{'HasQuantity': 'T1-4'}
+S0927024813001955-679	4	MeasuredEntity	191	193	T2-4	性能	{'HasProperty': 'T4-4'}

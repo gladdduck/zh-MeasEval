@@ -1,0 +1,4 @@
+T1	Quantity 97 99	20
+A1	IsCount T1
+T2	MeasuredEntity -1 -1	公务员主管部门
+R1	HasQuantity Arg1:T2 Arg2:T1

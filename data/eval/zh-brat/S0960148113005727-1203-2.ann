@@ -1,0 +1,8 @@
+T1	Quantity 130 132	1%
+T3	MeasuredEntity -1 -1	输出
+T4	MeasuredProperty 105 107	减少
+T5	Qualifier 116 125	湍流强度每增加3%
+T6	Unit 111 112	%
+R4	HasQuantity Arg1:T4 Arg2:T1
+R1	HasProperty Arg1:T3 Arg2:T4
+R2	Qualifies Arg1:T5 Arg2:T1

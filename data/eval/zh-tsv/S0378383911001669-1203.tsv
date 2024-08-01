@@ -1,0 +1,11 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0378383911001669-1203	1	Quantity	-1	-1	T1-1	1.3 mm	{'unit': 'mm'}
+S0378383911001669-1203	1	MeasuredEntity	-1	-1	T2-1	沙质海滩	{'HasQuantity': 'T1-1'}
+S0378383911001669-1203	2	Quantity	118	125	T1-2	0.072 m	{'unit': 'm'}
+S0378383911001669-1203	2	MeasuredEntity	-1	-1	T3-2	1.3毫米粗沙海滩	{'HasQuantity': 'T1-2'}
+S0378383911001669-1203	3	Quantity	-1	-1	T1-3	0.772米	{'unit': 'm'}
+S0378383911001669-1203	3	MeasuredEntity	-1	-1	T3-3	1.3毫米粗沙海滩	{'HasQuantity': 'T1-3'}
+S0378383911001669-1203	4	Quantity	-1	-1	T1-4	1.567米	{'unit': 'm'}
+S0378383911001669-1203	4	MeasuredEntity	-1	-1	T3-4	1.3毫米粗沙海滩	{'HasQuantity': 'T1-4'}
+S0378383911001669-1203	5	Quantity	-1	-1	T1-5	8.4 mm	{'unit': 'mm'}
+S0378383911001669-1203	5	MeasuredEntity	181	187	T2-5	砾石粗糙海滩	{'HasQuantity': 'T1-5'}

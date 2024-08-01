@@ -1,0 +1,8 @@
+T62	Quantity 171 181	440 ± 50 K
+#12	AnnotatorNotes T62	K
+A12	QuantityQualifier T62 HasTolerance
+T42	MeasuredProperty -1 -1	推断温度
+R3	HasQuantity Arg1:T42 Arg2:T62
+T52	MeasuredEntity -1 -1	极光卵
+R4	HasProperty Arg1:T52 Arg2:T42
+T1	Unit 25 26	K

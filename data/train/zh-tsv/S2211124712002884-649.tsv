@@ -1,0 +1,7 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S2211124712002884-649	1	Quantity	41	45	T1-1	100%	{'unit': '%'}
+S2211124712002884-649	1	MeasuredProperty	21	30	T4-1	细胞内PGRN水平	{'HasQuantity': 'T1-1'}
+S2211124712002884-649	1	MeasuredEntity	-1	-1	T3-1	控制线20的值	{'HasProperty': 'T4-1'}
+S2211124712002884-649	2	Quantity	-1	-1	T1-2	3–4	{'mods': ['IsRange']}
+S2211124712002884-649	2	MeasuredProperty	46	47	T2-2	n	{'HasQuantity': 'T1-2'}
+S2211124712002884-649	2	MeasuredEntity	54	59	T3-2	独立培养物	{'HasProperty': 'T2-2'}

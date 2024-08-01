@@ -1,0 +1,4 @@
+T83	Quantity 279 282	0.1
+#13	AnnotatorNotes T83	Unspecified
+T73	MeasuredEntity -1 -1	xe的电子混合比
+R6	HasQuantity Arg1:T73 Arg2:T83

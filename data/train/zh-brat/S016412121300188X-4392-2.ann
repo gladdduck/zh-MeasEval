@@ -1,0 +1,6 @@
+T1	Quantity 54 58	100%
+T2	Unit 57 58	%
+T3	MeasuredEntity -1 -1	散列函数
+T4	MeasuredProperty 6 8	准确
+R1	HasQuantity Arg1:T4 Arg2:T1
+R2	HasProperty Arg1:T3 Arg2:T4

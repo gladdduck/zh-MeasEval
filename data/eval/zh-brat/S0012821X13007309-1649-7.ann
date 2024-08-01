@@ -1,0 +1,8 @@
+T1	Quantity 311 317	3.52 m
+T2	Unit -1 -1	M
+T3	Qualifier -1 -1	进入OAE 2
+R1	Qualifies Arg1:T3 Arg2:T1
+T4	MeasuredEntity 111 120	δ 13 Corg
+T5	MeasuredProperty -1 -1	最大浓缩
+R2	HasProperty Arg1:T4 Arg2:T5
+R3	HasQuantity Arg1:T5 Arg2:T1

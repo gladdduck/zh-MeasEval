@@ -1,0 +1,5 @@
+T172	Quantity 324 325	八
+#12	AnnotatorNotes T172	count
+A12	IsCount T172
+T182	MeasuredEntity 267 269	周期
+R2	HasQuantity Arg1:T182 Arg2:T172

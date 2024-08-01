@@ -1,0 +1,8 @@
+T11	Quantity 40 46	<1 ppm
+#11	AnnotatorNotes T11	ppm
+A11	QuantityQualifier T11 IsRange
+T71	MeasuredProperty 12 14	浓度
+R1	HasQuantity Arg1:T71 Arg2:T11
+T81	MeasuredEntity 6 12	气态主要元素
+R2	HasProperty Arg1:T81 Arg2:T71
+T1	Unit 43 46	ppm

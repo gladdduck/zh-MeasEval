@@ -1,0 +1,10 @@
+T1	Quantity 114 118	3.9%
+T2	MeasuredProperty -1 -1	线路综合交通深度
+T3	MeasuredEntity -1 -1	M7型号
+R1	HasProperty Arg1:T3 Arg2:T2
+T4	Qualifier 70 81	C II 1334.5
+T5	Qualifier -1 -1	如果40%的硅是Si 2 +
+R2	HasQuantity Arg1:T2 Arg2:T1
+R3	Qualifies Arg1:T4 Arg2:T2
+R4	Qualifies Arg1:T5 Arg2:T3
+T6	Unit 54 55	%

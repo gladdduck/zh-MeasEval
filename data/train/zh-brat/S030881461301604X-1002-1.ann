@@ -1,0 +1,4 @@
+T1	Quantity 9 10	两
+T2	MeasuredEntity 76 80	储备溶液
+R1	HasQuantity Arg1:T2 Arg2:T1
+A1	IsCount T1

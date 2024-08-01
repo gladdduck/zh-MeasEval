@@ -1,0 +1,4 @@
+T1	Quantity 226 227	八
+T3	MeasuredEntity -1 -1	地震勘测
+R1	HasQuantity Arg1:T3 Arg2:T1
+A1	IsCount T1

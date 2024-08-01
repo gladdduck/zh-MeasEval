@@ -1,0 +1,20 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0019103513005058-3094	1	Quantity	-1	-1	T21-1	最后3字节	{'mods': ['IsRange'], 'unit': 'byr'}
+S0019103513005058-3094	1	MeasuredEntity	-1	-1	T31-1	亚马逊时代	{'HasQuantity': 'T21-1'}
+S0019103513005058-3094	2	Quantity	-1	-1	T62-2	2 m	{'mods': ['IsApproximate'], 'unit': 'm'}
+S0019103513005058-3094	2	MeasuredProperty	238	240	T72-2	深度	{'HasQuantity': 'T62-2'}
+S0019103513005058-3094	2	MeasuredEntity	220	222	T42-2	土壤	{'HasProperty': 'T72-2'}
+S0019103513005058-3094	2	Qualifier	-1	-1	T52-2	受影响扰动影响	{'Qualifies': 'T42-2'}
+S0019103513005058-3094	3	Quantity	264	268	T93-3	0.1%	{'unit': '%'}
+S0019103513005058-3094	3	MeasuredProperty	246	254	T83-3	时间平均火山通量	{'HasQuantity': 'T93-3'}
+S0019103513005058-3094	3	MeasuredEntity	255	263	T103-3	现代陆地火山通量	{'HasProperty': 'T83-3'}
+S0019103513005058-3094	4	Quantity	-1	-1	T114-4	1.0- 1.7wt%	{'mods': ['IsRange'], 'unit': 'wt.%'}
+S0019103513005058-3094	4	MeasuredProperty	-1	-1	T144-4	SO 42-	{'HasQuantity': 'T114-4'}
+S0019103513005058-3094	4	MeasuredEntity	220	222	T154-4	土壤	{'HasProperty': 'T144-4'}
+S0019103513005058-3094	5	Quantity	-1	-1	T125-5	0.2- 0.4wt%	{'mods': ['IsRange'], 'unit': 'wt.%'}
+S0019103513005058-3094	5	MeasuredProperty	324	325	T135-5	N	{'HasQuantity': 'T125-5'}
+S0019103513005058-3094	5	MeasuredEntity	220	222	T155-5	土壤	{'HasProperty': 'T135-5'}
+S0019103513005058-3094	6	Quantity	-1	-1	T166-6	0.4- 0.6wt%	{'mods': ['IsRange'], 'unit': 'wt.%'}
+S0019103513005058-3094	6	MeasuredProperty	-1	-1	T176-6	ClO 4-	{'HasQuantity': 'T166-6'}
+S0019103513005058-3094	6	MeasuredEntity	220	222	T156-6	土壤	{'HasProperty': 'T176-6'}
+S0019103513005058-3094	6	Qualifier	-1	-1	T186-6	由美国宇航局的凤凰着陆器测量。	{'Qualifies': 'T176-6'}

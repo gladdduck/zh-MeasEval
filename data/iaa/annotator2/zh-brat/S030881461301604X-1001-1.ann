@@ -1,0 +1,5 @@
+T1	Quantity 61 69	68 - 70%
+T2	Unit 68 69	%
+A1	QuantityQualifier T1 IsRange
+T3	MeasuredEntity 58 60	硝酸
+R1	HasQuantity Arg1:T3 Arg2:T1

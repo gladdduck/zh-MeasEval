@@ -1,0 +1,5 @@
+T1	Quantity 161 170	50和100 ms
+T2	MeasuredEntity 172 176	S1活动
+R1	HasQuantity Arg1:T2 Arg2:T1
+A1	QuantityQualifier T1 IsList
+T3	Unit -1 -1	MS

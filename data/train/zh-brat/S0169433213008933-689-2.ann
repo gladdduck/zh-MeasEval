@@ -1,0 +1,7 @@
+T1	Quantity 81 95	0.06-0.07 mBar
+T2	Unit -1 -1	毫巴
+T3	MeasuredProperty -1 -1	压力
+T4	MeasuredEntity -1 -1	氩气
+R1	HasProperty Arg1:T4 Arg2:T3
+R2	HasQuantity Arg1:T3 Arg2:T1
+A1	QuantityQualifier T1 IsRange

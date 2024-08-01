@@ -1,0 +1,6 @@
+T179	Quantity -1 -1	六到八
+#19	AnnotatorNotes T179	count
+A19	QuantityQualifier T179 IsRange
+A29	IsCount T179
+T189	MeasuredEntity 419 425	标准样品支架
+R14	HasQuantity Arg1:T189 Arg2:T179

@@ -1,0 +1,6 @@
+T1	Quantity 26 31	180 m
+T2	Unit -1 -1	M
+T3	MeasuredProperty 23 25	中点
+T4	MeasuredEntity -1 -1	栅极
+R1	HasProperty Arg1:T4 Arg2:T3
+R2	HasQuantity Arg1:T3 Arg2:T1

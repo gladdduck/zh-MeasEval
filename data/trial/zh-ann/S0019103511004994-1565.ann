@@ -1,0 +1,14 @@
+T1	Quantity -1 -1	±10分钟
+T2	MeasuredEntity -1 -1	时间段
+T3	Qualifier -1 -1	围绕最近的接近
+R2	HasQuantity Arg1:T2 Arg2:T1
+T4	Quantity -1 -1	56-100 keV
+A1	QuantityQualifier T4 IsRange
+T5	MeasuredEntity -1 -1	电子
+T6	MeasuredProperty -1 -1	测得的差强度
+R3	HasQuantity Arg1:T6 Arg2:T4
+R4	HasProperty Arg1:T5 Arg2:T6
+R1	Qualifies Arg1:T3 Arg2:T1
+A2	QuantityQualifier T1 IsRange
+#1	AnnotatorNotes T1	min
+#2	AnnotatorNotes T4	meV

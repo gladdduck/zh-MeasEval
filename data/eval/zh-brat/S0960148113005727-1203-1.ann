@@ -1,0 +1,9 @@
+T1	Quantity -1 -1	2-5%
+T2	Unit 111 112	%
+A1	QuantityQualifier T1 IsRange
+T3	MeasuredEntity -1 -1	输出
+T4	MeasuredProperty 105 107	减少
+R1	HasProperty Arg1:T3 Arg2:T4
+R2	HasQuantity Arg1:T4 Arg2:T1
+T5	Qualifier -1 -1	涡轮机周围的缺陷
+R3	Qualifies Arg1:T5 Arg2:T1

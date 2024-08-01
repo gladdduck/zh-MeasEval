@@ -1,0 +1,4 @@
+T1	Quantity 271 275	0.1%
+T2	Unit 44 45	%
+T3	MeasuredEntity 276 284	陆地火山气体通量
+R1	HasQuantity Arg1:T3 Arg2:T1

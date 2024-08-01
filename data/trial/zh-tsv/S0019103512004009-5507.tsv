@@ -1,0 +1,10 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0019103512004009-5507	1	Quantity	29	35	T21-1	接近1 μ巴	{'mods': ['IsApproximate'], 'unit': 'μbar'}
+S0019103512004009-5507	1	MeasuredProperty	-1	-1	T41-1	基地	{'HasQuantity': 'T21-1'}
+S0019103512004009-5507	1	MeasuredEntity	-1	-1	T31-1	热H层	{'HasProperty': 'T41-1'}
+S0019103512004009-5507	2	Quantity	45	51	T12-2	8250 K	{'mods': ['IsMean'], 'unit': 'K'}
+S0019103512004009-5507	2	MeasuredProperty	39	43	T52-2	平均温度	{'HasQuantity': 'T12-2'}
+S0019103512004009-5507	2	MeasuredEntity	-1	-1	T32-2	热H层	{'HasProperty': 'T52-2'}
+S0019103512004009-5507	3	Quantity	-1	-1	T63-3	高于3RP	{'mods': ['IsRange'], 'unit': 'Rp'}
+S0019103512004009-5507	3	MeasuredProperty	-1	-1	T3-3	大部分是电离的	{'HasQuantity': 'T63-3'}
+S0019103512004009-5507	3	MeasuredEntity	-1	-1	T2-3	气氛	{'HasProperty': 'T3-3'}

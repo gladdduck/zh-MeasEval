@@ -1,0 +1,7 @@
+T62	Quantity -1 -1	2年
+#12	AnnotatorNotes T62	None
+T72	MeasuredProperty 120 123	发生率
+R2	HasQuantity Arg1:T72 Arg2:T62
+T82	MeasuredEntity -1 -1	出现抑郁性症状
+R3	HasProperty Arg1:T82 Arg2:T72
+T1	Unit 32 33	年

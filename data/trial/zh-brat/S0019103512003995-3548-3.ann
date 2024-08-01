@@ -1,0 +1,10 @@
+T33	Quantity -1 -1	约6000 K
+#13	AnnotatorNotes T33	K
+A13	IsApproximate T33
+T113	MeasuredProperty 121 123	温度
+R6	HasQuantity Arg1:T113 Arg2:T33
+T73	MeasuredEntity -1 -1	热层低于3RP
+R7	HasProperty Arg1:T73 Arg2:T113
+T83	Qualifier 300 301	上
+R8	Qualifies Arg1:T83 Arg2:T113
+T1	Unit 1 2	K

@@ -1,0 +1,6 @@
+T1	Quantity 217 220	33米
+T2	Unit -1 -1	M
+T4	Qualifier 208 214	斯图加特地层
+T3	MeasuredEntity 214 216	上部
+R1	HasQuantity Arg1:T3 Arg2:T1
+R2	Qualifies Arg1:T4 Arg2:T3

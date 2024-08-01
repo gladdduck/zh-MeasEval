@@ -1,0 +1,4 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S2213671113001306-1286	1	Quantity	56	58	T1-1	4周	{'unit': 'weeks'}
+S2213671113001306-1286	1	MeasuredProperty	-1	-1	T3-1	幸存	{'HasQuantity': 'T1-1'}
+S2213671113001306-1286	1	MeasuredEntity	35	41	T2-1	hRPE单层	{'HasProperty': 'T3-1'}

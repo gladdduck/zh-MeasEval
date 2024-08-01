@@ -1,0 +1,4 @@
+T1	Quantity 37 38	六
+A1	IsCount T1
+T2	MeasuredEntity 39 43	测量位置
+R1	HasQuantity Arg1:T2 Arg2:T1

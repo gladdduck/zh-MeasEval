@@ -1,0 +1,6 @@
+T1	Quantity 41 45	100%
+T2	Unit 44 45	%
+T3	MeasuredEntity -1 -1	控制线20的值
+T4	MeasuredProperty 21 30	细胞内PGRN水平
+R1	HasProperty Arg1:T3 Arg2:T4
+R2	HasQuantity Arg1:T4 Arg2:T1

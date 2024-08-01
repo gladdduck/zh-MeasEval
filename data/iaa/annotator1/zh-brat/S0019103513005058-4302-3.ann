@@ -1,0 +1,7 @@
+T1	Quantity 225 234	1.5-2.6 m
+T2	Unit -1 -1	M
+A1	QuantityQualifier T1 IsRange
+T3	MeasuredProperty 235 237	土壤
+R1	HasQuantity Arg1:T3 Arg2:T1
+T4	MeasuredEntity 17 22	火星电离层
+R2	HasProperty Arg1:T4 Arg2:T3

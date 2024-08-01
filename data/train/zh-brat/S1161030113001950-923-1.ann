@@ -1,0 +1,4 @@
+T1	Quantity 304 305	4
+T2	MeasuredEntity 613 614	类
+R1	HasQuantity Arg1:T2 Arg2:T1
+A1	IsCount T1

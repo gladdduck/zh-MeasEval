@@ -1,0 +1,9 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0927024813002420-1202	1	Quantity	-1	-1	T1-1	高出60%	
+S0927024813002420-1202	1	MeasuredProperty	95	98	T3-1	光电流	{'HasQuantity': 'T1-1'}
+S0927024813002420-1202	1	MeasuredEntity	80	89	T2-1	混合混合物的共沉积	{'HasProperty': 'T3-1'}
+S0927024813002420-1202	1	Qualifier	-1	-1	T4-1	比厚度优化的PTh/C60平面异结对应物	{'Qualifies': 'T1-1'}
+S0927024813002420-1202	2	Quantity	-1	-1	T1-2	高达80%	{'mods': ['IsRange']}
+S0927024813002420-1202	2	MeasuredProperty	125	131	T3-2	功率转换效率	{'HasQuantity': 'T1-2'}
+S0927024813002420-1202	2	MeasuredEntity	-1	-1	T2-2	设备	{'HasProperty': 'T3-2'}
+S0927024813002420-1202	2	Qualifier	-1	-1	T4-2	改进	{'Qualifies': 'T1-2'}

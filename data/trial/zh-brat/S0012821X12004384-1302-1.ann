@@ -1,0 +1,5 @@
+T91	Quantity 209 210	五
+#11	AnnotatorNotes T91	count
+A11	IsCount T91
+T101	MeasuredEntity 211 213	样品
+R1	HasQuantity Arg1:T101 Arg2:T91

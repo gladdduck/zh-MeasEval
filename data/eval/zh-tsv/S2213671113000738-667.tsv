@@ -1,0 +1,11 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S2213671113000738-667	1	Quantity	134	142	T1-1	25 ng/ml	{'unit': 'ng/ml'}
+S2213671113000738-667	1	MeasuredEntity	-1	-1	T3-1	干扰素γ（干扰素-γ	{'HasQuantity': 'T1-1'}
+S2213671113000738-667	1	Qualifier	-1	-1	T4-1	中48小时	{'Qualifies': 'T3-1'}
+S2213671113000738-667	2	Quantity	145	149	T1-2	48小时	{'unit': 'hr'}
+S2213671113000738-667	2	MeasuredProperty	-1	-1	T4-2	对干扰素γ（干扰素-γ）的反应	{'HasQuantity': 'T1-2'}
+S2213671113000738-667	2	MeasuredEntity	-1	-1	T3-2	iPSC衍生神经细胞	{'HasProperty': 'T4-2'}
+S2213671113000738-667	3	Quantity	-1	-1	T1-3	大约1：100	{'mods': ['IsApproximate']}
+S2213671113000738-667	3	MeasuredProperty	182	191	T3-3	mRNA的表达水平	{'HasQuantity': 'T1-3'}
+S2213671113000738-667	3	MeasuredEntity	-1	-1	T4-3	iPSC源神经细胞中的主要组织相容性复合体I类（MHC-I）	{'HasProperty': 'T3-3'}
+S2213671113000738-667	3	Qualifier	155	181	T2-3	与成纤维细胞和血细胞来源的iPSC中的外周血细胞相比	{'Qualifies': 'T3-3'}

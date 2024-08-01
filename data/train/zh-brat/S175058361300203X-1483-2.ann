@@ -1,0 +1,7 @@
+T1	Quantity 290 296	20-25%
+T2	Unit 295 296	%
+A1	QuantityQualifier T1 IsRange
+T3	MeasuredProperty -1 -1	有效孔隙度
+R2	HasQuantity Arg1:T3 Arg2:T1
+T5	MeasuredEntity 266 270	河道砂岩
+R3	HasProperty Arg1:T5 Arg2:T3

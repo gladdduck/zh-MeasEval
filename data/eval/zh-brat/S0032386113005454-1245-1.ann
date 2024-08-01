@@ -1,0 +1,6 @@
+T1	Quantity 11 16	10wt%
+T2	Unit -1 -1	重量%
+T3	MeasuredProperty -1 -1	20 °C下的S-CSR颗粒
+T4	MeasuredEntity 36 41	环氧聚合物
+R1	HasProperty Arg1:T4 Arg2:T3
+R2	HasQuantity Arg1:T3 Arg2:T1

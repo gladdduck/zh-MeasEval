@@ -1,0 +1,4 @@
+T1	MeasuredEntity 20 22	队列
+T2	Quantity -1 -1	10，308名员工
+T3	Unit 144 146	员工
+R1	HasQuantity Arg1:T1 Arg2:T2

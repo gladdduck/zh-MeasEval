@@ -1,0 +1,40 @@
+T1	Quantity -1 -1	15分钟
+T2	MeasuredEntity -1 -1	MeFP-1光谱
+T3	Quantity 132 137	10 μM
+T4	MeasuredEntity 138 143	FeCl3
+R1	HasQuantity Arg1:T4 Arg2:T3
+R2	HasQuantity Arg1:T2 Arg2:T1
+T5	Quantity -1 -1	1540厘米-1
+T6	Quantity -1 -1	1550厘米-1
+T7	Quantity -1 -1	1536厘米-1
+T8	MeasuredProperty -1 -1	峰值
+T9	MeasuredProperty -1 -1	峰
+R3	HasQuantity Arg1:T8 Arg2:T5
+R4	HasQuantity Arg1:T9 Arg2:T6
+R5	HasQuantity Arg1:T9 Arg2:T7
+T10	Quantity -1 -1	1540厘米-1
+T11	MeasuredProperty -1 -1	峰值
+R6	HasQuantity Arg1:T11 Arg2:T10
+T12	MeasuredProperty -1 -1	峰
+T13	Quantity -1 -1	1485厘米-1
+T14	Quantity -1 -1	1260厘米-1
+R7	HasQuantity Arg1:T12 Arg2:T13
+R8	HasQuantity Arg1:T12 Arg2:T14
+T15	MeasuredProperty -1 -1	肩膀
+T16	Quantity -1 -1	1423厘米-1
+R9	HasQuantity Arg1:T15 Arg2:T16
+T17	MeasuredEntity -1 -1	现场ATR-FT光谱
+R10	HasProperty Arg1:T17 Arg2:T8
+R11	HasProperty Arg1:T17 Arg2:T9
+R12	HasProperty Arg1:T17 Arg2:T11
+R13	HasProperty Arg1:T17 Arg2:T12
+R14	HasProperty Arg1:T17 Arg2:T15
+#1	AnnotatorNotes T3	μM
+#2	AnnotatorNotes T1	min
+#3	AnnotatorNotes T5	cm−1
+#4	AnnotatorNotes T6	cm−1
+#5	AnnotatorNotes T7	cm−1
+#6	AnnotatorNotes T10	cm−1
+#7	AnnotatorNotes T13	cm−1
+#8	AnnotatorNotes T14	cm−1
+#9	AnnotatorNotes T16	cm−1

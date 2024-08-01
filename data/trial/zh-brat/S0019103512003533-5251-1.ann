@@ -1,0 +1,9 @@
+T31	Quantity -1 -1	460 K以下
+#11	AnnotatorNotes T31	K
+A11	IsApproximate T31
+A21	QuantityQualifier T31 IsRange
+T11	MeasuredProperty -1 -1	高纬度气温
+R1	HasQuantity Arg1:T11 Arg2:T31
+T21	MeasuredEntity 8 14	土星高层大气
+R2	HasProperty Arg1:T21 Arg2:T11
+T1	Unit 25 26	K

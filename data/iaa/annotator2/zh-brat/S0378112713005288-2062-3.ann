@@ -1,0 +1,4 @@
+T1	Quantity -1 -1	5.9万
+T2	Unit 142 143	万
+T3	MeasuredEntity 91 93	种子
+R1	HasQuantity Arg1:T3 Arg2:T1

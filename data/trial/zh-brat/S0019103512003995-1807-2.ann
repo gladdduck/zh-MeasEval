@@ -1,0 +1,5 @@
+T122	Quantity 176 177	四
+#12	AnnotatorNotes T122	count
+A12	IsCount T122
+T112	MeasuredEntity 130 132	凌日
+R3	HasQuantity Arg1:T112 Arg2:T122

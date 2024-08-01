@@ -1,0 +1,6 @@
+T1	Quantity 144 147	1 m
+T2	Unit -1 -1	M
+T3	MeasuredEntity 130 137	初始和流入条件
+T4	MeasuredProperty 138 140	水深
+R1	HasProperty Arg1:T3 Arg2:T4
+R2	HasQuantity Arg1:T4 Arg2:T1

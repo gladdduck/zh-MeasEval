@@ -1,0 +1,6 @@
+T1	Quantity 145 149	48小时
+T2	Unit -1 -1	HR
+T3	MeasuredEntity -1 -1	iPSC衍生神经细胞
+T4	MeasuredProperty -1 -1	对干扰素γ（干扰素-γ）的反应
+R1	HasProperty Arg1:T3 Arg2:T4
+R2	HasQuantity Arg1:T4 Arg2:T1

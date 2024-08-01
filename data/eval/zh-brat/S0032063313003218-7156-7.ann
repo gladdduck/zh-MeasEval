@@ -1,0 +1,8 @@
+T1	Quantity 336 339	30%
+T2	Unit 203 204	%
+T3	Qualifier 94 102	每个半球的总功率
+T4	MeasuredEntity 71 73	ES
+R1	Qualifies Arg1:T3 Arg2:T4
+T5	MeasuredProperty -1 -1	EF情况下每个半球的总功率
+R3	HasQuantity Arg1:T5 Arg2:T1
+R4	HasProperty Arg1:T4 Arg2:T5

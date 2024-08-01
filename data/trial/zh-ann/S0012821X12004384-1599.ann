@@ -1,0 +1,11 @@
+T1	Quantity -1 -1	2618 m以上
+T2	Quantity -1 -1	从103年起
+T4	MeasuredProperty -1 -1	之前
+R1	HasQuantity Arg1:T4 Arg2:T2
+R2	HasQuantity Arg1:T4 Arg2:T1
+#1	AnnotatorNotes T2	yrs
+T3	MeasuredEntity -1 -1	IE开始
+R3	HasProperty Arg1:T3 Arg2:T4
+A1	QuantityQualifier T1 IsRange
+#2	AnnotatorNotes T1	m
+A2	QuantityQualifier T2 IsRange

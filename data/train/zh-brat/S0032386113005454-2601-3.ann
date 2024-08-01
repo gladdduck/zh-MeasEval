@@ -1,0 +1,6 @@
+T1	Quantity -1 -1	63兆气压
+T2	Unit -1 -1	MPa
+T3	MeasuredProperty 251 254	最低值
+T4	MeasuredEntity 5 12	压缩真屈服应力
+R1	HasProperty Arg1:T4 Arg2:T3
+R2	HasQuantity Arg1:T3 Arg2:T1

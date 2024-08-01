@@ -1,0 +1,8 @@
+T1	Quantity 242 246	7.5%
+T2	MeasuredProperty -1 -1	殖民
+T3	MeasuredEntity -1 -1	G. Mosseae和G. intraradices
+T4	Qualifier 230 232	配对
+R1	Qualifies Arg1:T4 Arg2:T3
+R2	HasProperty Arg1:T3 Arg2:T2
+R3	HasQuantity Arg1:T2 Arg2:T1
+T5	Unit 61 62	%

@@ -1,0 +1,4 @@
+T1	Quantity 10 11	五
+A1	IsCount T1
+T2	MeasuredEntity -1 -1	最大的账户集群
+R1	HasQuantity Arg1:T2 Arg2:T1

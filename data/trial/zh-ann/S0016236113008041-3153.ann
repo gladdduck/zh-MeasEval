@@ -1,0 +1,11 @@
+T1	Quantity -1 -1	13公斤
+T2	Quantity 383 389	<2 ppm
+T3	MeasuredEntity -1 -1	床存量
+T4	MeasuredProperty -1 -1	浓度
+R1	HasQuantity Arg1:T3 Arg2:T1
+T6	MeasuredEntity -1 -1	元件
+R2	HasProperty Arg1:T6 Arg2:T4
+R3	HasQuantity Arg1:T4 Arg2:T2
+A1	QuantityQualifier T2 IsRange
+#1	AnnotatorNotes T1	kg
+#2	AnnotatorNotes T2	ppm

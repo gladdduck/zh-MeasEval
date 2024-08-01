@@ -1,0 +1,7 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0012821X13002185-1200	1	Quantity	-1	-1	T11-1	>100 μm	{'mods': ['IsRange'], 'unit': 'μm'}
+S0012821X13002185-1200	1	MeasuredEntity	-1	-1	T21-1	分数	{'HasQuantity': 'T11-1'}
+S0012821X13002185-1200	2	Quantity	-1	-1	T32-2	50至100	{'mods': ['IsRange', 'IsCount']}
+S0012821X13002185-1200	2	MeasuredEntity	170	173	T42-2	针状体	{'HasQuantity': 'T32-2'}
+S0012821X13002185-1200	3	Quantity	-1	-1	T53-3	200 μL	{'unit': 'μL'}
+S0012821X13002185-1200	3	MeasuredEntity	-1	-1	T63-3	浓HNO3	{'HasQuantity': 'T53-3'}

@@ -1,0 +1,9 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S175058361300203X-1483	1	Quantity	217	220	T1-1	33米	{'unit': 'm'}
+S175058361300203X-1483	1	MeasuredEntity	214	216	T3-1	上部	{'HasQuantity': 'T1-1'}
+S175058361300203X-1483	1	Qualifier	208	214	T4-1	斯图加特地层	{'Qualifies': 'T3-1'}
+S175058361300203X-1483	2	Quantity	290	296	T1-2	20-25%	{'mods': ['IsRange'], 'unit': '%'}
+S175058361300203X-1483	2	MeasuredProperty	-1	-1	T3-2	有效孔隙度	{'HasQuantity': 'T1-2'}
+S175058361300203X-1483	2	MeasuredEntity	266	270	T5-2	河道砂岩	{'HasProperty': 'T3-2'}
+S175058361300203X-1483	3	Quantity	372	373	T1-3	两	{'mods': ['IsCount']}
+S175058361300203X-1483	3	MeasuredEntity	374	381	T3-3	高孔隙度砂岩层	{'HasQuantity': 'T1-3'}

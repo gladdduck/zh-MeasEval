@@ -1,0 +1,8 @@
+T1	Quantity -1 -1	5.16 M.
+T2	MeasuredProperty 73 75	深度
+T3	Unit -1 -1	M
+T5	MeasuredEntity -1 -1	独特的碎屑沉积层
+R1	HasProperty Arg1:T5 Arg2:T2
+R2	HasQuantity Arg1:T2 Arg2:T1
+T4	Qualifier -1 -1	高磁化率
+R3	Qualifies Arg1:T4 Arg2:T5

@@ -1,0 +1,5 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0019103512002801-1716	1	Quantity	-1	-1	T1-1	平均3-4 nT	{'mods': ['IsMeanIsRange'], 'unit': 'nT'}
+S0019103512002801-1716	1	MeasuredProperty	54	55	T3-1	强	{'HasQuantity': 'T1-1'}
+S0019103512002801-1716	1	MeasuredEntity	7	8	T4-1	B	{'HasProperty': 'T3-1'}
+S0019103512002801-1716	1	Qualifier	32	41	T5-1	与所有其他飞越相比	{'Qualifies': 'T3-1'}

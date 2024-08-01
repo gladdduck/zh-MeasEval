@@ -1,0 +1,4 @@
+T1	Quantity -1 -1	20项
+T2	Unit 82 84	项目
+T3	MeasuredEntity 30 35	CES-D
+R1	HasQuantity Arg1:T3 Arg2:T1

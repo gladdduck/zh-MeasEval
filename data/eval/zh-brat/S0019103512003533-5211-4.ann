@@ -1,0 +1,7 @@
+T1	Quantity -1 -1	±50 K
+A1	QuantityQualifier T1 HasTolerance
+T2	Unit 181 182	K
+T3	MeasuredEntity -1 -1	大气层和H3+
+T4	MeasuredProperty 121 123	温度
+R1	HasProperty Arg1:T3 Arg2:T4
+R2	HasQuantity Arg1:T4 Arg2:T1

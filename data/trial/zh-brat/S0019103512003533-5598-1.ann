@@ -1,0 +1,6 @@
+T51	Quantity -1 -1	74°S至90°S
+#11	AnnotatorNotes T51	°S
+A11	QuantityQualifier T51 IsRange
+T61	MeasuredEntity -1 -1	夏季极地地区
+R1	HasQuantity Arg1:T61 Arg2:T51
+T1	Unit 216 218	°S

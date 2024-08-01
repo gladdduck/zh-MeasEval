@@ -1,0 +1,6 @@
+T1	Quantity 439 442	60%
+T2	MeasuredProperty -1 -1	CD 8+杀伤T细胞
+T3	MeasuredEntity 395 402	CD45+细胞
+R1	HasProperty Arg1:T3 Arg2:T2
+R2	HasQuantity Arg1:T2 Arg2:T1
+T4	Unit 441 442	%

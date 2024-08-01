@@ -1,0 +1,7 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0019103513005058-1737	1	Quantity	28	34	T11-1	1克厘米-3	{'unit': 'g cm−3'}
+S0019103513005058-1737	1	MeasuredProperty	23	27	T31-1	土壤密度	{'HasQuantity': 'T11-1'}
+S0019103513005058-1737	1	MeasuredEntity	0	4	T51-1	火星土壤	{'HasProperty': 'T31-1'}
+S0019103513005058-1737	2	Quantity	37	46	T22-2	1.5-2.6 m	{'mods': ['IsRange'], 'unit': 'm'}
+S0019103513005058-1737	2	MeasuredProperty	46	48	T42-2	深度	{'HasQuantity': 'T22-2'}
+S0019103513005058-1737	2	MeasuredEntity	0	4	T52-2	火星土壤	{'HasProperty': 'T42-2'}

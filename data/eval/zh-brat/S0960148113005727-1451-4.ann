@@ -1,0 +1,4 @@
+T1	Quantity 145 146	九
+T2	MeasuredEntity 147 150	涡轮机
+R1	HasQuantity Arg1:T2 Arg2:T1
+A1	IsCount T1

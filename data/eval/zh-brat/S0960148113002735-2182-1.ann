@@ -1,0 +1,5 @@
+T1	Quantity -1 -1	1050和1170年代
+A1	QuantityQualifier T1 IsList
+T2	Unit 255 256	S
+T3	MeasuredEntity -1 -1	涡轮机1和3的旋转速度增加
+R3	HasQuantity Arg1:T3 Arg2:T1

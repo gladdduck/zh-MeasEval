@@ -1,0 +1,6 @@
+T1	Quantity -1 -1	2617.4米
+T2	Unit 15 16	M
+T3	MeasuredEntity 47 51	短暂峰值
+R1	HasQuantity Arg1:T3 Arg2:T1
+T4	Qualifier -1 -1	在Apectodium
+R2	Qualifies Arg1:T4 Arg2:T3

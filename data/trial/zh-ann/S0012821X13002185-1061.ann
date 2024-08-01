@@ -1,0 +1,35 @@
+T3	MeasuredEntity -1 -1	冰量
+T1	Quantity -1 -1	60%至100%之间
+A1	QuantityQualifier T1 IsRange
+T2	Quantity 148 155	33.7 Ma
+A2	IsApproximate T2
+T5	Quantity 364 370	400 ka
+A3	IsApproximate T5
+T6	MeasuredEntity -1 -1	Oi 1
+R3	HasQuantity Arg1:T6 Arg2:T2
+T4	MeasuredEntity -1 -1	Oi 1
+T7	MeasuredProperty -1 -1	今天出现在南极洲
+R2	HasQuantity Arg1:T3 Arg2:T1
+T8	MeasuredProperty -1 -1	冰体的就位
+R5	HasQuantity Arg1:T8 Arg2:T5
+R6	HasProperty Arg1:T4 Arg2:T8
+R1	HasProperty Arg1:T3 Arg2:T7
+R4	HasQuantity Arg1:T7 Arg2:T1
+T9	Qualifier -1 -1	Oi 1
+R7	Qualifies Arg1:T9 Arg2:T3
+#1	AnnotatorNotes T2	Ma
+#2	AnnotatorNotes T1	%
+#3	AnnotatorNotes T5	ka
+T10	Quantity -1 -1	百万年
+T11	MeasuredEntity -1 -1	时间尺度
+R8	HasQuantity Arg1:T11 Arg2:T10
+T12	MeasuredEntity -1 -1	下降
+T13	MeasuredProperty -1 -1	开始
+T14	Quantity -1 -1	2马
+A4	IsApproximate T14
+#4	AnnotatorNotes T14	Ma
+T15	Qualifier -1 -1	在南极冰川作用的地质和稳定同位素证据出现之前
+R9	Qualifies Arg1:T15 Arg2:T14
+R10	HasProperty Arg1:T12 Arg2:T13
+R11	HasQuantity Arg1:T13 Arg2:T14
+#5	AnnotatorNotes T10	year

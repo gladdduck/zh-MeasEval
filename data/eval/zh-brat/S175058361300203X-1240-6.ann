@@ -1,0 +1,9 @@
+T1	Quantity -1 -1	约260公斤/立方米
+T2	MeasuredEntity -1 -1	CO2
+A1	IsApproximate T1
+T3	Unit -1 -1	kg/M3
+T4	Qualifier -1 -1	2009年秋季注射点（38 °C）
+R2	Qualifies Arg1:T4 Arg2:T5
+T5	MeasuredProperty 348 350	密度
+R1	HasQuantity Arg1:T5 Arg2:T1
+R3	HasProperty Arg1:T2 Arg2:T5

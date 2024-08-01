@@ -1,0 +1,9 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0022459611006116-1195	1	Quantity	-1	-1	T61-1	5 & 2 °/° & 80	{'mods': ['IsRange'], 'unit': '°'}
+S0022459611006116-1195	1	MeasuredEntity	51	55	T51-1	初始扫描	{'HasQuantity': 'T61-1'}
+S0022459611006116-1195	2	Quantity	82	87	T42-2	0.02°	{'unit': '°'}
+S0022459611006116-1195	2	MeasuredProperty	-1	-1	T32-2	步长	{'HasQuantity': 'T42-2'}
+S0022459611006116-1195	2	MeasuredEntity	51	55	T52-2	初始扫描	{'HasProperty': 'T32-2'}
+S0022459611006116-1195	3	Quantity	93	97	T13-3	50分钟	{'unit': 'min'}
+S0022459611006116-1195	3	MeasuredProperty	88	92	T23-3	扫描时间	{'HasQuantity': 'T13-3'}
+S0022459611006116-1195	3	MeasuredEntity	51	55	T53-3	初始扫描	{'HasProperty': 'T23-3'}

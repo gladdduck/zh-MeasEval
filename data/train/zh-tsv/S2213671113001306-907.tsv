@@ -1,0 +1,5 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S2213671113001306-907	1	Quantity	24	29	T1-1	50 μm	{'unit': 'μm'}
+S2213671113001306-907	1	MeasuredEntity	20	23	T3-1	比例尺	{'HasQuantity': 'T1-1'}
+S2213671113001306-907	2	Quantity	55	61	T1-2	200 μm	{'unit': 'μm'}
+S2213671113001306-907	2	MeasuredEntity	20	23	T2-2	比例尺	{'HasQuantity': 'T1-2'}

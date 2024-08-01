@@ -1,0 +1,13 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0019103512004009-5271	1	Quantity	-1	-1	T1-1	低于3.5RP	{'mods': ['IsRange'], 'unit': 'Rp'}
+S0019103512004009-5271	1	MeasuredEntity	-1	-1	T4-1	与中性H的碰撞主导着重中性原子的输运	{'HasQuantity': 'T1-1'}
+S0019103512004009-5271	2	Quantity	-1	-1	T1-2	6 x 106公斤s-1	{'unit': 'kg s−1'}
+S0019103512004009-5271	2	MeasuredProperty	-1	-1	T4-2	oss率	{'HasQuantity': 'T1-2'}
+S0019103512004009-5271	2	MeasuredEntity	98	100	T3-2	质量	{'HasProperty': 'T4-2'}
+S0019103512004009-5271	3	Quantity	148	157	T1-3	> 107公斤-1	{'mods': ['IsRange'], 'unit': 'kgs-1'}
+S0019103512004009-5271	3	MeasuredProperty	146	148	T2-3	M今	{'HasQuantity': 'T1-3'}
+S0019103512004009-5271	3	MeasuredEntity	6	8	T4-3	模型	{'HasProperty': 'T2-3'}
+S0019103512004009-5271	3	Qualifier	-1	-1	T3-3	质量损失速率	{'Qualifies': 'T2-3'}
+S0019103512004009-5271	4	Quantity	-1	-1	T1-4	≳ 10−4	{'mods': ['IsRange', 'IsApproximate']}
+S0019103512004009-5271	4	MeasuredProperty	184	185	T3-4	比	{'HasQuantity': 'T1-4'}
+S0019103512004009-5271	4	MeasuredEntity	176	184	T2-4	[H+]/[H]	{'HasProperty': 'T3-4'}

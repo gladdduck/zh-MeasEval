@@ -1,0 +1,6 @@
+T1	Quantity 92 101	1000 W/m2
+T2	MeasuredEntity -1 -1	STC
+T3	MeasuredProperty -1 -1	高辐照度
+R1	HasProperty Arg1:T2 Arg2:T3
+R2	HasQuantity Arg1:T3 Arg2:T1
+T4	Unit 97 101	W/m2

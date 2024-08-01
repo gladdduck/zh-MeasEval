@@ -1,0 +1,7 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S037842901300244X-1654	1	Quantity	48	51	T1-1	50%	{'unit': '%'}
+S037842901300244X-1654	1	MeasuredProperty	-1	-1	T4-1	施加的污名	{'HasQuantity': 'T1-1'}
+S037842901300244X-1654	1	MeasuredEntity	-1	-1	T3-1	植物	{'HasProperty': 'T4-1'}
+S037842901300244X-1654	2	Quantity	192	206	T1-2	67、101和121 das	{'mods': ['IsList'], 'unit': 'das'}
+S037842901300244X-1654	2	MeasuredProperty	60	62	T3-2	记录	{'HasQuantity': 'T1-2'}
+S037842901300244X-1654	2	MeasuredEntity	-1	-1	T4-2	每个地块发芽的Striga植物数量	{'HasProperty': 'T3-2'}

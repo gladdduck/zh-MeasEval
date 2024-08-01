@@ -1,0 +1,9 @@
+T1	Quantity 256 263	10-100%
+A1	QuantityQualifier T1 IsRange
+T2	Unit 262 263	%
+T3	MeasuredEntity -1 -1	行星的质量
+T4	MeasuredProperty 229 231	损失
+R1	HasProperty Arg1:T3 Arg2:T4
+R2	HasQuantity Arg1:T4 Arg2:T1
+T5	Qualifier -1 -1	在系统的估计使用寿命内
+R3	Qualifies Arg1:T5 Arg2:T4

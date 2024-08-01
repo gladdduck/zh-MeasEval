@@ -1,0 +1,11 @@
+T1	Quantity -1 -1	43.22% ± 7.13%
+T2	MeasuredEntity -1 -1	TNC 1
+T3	Qualifier -1 -1	区分
+R1	Qualifies Arg1:T3 Arg2:T2
+A1	QuantityQualifier T1 HasTolerance
+T4	Unit 98 99	%
+T5	MeasuredProperty -1 -1	CD 34 + CD 45 + HPC
+R2	HasProperty Arg1:T2 Arg2:T5
+R3	HasQuantity Arg1:T5 Arg2:T1
+T6	Qualifier 331 337	分化第14天
+R4	Qualifies Arg1:T6 Arg2:T5

@@ -1,0 +1,8 @@
+T1	Quantity 3 5	4周
+T2	Unit 4 5	周
+T3	Qualifier 0 3	移植后
+T4	MeasuredEntity 7 9	动物
+T5	MeasuredProperty -1 -1	牺牲并灌流固定
+R1	HasProperty Arg1:T4 Arg2:T5
+R2	HasQuantity Arg1:T5 Arg2:T1
+R3	Qualifies Arg1:T3 Arg2:T1

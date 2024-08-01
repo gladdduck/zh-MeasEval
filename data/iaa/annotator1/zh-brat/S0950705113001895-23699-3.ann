@@ -1,0 +1,5 @@
+T1	Quantity -1 -1	超过85%
+T2	Unit 129 130	%
+A1	QuantityQualifier T1 IsRange
+T3	MeasuredEntity 92 95	插入率
+R1	HasQuantity Arg1:T3 Arg2:T1

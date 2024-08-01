@@ -1,0 +1,6 @@
+T1	Quantity 101 104	9.8
+T2	MeasuredProperty -1 -1	峰值电子加速电子沉淀的特征
+T3	MeasuredEntity 22 27	MEX轨道
+T4	Unit 48 49	%
+R1	HasProperty Arg1:T3 Arg2:T2
+R2	HasQuantity Arg1:T2 Arg2:T1

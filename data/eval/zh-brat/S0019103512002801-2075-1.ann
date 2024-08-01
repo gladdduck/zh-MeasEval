@@ -1,0 +1,9 @@
+T1	Quantity 55 62	15-35公里
+T2	Unit 60 62	公里
+A1	QuantityQualifier T1 IsRange
+T3	MeasuredEntity -1 -1	瑞亚
+T4	MeasuredProperty 31 33	直径
+R1	HasProperty Arg1:T3 Arg2:T4
+R2	HasQuantity Arg1:T4 Arg2:T1
+T5	Qualifier 34 51	对于20至100 keV之间的电子
+R3	Qualifies Arg1:T5 Arg2:T4

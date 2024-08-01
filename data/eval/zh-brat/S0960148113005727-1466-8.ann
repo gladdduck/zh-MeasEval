@@ -1,0 +1,4 @@
+T1	Quantity 160 163	10%
+T2	Unit 8 9	%
+T3	MeasuredEntity 156 159	贴现率
+R1	HasQuantity Arg1:T3 Arg2:T1

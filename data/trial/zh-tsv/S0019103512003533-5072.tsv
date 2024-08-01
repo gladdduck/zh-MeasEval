@@ -1,0 +1,15 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0019103512003533-5072	1	Quantity	-1	-1	T31-1	约1300 m s-1	{'mods': ['IsApproximate'], 'unit': 'm s−1'}
+S0019103512003533-5072	1	MeasuredProperty	27	31	T21-1	峰值速度	{'HasQuantity': 'T31-1'}
+S0019103512003533-5072	1	MeasuredEntity	-1	-1	T11-1	强风西风（次同向）	{'HasProperty': 'T21-1'}
+S0019103512003533-5072	1	Qualifier	-1	-1	T71-1	纬度82°附近	{'Qualifies': 'T21-1'}
+S0019103512003533-5072	2	Quantity	32	35	T52-2	82°	{'unit': '°'}
+S0019103512003533-5072	2	MeasuredProperty	35	37	T62-2	纬度	{'HasQuantity': 'T52-2'}
+S0019103512003533-5072	2	MeasuredEntity	119	121	T42-2	土星	{'HasProperty': 'T62-2'}
+S0019103512003533-5072	3	Quantity	60	70	T83-3	1600 m s-1	{'mods': ['IsApproximate'], 'unit': 'm s−1'}
+S0019103512003533-5072	3	MeasuredProperty	27	31	T3-3	峰值速度	{'HasQuantity': 'T83-3'}
+S0019103512003533-5072	3	MeasuredEntity	-1	-1	T2-3	强风西风（次同向）	{'HasProperty': 'T3-3'}
+S0019103512003533-5072	3	Qualifier	53	58	T103-3	78°附近	{'Qualifies': 'T3-3'}
+S0019103512003533-5072	4	Quantity	53	56	T94-4	78°	{'unit': '°'}
+S0019103512003533-5072	4	MeasuredProperty	35	37	T64-4	纬度	{'HasQuantity': 'T94-4'}
+S0019103512003533-5072	4	MeasuredEntity	119	121	T44-4	土星	{'HasProperty': 'T64-4'}

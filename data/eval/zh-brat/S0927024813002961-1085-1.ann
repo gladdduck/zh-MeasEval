@@ -1,0 +1,6 @@
+T1	Quantity 109 114	25 °C
+T4	Unit 112 114	°C
+T2	MeasuredEntity -1 -1	STC
+T3	MeasuredProperty 103 108	冷模块温度
+R1	HasProperty Arg1:T2 Arg2:T3
+R2	HasQuantity Arg1:T3 Arg2:T1

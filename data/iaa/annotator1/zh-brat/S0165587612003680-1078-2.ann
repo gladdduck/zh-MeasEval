@@ -1,0 +1,6 @@
+T1	Quantity 62 63	三
+A1	IsCount T1
+T2	MeasuredProperty 24 31	最常见的病原体
+T3	MeasuredEntity 54 56	研究
+R1	HasProperty Arg1:T3 Arg2:T2
+R2	HasQuantity Arg1:T2 Arg2:T1

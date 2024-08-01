@@ -1,0 +1,15 @@
+T1	Quantity -1 -1	5-10 S
+T3	MeasuredEntity -1 -1	不稳定凹槽
+T2	Quantity -1 -1	0.1-0.2 s-1
+A1	QuantityQualifier T2 IsRange
+#1	AnnotatorNotes T2	s−1
+T4	MeasuredProperty -1 -1	线性增长率
+R1	HasProperty Arg1:T3 Arg2:T4
+R2	HasQuantity Arg1:T4 Arg2:T2
+T5	MeasuredProperty -1 -1	生长时间
+R3	HasQuantity Arg1:T5 Arg2:T1
+T7	Quantity -1 -1	10 RRh
+R4	HasProperty Arg1:T3 Arg2:T5
+A2	QuantityQualifier T1 IsRange
+#3	AnnotatorNotes T1	s
+#2	AnnotatorNotes T7	RRh

@@ -1,0 +1,12 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0019103512001388-1070	1	Quantity	-1	-1	T1-1	2011年11月6日UT	{'unit': 'UT'}
+S0019103512001388-1070	1	MeasuredProperty	-1	-1	T4-1	采取	{'HasQuantity': 'T1-1'}
+S0019103512001388-1070	1	MeasuredEntity	-1	-1	T3-1	H频段缝隙观看VLT图像	{'HasProperty': 'T4-1'}
+S0019103512001388-1070	2	Quantity	39	41	T1-2	两天	{'unit': 'days'}
+S0019103512001388-1070	2	MeasuredProperty	-1	-1	T5-2	采取	{'HasQuantity': 'T1-2'}
+S0019103512001388-1070	2	MeasuredEntity	-1	-1	T4-2	H频段缝隙观看VLT图像	{'HasProperty': 'T5-2'}
+S0019103512001388-1070	2	Qualifier	-1	-1	T2-2	在BS 1和BS 2接近之前	{'Qualifies': 'T1-2'}
+S0019103512001388-1070	3	Quantity	172	176	T1-3	30分钟	{'mods': ['IsRange'], 'unit': 'min'}
+S0019103512001388-1070	3	MeasuredProperty	-1	-1	T3-3	应该越过中央子午线	{'HasQuantity': 'T1-3'}
+S0019103512001388-1070	3	MeasuredEntity	-1	-1	T2-3	更深层次的BS 2功能	{'HasProperty': 'T3-3'}
+S0019103512001388-1070	3	Qualifier	209	215	T4-3	BS 1之后	{'Qualifies': 'T1-3'}

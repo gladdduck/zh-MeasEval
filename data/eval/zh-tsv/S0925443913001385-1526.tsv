@@ -1,0 +1,5 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0925443913001385-1526	1	Quantity	88	92	T1-1	5 μg	{'unit': 'μg'}
+S0925443913001385-1526	1	MeasuredEntity	-1	-1	T2-1	RNA的等份	{'HasQuantity': 'T1-1'}
+S0925443913001385-1526	2	Quantity	68	77	T1-2	1.2%（w/v）	{'unit': '% (w/v)'}
+S0925443913001385-1526	2	MeasuredEntity	-1	-1	T2-2	琼脂糖	{'HasQuantity': 'T1-2'}

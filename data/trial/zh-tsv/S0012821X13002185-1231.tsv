@@ -1,0 +1,21 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0012821X13002185-1231	1	Quantity	-1	-1	T131-1	∼−1‰	{'mods': ['IsApproximate'], 'unit': '‰'}
+S0012821X13002185-1231	1	MeasuredProperty	-1	-1	T121-1	30ε	{'HasQuantity': 'T131-1'}
+S0012821X13002185-1231	1	MeasuredEntity	-1	-1	T111-1	藻类硅同位素分离因子	{'HasProperty': 'T121-1'}
+S0012821X13002185-1231	2	Quantity	215	218	T12-2	40%	{'unit': '%'}
+S0012821X13002185-1231	2	MeasuredProperty	-1	-1	T102-2	丰度差异	{'HasQuantity': 'T12-2'}
+S0012821X13002185-1231	2	MeasuredEntity	30	32	T62-2	硅藻	{'HasProperty': 'T102-2'}
+S0012821X13002185-1231	3	Quantity	-1	-1	T23-3	12-20 μm	{'mods': ['IsRange'], 'unit': 'μm'}
+S0012821X13002185-1231	3	MeasuredEntity	-1	-1	T93-3	分数	{'HasQuantity': 'T23-3'}
+S0012821X13002185-1231	4	Quantity	-1	-1	T34-4	2至20 μm之间	{'mods': ['IsRange'], 'unit': 'μm'}
+S0012821X13002185-1231	4	MeasuredEntity	-1	-1	T74-4	粒级	{'HasQuantity': 'T34-4'}
+S0012821X13002185-1231	5	Quantity	394	398	T155-5	0.92	
+S0012821X13002185-1231	5	MeasuredProperty	391	393	T145-5	R2	{'HasQuantity': 'T155-5'}
+S0012821X13002185-1231	5	MeasuredEntity	-1	-1	T165-5	2至20 μm之间尺寸分数的δ 30 Si值	{'HasProperty': 'T145-5'}
+S0012821X13002185-1231	6	Quantity	-1	-1	T186-6	∼–1‰	{'mods': ['IsApproximate'], 'unit': '‰'}
+S0012821X13002185-1231	6	MeasuredProperty	-1	-1	T176-6	表观30秒	{'HasQuantity': 'T186-6'}
+S0012821X13002185-1231	6	MeasuredEntity	-1	-1	T166-6	2至20 μm之间尺寸分数的δ 30 Si值	{'HasProperty': 'T176-6'}
+S0012821X13002185-1231	7	Quantity	604	610	T47-7	2-10μm	{'unit': 'μm'}
+S0012821X13002185-1231	7	MeasuredEntity	-1	-1	T87-7	粒级	{'HasQuantity': 'T47-7'}
+S0012821X13002185-1231	8	Quantity	-1	-1	T58-8	10-20 μm	{'unit': 'μm'}
+S0012821X13002185-1231	8	MeasuredEntity	-1	-1	T88-8	粒级	{'HasQuantity': 'T58-8'}

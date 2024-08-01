@@ -1,0 +1,9 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0038071713001971-1388	1	Quantity	53	56	T1-1	55%	{'unit': '%'}
+S0038071713001971-1388	1	MeasuredProperty	-1	-1	T4-1	受一定组土壤变量的刺激（鼓励）	{'HasQuantity': 'T1-1'}
+S0038071713001971-1388	1	MeasuredEntity	-1	-1	T2-1	健康土壤中的OTU	{'HasProperty': 'T4-1'}
+S0038071713001971-1388	2	Quantity	87	90	T1-2	63%	{'unit': '%'}
+S0038071713001971-1388	2	MeasuredProperty	-1	-1	T5-2	被抑制（沮丧）	{'HasQuantity': 'T1-2'}
+S0038071713001971-1388	2	MeasuredEntity	-1	-1	T3-2	OTUs	{'HasProperty': 'T5-2'}
+S0038071713001971-1388	2	Qualifier	-1	-1	T4-2	在患病土壤中	{'Qualifies': 'T3-2'}
+S0038071713001971-1388	2	Qualifier	-1	-1	T6-2	由一组特定的土壤变量决定	{'Qualifies': 'T5-2'}

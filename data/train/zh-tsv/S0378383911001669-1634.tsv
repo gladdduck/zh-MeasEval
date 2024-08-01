@@ -1,0 +1,10 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0378383911001669-1634	1	Quantity	-1	-1	T1-1	约0.1毫克/升	{'mods': ['IsApproximate'], 'unit': 'mg/l'}
+S0378383911001669-1634	1	MeasuredProperty	34	38	T2-1	荧光染料	{'HasQuantity': 'T1-1'}
+S0378383911001669-1634	1	MeasuredEntity	41	42	T3-1	水	{'HasProperty': 'T2-1'}
+S0378383911001669-1634	2	Quantity	80	85	T1-2	50 mm	{'unit': 'mm'}
+S0378383911001669-1634	2	MeasuredProperty	85	89	T2-2	固定焦距	{'HasQuantity': 'T1-2'}
+S0378383911001669-1634	2	MeasuredEntity	-1	-1	T4-2	透镜	{'HasProperty': 'T2-2'}
+S0378383911001669-1634	3	Quantity	137	141	T1-3	1：10	
+S0378383911001669-1634	3	MeasuredProperty	-1	-1	T2-3	斜率	{'HasQuantity': 'T1-3'}
+S0378383911001669-1634	3	MeasuredEntity	135	137	T3-3	海滩	{'HasProperty': 'T2-3'}

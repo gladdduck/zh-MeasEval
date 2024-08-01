@@ -1,0 +1,9 @@
+T1	Quantity -1 -1	约100公里
+T2	MeasuredProperty 157 161	回旋半径
+T3	MeasuredEntity 44 47	重离子
+T4	Qualifier -1 -1	在加速电子信号的位置
+T5	Unit 166 168	公里
+A1	IsApproximate T1
+R1	Qualifies Arg1:T4 Arg2:T2
+R2	HasProperty Arg1:T3 Arg2:T2
+R3	HasQuantity Arg1:T2 Arg2:T1

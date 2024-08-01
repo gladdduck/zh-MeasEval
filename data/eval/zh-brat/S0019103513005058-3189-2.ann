@@ -1,0 +1,6 @@
+T1	Quantity -1 -1	-75 °C
+T2	MeasuredProperty 264 267	共晶点
+T3	MeasuredEntity -1 -1	Ca（ClO 4）2
+T4	Unit 271 273	°C
+R1	HasProperty Arg1:T3 Arg2:T2
+R2	HasQuantity Arg1:T2 Arg2:T1

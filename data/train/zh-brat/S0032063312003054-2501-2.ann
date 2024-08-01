@@ -1,0 +1,6 @@
+T1	Quantity 18 20	85
+A1	IsCount T1
+T4	MeasuredEntity 7 15	电子沉淀特征事件
+R3	HasQuantity Arg1:T4 Arg2:T1
+T2	Qualifier -1 -1	观察到重离子同时加速
+R1	Qualifies Arg1:T2 Arg2:T4

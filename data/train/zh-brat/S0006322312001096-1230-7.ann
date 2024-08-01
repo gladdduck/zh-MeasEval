@@ -1,0 +1,7 @@
+T67	Quantity 239 244	47.4%
+#17	AnnotatorNotes T67	None
+T187	MeasuredProperty -1 -1	也有CES-D抑郁症状
+R14	HasQuantity Arg1:T187 Arg2:T67
+T177	MeasuredEntity -1 -1	有GHQ症状的参与者，
+R15	HasProperty Arg1:T177 Arg2:T187
+T1	Unit 96 97	%

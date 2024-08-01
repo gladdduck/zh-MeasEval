@@ -1,0 +1,11 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0167610513001001-1751	1	Quantity	38	45	T1-1	1 m s-1	{'unit': 'm s−1'}
+S0167610513001001-1751	1	MeasuredEntity	46	47	T3-1	箱	{'HasQuantity': 'T1-1'}
+S0167610513001001-1751	2	Quantity	65	66	T1-2	两	{'mods': ['IsCount']}
+S0167610513001001-1751	2	MeasuredEntity	-1	-1	T2-2	文书	{'HasQuantity': 'T1-2'}
+S0167610513001001-1751	3	Quantity	92	105	T1-3	0至0.5 m s-1之间	{'mods': ['IsRange'], 'unit': 'm s−1'}
+S0167610513001001-1751	3	MeasuredProperty	-1	-1	T4-3	速度	{'HasQuantity': 'T1-3'}
+S0167610513001001-1751	3	MeasuredEntity	12	13	T3-3	风	{'HasProperty': 'T4-3'}
+S0167610513001001-1751	4	Quantity	-1	-1	T1-4	大于20 ms-1	{'mods': ['IsRange'], 'unit': 'm s−1'}
+S0167610513001001-1751	4	MeasuredProperty	-1	-1	T4-4	速度	{'HasQuantity': 'T1-4'}
+S0167610513001001-1751	4	MeasuredEntity	12	13	T3-4	风	{'HasProperty': 'T4-4'}

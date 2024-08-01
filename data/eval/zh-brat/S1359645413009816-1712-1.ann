@@ -1,0 +1,5 @@
+T1	Quantity -1 -1	1.25至50 K分钟-1
+T2	Unit 10 17	K min-1
+A1	QuantityQualifier T1 IsRange
+T3	MeasuredEntity 23 27	加热速率
+R1	HasQuantity Arg1:T3 Arg2:T1

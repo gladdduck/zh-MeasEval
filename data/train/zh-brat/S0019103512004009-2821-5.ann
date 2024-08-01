@@ -1,0 +1,8 @@
+T1	Quantity -1 -1	7000 K
+T2	Unit 470 471	K
+T3	MeasuredProperty -1 -1	平均（压力平均）温度
+T4	MeasuredEntity 442 446	模型预测
+R1	HasProperty Arg1:T4 Arg2:T3
+R2	HasQuantity Arg1:T3 Arg2:T1
+T5	Qualifier -1 -1	0.047 AU处的平均太阳X紫外光通量
+R3	Qualifies Arg1:T5 Arg2:T4

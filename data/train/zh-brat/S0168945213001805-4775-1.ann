@@ -1,0 +1,4 @@
+T1	Quantity 54 55	两
+T2	MeasuredEntity -1 -1	内源冷结合因子/干旱响应元件结合（CBF/DREB）1样基因
+R1	HasQuantity Arg1:T2 Arg2:T1
+A1	IsCount T1

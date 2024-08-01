@@ -1,0 +1,4 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0012821X13002185-835	1	Quantity	-1	-1	T11-1	100米	{'unit': 'm'}
+S0012821X13002185-835	1	MeasuredEntity	-1	-1	T21-1	水柱	{'HasQuantity': 'T11-1'}
+S0012821X13002185-835	1	Qualifier	63	65	T31-1	顶部	{'Qualifies': 'T11-1'}

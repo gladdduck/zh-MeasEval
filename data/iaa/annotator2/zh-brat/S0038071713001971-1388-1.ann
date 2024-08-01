@@ -1,0 +1,6 @@
+T1	Quantity 53 56	55%
+T2	MeasuredEntity -1 -1	健康土壤中的OTU
+T3	Unit 55 56	%
+T4	MeasuredProperty -1 -1	受一定组土壤变量的刺激（鼓励）
+R1	HasProperty Arg1:T2 Arg2:T4
+R2	HasQuantity Arg1:T4 Arg2:T1

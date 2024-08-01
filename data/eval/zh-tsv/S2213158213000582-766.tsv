@@ -1,0 +1,3 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S2213158213000582-766	1	Quantity	0	6	T1-1	100 ms	{'unit': 'ms'}
+S2213158213000582-766	1	MeasuredEntity	6	8	T2-1	活动	{'HasQuantity': 'T1-1'}

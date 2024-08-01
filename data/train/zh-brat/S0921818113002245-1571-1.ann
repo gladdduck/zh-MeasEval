@@ -1,0 +1,5 @@
+T1	Quantity -1 -1	上0.8 m
+T2	MeasuredEntity 19 22	沉积物
+R1	HasQuantity Arg1:T2 Arg2:T1
+T3	Unit -1 -1	M
+A1	QuantityQualifier T1 IsRange

@@ -1,0 +1,7 @@
+T1	Quantity 82 91	高达1200 °C
+T2	Unit 22 24	°C
+T3	MeasuredProperty 29 31	温度
+A1	QuantityQualifier T1 IsRange
+T4	MeasuredEntity -1 -1	纯HA（CaP比例=1.67）在空气和氦气气氛中稳定
+R1	HasProperty Arg1:T4 Arg2:T3
+R2	HasQuantity Arg1:T3 Arg2:T1

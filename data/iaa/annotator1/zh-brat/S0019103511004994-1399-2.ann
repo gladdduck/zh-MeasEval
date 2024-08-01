@@ -1,0 +1,8 @@
+T2	Quantity 20 30	3.95土星半径RS
+T1	MeasuredProperty 45 47	距离
+T3	MeasuredEntity 1 3	卫二
+T4	Qualifier -1 -1	土星目前62颗卫星中有一颗绕土星运行
+R1	HasQuantity Arg1:T1 Arg2:T2
+R2	HasProperty Arg1:T3 Arg2:T1
+R3	Qualifies Arg1:T4 Arg2:T1
+T6	Unit 24 30	土星半径RS

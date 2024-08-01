@@ -1,0 +1,9 @@
+T1	Quantity -1 -1	北纬86°附近
+A1	IsApproximate T1
+T2	Unit 38 40	°N
+T3	MeasuredEntity 29 31	轨道
+T4	MeasuredProperty -1 -1	近心
+T5	Qualifier 19 28	金星快车（VEX）
+R1	Qualifies Arg1:T5 Arg2:T3
+R2	HasProperty Arg1:T3 Arg2:T4
+R3	HasQuantity Arg1:T4 Arg2:T1

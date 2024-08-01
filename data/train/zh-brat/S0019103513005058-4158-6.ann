@@ -1,0 +1,6 @@
+T1	Quantity -1 -1	1克厘米-3
+T2	Unit -1 -1	g厘米-3
+T3	MeasuredEntity 19 21	土壤
+T4	MeasuredProperty 265 267	密度
+R1	HasProperty Arg1:T3 Arg2:T4
+R2	HasQuantity Arg1:T4 Arg2:T1

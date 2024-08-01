@@ -1,0 +1,4 @@
+T1	Quantity 2 3	7
+T2	MeasuredEntity 4 8	初始方向
+R1	HasQuantity Arg1:T2 Arg2:T1
+A1	IsCount T1

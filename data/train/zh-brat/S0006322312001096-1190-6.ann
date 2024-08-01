@@ -1,0 +1,7 @@
+T56	Quantity 426 435	1.4%-3.1%
+A16	QuantityQualifier T56 IsRange
+T66	MeasuredProperty 419 425	平均变异系数
+R7	HasQuantity Arg1:T66 Arg2:T56
+T1	MeasuredEntity 439 446	葡萄糖氧化酶法
+T2	Unit 429 430	%
+R1	HasProperty Arg1:T1 Arg2:T66

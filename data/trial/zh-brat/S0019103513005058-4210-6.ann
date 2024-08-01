@@ -1,0 +1,9 @@
+T196	Quantity 222 228	1：1000
+#16	AnnotatorNotes T196	ratio
+A16	IsApproximate T196
+T136	MeasuredProperty 201 203	比率
+R17	HasQuantity Arg1:T136 Arg2:T196
+T186	MeasuredEntity 193 201	高氯酸盐：硝酸盐
+R18	HasProperty Arg1:T186 Arg2:T136
+T176	Qualifier -1 -1	阿塔卡玛
+R19	Qualifies Arg1:T176 Arg2:T186

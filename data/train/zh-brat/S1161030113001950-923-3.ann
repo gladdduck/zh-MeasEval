@@ -1,0 +1,7 @@
+T1	Quantity 536 540	4-8年
+T2	Unit 334 335	年
+A1	QuantityQualifier T1 IsRange
+T3	MeasuredProperty -1 -1	段时间
+T4	MeasuredEntity 527 532	土壤测试值
+R1	HasProperty Arg1:T4 Arg2:T3
+R2	HasQuantity Arg1:T3 Arg2:T1

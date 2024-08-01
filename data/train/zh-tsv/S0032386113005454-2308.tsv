@@ -1,0 +1,11 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0032386113005454-2308	1	Quantity	-1	-1	T1-1	3.19± 0.10 GPa	{'mods': ['HasTolerance'], 'unit': 'GPa'}
+S0032386113005454-2308	1	MeasuredProperty	-1	-1	T3-1	拉伸模量	{'HasQuantity': 'T1-1'}
+S0032386113005454-2308	1	MeasuredEntity	0	9	T2-1	未改性的环氧聚合物	{'HasProperty': 'T3-1'}
+S0032386113005454-2308	2	Quantity	-1	-1	T1-2	至1.96 ± 0.08 GPa	{'mods': ['IsRangeHasTolerance'], 'unit': 'GPa'}
+S0032386113005454-2308	2	MeasuredProperty	-1	-1	T2-2	模量	{'HasQuantity': 'T1-2'}
+S0032386113005454-2308	2	MeasuredEntity	4	9	T5-2	环氧聚合物	{'HasProperty': 'T2-2'}
+S0032386113005454-2308	2	Qualifier	33	50	T6-2	当添加20wt%的S-CSR颗粒时	{'Qualifies': 'T2-2'}
+S0032386113005454-2308	3	Quantity	36	41	T1-3	20wt%	{'unit': 'wt%'}
+S0032386113005454-2308	3	MeasuredProperty	-1	-1	T4-3	加入	{'HasQuantity': 'T1-3'}
+S0032386113005454-2308	3	MeasuredEntity	42	49	T3-3	S-CSR颗粒	{'HasProperty': 'T4-3'}

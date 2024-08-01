@@ -1,0 +1,8 @@
+T1	Quantity 120 125	82.9%
+T2	MeasuredEntity 20 22	儿童
+T3	Unit 112 113	%
+T4	MeasuredProperty 52 56	共焦阳性
+T5	Qualifier 95 97	结果
+R1	Qualifies Arg1:T5 Arg2:T4
+R2	HasProperty Arg1:T2 Arg2:T4
+R3	HasQuantity Arg1:T4 Arg2:T1

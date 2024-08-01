@@ -1,0 +1,7 @@
+T1	Quantity 115 154	从k1 = 2 x 10 - 9到k1 = 1 x 10 - 9厘米3 s-1
+T2	Unit 147 154	厘米3 s-1
+A1	QuantityQualifier T1 IsRange
+T3	MeasuredEntity -1 -1	平均基础反应率
+R1	HasQuantity Arg1:T3 Arg2:T1
+T4	Qualifier 103 105	修订
+R2	Qualifies Arg1:T4 Arg2:T3

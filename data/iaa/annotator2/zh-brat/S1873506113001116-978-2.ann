@@ -1,0 +1,6 @@
+T1	Quantity 247 250	10代
+T2	MeasuredProperty 67 69	培养
+T3	MeasuredEntity -1 -1	hiPSCs
+R1	HasProperty Arg1:T3 Arg2:T2
+R2	HasQuantity Arg1:T2 Arg2:T1
+T4	Unit -1 -1	通道

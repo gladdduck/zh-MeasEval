@@ -1,0 +1,7 @@
+T12	Quantity 24 29	764公里
+#12	AnnotatorNotes T12	km
+T82	MeasuredProperty 13 15	半径
+R3	HasQuantity Arg1:T82 Arg2:T12
+T72	MeasuredEntity -1 -1	瑞亚
+R4	HasProperty Arg1:T72 Arg2:T82
+T1	Unit 27 29	公里

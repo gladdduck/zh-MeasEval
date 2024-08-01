@@ -1,0 +1,6 @@
+T33	Quantity -1 -1	>250 μm
+#13	AnnotatorNotes T33	None
+A13	QuantityQualifier T33 IsRange
+T83	MeasuredProperty -1 -1	粒级
+R5	HasQuantity Arg1:T83 Arg2:T33
+T1	Unit 402 404	μm

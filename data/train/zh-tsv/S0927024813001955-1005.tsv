@@ -1,0 +1,7 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0927024813001955-1005	1	Quantity	-1	-1	T1-1	150 °C	{'unit': '°C'}
+S0927024813001955-1005	1	MeasuredProperty	103	106	T4-1	后退火	{'HasQuantity': 'T1-1'}
+S0927024813001955-1005	1	MeasuredEntity	-1	-1	T3-1	ZnO薄膜	{'HasProperty': 'T4-1'}
+S0927024813001955-1005	2	Quantity	255	261	T1-2	高达100%	{'mods': ['IsRange'], 'unit': '%'}
+S0927024813001955-1005	2	MeasuredProperty	-1	-1	T3-2	可见光透射率	{'HasQuantity': 'T1-2'}
+S0927024813001955-1005	2	MeasuredEntity	148	149	T4-2	膜	{'HasProperty': 'T3-2'}

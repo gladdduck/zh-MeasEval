@@ -1,0 +1,5 @@
+T11	Quantity 119 120	7
+#11	AnnotatorNotes T11	count
+A11	IsCount T11
+T41	MeasuredEntity -1 -1	每个通道的电线
+R1	HasQuantity Arg1:T41 Arg2:T11

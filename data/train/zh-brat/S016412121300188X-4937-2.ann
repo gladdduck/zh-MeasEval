@@ -1,0 +1,9 @@
+T1	Quantity -1 -1	10%左右
+T2	MeasuredProperty -1 -1	凝聚团
+T3	Qualifier 173 175	较小
+R1	Qualifies Arg1:T3 Arg2:T2
+T4	Unit 183 184	%
+A1	IsApproximate T1
+T5	MeasuredEntity 178 180	代码
+R2	HasProperty Arg1:T5 Arg2:T2
+R3	HasQuantity Arg1:T2 Arg2:T1

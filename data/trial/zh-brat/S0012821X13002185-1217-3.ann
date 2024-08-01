@@ -1,0 +1,7 @@
+T33	Quantity 73 77	40分钟
+#13	AnnotatorNotes T33	min
+T83	MeasuredProperty -1 -1	通过湿碱性消化溶解
+R4	HasQuantity Arg1:T83 Arg2:T33
+T1	MeasuredEntity -1 -1	藻类蛋白石
+R1	HasProperty Arg1:T1 Arg2:T83
+T2	Unit -1 -1	min

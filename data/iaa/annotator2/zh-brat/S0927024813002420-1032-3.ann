@@ -1,0 +1,8 @@
+T1	Quantity 159 169	2-3 mA/厘米2
+T2	Unit -1 -1	MA/cm2
+T3	MeasuredEntity 144 150	平面异结器件
+A1	IsApproximate T1
+A2	QuantityQualifier T1 IsRange
+T4	MeasuredProperty 153 156	JSC
+R1	HasProperty Arg1:T3 Arg2:T4
+R2	HasQuantity Arg1:T4 Arg2:T1

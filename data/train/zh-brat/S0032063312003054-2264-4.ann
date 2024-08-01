@@ -1,0 +1,6 @@
+T1	Quantity 175 180	400公里
+T2	MeasuredProperty 189 193	水平尺寸
+T3	MeasuredEntity -1 -1	闭合地壳磁场线
+T4	Unit 166 168	公里
+R1	HasProperty Arg1:T3 Arg2:T2
+R2	HasQuantity Arg1:T2 Arg2:T1

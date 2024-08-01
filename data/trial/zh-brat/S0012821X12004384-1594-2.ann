@@ -1,0 +1,7 @@
+T62	Quantity -1 -1	北纬40度
+#12	AnnotatorNotes T62	°N
+T42	MeasuredProperty 74 78	南部边界
+R2	HasQuantity Arg1:T42 Arg2:T62
+T52	MeasuredEntity 65 69	北部雨带
+R3	HasProperty Arg1:T52 Arg2:T42
+T1	Unit 81 83	°N

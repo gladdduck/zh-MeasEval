@@ -1,0 +1,9 @@
+T1	Quantity -1 -1	600 °C，最高750 °C
+T2	Unit 274 276	°C
+A1	QuantityQualifier T1 IsRange
+T3	MeasuredEntity 117 119	建模
+T4	Qualifier -1 -1	碳酸化
+R2	Qualifies Arg1:T4 Arg2:T1
+T5	MeasuredProperty 255 259	温度范围
+R1	HasProperty Arg1:T3 Arg2:T5
+R3	HasQuantity Arg1:T5 Arg2:T1

@@ -1,0 +1,6 @@
+T1	Quantity 28 31	85%
+T2	Unit 30 31	%
+T3	MeasuredProperty 31 32	好
+T4	MeasuredEntity 10 13	分类器
+R1	HasProperty Arg1:T4 Arg2:T3
+R2	HasQuantity Arg1:T3 Arg2:T1

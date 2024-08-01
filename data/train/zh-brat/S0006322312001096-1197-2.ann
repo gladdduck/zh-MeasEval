@@ -1,0 +1,4 @@
+T1	Quantity 52 55	30项
+T2	Unit 104 106	项目
+T3	MeasuredEntity -1 -1	一般健康问卷（GHQ）
+R1	HasQuantity Arg1:T3 Arg2:T1

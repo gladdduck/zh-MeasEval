@@ -1,0 +1,5 @@
+T53	Quantity -1 -1	200 μL
+#13	AnnotatorNotes T53	μL
+T63	MeasuredEntity -1 -1	浓HNO3
+R3	HasQuantity Arg1:T63 Arg2:T53
+T1	Unit 261 263	μL

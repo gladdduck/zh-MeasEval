@@ -1,0 +1,6 @@
+T1	Quantity 100 107	40.6 MW
+T2	Unit 105 107	MW
+T3	MeasuredEntity -1 -1	优化农场布局
+T4	MeasuredProperty -1 -1	提取物
+R2	HasQuantity Arg1:T4 Arg2:T1
+R1	HasProperty Arg1:T3 Arg2:T4

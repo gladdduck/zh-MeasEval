@@ -1,0 +1,8 @@
+T1	Quantity 77 85	4.37 TWh
+T2	MeasuredEntity 45 47	农场
+T3	MeasuredProperty -1 -1	终身产量
+T4	Unit 38 41	TWh
+T5	Qualifier -1 -1	减小到
+R1	Qualifies Arg1:T5 Arg2:T1
+R2	HasProperty Arg1:T2 Arg2:T3
+R3	HasQuantity Arg1:T3 Arg2:T1

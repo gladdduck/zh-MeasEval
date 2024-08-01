@@ -1,0 +1,15 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0038071711004354-755	1	Quantity	54	60	T1-1	约-14 ‰	{'mods': ['IsApproximate'], 'unit': '‰'}
+S0038071711004354-755	1	MeasuredProperty	34	40	T5-1	δ 13 C	{'HasQuantity': 'T1-1'}
+S0038071711004354-755	1	MeasuredEntity	-1	-1	T4-1	环境CO2	{'HasProperty': 'T5-1'}
+S0038071711004354-755	2	Quantity	168	174	T1-2	约2.5小时	{'mods': ['IsApproximate'], 'unit': 'h'}
+S0038071711004354-755	2	MeasuredProperty	186	188	T4-2	稳定	{'HasQuantity': 'T1-2'}
+S0038071711004354-755	2	MeasuredEntity	175	186	T3-2	CO2的δ 13 C值	{'HasProperty': 'T4-2'}
+S0038071711004354-755	2	Qualifier	174	175	T5-2	后	{'Qualifies': 'T1-2'}
+S0038071711004354-755	3	Quantity	189	202	T1-3	-28.5 ± 0.33‰	{'mods': ['IsApproximate', 'HasTolerance'], 'unit': '‰'}
+S0038071711004354-755	3	MeasuredProperty	34	40	T3-3	δ 13 C	{'HasQuantity': 'T1-3'}
+S0038071711004354-755	3	MeasuredEntity	41	44	T2-3	CO2	{'HasProperty': 'T3-3'}
+S0038071711004354-755	3	Qualifier	167	175	T5-3	大约2.5小时后	{'Qualifies': 'T3-3'}
+S0038071711004354-755	4	Quantity	215	217	T1-4	60	
+S0038071711004354-755	4	MeasuredProperty	211	212	T2-4	n	{'HasQuantity': 'T1-4'}
+S0038071711004354-755	4	MeasuredEntity	17	21	T3-4	双室测试	{'HasProperty': 'T2-4'}

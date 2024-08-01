@@ -1,0 +1,8 @@
+T42	Quantity -1 -1	>0.5公里
+#12	AnnotatorNotes T42	None
+A12	QuantityQualifier T42 IsRange
+T62	MeasuredProperty -1 -1	古深海
+R3	HasQuantity Arg1:T62 Arg2:T42
+T52	MeasuredEntity 317 323	北海北部中部
+R4	HasProperty Arg1:T52 Arg2:T62
+T1	Unit 346 348	公里

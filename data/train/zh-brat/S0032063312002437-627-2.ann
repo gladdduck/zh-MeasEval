@@ -1,0 +1,6 @@
+T1	Quantity 120 125	15或更小
+A1	QuantityQualifier T1 IsRange
+T2	MeasuredEntity 107 113	最大离子计数
+T3	MeasuredProperty -1 -1	大众频道号
+R2	HasProperty Arg1:T2 Arg2:T3
+R3	HasQuantity Arg1:T3 Arg2:T1

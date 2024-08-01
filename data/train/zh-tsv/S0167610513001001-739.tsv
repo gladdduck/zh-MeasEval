@@ -1,0 +1,7 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0167610513001001-739	1	Quantity	26	31	T1-1	180 m	{'unit': 'm'}
+S0167610513001001-739	1	MeasuredEntity	22	25	T3-1	门中点	{'HasQuantity': 'T1-1'}
+S0167610513001001-739	2	Quantity	38	48	T1-2	7.83 m s-1	{'mods': ['IsMedian'], 'unit': 'm s−1'}
+S0167610513001001-739	2	MeasuredProperty	-1	-1	T4-2	速度	{'HasQuantity': 'T1-2'}
+S0167610513001001-739	2	MeasuredEntity	16	17	T3-2	风	{'HasProperty': 'T4-2'}
+S0167610513001001-739	2	Qualifier	-1	-1	T5-2	中值	{'Qualifies': 'T1-2'}

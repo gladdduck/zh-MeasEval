@@ -1,0 +1,9 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0960148113002735-1289	1	Quantity	38	43	T1-1	200千瓦	{'unit': 'kW'}
+S0960148113002735-1289	1	MeasuredEntity	10	12	T3-1	涡轮	{'HasQuantity': 'T1-1'}
+S0960148113002735-1289	2	Quantity	55	59	T1-2	24 m	{'unit': 'm'}
+S0960148113002735-1289	2	MeasuredProperty	52	54	T3-2	高度	{'HasQuantity': 'T1-2'}
+S0960148113002735-1289	2	MeasuredEntity	10	12	T4-2	涡轮	{'HasProperty': 'T3-2'}
+S0960148113002735-1289	3	Quantity	63	67	T1-3	26 m	{'unit': 'm'}
+S0960148113002735-1289	3	MeasuredProperty	60	62	T3-3	直径	{'HasQuantity': 'T1-3'}
+S0960148113002735-1289	3	MeasuredEntity	10	12	T2-3	涡轮	{'HasProperty': 'T3-3'}

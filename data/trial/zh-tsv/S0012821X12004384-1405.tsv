@@ -1,0 +1,7 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0012821X12004384-1405	1	Quantity	29	31	T41-1	20	{'mods': ['IsCount']}
+S0012821X12004384-1405	1	MeasuredEntity	-1	-1	T11-1	标本	{'HasQuantity': 'T41-1'}
+S0012821X12004384-1405	2	Quantity	-1	-1	T22-2	0%至80%	{'mods': ['IsRange'], 'unit': '%'}
+S0012821X12004384-1405	2	MeasuredProperty	-1	-1	T62-2	%低盐甲藻囊性	{'HasQuantity': 'T22-2'}
+S0012821X12004384-1405	2	MeasuredEntity	-1	-1	T52-2	样品	{'HasProperty': 'T62-2'}
+S0012821X12004384-1405	2	Qualifier	-1	-1	T32-2	也排除了少于20个标本	{'Qualifies': 'T52-2'}

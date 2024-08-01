@@ -1,0 +1,8 @@
+T1	Quantity 88 93	12.5%
+T2	MeasuredEntity 45 47	农场
+T4	MeasuredProperty -1 -1	终身产量
+T5	Qualifier -1 -1	秋天
+T6	Unit 8 9	%
+R2	HasProperty Arg1:T2 Arg2:T4
+R3	HasQuantity Arg1:T4 Arg2:T1
+R4	Qualifies Arg1:T5 Arg2:T1

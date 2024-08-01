@@ -1,0 +1,6 @@
+T1	Quantity 424 427	18年
+T2	MeasuredProperty 198 199	老
+T3	MeasuredEntity -1 -1	温室种植的树木
+R1	HasProperty Arg1:T3 Arg2:T2
+R2	HasQuantity Arg1:T2 Arg2:T1
+T4	Unit 69 70	年

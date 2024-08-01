@@ -1,0 +1,8 @@
+T45	Quantity 145 151	<1 ppm
+#15	AnnotatorNotes T45	ppm
+A15	QuantityQualifier T45 IsRange
+T125	MeasuredProperty 116 123	GG、DY和U
+R12	HasQuantity Arg1:T125 Arg2:T45
+T235	MeasuredEntity -1 -1	固体吸附剂
+R13	HasProperty Arg1:T235 Arg2:T125
+T2	Unit 109 112	ppm

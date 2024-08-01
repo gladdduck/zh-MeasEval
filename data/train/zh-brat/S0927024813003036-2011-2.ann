@@ -1,0 +1,6 @@
+T1	Quantity 170 174	10分钟
+T2	Unit -1 -1	min
+T3	MeasuredEntity 55 57	样品
+T4	MeasuredProperty 175 178	预退火
+R1	HasQuantity Arg1:T4 Arg2:T1
+R3	HasProperty Arg1:T3 Arg2:T4

@@ -1,0 +1,7 @@
+T1	Quantity 202 208	15-27%
+T2	MeasuredProperty -1 -1	增加的生物量产量
+T3	Qualifier -1 -1	通过补充二氧化碳浓缩自由空气
+T4	Unit 149 150	%
+R1	HasQuantity Arg1:T2 Arg2:T1
+R2	Qualifies Arg1:T3 Arg2:T2
+T5	MeasuredEntity 158 162	田间地块

@@ -1,0 +1,7 @@
+T13	Quantity -1 -1	低至25公里
+#13	AnnotatorNotes T13	km
+A13	QuantityQualifier T13 IsRange
+T43	MeasuredEntity -1 -1	卡西尼号飞船
+R4	HasQuantity Arg1:T43 Arg2:T13
+T33	Qualifier -1 -1	表面上方
+R5	Qualifies Arg1:T33 Arg2:T13

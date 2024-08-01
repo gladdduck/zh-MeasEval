@@ -1,0 +1,4 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0032063312003054-2483	1	Quantity	-1	-1	T1-1	格林尼治标准时间01：25：00至01：25：40之间	{'mods': ['IsRange'], 'unit': 'UT'}
+S0032063312003054-2483	1	MeasuredProperty	-1	-1	T3-1	加速度	{'HasQuantity': 'T1-1'}
+S0032063312003054-2483	1	MeasuredEntity	58	61	T4-1	重离子	{'HasProperty': 'T3-1'}

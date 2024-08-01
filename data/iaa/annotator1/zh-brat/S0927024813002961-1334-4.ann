@@ -1,0 +1,6 @@
+T1	Quantity -1 -1	25 °C
+T2	Unit 269 271	°C
+T3	MeasuredEntity -1 -1	所有设备的最大电源点数据
+T4	Qualifier -1 -1	提取并更正
+R2	Qualifies Arg1:T4 Arg2:T1
+R1	HasQuantity Arg1:T3 Arg2:T1

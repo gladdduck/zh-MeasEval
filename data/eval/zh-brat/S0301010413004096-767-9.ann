@@ -1,0 +1,7 @@
+T1	Quantity 236 243	40-50 K
+T2	MeasuredEntity -1 -1	副H2
+T3	MeasuredProperty 249 251	加载
+T4	Unit 221 222	K
+R1	HasProperty Arg1:T2 Arg2:T3
+R2	HasQuantity Arg1:T3 Arg2:T1
+A1	QuantityQualifier T1 IsRange

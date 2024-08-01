@@ -1,0 +1,6 @@
+T1	Quantity -1 -1	重量% 0.34
+T2	MeasuredEntity -1 -1	未反应的样品
+T3	MeasuredProperty 100 102	Al
+T4	Unit -1 -1	重量%
+R1	HasProperty Arg1:T2 Arg2:T3
+R2	HasQuantity Arg1:T3 Arg2:T1

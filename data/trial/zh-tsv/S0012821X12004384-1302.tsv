@@ -1,0 +1,12 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0012821X12004384-1302	1	Quantity	209	210	T91-1	五	{'mods': ['IsCount']}
+S0012821X12004384-1302	1	MeasuredEntity	211	213	T101-1	样品	{'HasQuantity': 'T91-1'}
+S0012821X12004384-1302	2	Quantity	-1	-1	T12-2	2619.60、2617.35、2617.44、2614.73和2614.71 m	{'mods': ['IsList'], 'unit': 'm'}
+S0012821X12004384-1302	2	MeasuredEntity	211	213	T102-2	样品	{'HasQuantity': 'T12-2'}
+S0012821X12004384-1302	2	Qualifier	-1	-1	T152-2	低于CIC	{'Qualifies': 'T102-2'}
+S0012821X12004384-1302	3	Quantity	-1	-1	T23-3	2619.60、2614.73和2614.71 m	{'mods': ['IsList'], 'unit': 'm'}
+S0012821X12004384-1302	3	MeasuredEntity	211	213	T113-3	样品	{'HasQuantity': 'T23-3'}
+S0012821X12004384-1302	4	Quantity	498	499	T34-4	两	{'mods': ['IsCount']}
+S0012821X12004384-1302	4	MeasuredEntity	211	213	T144-4	样品	{'HasQuantity': 'T34-4'}
+S0012821X12004384-1302	5	Quantity	502	517	T135-5	2619.60和2614.71	{'mods': ['IsList']}
+S0012821X12004384-1302	5	MeasuredEntity	211	213	T145-5	样品	{'HasQuantity': 'T135-5'}

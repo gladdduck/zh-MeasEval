@@ -1,0 +1,6 @@
+T1	Quantity -1 -1	超过3字节
+T2	Unit -1 -1	byr
+T3	MeasuredProperty 215 217	积累
+T4	MeasuredEntity -1 -1	奇数氮的输入
+R1	HasProperty Arg1:T4 Arg2:T3
+R2	HasQuantity Arg1:T3 Arg2:T1

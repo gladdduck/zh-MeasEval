@@ -1,0 +1,5 @@
+T101	Quantity -1 -1	2005–2010
+#11	AnnotatorNotes T101	Unspecified
+A11	QuantityQualifier T101 IsRange
+T91	MeasuredEntity -1 -1	时间段
+R1	HasQuantity Arg1:T91 Arg2:T101

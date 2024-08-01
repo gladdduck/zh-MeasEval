@@ -1,0 +1,8 @@
+T1	Quantity -1 -1	2.7重量%
+T2	Unit -1 -1	重量%
+T3	MeasuredProperty 46 47	S
+R1	HasQuantity Arg1:T3 Arg2:T1
+T4	MeasuredEntity 169 173	全球土壤
+R2	HasProperty Arg1:T4 Arg2:T3
+T5	Qualifier -1 -1	根据勇气号、机遇号、探路者号和维京登陆者号在火星不同地点测量的元素丰度推断
+R3	Qualifies Arg1:T5 Arg2:T3

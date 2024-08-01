@@ -1,0 +1,6 @@
+T1	Quantity -1 -1	-8 °C
+T2	MeasuredProperty -1 -1	稳定耐受性
+T3	MeasuredEntity -1 -1	热带E grandis x E.表达应激诱导rd 29 a启动子-CBF 2转录因子盒的尾叶
+R1	HasProperty Arg1:T3 Arg2:T2
+R2	HasQuantity Arg1:T2 Arg2:T1
+T4	Unit 271 273	°C

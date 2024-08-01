@@ -1,0 +1,8 @@
+T1	Quantity 27 31	170°
+T2	Unit 30 31	°
+T3	MeasuredProperty -1 -1	桨距角
+T4	MeasuredEntity 32 34	电子
+R1	HasProperty Arg1:T4 Arg2:T3
+R2	HasQuantity Arg1:T3 Arg2:T1
+T5	Qualifier -1 -1	反弹
+R3	Qualifies Arg1:T5 Arg2:T3

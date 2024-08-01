@@ -1,0 +1,13 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0031405612000728-1621	1	Quantity	-1	-1	T1-1	超过7个月	{'mods': ['IsRange'], 'unit': 'month'}
+S0031405612000728-1621	1	MeasuredProperty	-1	-1	T4-1	期间	{'HasQuantity': 'T1-1'}
+S0031405612000728-1621	1	MeasuredEntity	0	4	T2-1	目前调查	{'HasProperty': 'T4-1'}
+S0031405612000728-1621	2	Quantity	24	27	T1-2	7个月	{'unit': 'month'}
+S0031405612000728-1621	2	MeasuredProperty	-1	-1	T3-2	当然	{'HasQuantity': 'T1-2'}
+S0031405612000728-1621	2	MeasuredEntity	125	127	T4-2	实验	{'HasProperty': 'T3-2'}
+S0031405612000728-1621	3	Quantity	273	274	T1-3	9	{'unit': 'months'}
+S0031405612000728-1621	3	MeasuredProperty	-1	-1	T4-3	孵育	{'HasQuantity': 'T1-3'}
+S0031405612000728-1621	3	MeasuredEntity	33	35	T3-3	土壤	{'HasProperty': 'T4-3'}
+S0031405612000728-1621	4	Quantity	277	282	T1-4	4.8个月	{'unit': 'months'}
+S0031405612000728-1621	4	MeasuredProperty	-1	-1	T4-4	孵育	{'HasQuantity': 'T1-4'}
+S0031405612000728-1621	4	MeasuredEntity	33	35	T3-4	土壤	{'HasProperty': 'T4-4'}

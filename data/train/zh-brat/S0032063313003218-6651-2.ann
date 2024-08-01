@@ -1,0 +1,7 @@
+T1	Quantity -1 -1	纬度~74°
+A1	IsApproximate T1
+T2	Unit 167 170	°纬度
+T4	MeasuredProperty -1 -1	极大值
+R2	HasQuantity Arg1:T4 Arg2:T1
+T5	MeasuredEntity -1 -1	案例ES与EF
+R1	HasProperty Arg1:T5 Arg2:T4

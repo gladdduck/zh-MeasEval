@@ -1,0 +1,5 @@
+T1	Quantity -1 -1	低于3.5RP
+T2	Unit -1 -1	Rp
+T4	MeasuredEntity 4 8	C2模型
+R1	HasQuantity Arg1:T4 Arg2:T1
+A1	QuantityQualifier T1 IsRange

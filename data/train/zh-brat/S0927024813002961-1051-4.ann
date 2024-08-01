@@ -1,0 +1,5 @@
+T1	Quantity -1 -1	10-15%的范围
+T2	Unit 314 315	%
+T3	MeasuredEntity -1 -1	性能变化
+R1	HasQuantity Arg1:T3 Arg2:T1
+A1	QuantityQualifier T1 IsRange

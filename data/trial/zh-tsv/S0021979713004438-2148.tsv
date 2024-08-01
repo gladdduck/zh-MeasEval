@@ -1,0 +1,26 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0021979713004438-2148	1	Quantity	-1	-1	T31-1	10 μM	{'unit': 'μM'}
+S0021979713004438-2148	1	MeasuredEntity	11	16	T41-1	FeCl3	{'HasQuantity': 'T31-1'}
+S0021979713004438-2148	2	Quantity	-1	-1	T12-2	15分钟	{'unit': 'min'}
+S0021979713004438-2148	2	MeasuredEntity	-1	-1	T22-2	MeFP-1光谱	{'HasQuantity': 'T12-2'}
+S0021979713004438-2148	3	Quantity	-1	-1	T53-3	1540厘米-1	{'unit': 'cm−1'}
+S0021979713004438-2148	3	MeasuredProperty	-1	-1	T83-3	峰值	{'HasQuantity': 'T53-3'}
+S0021979713004438-2148	3	MeasuredEntity	-1	-1	T173-3	现场ATR-FT光谱	{'HasProperty': 'T83-3'}
+S0021979713004438-2148	4	Quantity	-1	-1	T64-4	1550厘米-1	
+S0021979713004438-2148	4	MeasuredProperty	283	284	T94-4	峰	{'HasQuantity': 'T64-4'}
+S0021979713004438-2148	4	MeasuredEntity	-1	-1	T174-4	现场ATR-FT光谱	{'HasProperty': 'T94-4'}
+S0021979713004438-2148	5	Quantity	-1	-1	T75-5	1536厘米-1	{'unit': 'cm−1'}
+S0021979713004438-2148	5	MeasuredProperty	283	284	T95-5	峰	{'HasQuantity': 'T75-5'}
+S0021979713004438-2148	5	MeasuredEntity	-1	-1	T175-5	现场ATR-FT光谱	{'HasProperty': 'T95-5'}
+S0021979713004438-2148	6	Quantity	-1	-1	T106-6	1540厘米-1	{'unit': 'cm−1'}
+S0021979713004438-2148	6	MeasuredProperty	-1	-1	T116-6	峰值	{'HasQuantity': 'T106-6'}
+S0021979713004438-2148	6	MeasuredEntity	-1	-1	T176-6	现场ATR-FT光谱	{'HasProperty': 'T116-6'}
+S0021979713004438-2148	7	Quantity	-1	-1	T137-7	1485厘米-1	{'unit': 'cm−1'}
+S0021979713004438-2148	7	MeasuredProperty	283	284	T127-7	峰	{'HasQuantity': 'T137-7'}
+S0021979713004438-2148	7	MeasuredEntity	-1	-1	T177-7	现场ATR-FT光谱	{'HasProperty': 'T127-7'}
+S0021979713004438-2148	8	Quantity	-1	-1	T148-8	1260厘米-1	{'unit': 'cm−1'}
+S0021979713004438-2148	8	MeasuredProperty	283	284	T128-8	峰	{'HasQuantity': 'T148-8'}
+S0021979713004438-2148	8	MeasuredEntity	-1	-1	T178-8	现场ATR-FT光谱	{'HasProperty': 'T128-8'}
+S0021979713004438-2148	9	Quantity	-1	-1	T169-9	1423厘米-1	{'unit': 'cm−1'}
+S0021979713004438-2148	9	MeasuredProperty	-1	-1	T159-9	肩膀	{'HasQuantity': 'T169-9'}
+S0021979713004438-2148	9	MeasuredEntity	-1	-1	T179-9	现场ATR-FT光谱	{'HasProperty': 'T159-9'}

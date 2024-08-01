@@ -1,0 +1,6 @@
+T1	Quantity 21 23	6周
+T2	MeasuredEntity 26 32	GH血浆水平
+T3	MeasuredProperty 18 21	移植后
+R1	HasQuantity Arg1:T3 Arg2:T1
+R2	HasProperty Arg1:T2 Arg2:T3
+T4	Unit 22 23	周

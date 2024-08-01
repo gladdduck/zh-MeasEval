@@ -1,0 +1,12 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0960148113005727-1203	1	Quantity	-1	-1	T1-1	2-5%	{'mods': ['IsRange'], 'unit': '%'}
+S0960148113005727-1203	1	MeasuredProperty	105	107	T4-1	减少	{'HasQuantity': 'T1-1'}
+S0960148113005727-1203	1	MeasuredEntity	-1	-1	T3-1	输出	{'HasProperty': 'T4-1'}
+S0960148113005727-1203	1	Qualifier	-1	-1	T5-1	涡轮机周围的缺陷	{'Qualifies': 'T1-1'}
+S0960148113005727-1203	2	Quantity	130	132	T1-2	1%	{'unit': '%'}
+S0960148113005727-1203	2	MeasuredProperty	105	107	T4-2	减少	{'HasQuantity': 'T1-2'}
+S0960148113005727-1203	2	MeasuredEntity	-1	-1	T3-2	输出	{'HasProperty': 'T4-2'}
+S0960148113005727-1203	2	Qualifier	116	125	T5-2	湍流强度每增加3%	{'Qualifies': 'T1-2'}
+S0960148113005727-1203	3	Quantity	123	125	T1-3	3%	{'unit': '%'}
+S0960148113005727-1203	3	MeasuredProperty	121	123	T3-3	增加	{'HasQuantity': 'T1-3'}
+S0960148113005727-1203	3	MeasuredEntity	29	33	T4-3	湍流强度	{'HasProperty': 'T3-3'}

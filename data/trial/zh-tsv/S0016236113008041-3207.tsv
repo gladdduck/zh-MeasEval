@@ -1,0 +1,4 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0016236113008041-3207	1	Quantity	27	33	T11-1	90-95%	{'mods': ['IsRange'], 'unit': '%'}
+S0016236113008041-3207	1	MeasuredProperty	-1	-1	T21-1	通过阳离子交换取代Ca 2 +	{'HasQuantity': 'T11-1'}
+S0016236113008041-3207	1	MeasuredEntity	-1	-1	T41-1	元件	{'HasProperty': 'T21-1'}

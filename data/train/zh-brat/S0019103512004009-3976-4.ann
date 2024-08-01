@@ -1,0 +1,6 @@
+T1	Quantity -1 -1	30公里秒-1
+T2	MeasuredProperty 7 9	速度
+T3	MeasuredEntity 43 46	上边界
+R1	HasProperty Arg1:T3 Arg2:T2
+R2	HasQuantity Arg1:T2 Arg2:T1
+T4	Unit -1 -1	公里秒-1

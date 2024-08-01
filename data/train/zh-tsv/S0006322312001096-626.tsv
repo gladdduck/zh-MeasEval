@@ -1,0 +1,8 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0006322312001096-626	1	Quantity	12	15	T11-1	10%	
+S0006322312001096-626	1	MeasuredProperty	10	12	T21-1	增加	{'HasQuantity': 'T11-1'}
+S0006322312001096-626	1	MeasuredEntity	-1	-1	T31-1	弗雷明汉风险分数	{'HasProperty': 'T21-1'}
+S0006322312001096-626	2	Quantity	17	19	T1-2	65	{'mods': ['IsRange']}
+S0006322312001096-626	2	MeasuredProperty	-1	-1	T2-2	年龄	{'HasQuantity': 'T1-2'}
+S0006322312001096-626	2	MeasuredEntity	24	28	T4-2	抑郁症状	{'HasProperty': 'T2-2'}
+S0006322312001096-626	2	Qualifier	20	22	T3-2	前后	{'Qualifies': 'T2-2'}

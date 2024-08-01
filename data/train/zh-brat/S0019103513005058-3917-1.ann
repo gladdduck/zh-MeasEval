@@ -1,0 +1,6 @@
+T1	Quantity -1 -1	0.02厘米s-1
+T3	MeasuredProperty 10 14	沉积速度
+R2	HasQuantity Arg1:T3 Arg2:T1
+T4	Unit -1 -1	s-1
+T2	MeasuredEntity 104 108	所有物种
+R1	HasProperty Arg1:T2 Arg2:T3

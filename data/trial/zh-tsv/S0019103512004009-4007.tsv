@@ -1,0 +1,10 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0019103512004009-4007	1	Quantity	257	260	T11-1	93%	{'unit': '%'}
+S0019103512004009-4007	1	MeasuredProperty	-1	-1	T21-1	恒定光电子加热效率	{'HasQuantity': 'T11-1'}
+S0019103512004009-4007	1	MeasuredEntity	-1	-1	T91-1	型号C1	{'HasProperty': 'T21-1'}
+S0019103512004009-4007	1	Qualifier	237	247	T31-1	在所有高度和光电子能	{'Qualifies': 'T21-1'}
+S0019103512004009-4007	2	Quantity	283	288	T42-2	50 eV	{'unit': 'eV'}
+S0019103512004009-4007	2	MeasuredEntity	288	290	T52-2	光子	{'HasQuantity': 'T42-2'}
+S0019103512004009-4007	2	Qualifier	-1	-1	T62-2	电子混合比xe = 0.1	{'Qualifies': 'T52-2'}
+S0019103512004009-4007	3	Quantity	279	282	T83-3	0.1	
+S0019103512004009-4007	3	MeasuredEntity	-1	-1	T73-3	xe的电子混合比	{'HasQuantity': 'T83-3'}

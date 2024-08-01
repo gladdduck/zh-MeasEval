@@ -1,0 +1,4 @@
+T1	Quantity 160 161	三
+A1	IsCount T1
+T3	MeasuredEntity -1 -1	小核糖体亚基（SSU）蛋白质
+R1	HasQuantity Arg1:T3 Arg2:T1

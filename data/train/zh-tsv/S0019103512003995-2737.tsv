@@ -1,0 +1,17 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0019103512003995-2737	1	Quantity	-1	-1	T1-1	5–10	{'mods': ['IsRange']}
+S0019103512003995-2737	1	MeasuredProperty	38	39	T2-1	强	{'HasQuantity': 'T1-1'}
+S0019103512003995-2737	1	MeasuredEntity	-1	-1	T3-1	恒星X紫外通量，或相应的替代热源	{'HasProperty': 'T2-1'}
+S0019103512003995-2737	1	Qualifier	31	38	T4-1	比平均太阳通量	{'Qualifies': 'T2-1'}
+S0019103512003995-2737	2	Quantity	-1	-1	T1-2	8000至9000 K之间	{'mods': ['IsRange'], 'unit': 'K'}
+S0019103512003995-2737	2	MeasuredEntity	61	65	T3-2	平均温度	{'HasQuantity': 'T1-2'}
+S0019103512003995-2737	3	Quantity	-1	-1	T1-3	109-1010公斤s-1	{'mods': ['IsRange'], 'unit': 'kg s−1'}
+S0019103512003995-2737	3	MeasuredProperty	-1	-1	T3-3	亏损率	{'HasQuantity': 'T1-3'}
+S0019103512003995-2737	3	MeasuredEntity	227	229	T4-3	质量	{'HasProperty': 'T3-3'}
+S0019103512003995-2737	4	Quantity	256	263	T1-4	10-100%	{'mods': ['IsRange'], 'unit': '%'}
+S0019103512003995-2737	4	MeasuredProperty	229	231	T4-4	损失	{'HasQuantity': 'T1-4'}
+S0019103512003995-2737	4	MeasuredEntity	-1	-1	T3-4	行星的质量	{'HasProperty': 'T4-4'}
+S0019103512003995-2737	4	Qualifier	-1	-1	T5-4	在系统的估计使用寿命内	{'Qualifies': 'T4-4'}
+S0019103512003995-2737	5	Quantity	-1	-1	T1-5	少于√ 10次	{'mods': ['IsApproximate', 'IsRange'], 'unit': 'times'}
+S0019103512003995-2737	5	MeasuredProperty	159	163	T4-5	能量输入	{'HasQuantity': 'T1-5'}
+S0019103512003995-2737	5	MeasuredEntity	-1	-1	T3-5	HD209458 b上的太阳平均值	{'HasProperty': 'T4-5'}

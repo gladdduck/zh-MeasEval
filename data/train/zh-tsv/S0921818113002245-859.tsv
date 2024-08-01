@@ -1,0 +1,4 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0921818113002245-859	1	Quantity	46	51	T1-1	约19 m	{'mods': ['IsApproximate'], 'unit': 'm'}
+S0921818113002245-859	1	MeasuredProperty	-1	-1	T3-1	最深点	{'HasQuantity': 'T1-1'}
+S0921818113002245-859	1	MeasuredEntity	41	43	T2-1	湖泊	{'HasProperty': 'T3-1'}

@@ -1,0 +1,5 @@
+T1	Quantity 95 99	0.24
+T2	MeasuredEntity -1 -1	无显著差异
+T3	MeasuredProperty 91 92	p
+R1	HasProperty Arg1:T2 Arg2:T3
+R2	HasQuantity Arg1:T3 Arg2:T1

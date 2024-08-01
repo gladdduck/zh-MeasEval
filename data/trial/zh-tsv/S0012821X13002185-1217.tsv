@@ -1,0 +1,35 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0012821X13002185-1217	1	Quantity	-1	-1	T61-1	0.2 M	{'unit': 'M'}
+S0012821X13002185-1217	1	MeasuredProperty	59	63	T71-1	NaOH	{'HasQuantity': 'T61-1'}
+S0012821X13002185-1217	1	MeasuredEntity	-1	-1	T81-1	湿碱性消化	{'HasProperty': 'T71-1'}
+S0012821X13002185-1217	2	Quantity	-1	-1	T52-2	100 °C	{'unit': '°C'}
+S0012821X13002185-1217	2	MeasuredProperty	-1	-1	T82-2	通过湿碱性消化溶解	{'HasQuantity': 'T52-2'}
+S0012821X13002185-1217	2	MeasuredEntity	-1	-1	T2-2	清洁的海绵和藻类蛋白石	{'HasProperty': 'T82-2'}
+S0012821X13002185-1217	3	Quantity	73	77	T33-3	40分钟	{'unit': 'min'}
+S0012821X13002185-1217	3	MeasuredProperty	-1	-1	T83-3	通过湿碱性消化溶解	{'HasQuantity': 'T33-3'}
+S0012821X13002185-1217	3	MeasuredEntity	-1	-1	T1-3	藻类蛋白石	{'HasProperty': 'T83-3'}
+S0012821X13002185-1217	4	Quantity	82	86	T44-4	长达1周	{'mods': ['IsRange'], 'unit': 'week'}
+S0012821X13002185-1217	4	MeasuredProperty	-1	-1	T84-4	通过湿碱性消化溶解	{'HasQuantity': 'T44-4'}
+S0012821X13002185-1217	4	MeasuredEntity	-1	-1	T2-4	清洁海绵	{'HasProperty': 'T84-4'}
+S0012821X13002185-1217	5	Quantity	-1	-1	T115-5	pH ' 2	{'mods': ['IsApproximate'], 'unit': 'pH'}
+S0012821X13002185-1217	5	MeasuredProperty	104	106	T2-5	酸化	{'HasQuantity': 'T115-5'}
+S0012821X13002185-1217	5	MeasuredEntity	92	94	T125-5	样品	{'HasProperty': 'T2-5'}
+S0012821X13002185-1217	6	Quantity	-1	-1	T146-6	0.2 M	{'unit': 'M'}
+S0012821X13002185-1217	6	MeasuredEntity	-1	-1	T156-6	热蒸馏的高氯酸	{'HasQuantity': 'T146-6'}
+S0012821X13002185-1217	7	Quantity	214	220	T17-7	5%和95%	{'mods': ['IsList'], 'unit': '%'}
+S0012821X13002185-1217	7	MeasuredProperty	-1	-1	T167-7	m/Δm ð3500	{'HasQuantity': 'T17-7'}
+S0012821X13002185-1217	7	MeasuredEntity	199	202	T137-7	质谱仪	{'HasProperty': 'T167-7'}
+S0012821X13002185-1217	8	Quantity	-1	-1	T179-8	六到八	{'mods': ['IsRange', 'IsCount']}
+S0012821X13002185-1217	8	MeasuredEntity	419	425	T189-8	标准样品支架	{'HasQuantity': 'T179-8'}
+S0012821X13002185-1217	9	Quantity	-1	-1	T2110-9	二十	{'mods': ['IsCount']}
+S0012821X13002185-1217	9	MeasuredEntity	-1	-1	T2010-9	集成	{'HasQuantity': 'T2110-9'}
+S0012821X13002185-1217	10	Quantity	-1	-1	T1911-10	八秒	{'unit': 'second'}
+S0012821X13002185-1217	10	MeasuredEntity	-1	-1	T2011-10	集成	{'HasQuantity': 'T1911-10'}
+S0012821X13002185-1217	11	Quantity	-1	-1	T2212-11	1.26±0.2‰	{'mods': ['IsMeanHasSD'], 'unit': '‰'}
+S0012821X13002185-1217	11	MeasuredEntity	-1	-1	T2312-11	外部收件箱标准	{'HasQuantity': 'T2212-11'}
+S0012821X13002185-1217	12	Quantity	-1	-1	T2413-12	平均值和2SD为1.23±0.25‰	{'mods': ['IsMeanHasSD'], 'unit': '‰'}
+S0012821X13002185-1217	12	MeasuredEntity	92	94	T2513-12	样品	{'HasQuantity': 'T2413-12'}
+S0012821X13002185-1217	12	Qualifier	-1	-1	T2713-12	外部收件箱标准	{'Qualifies': 'T2413-12'}
+S0012821X13002185-1217	13	Quantity	-1	-1	T2814-13	104	
+S0012821X13002185-1217	13	MeasuredProperty	23	24	T1-13	n	{'HasQuantity': 'T2814-13'}
+S0012821X13002185-1217	13	MeasuredEntity	92	94	T2514-13	样品	{'HasProperty': 'T1-13'}

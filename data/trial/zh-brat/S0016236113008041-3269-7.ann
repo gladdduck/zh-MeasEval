@@ -1,0 +1,11 @@
+T117	Quantity -1 -1	407 ppm
+#17	AnnotatorNotes T117	ppm
+T207	MeasuredProperty 10 12	浓度
+R15	HasQuantity Arg1:T207 Arg2:T117
+T317	MeasuredEntity -1 -1	Ti
+R16	HasProperty Arg1:T317 Arg2:T207
+T127	Qualifier -1 -1	1000 ppm SO2
+R17	Qualifies Arg1:T127 Arg2:T317
+T337	Qualifier -1 -1	用于循环测试
+R18	Qualifies Arg1:T337 Arg2:T117
+T1	Unit 79 82	ppm

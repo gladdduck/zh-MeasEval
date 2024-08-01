@@ -1,0 +1,27 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S1750583613004192-1126	1	Quantity	134	138	T1-1	约1公里	{'mods': ['IsApproximate'], 'unit': 'km'}
+S1750583613004192-1126	1	MeasuredProperty	-1	-1	T3-1	表面以下	{'HasQuantity': 'T1-1'}
+S1750583613004192-1126	1	MeasuredEntity	-1	-1	T2-1	咸水层	{'HasProperty': 'T3-1'}
+S1750583613004192-1126	2	Quantity	-1	-1	T1-2	200 km	{'unit': 'km'}
+S1750583613004192-1126	2	MeasuredProperty	-1	-1	T4-2	从海岸	{'HasQuantity': 'T1-2'}
+S1750583613004192-1126	2	MeasuredEntity	-1	-1	T3-2	咸水层	{'HasProperty': 'T4-2'}
+S1750583613004192-1126	3	Quantity	-1	-1	T1-3	近100万吨/年	{'mods': ['IsApproximate'], 'unit': 'Mt/yr'}
+S1750583613004192-1126	3	MeasuredProperty	179	181	T5-3	注入	{'HasQuantity': 'T1-3'}
+S1750583613004192-1126	3	MeasuredEntity	-1	-1	T3-3	捕获的CO2	{'HasProperty': 'T5-3'}
+S1750583613004192-1126	3	Qualifier	-1	-1	T4-3	进入储存地点	{'Qualifies': 'T5-3'}
+S1750583613004192-1126	4	Quantity	-1	-1	T1-4	自1996年以来。	{'mods': ['IsRange']}
+S1750583613004192-1126	4	MeasuredProperty	179	181	T3-4	注入	{'HasQuantity': 'T1-4'}
+S1750583613004192-1126	4	MeasuredEntity	-1	-1	T2-4	捕获的CO2	{'HasProperty': 'T3-4'}
+S1750583613004192-1126	4	Qualifier	-1	-1	T4-4	进入储存地点	{'Qualifies': 'T3-4'}
+S1750583613004192-1126	5	Quantity	-1	-1	T1-5	八个薄页岩屏障	{'unit': 'thin shale barriers'}
+S1750583613004192-1126	5	MeasuredProperty	-1	-1	T4-5	迅速上升通过	{'HasQuantity': 'T1-5'}
+S1750583613004192-1126	5	MeasuredEntity	-1	-1	T3-5	浮力二氧化碳羽流	{'HasProperty': 'T4-5'}
+S1750583613004192-1126	6	Quantity	196	200	T1-6	不到三年	{'mods': ['IsRange'], 'unit': 'years'}
+S1750583613004192-1126	6	MeasuredProperty	-1	-1	T3-6	到达顶部封印	{'HasQuantity': 'T1-6'}
+S1750583613004192-1126	6	MeasuredEntity	-1	-1	T2-6	浮力二氧化碳羽流	{'HasProperty': 'T3-6'}
+S1750583613004192-1126	7	Quantity	226	227	T1-7	八	{'mods': ['IsCount']}
+S1750583613004192-1126	7	MeasuredEntity	-1	-1	T3-7	地震勘测	{'HasQuantity': 'T1-7'}
+S1750583613004192-1126	8	Quantity	272	273	T1-8	九	{'mods': ['IsCount']}
+S1750583613004192-1126	8	MeasuredEntity	-1	-1	T2-8	薄二氧化碳层	{'HasQuantity': 'T1-8'}
+S1750583613004192-1126	9	Quantity	134	138	T1-9	约1公里	{'mods': ['IsApproximate'], 'unit': 'km'}
+S1750583613004192-1126	9	MeasuredEntity	502	503	T2-9	冰	{'HasQuantity': 'T1-9'}

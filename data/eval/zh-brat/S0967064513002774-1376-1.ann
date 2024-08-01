@@ -1,0 +1,4 @@
+T1	Quantity -1 -1	220 mL
+T2	Unit -1 -1	mL
+T3	MeasuredEntity -1 -1	孵育室
+R1	HasQuantity Arg1:T3 Arg2:T1

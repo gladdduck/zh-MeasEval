@@ -1,0 +1,8 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0378383912000130-3891	1	Quantity	1	2	T1-1	两	{'mods': ['IsCount']}
+S0378383912000130-3891	1	MeasuredEntity	-1	-1	T2-1	透水粗粒海滩	{'HasQuantity': 'T1-1'}
+S0378383912000130-3891	2	Quantity	-1	-1	T2-2	1.5毫米和8.5毫米	{'mods': ['IsList'], 'unit': 'mm'}
+S0378383912000130-3891	2	MeasuredProperty	129	132	T3-2	沉积物	{'HasQuantity': 'T2-2'}
+S0378383912000130-3891	2	MeasuredEntity	-1	-1	T4-2	两个透水粗颗粒海滩	{'HasProperty': 'T3-2'}
+S0378383912000130-3891	3	Quantity	1	2	T1-3	两	{'mods': ['IsCount']}
+S0378383912000130-3891	3	MeasuredEntity	129	132	T2-3	沉积物	{'HasQuantity': 'T1-3'}

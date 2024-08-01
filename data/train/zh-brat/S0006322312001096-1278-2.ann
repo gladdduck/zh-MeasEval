@@ -1,0 +1,12 @@
+T11	Quantity 106 109	65岁
+#11	AnnotatorNotes T11	None
+T1	Unit 41 42	年
+A1	QuantityQualifier T11 IsRange
+T2	Qualifier 159 160	后
+R1	Qualifies Arg1:T2 Arg2:T3
+T3	MeasuredProperty -1 -1	年龄
+R2	HasQuantity Arg1:T3 Arg2:T11
+T4	MeasuredEntity 84 88	抑郁症状
+R3	HasQuantity Arg1:T4 Arg2:T11
+T5	Qualifier 124 155	几乎没有证据表明有关临床前血管风险状态的标准临床信息有助于预测
+R4	Qualifies Arg1:T5 Arg2:T4

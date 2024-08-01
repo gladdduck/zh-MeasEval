@@ -1,0 +1,7 @@
+T1	Quantity 144 150	高达100%
+A1	QuantityQualifier T1 IsRange
+T2	Unit 149 150	%
+T3	MeasuredProperty -1 -1	可见光透过率
+T4	MeasuredEntity 104 112	ALD ZnO层
+R1	HasQuantity Arg1:T3 Arg2:T1
+R2	HasProperty Arg1:T4 Arg2:T3

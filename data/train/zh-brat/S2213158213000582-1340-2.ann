@@ -1,0 +1,9 @@
+T1	Quantity 40 49	30-130 ms
+T2	MeasuredEntity 1 9	VESTAL分析
+T3	MeasuredProperty -1 -1	检查的活动
+T4	Unit -1 -1	MS
+T5	Qualifier 37 40	刺激后
+R1	Qualifies Arg1:T5 Arg2:T1
+R2	HasProperty Arg1:T2 Arg2:T3
+R3	HasQuantity Arg1:T3 Arg2:T1
+A1	QuantityQualifier T1 IsRange

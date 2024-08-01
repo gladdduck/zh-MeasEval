@@ -1,0 +1,5 @@
+T1	Quantity 173 177	0.07
+T2	MeasuredEntity 162 165	正相关
+T3	MeasuredProperty -1 -1	R2
+R1	HasProperty Arg1:T2 Arg2:T3
+R2	HasQuantity Arg1:T3 Arg2:T1

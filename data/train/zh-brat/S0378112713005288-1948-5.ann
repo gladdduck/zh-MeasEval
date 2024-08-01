@@ -1,0 +1,5 @@
+T1	Quantity 216 220	1.75
+T2	MeasuredEntity -1 -1	再生密度无显着差异
+T3	MeasuredProperty 205 214	F（1，3.95）
+R1	HasQuantity Arg1:T3 Arg2:T1
+R2	HasProperty Arg1:T2 Arg2:T3

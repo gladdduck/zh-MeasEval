@@ -1,0 +1,9 @@
+T1	Quantity 14 17	10%
+T2	MeasuredProperty 22 31	胎牛血清（FCS）
+R1	HasQuantity Arg1:T2 Arg2:T1
+T3	MeasuredEntity -1 -1	DMEM培养基
+T4	Qualifier 12 14	补充
+R2	HasProperty Arg1:T3 Arg2:T2
+R3	Qualifies Arg1:T4 Arg2:T3
+T5	Qualifier 17 22	（v/v）
+R4	Qualifies Arg1:T5 Arg2:T1

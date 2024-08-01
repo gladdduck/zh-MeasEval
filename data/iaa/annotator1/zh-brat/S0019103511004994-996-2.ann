@@ -1,0 +1,7 @@
+T1	Quantity 92 95	10%
+T3	Qualifier 84 91	相对于上游速度
+R1	Qualifies Arg1:T3 Arg2:T1
+T4	MeasuredProperty -1 -1	假设表面速度
+T5	MeasuredEntity 23 29	电子漂移路径
+R2	HasProperty Arg1:T5 Arg2:T4
+R3	HasQuantity Arg1:T4 Arg2:T1

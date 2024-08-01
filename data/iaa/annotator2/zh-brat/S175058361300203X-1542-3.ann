@@ -1,0 +1,6 @@
+T1	Quantity 162 169	小于5 m/s
+T2	MeasuredEntity -1 -1	由此产生的场景之间的差异
+T3	MeasuredProperty 96 98	VP
+T4	Unit 166 169	m/s
+R1	HasProperty Arg1:T2 Arg2:T3
+R2	HasQuantity Arg1:T3 Arg2:T1

@@ -1,0 +1,4 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0167577X14001256-389	1	Quantity	-1	-1	T1-1	4 nm	{'unit': 'nm'}
+S0167577X14001256-389	1	MeasuredProperty	104	106	T3-1	宽度	{'HasQuantity': 'T1-1'}
+S0167577X14001256-389	1	MeasuredEntity	107	109	T4-1	箭头	{'HasProperty': 'T3-1'}

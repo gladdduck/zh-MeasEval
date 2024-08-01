@@ -1,0 +1,4 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0019103512003533-3299	1	Quantity	329	332	T11-1	50%	{'unit': '%'}
+S0019103512003533-3299	1	MeasuredProperty	324	328	T21-1	加热效率	{'HasQuantity': 'T11-1'}
+S0019103512003533-3299	1	MeasuredEntity	-1	-1	T31-1	太阳能极紫外加热	{'HasProperty': 'T21-1'}

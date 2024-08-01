@@ -1,0 +1,4 @@
+T1	Quantity -1 -1	100 ms
+T2	Unit -1 -1	MS
+T3	MeasuredEntity 139 143	听觉异常
+R1	HasQuantity Arg1:T3 Arg2:T1

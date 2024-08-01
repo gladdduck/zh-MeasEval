@@ -1,0 +1,4 @@
+T1	Quantity 8 12	24小时
+T2	Unit -1 -1	HR
+T3	MeasuredEntity -1 -1	源自对照、散发和PGRN S116 X iPSC的小胶质细胞
+R1	HasQuantity Arg1:T3 Arg2:T1

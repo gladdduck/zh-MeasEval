@@ -1,0 +1,8 @@
+T53	Quantity -1 -1	400 ka
+#13	AnnotatorNotes T53	ka
+A13	IsApproximate T53
+T83	MeasuredProperty -1 -1	冰体的就位
+R5	HasQuantity Arg1:T83 Arg2:T53
+T43	MeasuredEntity -1 -1	Oi 1
+R6	HasProperty Arg1:T43 Arg2:T83
+T1	Unit 119 121	ka

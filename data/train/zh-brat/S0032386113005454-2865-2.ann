@@ -1,0 +1,4 @@
+T1	Quantity 64 75	10wt%和20wt%
+T2	MeasuredEntity -1 -1	S-CSR改性环氧聚合物
+R1	HasQuantity Arg1:T2 Arg2:T1
+T4	Unit 68 69	%

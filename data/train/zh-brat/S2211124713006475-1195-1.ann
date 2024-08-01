@@ -1,0 +1,8 @@
+T1	Quantity 146 148	两天
+T2	Unit 147 148	天
+T3	Qualifier -1 -1	卵内移植后
+R1	Qualifies Arg1:T3 Arg2:T1
+T4	MeasuredEntity 150 159	存活的GFP+细胞
+T5	MeasuredProperty -1 -1	分散
+R2	HasProperty Arg1:T4 Arg2:T5
+R3	HasQuantity Arg1:T5 Arg2:T1

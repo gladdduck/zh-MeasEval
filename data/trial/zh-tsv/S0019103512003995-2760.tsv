@@ -1,0 +1,6 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0019103512003995-2760	1	Quantity	-1	-1	T11-1	11公里秒-1	{'unit': 'km s−1'}
+S0019103512003995-2760	1	MeasuredProperty	85	89	T21-1	径向速度	{'HasQuantity': 'T11-1'}
+S0019103512003995-2760	1	MeasuredEntity	-1	-1	T31-1	SAL 2模型	{'HasProperty': 'T21-1'}
+S0019103512003995-2760	1	Qualifier	-1	-1	T41-1	按5 RP	{'Qualifies': 'T21-1'}
+S0019103512003995-2760	2	Quantity	-1	-1	T52-2	5Rp	{'unit': 'Rp'}

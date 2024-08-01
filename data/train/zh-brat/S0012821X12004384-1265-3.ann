@@ -1,0 +1,7 @@
+T11	Quantity -1 -1	5 g
+#11	AnnotatorNotes T11	None
+T81	MeasuredProperty 177 181	初始重量
+R1	HasQuantity Arg1:T81 Arg2:T11
+T91	MeasuredEntity -1 -1	干沉积物
+R2	HasProperty Arg1:T91 Arg2:T81
+T1	Unit -1 -1	G

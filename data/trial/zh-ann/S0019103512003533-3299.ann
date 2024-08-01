@@ -1,0 +1,6 @@
+T1	Quantity 1088 1091	50%
+T2	MeasuredProperty -1 -1	加热效率
+T3	MeasuredEntity -1 -1	太阳能极紫外加热
+R1	HasProperty Arg1:T3 Arg2:T2
+R2	HasQuantity Arg1:T2 Arg2:T1
+#1	AnnotatorNotes T1	%

@@ -1,0 +1,8 @@
+T125	Quantity -1 -1	0.2- 0.4wt%
+#15	AnnotatorNotes T125	wt.%
+A15	QuantityQualifier T125 IsRange
+T135	MeasuredProperty 324 325	N
+R10	HasQuantity Arg1:T135 Arg2:T125
+T155	MeasuredEntity 220 222	土壤
+R11	HasProperty Arg1:T155 Arg2:T135
+T1	Unit -1 -1	重量%

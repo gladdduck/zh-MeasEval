@@ -1,0 +1,4 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0032063312003054-2467	1	Quantity	181	184	T1-1	10%	{'unit': '%'}
+S0032063312003054-2467	1	MeasuredProperty	-1	-1	T4-1	第4类仍然构成第二大群体，与第2类加在一起	{'HasQuantity': 'T1-1'}
+S0032063312003054-2467	1	MeasuredEntity	185	190	T3-1	MEX轨道	{'HasProperty': 'T4-1'}

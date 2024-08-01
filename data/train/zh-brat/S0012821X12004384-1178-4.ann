@@ -1,0 +1,7 @@
+T1	Quantity -1 -1	-2至-7 ‰之间
+A1	QuantityQualifier T1 IsRange
+T2	Unit 288 289	‰
+T3	MeasuredProperty -1 -1	负碳同位素
+T4	MeasuredEntity 193 201	海洋和陆地沉积物
+R1	HasProperty Arg1:T4 Arg2:T3
+R2	HasQuantity Arg1:T3 Arg2:T1

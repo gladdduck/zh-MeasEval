@@ -1,0 +1,7 @@
+T1	Quantity -1 -1	' 1.5 x 1012厘米-3
+A1	QuantityQualifier T1 IsRange
+T2	Unit -1 -1	厘米-3
+T3	MeasuredEntity -1 -1	“未污染”样本
+T4	MeasuredProperty -1 -1	大块铁浓度
+R1	HasProperty Arg1:T3 Arg2:T4
+R2	HasQuantity Arg1:T4 Arg2:T1

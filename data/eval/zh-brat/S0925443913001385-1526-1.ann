@@ -1,0 +1,4 @@
+T1	Quantity 88 92	5 μg
+T2	MeasuredEntity -1 -1	RNA的等份
+T3	Unit 90 92	μg
+R1	HasQuantity Arg1:T2 Arg2:T1

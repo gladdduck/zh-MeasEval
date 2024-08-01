@@ -1,0 +1,24 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0927024813003036-2011	1	Quantity	-1	-1	T1-1	范围1013厘米-3至1016厘米-3	{'mods': ['IsRange'], 'unit': 'cm−3'}
+S0927024813003036-2011	1	MeasuredEntity	-1	-1	T3-1	注射水平范围	{'HasQuantity': 'T1-1'}
+S0927024813003036-2011	2	Quantity	170	174	T1-2	10分钟	{'unit': 'min'}
+S0927024813003036-2011	2	MeasuredProperty	175	178	T4-2	预退火	{'HasQuantity': 'T1-2'}
+S0927024813003036-2011	2	MeasuredEntity	55	57	T3-2	样品	{'HasProperty': 'T4-2'}
+S0927024813003036-2011	3	Quantity	-1	-1	T1-3	200 °C	{'unit': '°C'}
+S0927024813003036-2011	3	MeasuredProperty	175	178	T3-3	预退火	{'HasQuantity': 'T1-3'}
+S0927024813003036-2011	3	MeasuredEntity	55	57	T5-3	样品	{'HasProperty': 'T3-3'}
+S0927024813003036-2011	4	Quantity	200	203	T1-4	∼50	{'mods': ['IsApproximate', 'IsCount']}
+S0927024813003036-2011	4	MeasuredEntity	-1	-1	T2-4	特写镜头闪光	{'HasQuantity': 'T1-4'}
+S0927024813003036-2011	5	Quantity	-1	-1	T1-5	<20 ms	{'mods': ['IsRange'], 'unit': 'ms'}
+S0927024813003036-2011	5	MeasuredProperty	-1	-1	T2-5	总照明时间	{'HasQuantity': 'T1-5'}
+S0927024813003036-2011	5	MeasuredEntity	206	208	T3-5	闪光	{'HasProperty': 'T2-5'}
+S0927024813003036-2011	6	Quantity	295	301	T1-6	超过24小时	{'mods': ['IsRange'], 'unit': 'h'}
+S0927024813003036-2011	6	MeasuredEntity	-1	-1	T2-6	第二寿命测量	{'HasQuantity': 'T1-6'}
+S0927024813003036-2011	6	Qualifier	-1	-1	T4-6	后来	{'Qualifies': 'T1-6'}
+S0927024813003036-2011	7	Quantity	342	343	T1-7	两	{'mods': ['IsCount']}
+S0927024813003036-2011	7	MeasuredEntity	152	156	T2-7	寿命测量	{'HasQuantity': 'T1-7'}
+S0927024813003036-2011	8	Quantity	574	579	T1-8	0.2p0	{'unit': 'p0'}
+S0927024813003036-2011	8	MeasuredEntity	48	52	T2-8	注入水平	{'HasQuantity': 'T1-8'}
+S0927024813003036-2011	9	Quantity	-1	-1	T1-9	' 1.5 x 1012厘米-3	{'mods': ['IsRange'], 'unit': 'cm−3'}
+S0927024813003036-2011	9	MeasuredProperty	-1	-1	T4-9	大块铁浓度	{'HasQuantity': 'T1-9'}
+S0927024813003036-2011	9	MeasuredEntity	-1	-1	T3-9	“未污染”样本	{'HasProperty': 'T4-9'}

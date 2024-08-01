@@ -1,0 +1,6 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0378383912000130-3739	1	Quantity	-1	-1	T1-1	1.5 mm	{'unit': 'mm'}
+S0378383912000130-3739	1	MeasuredEntity	7	9	T3-1	海滩	{'HasQuantity': 'T1-1'}
+S0378383912000130-3739	2	Quantity	-1	-1	T1-2	2 s	{'unit': 's'}
+S0378383912000130-3739	2	MeasuredProperty	-1	-1	T2-2	不	{'HasQuantity': 'T1-2'}
+S0378383912000130-3739	2	MeasuredEntity	18	31	T4-2	模型预测和测量之间的一致性	{'HasProperty': 'T2-2'}

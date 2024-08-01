@@ -1,0 +1,9 @@
+T1	Quantity 231 238	69 ± 3°
+T2	MeasuredProperty 227 230	接触角
+R2	HasQuantity Arg1:T2 Arg2:T1
+T4	Unit 237 238	°
+A1	QuantityQualifier T1 IsMeanHasTolerance
+T3	MeasuredEntity 226 227	水
+T5	Qualifier -1 -1	在我们的磁铁表面
+R1	Qualifies Arg1:T5 Arg2:T3
+R3	HasProperty Arg1:T3 Arg2:T2

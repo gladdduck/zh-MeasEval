@@ -1,0 +1,6 @@
+T1	Quantity 189 191	4周
+T2	MeasuredEntity 191 196	组织学分析
+R1	HasQuantity Arg1:T2 Arg2:T1
+T3	Unit 190 191	周
+T4	Qualifier 186 189	移植后
+R2	Qualifies Arg1:T4 Arg2:T1

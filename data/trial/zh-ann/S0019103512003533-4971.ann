@@ -1,0 +1,7 @@
+T1	Quantity -1 -1	少于6 K
+T3	MeasuredProperty -1 -1	极地温度的每日变化
+A1	QuantityQualifier T1 IsRange
+R2	HasQuantity Arg1:T3 Arg2:T1
+T4	MeasuredEntity -1 -1	土星高层大气
+R1	HasProperty Arg1:T4 Arg2:T3
+#1	AnnotatorNotes T1	K

@@ -1,0 +1,5 @@
+T1	Quantity -1 -1	十二月16
+T2	MeasuredEntity -1 -1	H滤镜中BS 1的差异亮度
+T3	MeasuredProperty -1 -1	拒绝
+R1	HasQuantity Arg1:T3 Arg2:T1
+R2	HasProperty Arg1:T2 Arg2:T3

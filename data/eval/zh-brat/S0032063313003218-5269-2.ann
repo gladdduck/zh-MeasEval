@@ -1,0 +1,9 @@
+T1	Quantity -1 -1	940-1065 K
+T2	MeasuredEntity 81 84	电离层
+T3	MeasuredProperty 84 86	温度
+R1	HasProperty Arg1:T2 Arg2:T3
+R2	HasQuantity Arg1:T3 Arg2:T1
+T4	Unit 97 98	K
+A1	QuantityQualifier T1 IsRange
+T5	Qualifier 148 150	增加
+R3	Qualifies Arg1:T5 Arg2:T3

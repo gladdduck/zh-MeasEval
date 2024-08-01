@@ -1,0 +1,9 @@
+T44	Quantity 242 245	2小时
+#14	AnnotatorNotes T44	None
+T144	Qualifier -1 -1	75 g葡萄糖溶液给药后
+R5	Qualifies Arg1:T144 Arg2:T44
+T1	MeasuredEntity -1 -1	新的静脉血样本
+T2	MeasuredProperty -1 -1	采取
+T3	Unit 214 216	小时
+R1	HasProperty Arg1:T1 Arg2:T2
+R2	HasQuantity Arg1:T2 Arg2:T44

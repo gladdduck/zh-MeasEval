@@ -1,0 +1,30 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0006322312001096-1230	1	Quantity	83	85	T211-1	5年	{'unit': 'year'}
+S0006322312001096-1230	1	MeasuredEntity	86	90	T221-1	数据周期	{'HasQuantity': 'T211-1'}
+S0006322312001096-1230	2	Quantity	92	97	T32-2	12.1%	{'unit': '%'}
+S0006322312001096-1230	2	MeasuredProperty	-1	-1	T92-2	出现这样的症状	{'HasQuantity': 'T32-2'}
+S0006322312001096-1230	2	MeasuredEntity	97	108	T82-2	没有GHQ症状的参与者	{'HasProperty': 'T92-2'}
+S0006322312001096-1230	3	Quantity	116	120	T13-3	4.6%	{'unit': '%'}
+S0006322312001096-1230	3	MeasuredProperty	-1	-1	T113-3	随访时出现这样的症状	{'HasQuantity': 'T13-3'}
+S0006322312001096-1230	3	MeasuredEntity	-1	-1	T103-3	没有CES-D抑郁症状的人	{'HasProperty': 'T113-3'}
+S0006322312001096-1230	4	Quantity	93	97	T24-4	2.1%	{'unit': '%'}
+S0006322312001096-1230	4	MeasuredProperty	-1	-1	T134-4	开始这样的药物治疗	{'HasQuantity': 'T24-4'}
+S0006322312001096-1230	4	MeasuredEntity	-1	-1	T124-4	未接受抗抑郁治疗的人	{'HasProperty': 'T134-4'}
+S0006322312001096-1230	5	Quantity	186	190	T55-5	5.4%	{'unit': '%'}
+S0006322312001096-1230	5	MeasuredProperty	-1	-1	T155-5	使用过的抗抑郁药物	{'HasQuantity': 'T55-5'}
+S0006322312001096-1230	5	MeasuredEntity	-1	-1	T145-5	GHQ症状病例	{'HasProperty': 'T155-5'}
+S0006322312001096-1230	6	Quantity	221	225	T46-6	9.2%	{'unit': '%'}
+S0006322312001096-1230	6	MeasuredProperty	-1	-1	T156-6	使用过的抗抑郁药物	{'HasQuantity': 'T46-6'}
+S0006322312001096-1230	6	MeasuredEntity	-1	-1	T166-6	有CES-D抑郁症状的人	{'HasProperty': 'T156-6'}
+S0006322312001096-1230	7	Quantity	239	244	T67-7	47.4%	{'unit': '%'}
+S0006322312001096-1230	7	MeasuredProperty	-1	-1	T187-7	也有CES-D抑郁症状	{'HasQuantity': 'T67-7'}
+S0006322312001096-1230	7	MeasuredEntity	-1	-1	T177-7	有GHQ症状的参与者，	{'HasProperty': 'T187-7'}
+S0006322312001096-1230	8	Quantity	274	277	T1-8	.64	
+S0006322312001096-1230	8	MeasuredProperty	-1	-1	T2-8	R	{'HasQuantity': 'T1-8'}
+S0006322312001096-1230	8	MeasuredEntity	-1	-1	T3-8	第7阶段的皮尔逊相关性	{'HasProperty': 'T2-8'}
+S0006322312001096-1230	9	Quantity	280	286	T1-9	< .001	{'mods': ['IsRange']}
+S0006322312001096-1230	9	MeasuredProperty	278	279	T2-9	p	{'HasQuantity': 'T1-9'}
+S0006322312001096-1230	9	MeasuredEntity	-1	-1	T3-9	第7阶段的皮尔逊相关性	{'HasProperty': 'T2-9'}
+S0006322312001096-1230	10	Quantity	308	313	T78-10	59.9%	{'unit': '%'}
+S0006322312001096-1230	10	MeasuredProperty	315	322	T208-10	也有GHQ症状	{'HasQuantity': 'T78-10'}
+S0006322312001096-1230	10	MeasuredEntity	121	135	T198-10	有CES-D抑郁症状的参与者	{'HasProperty': 'T208-10'}

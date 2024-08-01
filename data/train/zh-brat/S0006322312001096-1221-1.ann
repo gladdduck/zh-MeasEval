@@ -1,0 +1,5 @@
+T21	Quantity 113 116	95%
+#11	AnnotatorNotes T21	None
+T51	MeasuredEntity 116 120	置信区间
+R1	HasQuantity Arg1:T51 Arg2:T21
+T2	Unit 111 112	%

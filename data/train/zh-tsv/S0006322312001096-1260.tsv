@@ -1,0 +1,13 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0006322312001096-1260	1	Quantity	-1	-1	T41-1	70或更高	{'mods': ['IsRange']}
+S0006322312001096-1260	1	MeasuredProperty	46	47	T1-1	岁	{'HasQuantity': 'T41-1'}
+S0006322312001096-1260	1	MeasuredEntity	50	53	T51-1	成年人	{'HasProperty': 'T1-1'}
+S0006322312001096-1260	2	Quantity	-1	-1	T62-2	2年	{'unit': 'year'}
+S0006322312001096-1260	2	MeasuredProperty	120	123	T72-2	发生率	{'HasQuantity': 'T62-2'}
+S0006322312001096-1260	2	MeasuredEntity	-1	-1	T82-2	出现抑郁性症状	{'HasProperty': 'T72-2'}
+S0006322312001096-1260	3	Quantity	-1	-1	T13-3	了6年	{'mods': ['IsRange'], 'unit': 'years'}
+S0006322312001096-1260	3	MeasuredProperty	-1	-1	T33-3	随访	{'HasQuantity': 'T13-3'}
+S0006322312001096-1260	3	MeasuredEntity	170	173	T23-3	老年人	{'HasProperty': 'T33-3'}
+S0006322312001096-1260	4	Quantity	191	194	T94-4	没有一	{'mods': ['IsCount']}
+S0006322312001096-1260	4	MeasuredEntity	-1	-1	T104-4	客观动脉粥样硬化指标	{'HasQuantity': 'T94-4'}
+S0006322312001096-1260	4	Qualifier	206	215	T1-4	与随后的抑郁症有关	{'Qualifies': 'T104-4'}

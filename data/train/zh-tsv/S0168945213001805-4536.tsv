@@ -1,0 +1,4 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0168945213001805-4536	1	Quantity	99	102	T1-1	70%	{'mods': ['IsApproximate'], 'unit': '%'}
+S0168945213001805-4536	1	MeasuredProperty	87	95	T3-1	纤维素和半纤维素	{'HasQuantity': 'T1-1'}
+S0168945213001805-4536	1	MeasuredEntity	96	98	T2-1	木材	{'HasProperty': 'T3-1'}

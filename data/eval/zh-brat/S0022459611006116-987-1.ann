@@ -1,0 +1,7 @@
+T1	Quantity 2 13	1323-1423 K
+T2	MeasuredProperty -1 -1	固相反应
+T3	MeasuredEntity 15 25	镁3 N2和镁F 2
+R1	HasProperty Arg1:T3 Arg2:T2
+R2	HasQuantity Arg1:T2 Arg2:T1
+T4	Unit 12 13	K
+A1	QuantityQualifier T1 IsRange

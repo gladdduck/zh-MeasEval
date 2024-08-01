@@ -1,0 +1,6 @@
+T1	Quantity 14 17	3小时
+T2	MeasuredEntity 20 26	磁层压缩情景
+T3	Unit -1 -1	H
+T4	MeasuredProperty 12 14	持续
+R1	HasProperty Arg1:T2 Arg2:T4
+R2	HasQuantity Arg1:T4 Arg2:T1

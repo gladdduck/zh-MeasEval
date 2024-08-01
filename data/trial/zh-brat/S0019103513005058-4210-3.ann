@@ -1,0 +1,7 @@
+T93	Quantity -1 -1	4.0 x 10 - 10重量。%
+#13	AnnotatorNotes T93	wt. %
+T213	MeasuredProperty 67 69	浓度
+R8	HasQuantity Arg1:T213 Arg2:T93
+T203	MeasuredEntity -1 -1	镁（ClO 4）2
+R9	HasProperty Arg1:T203 Arg2:T213
+T1	Unit -1 -1	重量%

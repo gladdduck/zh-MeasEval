@@ -1,0 +1,13 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0032063312002437-593	1	Quantity	-1	-1	T1-1	北纬86°附近	{'mods': ['IsApproximate'], 'unit': '°N'}
+S0032063312002437-593	1	MeasuredProperty	-1	-1	T4-1	近心	{'HasQuantity': 'T1-1'}
+S0032063312002437-593	1	MeasuredEntity	29	31	T3-1	轨道	{'HasProperty': 'T4-1'}
+S0032063312002437-593	1	Qualifier	19	28	T5-1	金星快车（VEX）	{'Qualifies': 'T3-1'}
+S0032063312002437-593	2	Quantity	44	57	T1-2	185公里至215公里之间	{'mods': ['IsRange'], 'unit': 'km'}
+S0032063312002437-593	2	MeasuredProperty	-1	-1	T4-2	海拔	{'HasQuantity': 'T1-2'}
+S0032063312002437-593	2	MeasuredEntity	29	31	T2-2	轨道	{'HasProperty': 'T4-2'}
+S0032063312002437-593	2	Qualifier	19	28	T3-2	金星快车（VEX）	{'Qualifies': 'T2-2'}
+S0032063312002437-593	3	Quantity	69	74	T1-3	约10分钟	{'mods': ['IsApproximate'], 'unit': 'min'}
+S0032063312002437-593	3	MeasuredProperty	-1	-1	T5-3	在电离层度过	{'HasQuantity': 'T1-3'}
+S0032063312002437-593	3	MeasuredEntity	29	31	T3-3	轨道	{'HasProperty': 'T5-3'}
+S0032063312002437-593	3	Qualifier	19	28	T2-3	金星快车（VEX）	{'Qualifies': 'T3-3'}

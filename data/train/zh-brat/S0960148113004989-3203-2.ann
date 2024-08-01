@@ -1,0 +1,5 @@
+T1	Quantity 156 162	±12 m。
+A1	QuantityQualifier T1 HasTolerance
+T2	Unit -1 -1	M
+T3	MeasuredEntity 126 128	潮差
+R1	HasQuantity Arg1:T3 Arg2:T1

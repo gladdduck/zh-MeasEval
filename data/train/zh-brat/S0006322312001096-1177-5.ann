@@ -1,0 +1,6 @@
+T12	Quantity 170 173	73%
+#12	AnnotatorNotes T12	None
+T32	MeasuredProperty -1 -1	响应
+R3	HasQuantity Arg1:T32 Arg2:T12
+T42	MeasuredEntity 20 22	队列
+R4	HasProperty Arg1:T42 Arg2:T32

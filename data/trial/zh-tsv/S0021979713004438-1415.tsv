@@ -1,0 +1,4 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0021979713004438-1415	1	Quantity	89	101	T11-1	25 ± 0.02 °C	{'mods': ['HasTolerance'], 'unit': '°C'}
+S0021979713004438-1415	1	MeasuredProperty	84	86	T21-1	温度	{'HasQuantity': 'T11-1'}
+S0021979713004438-1415	1	MeasuredEntity	80	83	T31-1	测量池	{'HasProperty': 'T21-1'}

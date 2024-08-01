@@ -1,0 +1,9 @@
+T1	Quantity 50 53	14%
+T2	MeasuredProperty -1 -1	大于高设置
+R1	HasQuantity Arg1:T2 Arg2:T1
+T3	Unit 52 53	%
+T4	MeasuredEntity -1 -1	低设置可产生切片
+A1	QuantityQualifier T1 IsMean
+R2	HasProperty Arg1:T4 Arg2:T2
+T5	Qualifier 23 25	平均
+R3	Qualifies Arg1:T5 Arg2:T1

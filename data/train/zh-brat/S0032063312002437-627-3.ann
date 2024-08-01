@@ -1,0 +1,3 @@
+T1	Quantity 170 179	2008年8月9日
+T2	MeasuredEntity 5 8	数据集
+R1	HasQuantity Arg1:T2 Arg2:T1

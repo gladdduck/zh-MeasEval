@@ -1,0 +1,6 @@
+T1	Quantity 106 111	50-ms
+T2	Unit -1 -1	MS
+T3	MeasuredEntity -1 -1	左右IFG（L-IFG、R-IFG）
+T4	MeasuredProperty 151 153	活动
+R1	HasQuantity Arg1:T4 Arg2:T1
+R2	HasProperty Arg1:T3 Arg2:T4

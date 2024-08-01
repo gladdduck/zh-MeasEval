@@ -1,0 +1,6 @@
+T1	Quantity 228 230	三次
+T3	MeasuredEntity -1 -1	S.路邓
+T4	MeasuredProperty 93 95	分离
+T2	Unit -1 -1	场合
+R1	HasProperty Arg1:T3 Arg2:T4
+R2	HasQuantity Arg1:T4 Arg2:T1

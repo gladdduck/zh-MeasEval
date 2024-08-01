@@ -1,0 +1,4 @@
+T1	Quantity 212 223	274名白厅II参与者
+T2	Unit 216 223	白厅II参与者
+T3	MeasuredEntity 226 230	验证研究
+R1	HasQuantity Arg1:T3 Arg2:T1

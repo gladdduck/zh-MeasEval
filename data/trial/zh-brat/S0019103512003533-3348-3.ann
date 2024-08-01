@@ -1,0 +1,7 @@
+T83	Quantity -1 -1	0.4比例高度
+#13	AnnotatorNotes T83	scale heights
+T73	MeasuredProperty 125 130	垂直分辨率
+R7	HasQuantity Arg1:T73 Arg2:T83
+T133	MeasuredEntity 95 102	本研究中的模拟
+R8	HasProperty Arg1:T133 Arg2:T73
+T1	Unit -1 -1	比例高度

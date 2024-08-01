@@ -1,0 +1,7 @@
+T1	Quantity 168 175	20 KLoC
+T2	Unit -1 -1	Kloc
+T3	MeasuredProperty -1 -1	平均尺寸
+T4	MeasuredEntity -1 -1	研究的项目
+R1	HasProperty Arg1:T4 Arg2:T3
+R2	HasQuantity Arg1:T3 Arg2:T1
+A1	QuantityQualifier T1 IsMean

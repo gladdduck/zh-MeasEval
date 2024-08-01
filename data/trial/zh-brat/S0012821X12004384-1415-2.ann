@@ -1,0 +1,8 @@
+T52	Quantity 89 93	平均5%
+#12	AnnotatorNotes T52	%
+A12	QuantityQualifier T52 IsMean
+T32	MeasuredProperty -1 -1	壳样囊肿
+R2	HasQuantity Arg1:T32 Arg2:T52
+T42	MeasuredEntity -1 -1	DA1
+R3	HasProperty Arg1:T42 Arg2:T32
+T1	Unit 92 93	%

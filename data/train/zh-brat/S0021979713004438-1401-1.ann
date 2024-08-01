@@ -1,0 +1,6 @@
+T1	Quantity 25 30	10wt%
+T2	Unit -1 -1	重量%
+T4	MeasuredEntity 42 44	溶液
+T5	MeasuredProperty -1 -1	NaOH
+R1	HasProperty Arg1:T4 Arg2:T5
+R2	HasQuantity Arg1:T5 Arg2:T1

@@ -1,0 +1,7 @@
+T22	Quantity -1 -1	11，500 K
+#12	AnnotatorNotes T22	K
+T72	MeasuredProperty 77 81	最高温度
+R3	HasQuantity Arg1:T72 Arg2:T22
+T82	MeasuredEntity -1 -1	H50型号
+R4	HasProperty Arg1:T82 Arg2:T72
+T1	Unit 87 88	K

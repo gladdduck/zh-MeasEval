@@ -1,0 +1,6 @@
+T1	Quantity 126 131	57.1%
+T2	Unit 112 113	%
+T3	MeasuredEntity -1 -1	成年人
+T4	MeasuredProperty 52 56	共焦阳性
+R1	HasProperty Arg1:T3 Arg2:T4
+R2	HasQuantity Arg1:T4 Arg2:T1

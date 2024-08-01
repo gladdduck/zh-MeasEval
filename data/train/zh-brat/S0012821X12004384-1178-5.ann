@@ -1,0 +1,6 @@
+T1	Quantity -1 -1	170 ka
+T2	Unit 136 138	ka
+T3	MeasuredEntity -1 -1	负碳同位素漂移（CIC）
+T4	MeasuredProperty -1 -1	持久
+R2	HasQuantity Arg1:T4 Arg2:T1
+R1	HasProperty Arg1:T3 Arg2:T4

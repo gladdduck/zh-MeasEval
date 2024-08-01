@@ -1,0 +1,9 @@
+T1	Quantity -1 -1	大约2天
+T2	MeasuredEntity 0 2	热层
+T3	MeasuredProperty 2 4	响应
+R1	HasProperty Arg1:T2 Arg2:T3
+R2	HasQuantity Arg1:T3 Arg2:T1
+A1	IsApproximate T1
+T4	Unit 139 140	天
+T5	Qualifier 68 70	模型
+R3	Qualifies Arg1:T5 Arg2:T2

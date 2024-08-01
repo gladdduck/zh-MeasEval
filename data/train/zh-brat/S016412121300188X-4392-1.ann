@@ -1,0 +1,5 @@
+T1	Quantity 34 38	1.00
+T2	MeasuredProperty 16 18	精度
+T3	MeasuredEntity -1 -1	散列函数
+R1	HasProperty Arg1:T3 Arg2:T2
+R2	HasQuantity Arg1:T2 Arg2:T1

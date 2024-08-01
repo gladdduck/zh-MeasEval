@@ -1,0 +1,6 @@
+T1	Quantity 138 144	500 ms
+T2	MeasuredEntity -1 -1	S1时代
+T3	Unit -1 -1	MS
+T4	Qualifier 145 148	刺激后
+R1	HasQuantity Arg1:T2 Arg2:T1
+R2	Qualifies Arg1:T4 Arg2:T1

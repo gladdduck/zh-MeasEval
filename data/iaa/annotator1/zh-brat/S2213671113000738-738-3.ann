@@ -1,0 +1,7 @@
+T1	Quantity 308 312	1/10
+T2	MeasuredProperty 289 293	表达水平
+T3	MeasuredEntity 276 284	MHC-I的表达
+R1	HasProperty Arg1:T3 Arg2:T2
+R2	HasQuantity Arg1:T2 Arg2:T1
+T4	Qualifier -1 -1	未经处理的猴子外周血细胞
+R3	Qualifies Arg1:T4 Arg2:T1

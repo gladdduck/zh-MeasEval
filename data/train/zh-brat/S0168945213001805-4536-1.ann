@@ -1,0 +1,7 @@
+T1	Quantity 99 102	70%
+T2	MeasuredEntity 96 98	木材
+T3	MeasuredProperty 87 95	纤维素和半纤维素
+A1	IsApproximate T1
+R1	HasProperty Arg1:T2 Arg2:T3
+R2	HasQuantity Arg1:T3 Arg2:T1
+T4	Unit 101 102	%

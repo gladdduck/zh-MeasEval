@@ -1,0 +1,4 @@
+T1	Quantity 199 202	一年后
+T2	Unit 200 202	年后
+T3	MeasuredEntity 203 208	MRI扫描
+R1	HasQuantity Arg1:T3 Arg2:T1

@@ -1,0 +1,9 @@
+T1	Quantity 149 155	约220 m
+T2	Unit 35 36	M
+A1	IsApproximate T1
+T3	MeasuredEntity 38 41	CO2
+T4	MeasuredProperty 146 148	迁移
+T5	Qualifier -1 -1	从注射点（IP）垂直
+R1	Qualifies Arg1:T5 Arg2:T1
+R2	HasQuantity Arg1:T4 Arg2:T1
+R3	HasProperty Arg1:T3 Arg2:T4

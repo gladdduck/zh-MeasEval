@@ -1,0 +1,7 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0925443913001385-1646	1	Quantity	69	75	T1-1	10-30%	{'mods': ['IsRange'], 'unit': '%'}
+S0925443913001385-1646	1	MeasuredEntity	-1	-1	T2-1	等动力糖梯度	{'HasQuantity': 'T1-1'}
+S0925443913001385-1646	2	Quantity	452	455	T1-2	63%	{'unit': '%'}
+S0925443913001385-1646	2	MeasuredProperty	-1	-1	T2-2	受试者样本中的水平	{'HasQuantity': 'T1-2'}
+S0925443913001385-1646	2	MeasuredEntity	448	451	T4-2	控制值	{'HasProperty': 'T2-2'}
+S0925443913001385-1646	2	Qualifier	-1	-1	T3-2	降至	{'Qualifies': 'T2-2'}

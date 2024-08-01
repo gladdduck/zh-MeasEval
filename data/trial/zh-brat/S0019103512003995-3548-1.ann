@@ -1,0 +1,7 @@
+T41	Quantity -1 -1	1 μ巴
+#11	AnnotatorNotes T41	μbar
+T141	MeasuredProperty 143 145	压力
+R1	HasQuantity Arg1:T141 Arg2:T41
+T51	MeasuredEntity 303 305	下限
+R2	HasProperty Arg1:T51 Arg2:T141
+T1	Unit -1 -1	μ巴

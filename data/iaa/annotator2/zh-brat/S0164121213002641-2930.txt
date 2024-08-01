@@ -1,0 +1,1 @@
+定义1[投影]给定变量V Ÿ Var的子集，我们将状态西格玛到V上的投影定义为函数p V（Sigma）：V→A Ÿ S，使得v满足V。p V（Sigma）（v）= Sigma（v）。现在，给定Java轨迹t = Sigma 0-Sigma 1-Sigma 2-.，我们将t到V Ÿ Var的投影定义为（5）pV（t）= pV（Sigma 0）-pV（Sigma 1）-pV（Sigma 2）-.

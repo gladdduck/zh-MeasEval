@@ -1,0 +1,6 @@
+T218	Quantity -1 -1	' 11.1 mmol/L
+#18	AnnotatorNotes T218	None
+A18	QuantityQualifier T218 IsRange
+T228	MeasuredEntity -1 -1	2-负荷后小时葡萄糖
+R9	HasQuantity Arg1:T228 Arg2:T218
+T1	Unit -1 -1	mmol/L

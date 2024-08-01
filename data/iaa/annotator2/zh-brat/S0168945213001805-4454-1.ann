@@ -1,0 +1,4 @@
+T1	Quantity 119 121	八年
+T2	Unit 120 121	年
+T3	MeasuredEntity 121 123	研究
+R1	HasQuantity Arg1:T3 Arg2:T1

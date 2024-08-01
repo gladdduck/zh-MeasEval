@@ -1,0 +1,42 @@
+T1	Quantity 604 607	40%
+T2	Quantity -1 -1	12-20 μm
+T3	Quantity -1 -1	2至20 μm之间
+T4	Quantity -1 -1	2-10μm
+T5	Quantity -1 -1	10-20 μm
+T7	MeasuredEntity -1 -1	粒级
+T8	MeasuredEntity -1 -1	粒级
+T9	MeasuredEntity -1 -1	分数
+A1	QuantityQualifier T3 IsRange
+A2	QuantityQualifier T2 IsRange
+R1	HasQuantity Arg1:T7 Arg2:T3
+R2	HasQuantity Arg1:T9 Arg2:T2
+R3	HasQuantity Arg1:T8 Arg2:T5
+R4	HasQuantity Arg1:T8 Arg2:T4
+T10	MeasuredProperty -1 -1	丰度差异
+R6	HasQuantity Arg1:T10 Arg2:T1
+T6	MeasuredEntity -1 -1	硅藻
+R5	HasProperty Arg1:T6 Arg2:T10
+T11	MeasuredEntity -1 -1	藻类硅同位素分离因子
+T12	MeasuredProperty 309 312	30ε
+T13	Quantity 347 351	∼−1‰
+A3	IsApproximate T13
+R7	HasProperty Arg1:T11 Arg2:T12
+R8	HasQuantity Arg1:T12 Arg2:T13
+T15	Quantity 1131 1138	r2=0.92
+T16	MeasuredEntity -1 -1	2至20 μm之间尺寸分数的δ 30 Si值
+T17	MeasuredProperty -1 -1	表观30秒
+T18	Quantity 1327 1331	∼–1‰
+A4	IsApproximate T18
+R9	HasProperty Arg1:T16 Arg2:T17
+R10	HasQuantity Arg1:T17 Arg2:T18
+T14	MeasuredProperty -1 -1	相关性
+R11	HasProperty Arg1:T16 Arg2:T14
+R12	HasQuantity Arg1:T14 Arg2:T15
+#1	AnnotatorNotes T13	‰
+#2	AnnotatorNotes T1	‰
+#3	AnnotatorNotes T2	μm
+#4	AnnotatorNotes T3	μm
+#5	AnnotatorNotes T15	r2
+#6	AnnotatorNotes T18	‰
+#7	AnnotatorNotes T4	μm
+#8	AnnotatorNotes T5	μm

@@ -1,0 +1,4 @@
+T1	Quantity 113 116	78°
+T2	Unit 115 116	°
+T3	MeasuredEntity 17 19	纬度
+R1	HasQuantity Arg1:T3 Arg2:T1

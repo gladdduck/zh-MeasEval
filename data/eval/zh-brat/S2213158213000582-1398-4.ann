@@ -1,0 +1,4 @@
+T1	Quantity 11 17	100 ms
+T3	Unit -1 -1	MS
+T2	MeasuredEntity 19 23	组对比图
+R1	HasQuantity Arg1:T2 Arg2:T1

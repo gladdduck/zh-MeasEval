@@ -1,0 +1,5 @@
+T151	Quantity 272 273	2
+#11	AnnotatorNotes T151	count
+A11	IsCount T151
+T161	MeasuredEntity -1 -1	不同煤种
+R1	HasQuantity Arg1:T161 Arg2:T151

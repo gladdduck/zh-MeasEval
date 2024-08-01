@@ -1,0 +1,8 @@
+T1	Quantity 193 213	3.5-6.1（x 10 - 4）重量%
+A1	QuantityQualifier T1 IsRange
+T2	MeasuredProperty 9 10	N
+T3	MeasuredEntity -1 -1	奇数氮的最低输入量
+R1	HasProperty Arg1:T3 Arg2:T2
+R2	HasQuantity Arg1:T2 Arg2:T1
+T4	Qualifier 215 238	积累超过3年并混合到1.5-2.6 m的土壤中
+R3	Qualifies Arg1:T4 Arg2:T2

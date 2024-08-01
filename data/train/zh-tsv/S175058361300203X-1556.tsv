@@ -1,0 +1,14 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S175058361300203X-1556	1	Quantity	5	10	T1-1	34 °C	{'unit': '°C'}
+S175058361300203X-1556	1	MeasuredEntity	16	18	T3-1	选项	{'HasQuantity': 'T1-1'}
+S175058361300203X-1556	2	Quantity	11	16	T1-2	38 °C	{'unit': '°C'}
+S175058361300203X-1556	2	MeasuredEntity	16	18	T3-2	选项	{'HasQuantity': 'T1-2'}
+S175058361300203X-1556	3	Quantity	11	16	T1-3	38 °C	{'unit': '°C'}
+S175058361300203X-1556	3	MeasuredEntity	210	212	T3-3	场景	{'HasQuantity': 'T1-3'}
+S175058361300203X-1556	4	Quantity	5	10	T1-4	34 °C	{'unit': '°C'}
+S175058361300203X-1556	4	MeasuredEntity	210	212	T3-4	场景	{'HasQuantity': 'T1-4'}
+S175058361300203X-1556	5	Quantity	230	234	T1-5	不到1%	{'mods': ['IsRange'], 'unit': '%'}
+S175058361300203X-1556	5	MeasuredProperty	199	221	T2-5	38 °C和34 °C场景之间的地震幅度差异	{'HasQuantity': 'T1-5'}
+S175058361300203X-1556	5	MeasuredEntity	224	229	T4-5	基线幅度值	{'HasProperty': 'T2-5'}
+S175058361300203X-1556	6	Quantity	262	267	T1-6	大于10%	{'mods': ['IsRange'], 'unit': '%'}
+S175058361300203X-1556	6	MeasuredEntity	-1	-1	T2-6	标准化根均方（NRMS）差	{'HasQuantity': 'T1-6'}

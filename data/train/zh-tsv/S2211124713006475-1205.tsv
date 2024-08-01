@@ -1,0 +1,7 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S2211124713006475-1205	1	Quantity	189	191	T1-1	4周	{'unit': 'weeks'}
+S2211124713006475-1205	1	MeasuredEntity	191	196	T2-1	组织学分析	{'HasQuantity': 'T1-1'}
+S2211124713006475-1205	1	Qualifier	186	189	T4-1	移植后	{'Qualifies': 'T1-1'}
+S2211124713006475-1205	2	Quantity	261	262	T1-2	6	
+S2211124713006475-1205	2	MeasuredProperty	259	260	T2-2	n	{'HasQuantity': 'T1-2'}
+S2211124713006475-1205	2	MeasuredEntity	-1	-1	T3-2	GFP+纤维显示大量投射到宿主大脑中	{'HasProperty': 'T2-2'}

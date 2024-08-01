@@ -1,0 +1,4 @@
+T1	Quantity 110 116	100 ms
+T2	MeasuredEntity 167 171	听觉研究
+R1	HasQuantity Arg1:T2 Arg2:T1
+T3	Unit -1 -1	MS

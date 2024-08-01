@@ -1,0 +1,6 @@
+T1	Quantity 93 96	13代
+T2	MeasuredEntity -1 -1	E8培养基中培养的BC 1细胞
+T3	MeasuredProperty -1 -1	静态悬浮培养扩大
+T4	Unit -1 -1	通道
+R1	HasProperty Arg1:T2 Arg2:T3
+R2	HasQuantity Arg1:T3 Arg2:T1

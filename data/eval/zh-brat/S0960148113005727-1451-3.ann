@@ -1,0 +1,4 @@
+T1	Quantity -1 -1	12岁至17岁之间
+A1	QuantityQualifier T1 IsRange
+T2	MeasuredEntity 82 86	布莱斯港
+R1	HasQuantity Arg1:T2 Arg2:T1

@@ -1,0 +1,4 @@
+T1	Quantity 15 22	5-55 Hz
+T2	Unit 20 22	Hz
+T3	MeasuredEntity -1 -1	带通滤波器
+R1	HasQuantity Arg1:T3 Arg2:T1

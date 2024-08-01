@@ -1,0 +1,5 @@
+T1	Quantity 223 227	1.31
+T2	MeasuredEntity 145 150	磁力计数据
+T3	MeasuredProperty 188 193	t（39）
+R1	HasProperty Arg1:T2 Arg2:T3
+R2	HasQuantity Arg1:T3 Arg2:T1

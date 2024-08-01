@@ -1,0 +1,10 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0167577X13006393-787	1	Quantity	34	38	T1-1	1.37	
+S0167577X13006393-787	1	MeasuredProperty	32	33	T2-1	比	{'HasQuantity': 'T1-1'}
+S0167577X13006393-787	1	MeasuredEntity	-1	-1	T3-1	CA/P	{'HasProperty': 'T2-1'}
+S0167577X13006393-787	2	Quantity	51	60	T1-2	1200 °C之前	{'unit': '°C'}
+S0167577X13006393-787	2	MeasuredProperty	60	62	T3-2	发生	{'HasQuantity': 'T1-2'}
+S0167577X13006393-787	2	MeasuredEntity	132	136	T2-2	HA分解	{'HasProperty': 'T3-2'}
+S0167577X13006393-787	3	Quantity	90	94	T1-3	1.67	
+S0167577X13006393-787	3	MeasuredProperty	32	33	T2-3	比	{'HasQuantity': 'T1-3'}
+S0167577X13006393-787	3	MeasuredEntity	-1	-1	T3-3	缺陷HA在低于纯HA的温度下开始分解	{'HasProperty': 'T2-3'}

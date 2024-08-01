@@ -1,0 +1,9 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0012821X12004384-1148	1	Quantity	29	34	T1-1	56 Ma	{'mods': ['IsApproximate'], 'unit': 'Ma'}
+S0012821X12004384-1148	1	MeasuredEntity	-1	-1	T3-1	古新世-始新世最热期（PETM	{'HasQuantity': 'T1-1'}
+S0012821X12004384-1148	2	Quantity	-1	-1	T1-2	北纬54 °	{'unit': '°N'}
+S0012821X12004384-1148	2	MeasuredProperty	73	76	T3-2	古纬度	{'HasQuantity': 'T1-2'}
+S0012821X12004384-1148	2	MeasuredEntity	-1	-1	T4-2	北大西洋岩浆省（NAIP）、基尔达盆地和北部雨林	{'HasProperty': 'T3-2'}
+S0012821X12004384-1148	2	Qualifier	349	355	T5-2	PETM期间	{'Qualifies': 'T3-2'}
+S0012821X12004384-1148	3	Quantity	-1	-1	T11-3	之前（103年）	{'mods': ['IsRange'], 'unit': 'yrs'}
+S0012821X12004384-1148	3	MeasuredEntity	-1	-1	T2-3	盐斜分层和陆上沉积	{'HasQuantity': 'T11-3'}

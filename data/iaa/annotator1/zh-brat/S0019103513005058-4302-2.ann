@@ -1,0 +1,6 @@
+T1	Quantity -1 -1	3字节
+T2	Unit -1 -1	byr
+T3	MeasuredProperty 215 217	积累
+R1	HasQuantity Arg1:T3 Arg2:T1
+T4	MeasuredEntity -1 -1	奇氮
+R2	HasProperty Arg1:T4 Arg2:T3

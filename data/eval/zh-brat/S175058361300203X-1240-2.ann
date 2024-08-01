@@ -1,0 +1,10 @@
+T1	Quantity -1 -1	34 °C
+T2	MeasuredEntity -1 -1	凯钦水库
+T3	MeasuredProperty 25 27	温度
+T4	Qualifier -1 -1	注入层
+R1	Qualifies Arg1:T4 Arg2:T2
+R2	HasProperty Arg1:T2 Arg2:T3
+R3	HasQuantity Arg1:T3 Arg2:T1
+T5	Unit 148 150	°C
+T6	Qualifier 113 124	在开始注入二氧化碳之前
+R4	Qualifies Arg1:T6 Arg2:T3

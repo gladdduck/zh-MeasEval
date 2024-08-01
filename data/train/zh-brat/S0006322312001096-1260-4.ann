@@ -1,0 +1,7 @@
+T94	Quantity 191 194	没有一
+#14	AnnotatorNotes T94	None
+T104	MeasuredEntity -1 -1	客观动脉粥样硬化指标
+R1	HasQuantity Arg1:T104 Arg2:T94
+A1	IsCount T94
+T1	Qualifier 206 215	与随后的抑郁症有关
+R2	Qualifies Arg1:T1 Arg2:T104

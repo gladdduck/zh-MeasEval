@@ -1,0 +1,7 @@
+T52	Quantity 61 65	0.63
+#12	AnnotatorNotes T52	ppm
+T182	MeasuredProperty 12 14	浓度
+R3	HasQuantity Arg1:T182 Arg2:T52
+T92	MeasuredEntity -1 -1	Fe
+R4	HasProperty Arg1:T92 Arg2:T182
+T122	Unit 43 46	ppm

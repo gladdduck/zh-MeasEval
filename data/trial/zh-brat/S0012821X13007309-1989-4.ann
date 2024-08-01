@@ -1,0 +1,8 @@
+T194	Quantity -1 -1	1至600 ppb
+#14	AnnotatorNotes T194	ppt
+A14	QuantityQualifier T194 IsRange
+T184	MeasuredProperty -1 -1	O丰富度
+R10	HasQuantity Arg1:T184 Arg2:T194
+T174	MeasuredEntity 191 194	玄武岩
+R11	HasProperty Arg1:T174 Arg2:T184
+T1	Unit 349 352	ppt

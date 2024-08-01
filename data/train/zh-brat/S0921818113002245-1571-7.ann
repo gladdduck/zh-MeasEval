@@ -1,0 +1,6 @@
+T1	Quantity -1 -1	8 m
+T2	MeasuredEntity 19 22	沉积物
+T3	MeasuredProperty 261 263	深度
+R1	HasProperty Arg1:T2 Arg2:T3
+R2	HasQuantity Arg1:T3 Arg2:T1
+T4	Unit -1 -1	M

@@ -1,0 +1,6 @@
+T1	Quantity -1 -1	5.65 FM
+T2	MeasuredEntity 25 26	F
+T3	MeasuredProperty 264 270	中子散射长度
+T4	Unit -1 -1	FM
+R1	HasProperty Arg1:T2 Arg2:T3
+R2	HasQuantity Arg1:T3 Arg2:T1

@@ -1,0 +1,8 @@
+T104	Quantity -1 -1	∼−27‰
+#14	AnnotatorNotes T104	‰
+A14	IsApproximate T104
+T114	MeasuredProperty -1 -1	逐渐下降
+R7	HasQuantity Arg1:T114 Arg2:T104
+T94	MeasuredEntity 51 60	δ 13 Corg
+R8	HasProperty Arg1:T94 Arg2:T114
+T1	Unit 35 36	‰

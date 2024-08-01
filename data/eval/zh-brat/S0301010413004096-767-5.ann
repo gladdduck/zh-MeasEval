@@ -1,0 +1,6 @@
+T1	Quantity 170 176	120 °C
+T2	Unit 174 176	°C
+T3	MeasuredEntity 119 121	样品
+T4	MeasuredProperty 177 179	脱气
+R1	HasQuantity Arg1:T4 Arg2:T1
+R2	HasProperty Arg1:T3 Arg2:T4

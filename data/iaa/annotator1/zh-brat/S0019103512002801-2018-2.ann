@@ -1,0 +1,9 @@
+T1	Quantity -1 -1	至少10%
+T2	Unit 428 429	%
+A1	QuantityQualifier T1 IsRange
+T3	MeasuredProperty 414 422	ULF波活动增强
+T4	Qualifier -1 -1	在月球
+R1	Qualifies Arg1:T4 Arg2:T3
+T5	MeasuredEntity 430 432	时间
+R2	HasProperty Arg1:T5 Arg2:T3
+R3	HasQuantity Arg1:T3 Arg2:T1

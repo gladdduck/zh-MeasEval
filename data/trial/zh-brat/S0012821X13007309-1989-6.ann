@@ -1,0 +1,7 @@
+T246	Quantity -1 -1	30个百分点
+#16	AnnotatorNotes T246	ppt
+T226	MeasuredProperty -1 -1	骨丰富度
+R15	HasQuantity Arg1:T226 Arg2:T246
+T236	MeasuredEntity 191 194	玄武岩
+R16	HasProperty Arg1:T236 Arg2:T226
+T1	Unit 349 352	ppt

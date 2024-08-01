@@ -1,0 +1,6 @@
+T52	Quantity -1 -1	14倍
+#12	AnnotatorNotes T52	times
+T62	MeasuredProperty -1 -1	飞到月球附近
+R2	HasQuantity Arg1:T62 Arg2:T52
+T42	MeasuredEntity -1 -1	卡西尼号飞船
+R3	HasProperty Arg1:T42 Arg2:T62

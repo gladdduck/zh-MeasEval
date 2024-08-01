@@ -1,0 +1,9 @@
+T11	Quantity 225 229	10分钟
+#11	AnnotatorNotes T11	min
+T41	MeasuredProperty 230 232	中断
+R1	HasQuantity Arg1:T41 Arg2:T11
+T51	MeasuredEntity -1 -1	MeFP-1的吸收
+R2	HasProperty Arg1:T51 Arg2:T41
+T31	Qualifier 163 164	后
+R3	Qualifies Arg1:T31 Arg2:T11
+T1	Unit -1 -1	min

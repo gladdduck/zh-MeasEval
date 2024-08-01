@@ -1,0 +1,4 @@
+T1	Quantity -1 -1	两百
+T2	MeasuredEntity 143 148	全同胞家系
+R1	HasQuantity Arg1:T2 Arg2:T1
+A1	IsCount T1

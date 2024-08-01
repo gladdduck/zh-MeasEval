@@ -1,0 +1,4 @@
+T1	Quantity -1 -1	60，268公里
+T2	Unit 41 43	公里
+T3	MeasuredEntity 31 34	1RS
+R1	HasQuantity Arg1:T3 Arg2:T1

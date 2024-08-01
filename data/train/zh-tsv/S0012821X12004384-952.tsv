@@ -1,0 +1,9 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0012821X12004384-952	1	Quantity	112	116	T1-1	<30%	{'mods': ['IsRange'], 'unit': '%'}
+S0012821X12004384-952	1	MeasuredProperty	105	112	T2-1	木材/植物组织	{'HasQuantity': 'T1-1'}
+S0012821X12004384-952	1	MeasuredEntity	117	119	T3-1	样品	{'HasProperty': 'T2-1'}
+S0012821X12004384-952	2	Quantity	162	166	T1-2	>30%	{'mods': ['IsRange'], 'unit': '%'}
+S0012821X12004384-952	2	MeasuredProperty	105	112	T3-2	木材/植物组织	{'HasQuantity': 'T1-2'}
+S0012821X12004384-952	2	MeasuredEntity	117	119	T2-2	样品	{'HasProperty': 'T3-2'}
+S0012821X12004384-952	3	Quantity	-1	-1	T1-3	2614.7和2619.6 m	{'mods': ['IsList'], 'unit': 'm'}
+S0012821X12004384-952	3	MeasuredEntity	304	307	T2-3	阴影值	{'HasQuantity': 'T1-3'}

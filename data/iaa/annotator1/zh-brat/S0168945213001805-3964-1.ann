@@ -1,0 +1,9 @@
+T1	Quantity -1 -1	约40%
+T2	Qualifier 71 74	野生型
+R1	Qualifies Arg1:T2 Arg2:T1
+A1	IsApproximate T1
+T3	Unit 354 355	%
+T4	MeasuredEntity -1 -1	过表达DID 1的杂交白杨（P. tremula x P. tremuloides）
+T5	MeasuredProperty 77 78	高
+R2	HasQuantity Arg1:T5 Arg2:T1
+R3	HasProperty Arg1:T4 Arg2:T5

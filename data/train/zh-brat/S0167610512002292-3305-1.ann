@@ -1,0 +1,4 @@
+T1	Quantity 5 6	三
+A1	IsCount T1
+T2	MeasuredEntity -1 -1	不同的模拟
+R1	HasQuantity Arg1:T2 Arg2:T1

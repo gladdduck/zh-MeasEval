@@ -1,0 +1,6 @@
+T45	Quantity 85 95	0和2000 ppm
+#15	AnnotatorNotes T45	ppm
+A15	QuantityQualifier T45 IsList
+T65	MeasuredEntity 20 23	SO2
+R9	HasQuantity Arg1:T65 Arg2:T45
+T1	Unit 43 46	ppm

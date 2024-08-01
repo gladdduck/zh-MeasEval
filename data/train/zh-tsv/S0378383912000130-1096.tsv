@@ -1,0 +1,6 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0378383912000130-1096	1	Quantity	17	23	T1-1	8.5 mm	{'unit': 'mm'}
+S0378383912000130-1096	1	MeasuredEntity	23	25	T2-1	海滩	{'HasQuantity': 'T1-1'}
+S0378383912000130-1096	2	Quantity	-1	-1	T1-2	1180和1980毫米	{'mods': ['IsList'], 'unit': 'mm'}
+S0378383912000130-1096	2	MeasuredProperty	-1	-1	T4-2	X	{'HasQuantity': 'T1-2'}
+S0378383912000130-1096	2	MeasuredEntity	-1	-1	T3-2	模型预测（虚线）和实验测量（虚线）水压头的时间序列	{'HasProperty': 'T4-2'}

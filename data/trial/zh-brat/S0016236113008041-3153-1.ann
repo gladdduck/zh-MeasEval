@@ -1,0 +1,5 @@
+T11	Quantity 65 69	13公斤
+#11	AnnotatorNotes T11	kg
+T31	MeasuredEntity -1 -1	床存量
+R1	HasQuantity Arg1:T31 Arg2:T11
+T1	Unit -1 -1	kg

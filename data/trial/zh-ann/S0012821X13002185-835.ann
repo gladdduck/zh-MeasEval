@@ -1,0 +1,6 @@
+T1	Quantity -1 -1	100米
+T2	MeasuredEntity -1 -1	水柱
+#1	AnnotatorNotes T1	m
+T3	Qualifier -1 -1	顶部
+R1	Qualifies Arg1:T3 Arg2:T1
+R2	HasQuantity Arg1:T2 Arg2:T1

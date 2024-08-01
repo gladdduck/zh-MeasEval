@@ -1,0 +1,5 @@
+T1	Quantity -1 -1	18核
+T2	Unit 10 11	核
+T3	MeasuredEntity 4 6	节点
+R1	HasQuantity Arg1:T3 Arg2:T1
+A1	IsCount T1

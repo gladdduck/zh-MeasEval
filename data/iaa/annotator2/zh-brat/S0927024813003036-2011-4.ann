@@ -1,0 +1,7 @@
+T1	Quantity 200 203	∼50
+A1	IsApproximate T1
+T2	MeasuredProperty -1 -1	特写镜头闪光
+T3	MeasuredEntity 55 57	样品
+A2	IsCount T1
+R1	HasProperty Arg1:T3 Arg2:T2
+R2	HasQuantity Arg1:T2 Arg2:T1

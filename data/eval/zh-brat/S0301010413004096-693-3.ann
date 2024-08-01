@@ -1,0 +1,5 @@
+T1	Quantity -1 -1	低于10 K
+T2	Unit 161 162	K
+A1	QuantityQualifier T1 IsRange
+T3	MeasuredEntity -1 -1	现场中子粉散射（NPD）
+R1	HasQuantity Arg1:T3 Arg2:T1

@@ -1,0 +1,8 @@
+T1	Quantity -1 -1	最高至少3RP
+T2	Unit 362 364	Rp
+T3	MeasuredEntity 367 370	H和O
+A1	QuantityQualifier T1 IsRange
+T5	MeasuredProperty -1 -1	主要是中立的
+R2	HasProperty Arg1:T3 Arg2:T5
+A2	IsApproximate T1
+R1	HasQuantity Arg1:T5 Arg2:T1

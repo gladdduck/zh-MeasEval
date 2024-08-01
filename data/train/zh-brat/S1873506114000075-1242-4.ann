@@ -1,0 +1,5 @@
+T1	Quantity -1 -1	约20 μg/ml
+T2	MeasuredEntity 399 404	白蛋白分泌
+R2	HasQuantity Arg1:T2 Arg2:T1
+T4	Unit 409 414	μg/ml
+A1	IsApproximate T1

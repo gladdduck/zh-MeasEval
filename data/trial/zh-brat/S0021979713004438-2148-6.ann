@@ -1,0 +1,7 @@
+T106	Quantity -1 -1	1540厘米-1
+#16	AnnotatorNotes T106	cm−1
+T116	MeasuredProperty -1 -1	峰值
+R9	HasQuantity Arg1:T116 Arg2:T106
+T176	MeasuredEntity -1 -1	现场ATR-FT光谱
+R10	HasProperty Arg1:T176 Arg2:T116
+T1	Unit -1 -1	厘米-1

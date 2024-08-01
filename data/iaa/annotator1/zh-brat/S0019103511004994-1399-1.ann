@@ -1,0 +1,6 @@
+T2	Quantity 8 10	62
+A1	IsCount T2
+T1	MeasuredProperty 11 13	卫星
+T3	MeasuredEntity 4 6	土星
+R1	HasQuantity Arg1:T1 Arg2:T2
+R2	HasProperty Arg1:T3 Arg2:T1

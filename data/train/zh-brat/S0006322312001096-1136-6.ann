@@ -1,0 +1,6 @@
+T1	Quantity -1 -1	≥16
+A1	QuantityQualifier T1 IsRange
+T2	MeasuredProperty 133 135	评分
+R1	HasQuantity Arg1:T2 Arg2:T1
+T3	MeasuredEntity -1 -1	流调中心用抑郁量表
+R2	HasProperty Arg1:T3 Arg2:T2

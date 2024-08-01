@@ -1,0 +1,7 @@
+T1	Quantity -1 -1	高出60%
+T2	MeasuredEntity 80 89	混合混合物的共沉积
+T3	MeasuredProperty 95 98	光电流
+R1	HasProperty Arg1:T2 Arg2:T3
+R2	HasQuantity Arg1:T3 Arg2:T1
+T4	Qualifier -1 -1	比厚度优化的PTh/C60平面异结对应物
+R3	Qualifies Arg1:T4 Arg2:T1

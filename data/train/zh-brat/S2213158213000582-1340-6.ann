@@ -1,0 +1,9 @@
+T1	Quantity 175 181	93.17%
+T2	MeasuredProperty -1 -1	平均百分比方差解释
+T3	MeasuredEntity -1 -1	使用VESTAL的磁力计数据
+T4	Unit 118 119	%
+T5	Qualifier -1 -1	SZ
+R1	Qualifies Arg1:T5 Arg2:T2
+A1	QuantityQualifier T1 IsMean
+R2	HasProperty Arg1:T3 Arg2:T2
+R3	HasQuantity Arg1:T2 Arg2:T1

@@ -1,0 +1,8 @@
+T1	Quantity -1 -1	0.2 M
+T2	Unit 196 197	M
+T3	MeasuredProperty -1 -1	克斯
+T4	Qualifier 79 84	空间离散化
+R1	Qualifies Arg1:T4 Arg2:T3
+R2	HasQuantity Arg1:T3 Arg2:T1
+T5	MeasuredEntity 2 4	测试
+R3	HasProperty Arg1:T5 Arg2:T3

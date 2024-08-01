@@ -1,0 +1,6 @@
+T1	Quantity 27 30	873
+T2	MeasuredEntity 25 27	系列
+A1	IsCount T1
+T3	MeasuredProperty -1 -1	纹泥
+R1	HasProperty Arg1:T2 Arg2:T3
+R2	HasQuantity Arg1:T3 Arg2:T1

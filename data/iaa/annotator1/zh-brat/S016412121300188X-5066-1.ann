@@ -1,0 +1,7 @@
+T1	Quantity -1 -1	从78%到95%
+A1	IsApproximate T1
+A2	QuantityQualifier T1 IsRange
+T2	MeasuredEntity -1 -1	上一切片的精度
+T3	MeasuredProperty 141 143	提高
+R1	HasProperty Arg1:T2 Arg2:T3
+R2	HasQuantity Arg1:T3 Arg2:T1

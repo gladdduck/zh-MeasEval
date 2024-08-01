@@ -1,0 +1,10 @@
+T176	Quantity 249 254	650 K
+#16	AnnotatorNotes T176	K
+A16	QuantityQualifier T176 IsRange
+T146	MeasuredProperty 306 310	极地温度
+R11	HasQuantity Arg1:T146 Arg2:T176
+T166	MeasuredEntity 8 10	土星
+R12	HasProperty Arg1:T166 Arg2:T146
+T156	Qualifier -1 -1	观察到
+R13	Qualifies Arg1:T156 Arg2:T146
+T1	Unit 25 26	K

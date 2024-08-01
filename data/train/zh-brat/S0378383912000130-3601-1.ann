@@ -1,0 +1,6 @@
+T1	Quantity 99 105	两种海滩材料
+T3	MeasuredProperty 97 99	涉及
+T4	MeasuredEntity 34 36	实验
+T2	Unit 101 105	海滩材料
+R1	HasProperty Arg1:T4 Arg2:T3
+R2	HasQuantity Arg1:T3 Arg2:T1

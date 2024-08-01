@@ -1,0 +1,7 @@
+T279	Quantity -1 -1	100 ppb
+#19	AnnotatorNotes T279	ppt
+T269	MeasuredProperty -1 -1	O丰富度
+R21	HasQuantity Arg1:T269 Arg2:T279
+T259	MeasuredEntity -1 -1	LIP页岩
+R22	HasProperty Arg1:T259 Arg2:T269
+T1	Unit 349 352	ppt

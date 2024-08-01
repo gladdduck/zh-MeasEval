@@ -1,0 +1,8 @@
+T1	Quantity 117 120	1公斤
+T2	Unit -1 -1	kg
+T3	MeasuredEntity -1 -1	20万颗种子
+T4	MeasuredProperty -1 -1	权衡
+R1	HasProperty Arg1:T3 Arg2:T4
+R2	HasQuantity Arg1:T4 Arg2:T1
+T5	Qualifier -1 -1	罗文
+R3	Qualifies Arg1:T5 Arg2:T3

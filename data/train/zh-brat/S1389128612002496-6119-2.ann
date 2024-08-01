@@ -1,0 +1,5 @@
+T1	Quantity 117 125	0.5 ms左右
+T2	Unit -1 -1	MS
+A1	IsApproximate T1
+T3	MeasuredEntity 69 71	TB
+R1	HasQuantity Arg1:T3 Arg2:T1

@@ -1,0 +1,7 @@
+T11	Quantity 68 71	65岁
+#11	AnnotatorNotes T11	None
+T1	MeasuredEntity -1 -1	抑郁症状发作增加
+T2	MeasuredProperty 70 73	岁之前
+R1	HasProperty Arg1:T1 Arg2:T2
+R2	HasQuantity Arg1:T2 Arg2:T11
+T3	Unit 7 8	年

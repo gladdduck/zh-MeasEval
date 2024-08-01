@@ -1,0 +1,12 @@
+T43	Quantity -1 -1	约8.74卢比
+#13	AnnotatorNotes T43	Rs
+T93	MeasuredProperty -1 -1	距离
+R5	HasQuantity Arg1:T93 Arg2:T43
+T103	MeasuredEntity 36 40	圆形轨道
+R6	HasProperty Arg1:T103 Arg2:T93
+T23	Qualifier -1 -1	(1Rs= 60，268公里）
+R7	Qualifies Arg1:T23 Arg2:T43
+T113	Qualifier -1 -1	从它的中心
+R8	Qualifies Arg1:T113 Arg2:T93
+A1	IsApproximate T43
+T1	Unit -1 -1	Rs

@@ -1,0 +1,4 @@
+T1	Quantity -1 -1	两
+T2	MeasuredEntity -1 -1	数十年的转基因
+R1	HasQuantity Arg1:T2 Arg2:T1
+A1	IsCount T1

@@ -1,0 +1,14 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0016236113008041-3161	1	Quantity	-1	-1	T1-1	4.5 kg	{'unit': 'kg'}
+S0016236113008041-3161	1	MeasuredEntity	-1	-1	T2-1	最低床位库存	{'HasQuantity': 'T1-1'}
+S0016236113008041-3161	2	Quantity	102	112	T1-2	4.5公斤和13公斤	{'unit': 'kg'}
+S0016236113008041-3161	2	MeasuredEntity	-1	-1	T3-2	床位库存	{'HasQuantity': 'T1-2'}
+S0016236113008041-3161	3	Quantity	128	131	T1-3	6公斤	{'unit': 'kg'}
+S0016236113008041-3161	3	MeasuredEntity	19	21	T2-3	库存	{'HasQuantity': 'T1-3'}
+S0016236113008041-3161	4	Quantity	149	158	T1-4	<0.01 ppm	{'mods': ['IsRange'], 'unit': 'ppm'}
+S0016236113008041-3161	4	MeasuredProperty	51	52	T4-4	值	{'HasQuantity': 'T1-4'}
+S0016236113008041-3161	4	MeasuredEntity	98	99	T3-4	P	{'HasProperty': 'T4-4'}
+S0016236113008041-3161	4	Qualifier	-1	-1	T5-4	废气浓度	{'Qualifies': 'T4-4'}
+S0016236113008041-3161	5	Quantity	194	200	T1-5	<2 ppm	{'mods': ['IsRange'], 'unit': 'ppm'}
+S0016236113008041-3161	5	MeasuredProperty	27	29	T2-5	浓度	{'HasQuantity': 'T1-5'}
+S0016236113008041-3161	5	MeasuredEntity	-1	-1	T3-5	烟气	{'HasProperty': 'T2-5'}

@@ -1,0 +1,9 @@
+T1	Quantity -1 -1	1 μ巴
+T2	MeasuredEntity 232 234	分子
+T3	MeasuredProperty 242 244	解离
+R1	HasProperty Arg1:T2 Arg2:T3
+R2	HasQuantity Arg1:T3 Arg2:T1
+T4	Unit 236 238	μ巴
+T5	Qualifier 240 242	附近
+R3	Qualifies Arg1:T5 Arg2:T1
+A1	IsApproximate T1

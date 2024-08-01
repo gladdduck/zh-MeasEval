@@ -1,0 +1,23 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0019103513005058-4210	1	Quantity	-1	-1	T11-1	2 m	{'mods': ['IsMean'], 'unit': 'm'}
+S0019103513005058-4210	1	MeasuredProperty	30	32	T21-1	深度	{'HasQuantity': 'T11-1'}
+S0019103513005058-4210	1	MeasuredEntity	24	26	T41-1	土壤	{'HasProperty': 'T21-1'}
+S0019103513005058-4210	1	Qualifier	26	28	T31-1	平均	{'Qualifies': 'T11-1'}
+S0019103513005058-4210	1	Qualifier	28	30	T51-1	混合	{'Qualifies': 'T21-1'}
+S0019103513005058-4210	2	Quantity	-1	-1	T82-2	4.3 x 10 - 8重量。%	{'unit': 'wt. %'}
+S0019103513005058-4210	2	MeasuredProperty	67	69	T212-2	浓度	{'HasQuantity': 'T82-2'}
+S0019103513005058-4210	2	MeasuredEntity	-1	-1	T62-2	Ca（ClO 4）2	{'HasProperty': 'T212-2'}
+S0019103513005058-4210	3	Quantity	-1	-1	T93-3	4.0 x 10 - 10重量。%	{'unit': 'wt. %'}
+S0019103513005058-4210	3	MeasuredProperty	67	69	T213-3	浓度	{'HasQuantity': 'T93-3'}
+S0019103513005058-4210	3	MeasuredEntity	-1	-1	T203-3	镁（ClO 4）2	{'HasProperty': 'T213-3'}
+S0019103513005058-4210	4	Quantity	-1	-1	T104-4	0.4-0.6重量。%	{'unit': 'wt. %'}
+S0019103513005058-4210	4	MeasuredProperty	-1	-1	T124-4	观察的丰度	{'HasQuantity': 'T104-4'}
+S0019103513005058-4210	4	MeasuredEntity	8	11	T204-4	高氯酸	{'HasProperty': 'T124-4'}
+S0019103513005058-4210	5	Quantity	204	208	T155-5	1：60	{'mods': ['IsApproximate']}
+S0019103513005058-4210	5	MeasuredProperty	201	203	T225-5	比率	{'HasQuantity': 'T155-5'}
+S0019103513005058-4210	5	MeasuredEntity	193	201	T145-5	高氯酸盐：硝酸盐	{'HasProperty': 'T225-5'}
+S0019103513005058-4210	5	Qualifier	-1	-1	T165-5	以EETA 79001测量	{'Qualifies': 'T145-5'}
+S0019103513005058-4210	6	Quantity	222	228	T196-6	1：1000	{'mods': ['IsApproximate']}
+S0019103513005058-4210	6	MeasuredProperty	201	203	T136-6	比率	{'HasQuantity': 'T196-6'}
+S0019103513005058-4210	6	MeasuredEntity	193	201	T186-6	高氯酸盐：硝酸盐	{'HasProperty': 'T136-6'}
+S0019103513005058-4210	6	Qualifier	-1	-1	T176-6	阿塔卡玛	{'Qualifies': 'T186-6'}

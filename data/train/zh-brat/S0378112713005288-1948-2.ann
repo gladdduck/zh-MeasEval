@@ -1,0 +1,5 @@
+T1	Quantity 77 81	0.03
+T3	MeasuredProperty 73 74	p
+R1	HasQuantity Arg1:T3 Arg2:T1
+T4	MeasuredEntity -1 -1	总再生密度显着变化
+R3	HasProperty Arg1:T4 Arg2:T3

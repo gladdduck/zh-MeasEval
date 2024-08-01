@@ -1,0 +1,6 @@
+T1	Quantity 1 6	20 °C
+T2	MeasuredEntity 36 41	环氧聚合物
+T3	MeasuredProperty 33 35	改性
+T4	Unit 4 6	°C
+R1	HasQuantity Arg1:T3 Arg2:T1
+R2	HasProperty Arg1:T2 Arg2:T3

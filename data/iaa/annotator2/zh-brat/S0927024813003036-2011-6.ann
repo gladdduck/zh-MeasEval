@@ -1,0 +1,7 @@
+T1	Quantity 295 301	超过24小时
+T2	Unit 493 494	H
+A1	QuantityQualifier T1 IsRange
+T3	MeasuredEntity -1 -1	第二寿命测量
+T4	MeasuredProperty -1 -1	后来
+R1	HasProperty Arg1:T3 Arg2:T4
+R2	HasQuantity Arg1:T4 Arg2:T1

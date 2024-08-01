@@ -1,0 +1,5 @@
+T1	Quantity -1 -1	(a)1.3（b）2.4和（c）2.2毫克厘米-2
+A1	QuantityQualifier T1 IsList
+T2	Unit 161 167	毫克厘米-2
+T4	MeasuredEntity 129 131	样品
+R1	HasQuantity Arg1:T4 Arg2:T1

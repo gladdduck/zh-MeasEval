@@ -1,0 +1,5 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0025322712001600-2230	1	Quantity	5	6	T1-1	两	{'mods': ['IsCount']}
+S0025322712001600-2230	1	MeasuredEntity	-1	-1	T2-1	海洋岩心	{'HasQuantity': 'T1-1'}
+S0025322712001600-2230	2	Quantity	-1	-1	T1-2	过去200年	{'mods': ['IsRange'], 'unit': 'years'}
+S0025322712001600-2230	2	MeasuredEntity	-1	-1	T2-2	沉降	{'HasQuantity': 'T1-2'}

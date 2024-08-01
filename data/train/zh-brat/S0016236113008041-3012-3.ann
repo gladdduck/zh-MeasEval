@@ -1,0 +1,6 @@
+T1	Quantity 52 55	81%
+T2	Unit 46 47	%
+T3	MeasuredEntity -1 -1	CL
+T4	MeasuredProperty 57 63	排放在废气中
+R2	HasQuantity Arg1:T3 Arg2:T1
+R3	HasProperty Arg1:T3 Arg2:T4

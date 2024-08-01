@@ -1,0 +1,13 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0378383913001567-7073	1	Quantity	-1	-1	T1-1	0.2 M	{'unit': 'm'}
+S0378383913001567-7073	1	MeasuredProperty	224	225	T3-1	不	{'HasQuantity': 'T1-1'}
+S0378383913001567-7073	1	MeasuredEntity	20	22	T4-1	序列	{'HasProperty': 'T3-1'}
+S0378383913001567-7073	2	Quantity	-1	-1	T1-2	1,2,...,10.	{'mods': ['IsList']}
+S0378383913001567-7073	2	MeasuredProperty	-1	-1	T2-2	我	{'HasQuantity': 'T1-2'}
+S0378383913001567-7073	2	MeasuredEntity	20	22	T3-2	序列	{'HasProperty': 'T2-2'}
+S0378383913001567-7073	3	Quantity	-1	-1	T1-3	0.2 M	{'unit': 'm'}
+S0378383913001567-7073	3	MeasuredProperty	-1	-1	T3-3	克斯	{'HasQuantity': 'T1-3'}
+S0378383913001567-7073	3	MeasuredEntity	2	4	T5-3	测试	{'HasProperty': 'T3-3'}
+S0378383913001567-7073	3	Qualifier	79	84	T4-3	空间离散化	{'Qualifies': 'T3-3'}
+S0378383913001567-7073	4	Quantity	127	131	T1-4	2.33	{'mods': ['IsMean']}
+S0378383913001567-7073	4	MeasuredEntity	121	126	T2-4	平均Rij	{'HasQuantity': 'T1-4'}

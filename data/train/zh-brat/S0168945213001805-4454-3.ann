@@ -1,0 +1,7 @@
+T1	Quantity 202 208	15-27%
+T2	MeasuredProperty -1 -1	增加的生物量产量
+T4	Unit 149 150	%
+R1	HasQuantity Arg1:T2 Arg2:T1
+T5	MeasuredEntity -1 -1	田间地块中通过补充CO2进行自由空气浓缩
+A1	QuantityQualifier T1 IsRange
+R3	HasProperty Arg1:T5 Arg2:T2

@@ -1,0 +1,6 @@
+T1	Quantity 67 76	2.5-10 μm
+T2	Unit 74 76	μm
+T3	MeasuredEntity 59 64	收集的颗粒
+R1	HasQuantity Arg1:T3 Arg2:T1
+T4	Qualifier 77 81	PM10
+R2	Qualifies Arg1:T4 Arg2:T3

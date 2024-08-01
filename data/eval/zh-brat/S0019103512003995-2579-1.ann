@@ -1,0 +1,9 @@
+T1	Quantity -1 -1	低于3RP
+T2	MeasuredEntity 20 24	密度分布
+T3	Qualifier 7 9	模型
+R1	Qualifies Arg1:T3 Arg2:T2
+T4	MeasuredProperty -1 -1	流体静力平衡
+R2	HasProperty Arg1:T2 Arg2:T4
+R3	HasQuantity Arg1:T4 Arg2:T1
+T5	Unit 152 155	3RP
+A1	QuantityQualifier T1 IsRange

@@ -1,0 +1,11 @@
+T1	Quantity -1 -1	1000 K
+T2	MeasuredProperty 183 187	最高温度
+T3	MeasuredEntity 0 4	C3模型
+R1	HasProperty Arg1:T3 Arg2:T2
+T4	Qualifier -1 -1	凉爽的
+R2	Qualifies Arg1:T4 Arg2:T2
+R3	HasQuantity Arg1:T2 Arg2:T1
+T5	Unit 198 199	K
+A1	IsApproximate T1
+T6	Qualifier -1 -1	与C1型号相比
+R4	Qualifies Arg1:T6 Arg2:T3

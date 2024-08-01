@@ -1,0 +1,6 @@
+T1	Quantity 188 192	12 s
+T2	MeasuredProperty -1 -1	A t的时间步
+T3	Unit -1 -1	S
+T4	MeasuredEntity 162 166	模拟时间
+R1	HasProperty Arg1:T4 Arg2:T2
+R2	HasQuantity Arg1:T2 Arg2:T1

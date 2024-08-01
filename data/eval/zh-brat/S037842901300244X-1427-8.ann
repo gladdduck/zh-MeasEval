@@ -1,0 +1,6 @@
+T1	Quantity 385 388	84%
+T2	Unit 274 275	%
+T3	Qualifier 179 182	萨多雷
+T4	MeasuredEntity -1 -1	手术遗传性
+R1	HasQuantity Arg1:T4 Arg2:T1
+R2	Qualifies Arg1:T3 Arg2:T4

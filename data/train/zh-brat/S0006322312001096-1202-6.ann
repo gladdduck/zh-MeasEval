@@ -1,0 +1,8 @@
+T44	Quantity 136 140	5-7天
+#14	AnnotatorNotes T44	None
+A1	QuantityQualifier T44 IsRange
+T1	Unit 112 113	天
+T2	MeasuredProperty 127 128	3
+R1	HasQuantity Arg1:T2 Arg2:T44
+T3	MeasuredEntity -1 -1	四点量表
+R2	HasProperty Arg1:T3 Arg2:T2

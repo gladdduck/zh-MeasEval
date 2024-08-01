@@ -1,0 +1,38 @@
+T1	Quantity 55 61	8250 K
+A1	QuantityQualifier T1 IsMean
+T2	MeasuredProperty -1 -1	平均温度
+R1	HasQuantity Arg1:T2 Arg2:T1
+T4	MeasuredEntity -1 -1	HD209458 b的热层
+R3	HasProperty Arg1:T4 Arg2:T2
+T5	Qualifier -1 -1	p0 = 1 μ巴
+R4	Qualifies Arg1:T5 Arg2:T2
+T6	Quantity -1 -1	1 μ巴
+T7	Quantity -1 -1	n净= 0.5
+T9	MeasuredProperty -1 -1	X紫外通量
+T11	Qualifier -1 -1	n net = 0.5
+R5	Qualifies Arg1:T11 Arg2:T9
+T8	Quantity -1 -1	5-10倍
+A2	QuantityQualifier T8 IsRange
+R7	HasQuantity Arg1:T9 Arg2:T8
+T12	Quantity -1 -1	两次
+T13	MeasuredProperty -1 -1	旋转速率
+R8	HasQuantity Arg1:T13 Arg2:T12
+T14	MeasuredEntity 85 93	HD209458
+R9	HasProperty Arg1:T14 Arg2:T13
+T15	Qualifier -1 -1	比相应的太阳通量
+R10	Qualifies Arg1:T15 Arg2:T9
+T16	Qualifier -1 -1	作为太阳的自转率
+R11	Qualifies Arg1:T16 Arg2:T13
+T3	MeasuredEntity -1 -1	P0
+R2	HasQuantity Arg1:T3 Arg2:T6
+#1	AnnotatorNotes T7	ηnet
+T10	MeasuredEntity -1 -1	HD209458B
+T17	Qualifier -1 -1	更高
+R6	Qualifies Arg1:T17 Arg2:T8
+R12	HasProperty Arg1:T10 Arg2:T9
+#2	AnnotatorNotes T8	times
+T18	Qualifier -1 -1	一样快
+R13	Qualifies Arg1:T18 Arg2:T12
+#3	AnnotatorNotes T12	Unspecified
+#4	AnnotatorNotes T6	μbar
+#5	AnnotatorNotes T1	K

@@ -1,0 +1,7 @@
+T3	Quantity -1 -1	4.5公斤、6公斤和13公斤
+T4	MeasuredEntity -1 -1	床位库存
+T5	MeasuredProperty 120 125	CaCO3
+R1	HasProperty Arg1:T4 Arg2:T5
+R2	HasQuantity Arg1:T5 Arg2:T3
+A1	QuantityQualifier T3 IsList
+#1	AnnotatorNotes T3	kg

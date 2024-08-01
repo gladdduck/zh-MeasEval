@@ -1,0 +1,4 @@
+T1	Quantity 152 154	4天
+T2	MeasuredEntity -1 -1	凝胶涂层组织培养板
+R1	HasQuantity Arg1:T2 Arg2:T1
+T3	Unit 61 62	天

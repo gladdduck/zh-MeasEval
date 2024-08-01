@@ -1,0 +1,7 @@
+T1	Quantity 87 90	70%
+T2	MeasuredProperty -1 -1	电子尖峰未加速电子沉淀的特征
+T3	MeasuredEntity 142 148	电子沉淀特征
+R1	HasProperty Arg1:T3 Arg2:T2
+R2	HasQuantity Arg1:T2 Arg2:T1
+T4	Unit 48 49	%
+A1	IsApproximate T1

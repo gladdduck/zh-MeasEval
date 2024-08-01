@@ -1,0 +1,6 @@
+T1	Quantity -1 -1	25，000 x
+T2	MeasuredEntity 336 342	右侧显微照片
+T3	MeasuredProperty -1 -1	放大率
+T4	Unit 349 350	×
+R1	HasProperty Arg1:T2 Arg2:T3
+R2	HasQuantity Arg1:T3 Arg2:T1

@@ -1,0 +1,4 @@
+T1	Quantity -1 -1	20 kV
+T2	Unit -1 -1	kV
+T3	MeasuredEntity 21 39	LEO 1525场发射扫描电子显微镜
+R1	HasQuantity Arg1:T3 Arg2:T1

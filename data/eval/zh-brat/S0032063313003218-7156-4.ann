@@ -1,0 +1,7 @@
+T1	Quantity -1 -1	~ 2600 TW
+T2	Unit 108 110	TW
+A1	IsApproximate T1
+T3	MeasuredProperty 99 102	总功率
+R1	HasQuantity Arg1:T3 Arg2:T1
+T4	MeasuredEntity 96 98	半球
+R2	HasProperty Arg1:T4 Arg2:T3

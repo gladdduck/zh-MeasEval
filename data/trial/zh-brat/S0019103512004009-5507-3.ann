@@ -1,0 +1,8 @@
+T63	Quantity -1 -1	高于3RP
+#13	AnnotatorNotes T63	Rp
+T1	Unit -1 -1	Rp
+A1	QuantityQualifier T63 IsRange
+T2	MeasuredEntity -1 -1	气氛
+T3	MeasuredProperty -1 -1	大部分是电离的
+R1	HasProperty Arg1:T2 Arg2:T3
+R2	HasQuantity Arg1:T3 Arg2:T63

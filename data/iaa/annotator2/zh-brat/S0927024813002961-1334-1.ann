@@ -1,0 +1,7 @@
+T1	Quantity -1 -1	通常低于5%
+A1	IsApproximate T1
+A2	QuantityQualifier T1 IsRange
+T2	MeasuredEntity 84 90	年度能源预测
+T3	MeasuredProperty -1 -1	a-Si的Staebler-Wronski效应[48，49]或CIGS的预处理
+R1	HasProperty Arg1:T2 Arg2:T3
+R2	HasQuantity Arg1:T3 Arg2:T1

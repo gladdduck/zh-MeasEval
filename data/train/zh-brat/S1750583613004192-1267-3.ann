@@ -1,0 +1,6 @@
+T1	Quantity 204 207	80%
+T2	Unit 206 207	%
+T3	MeasuredProperty -1 -1	含气饱和度
+T4	MeasuredEntity -1 -1	斯莱普纳羽流
+R1	HasProperty Arg1:T4 Arg2:T3
+R2	HasQuantity Arg1:T3 Arg2:T1

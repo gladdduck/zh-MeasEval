@@ -1,0 +1,7 @@
+T1	Quantity 190 196	6300 K
+T2	Unit 195 196	K
+A1	QuantityQualifier T1 IsMean
+T3	MeasuredProperty 197 201	平均温度
+R1	HasQuantity Arg1:T3 Arg2:T1
+T4	MeasuredEntity -1 -1	C2模型的中性密度剖面
+R2	HasProperty Arg1:T4 Arg2:T3

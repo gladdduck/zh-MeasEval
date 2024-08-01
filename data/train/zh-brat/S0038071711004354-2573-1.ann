@@ -1,0 +1,7 @@
+T1	Quantity 50 57	20-30厘米
+T2	Qualifier 48 50	顶部
+R1	Qualifies Arg1:T2 Arg2:T1
+T3	MeasuredEntity 44 48	土壤剖面
+R2	HasQuantity Arg1:T3 Arg2:T1
+T4	Unit -1 -1	cm
+A1	QuantityQualifier T1 IsRange

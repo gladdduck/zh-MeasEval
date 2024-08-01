@@ -1,0 +1,5 @@
+T1	MeasuredProperty -1 -1	比值比
+T2	Quantity 188 192	1.14
+T3	MeasuredEntity 165 183	弗雷明汉心血管疾病风险评分增加10%
+R1	HasProperty Arg1:T3 Arg2:T1
+R2	HasQuantity Arg1:T1 Arg2:T2

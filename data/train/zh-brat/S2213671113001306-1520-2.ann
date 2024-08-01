@@ -1,0 +1,6 @@
+T1	Quantity 127 132	60 μm
+T2	Unit 130 132	μm
+T3	MeasuredEntity 19 21	扫描
+T5	MeasuredProperty 124 126	距离
+R1	HasProperty Arg1:T3 Arg2:T5
+R2	HasQuantity Arg1:T5 Arg2:T1

@@ -1,0 +1,4 @@
+T1	Quantity 73 76	30%
+T2	MeasuredEntity 86 90	过氧化氢
+T3	Unit 68 69	%
+R1	HasQuantity Arg1:T2 Arg2:T1

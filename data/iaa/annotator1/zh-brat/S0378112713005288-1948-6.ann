@@ -1,0 +1,5 @@
+T1	Quantity -1 -1	P = N.S.
+T2	MeasuredProperty -1 -1	无显著性差异
+T3	MeasuredEntity -1 -1	再生密度在棕质土和泥炭粉土之间存在
+R1	HasProperty Arg1:T3 Arg2:T2
+R2	HasQuantity Arg1:T2 Arg2:T1

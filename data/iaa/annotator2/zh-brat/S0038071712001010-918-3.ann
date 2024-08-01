@@ -1,0 +1,5 @@
+T1	Quantity 73 77	7.01
+T2	MeasuredProperty 69 72	LSD
+T3	MeasuredEntity -1 -1	殖民程度
+R1	HasProperty Arg1:T3 Arg2:T2
+R2	HasQuantity Arg1:T2 Arg2:T1

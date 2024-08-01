@@ -1,0 +1,6 @@
+T1	Quantity 88 99	41.73毫克/毫升。
+T2	MeasuredEntity -1 -1	氯苯
+T3	MeasuredProperty 1 65	P3 HT（聚（3-已基联苯-2，5-二基），Rieke）和PCBM（[6，6]-苯-C61-丁酸甲酯，Sigma Odrich
+R1	HasProperty Arg1:T2 Arg2:T3
+R2	HasQuantity Arg1:T3 Arg2:T1
+T4	Unit -1 -1	mg/mL

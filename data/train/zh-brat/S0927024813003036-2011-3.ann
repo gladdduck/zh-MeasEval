@@ -1,0 +1,6 @@
+T1	Quantity -1 -1	200 °C
+T2	Unit 161 163	°C
+T3	MeasuredProperty 175 178	预退火
+R1	HasQuantity Arg1:T3 Arg2:T1
+T5	MeasuredEntity 55 57	样品
+R3	HasProperty Arg1:T5 Arg2:T3

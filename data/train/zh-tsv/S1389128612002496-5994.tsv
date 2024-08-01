@@ -1,0 +1,7 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S1389128612002496-5994	1	Quantity	109	112	T1-1	25%	{'unit': '%'}
+S1389128612002496-5994	1	MeasuredProperty	-1	-1	T3-1	红色下降	{'HasQuantity': 'T1-1'}
+S1389128612002496-5994	1	MeasuredEntity	-1	-1	T2-1	分组	{'HasProperty': 'T3-1'}
+S1389128612002496-5994	2	Quantity	129	133	T1-2	7.6%	{'unit': '%'}
+S1389128612002496-5994	2	MeasuredProperty	33	41	T3-2	DropTail	{'HasQuantity': 'T1-2'}
+S1389128612002496-5994	2	MeasuredEntity	-1	-1	T4-2	分组	{'HasProperty': 'T3-2'}

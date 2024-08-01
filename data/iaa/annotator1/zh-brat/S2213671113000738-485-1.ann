@@ -1,0 +1,6 @@
+T1	Quantity 8 11	3个月
+T2	Unit 9 11	个月
+T3	MeasuredEntity -1 -1	代表性动物的磁共振图像
+R1	HasQuantity Arg1:T3 Arg2:T1
+T4	Qualifier 5 8	移植后
+R2	Qualifies Arg1:T4 Arg2:T1

@@ -1,0 +1,4 @@
+T1	Quantity 99 102	10%
+T2	Unit 101 102	%
+T3	MeasuredEntity 26 28	阈值
+R1	HasQuantity Arg1:T3 Arg2:T1

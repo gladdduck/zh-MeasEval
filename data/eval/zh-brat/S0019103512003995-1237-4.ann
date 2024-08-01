@@ -1,0 +1,4 @@
+T1	Quantity -1 -1	17,500
+T2	MeasuredEntity 251 256	光谱分辨率
+T3	Unit 240 241	R
+R1	HasQuantity Arg1:T2 Arg2:T1

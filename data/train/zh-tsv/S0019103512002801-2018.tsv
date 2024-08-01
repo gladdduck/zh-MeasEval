@@ -1,0 +1,6 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0019103512002801-2018	1	Quantity	29	30	T1-1	一	{'mods': ['IsCount']}
+S0019103512002801-2018	1	MeasuredEntity	157	159	T2-1	特征	{'HasQuantity': 'T1-1'}
+S0019103512002801-2018	2	Quantity	-1	-1	T1-2	至少10%	{'mods': ['IsRange'], 'unit': '%'}
+S0019103512002801-2018	2	MeasuredProperty	-1	-1	T4-2	事实证明，自拾取过程会导致	{'HasQuantity': 'T1-2'}
+S0019103512002801-2018	2	MeasuredEntity	-1	-1	T2-2	月球ULF波活动增强	{'HasProperty': 'T4-2'}

@@ -1,0 +1,4 @@
+T1	Quantity 76 86	100 mA m-1
+T2	MeasuredEntity 18 20	场强
+T3	Unit 31 37	mA m-1
+R1	HasQuantity Arg1:T2 Arg2:T1

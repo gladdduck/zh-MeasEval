@@ -1,0 +1,10 @@
+T1	Quantity 123 126	50%
+T2	MeasuredEntity 104 109	转基因植物
+T3	MeasuredProperty 127 130	死亡率
+T4	Qualifier 110 114	根系畸形
+R1	Qualifies Arg1:T4 Arg2:T2
+T5	Qualifier -1 -1	在温室中
+R2	Qualifies Arg1:T5 Arg2:T3
+T6	Unit 125 126	%
+R3	HasProperty Arg1:T2 Arg2:T3
+R4	HasQuantity Arg1:T3 Arg2:T1

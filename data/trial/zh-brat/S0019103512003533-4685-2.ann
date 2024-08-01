@@ -1,0 +1,7 @@
+T52	Quantity 63 65	0°
+#12	AnnotatorNotes T52	°
+T42	MeasuredProperty 61 63	纬度
+R2	HasQuantity Arg1:T42 Arg2:T52
+T32	MeasuredEntity -1 -1	次太阳点
+R3	HasProperty Arg1:T32 Arg2:T42
+T1	Unit 44 45	°

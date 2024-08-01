@@ -1,0 +1,7 @@
+T1	Quantity -1 -1	经过13段之后
+A1	QuantityQualifier T1 IsRange
+T2	Unit -1 -1	通道
+T3	MeasuredProperty -1 -1	静态悬浮状态
+T4	MeasuredEntity -1 -1	hiPSC中TRA-1-60的表达
+R1	HasProperty Arg1:T4 Arg2:T3
+R2	HasQuantity Arg1:T3 Arg2:T1

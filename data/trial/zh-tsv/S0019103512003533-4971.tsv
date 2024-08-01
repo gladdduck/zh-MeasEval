@@ -1,0 +1,4 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0019103512003533-4971	1	Quantity	-1	-1	T11-1	少于6 K	{'mods': ['IsRange'], 'unit': 'K'}
+S0019103512003533-4971	1	MeasuredProperty	-1	-1	T31-1	极地温度的每日变化	{'HasQuantity': 'T11-1'}
+S0019103512003533-4971	1	MeasuredEntity	104	110	T41-1	土星高层大气	{'HasProperty': 'T31-1'}

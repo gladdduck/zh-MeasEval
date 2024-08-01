@@ -1,0 +1,4 @@
+T1	Quantity -1 -1	2-7%
+T2	MeasuredEntity -1 -1	性能变化
+T3	Unit 314 315	%
+R1	HasQuantity Arg1:T2 Arg2:T1

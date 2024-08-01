@@ -1,0 +1,4 @@
+T1	Quantity 242 245	2小时
+T2	Unit 214 216	小时
+T3	MeasuredEntity -1 -1	餐后血糖
+R1	HasQuantity Arg1:T3 Arg2:T1

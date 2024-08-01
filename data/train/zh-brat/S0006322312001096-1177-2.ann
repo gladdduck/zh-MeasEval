@@ -1,0 +1,7 @@
+T51	Quantity -1 -1	35至55
+#11	AnnotatorNotes T51	None
+A11	QuantityQualifier T51 IsRange
+T61	MeasuredProperty 88 89	岁
+R1	HasQuantity Arg1:T61 Arg2:T51
+T71	MeasuredEntity 65 69	目标人群
+R2	HasProperty Arg1:T71 Arg2:T61

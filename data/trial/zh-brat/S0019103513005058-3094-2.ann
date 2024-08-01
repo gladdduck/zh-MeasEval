@@ -1,0 +1,10 @@
+T62	Quantity -1 -1	2 m
+#12	AnnotatorNotes T62	m
+A12	IsApproximate T62
+T72	MeasuredProperty 238 240	深度
+R3	HasQuantity Arg1:T72 Arg2:T62
+T42	MeasuredEntity 220 222	土壤
+R4	HasProperty Arg1:T42 Arg2:T72
+T52	Qualifier -1 -1	受影响扰动影响
+R5	Qualifies Arg1:T52 Arg2:T42
+T1	Unit -1 -1	M

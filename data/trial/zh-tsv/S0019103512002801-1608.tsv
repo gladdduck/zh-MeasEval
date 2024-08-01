@@ -1,0 +1,3 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0019103512002801-1608	1	Quantity	-1	-1	T11-1	大约5公里s-1	{'mods': ['IsApproximate'], 'unit': 'km s−1'}
+S0019103512002801-1608	1	MeasuredEntity	27	33	T21-1	向外半径速度	{'HasQuantity': 'T11-1'}

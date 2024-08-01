@@ -1,0 +1,8 @@
+T1	Quantity 39 41	两天
+T2	Qualifier -1 -1	在BS 1和BS 2接近之前
+T3	Unit 40 41	天
+T4	MeasuredEntity -1 -1	H频段缝隙观看VLT图像
+T5	MeasuredProperty -1 -1	采取
+R1	HasProperty Arg1:T4 Arg2:T5
+R2	HasQuantity Arg1:T5 Arg2:T1
+R3	Qualifies Arg1:T2 Arg2:T1

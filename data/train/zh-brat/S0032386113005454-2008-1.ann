@@ -1,0 +1,9 @@
+T1	Quantity -1 -1	约-100 °C
+A1	IsApproximate T1
+T2	Unit 8 10	°C
+T3	MeasuredEntity 15 17	颗粒
+T4	MeasuredProperty -1 -1	钢化
+T5	Qualifier 23 28	环氧聚合物
+R1	HasProperty Arg1:T3 Arg2:T4
+R2	HasQuantity Arg1:T4 Arg2:T1
+R3	Qualifies Arg1:T5 Arg2:T4

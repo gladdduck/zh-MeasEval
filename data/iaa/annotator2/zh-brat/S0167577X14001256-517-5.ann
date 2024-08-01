@@ -1,0 +1,6 @@
+T1	Quantity 181 185	0.4%
+T2	MeasuredEntity 174 178	蒸发速率
+T3	Unit 184 185	%
+R1	HasQuantity Arg1:T2 Arg2:T1
+T4	Qualifier -1 -1	激光脉冲的恒定能量
+R2	Qualifies Arg1:T4 Arg2:T2

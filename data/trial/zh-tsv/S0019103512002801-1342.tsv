@@ -1,0 +1,15 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0019103512002801-1342	1	Quantity	16	21	T31-1	1 RRh	{'unit': 'RRh'}
+S0019103512002801-1342	1	MeasuredProperty	13	15	T81-1	半径	{'HasQuantity': 'T31-1'}
+S0019103512002801-1342	1	MeasuredEntity	-1	-1	T71-1	瑞亚	{'HasProperty': 'T81-1'}
+S0019103512002801-1342	2	Quantity	24	29	T12-2	764公里	{'unit': 'km'}
+S0019103512002801-1342	2	MeasuredProperty	13	15	T82-2	半径	{'HasQuantity': 'T12-2'}
+S0019103512002801-1342	2	MeasuredEntity	-1	-1	T72-2	瑞亚	{'HasProperty': 'T82-2'}
+S0019103512002801-1342	3	Quantity	-1	-1	T43-3	约8.74卢比	{'mods': ['IsApproximate'], 'unit': 'Rs'}
+S0019103512002801-1342	3	MeasuredProperty	-1	-1	T93-3	距离	{'HasQuantity': 'T43-3'}
+S0019103512002801-1342	3	MeasuredEntity	36	40	T103-3	圆形轨道	{'HasProperty': 'T93-3'}
+S0019103512002801-1342	3	Qualifier	-1	-1	T23-3	(1Rs= 60，268公里）	{'Qualifies': 'T43-3'}
+S0019103512002801-1342	3	Qualifier	-1	-1	T113-3	从它的中心	{'Qualifies': 'T93-3'}
+S0019103512002801-1342	4	Quantity	-1	-1	T54-4	1RS	{'unit': 'Rs'}
+S0019103512002801-1342	5	Quantity	63	71	T65-5	60，268公里	{'unit': 'km'}
+S0019103512002801-1342	5	MeasuredEntity	-1	-1	T1-5	1RS	{'HasQuantity': 'T65-5'}

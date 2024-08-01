@@ -1,0 +1,4 @@
+T1	Quantity 159 162	289
+A1	IsCount T1
+T2	MeasuredEntity -1 -1	大块岩石样本
+R1	HasQuantity Arg1:T2 Arg2:T1

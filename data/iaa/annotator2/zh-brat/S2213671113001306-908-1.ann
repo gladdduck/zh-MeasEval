@@ -1,0 +1,4 @@
+T1	Quantity 28 34	125 μm
+T2	Unit 32 34	μm
+T3	MeasuredEntity 24 27	比例尺
+R1	HasQuantity Arg1:T3 Arg2:T1

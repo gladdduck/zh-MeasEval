@@ -1,0 +1,9 @@
+T1	Quantity 378 389	接近320公斤/立方米
+T2	MeasuredEntity -1 -1	CO2
+A1	IsApproximate T1
+T3	Unit -1 -1	kg/M3
+T4	Qualifier -1 -1	在羽流较远的部分，接近环境温度（34 °C）
+R2	Qualifies Arg1:T4 Arg2:T5
+T5	MeasuredProperty 348 350	密度
+R1	HasProperty Arg1:T2 Arg2:T5
+R3	HasQuantity Arg1:T5 Arg2:T1

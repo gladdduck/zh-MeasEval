@@ -1,0 +1,4 @@
+T1	Quantity 83 91	小于2.5 μm
+T2	MeasuredEntity 92 97	PM2.5
+R1	HasQuantity Arg1:T2 Arg2:T1
+A1	QuantityQualifier T1 IsRange

@@ -1,0 +1,7 @@
+T2	Quantity -1 -1	1.5毫米和8.5毫米
+A1	QuantityQualifier T2 IsList
+T1	Unit 16 18	mm
+T3	MeasuredProperty 129 132	沉积物
+T4	MeasuredEntity -1 -1	两个透水粗颗粒海滩
+R1	HasProperty Arg1:T4 Arg2:T3
+R2	HasQuantity Arg1:T3 Arg2:T2

@@ -1,0 +1,8 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0019103512003533-3908	1	Quantity	77	82	T1-1	0.125	
+S0019103512003533-3908	1	MeasuredEntity	-1	-1	T2-1	因子	{'HasQuantity': 'T1-1'}
+S0019103512003533-3908	2	Quantity	115	154	T1-2	从k1 = 2 x 10 - 9到k1 = 1 x 10 - 9厘米3 s-1	{'mods': ['IsRange'], 'unit': 'cm3 s−1'}
+S0019103512003533-3908	2	MeasuredEntity	-1	-1	T3-2	平均基础反应率	{'HasQuantity': 'T1-2'}
+S0019103512003533-3908	2	Qualifier	103	105	T4-2	修订	{'Qualifies': 'T3-2'}
+S0019103512003533-3908	3	Quantity	191	192	T1-3	4	
+S0019103512003533-3908	3	MeasuredEntity	-1	-1	T2-3	因子	{'HasQuantity': 'T1-3'}

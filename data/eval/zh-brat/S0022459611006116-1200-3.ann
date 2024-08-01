@@ -1,0 +1,8 @@
+T1	Quantity -1 -1	超过14小时
+T2	Unit -1 -1	H
+T3	MeasuredEntity 0 2	数据
+T4	Qualifier 133 135	收集
+T5	MeasuredProperty -1 -1	期间
+R1	Qualifies Arg1:T4 Arg2:T3
+R2	HasProperty Arg1:T3 Arg2:T5
+R3	HasQuantity Arg1:T5 Arg2:T1

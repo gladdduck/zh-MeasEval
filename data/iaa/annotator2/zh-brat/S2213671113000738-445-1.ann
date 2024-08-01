@@ -1,0 +1,8 @@
+T1	Quantity 48 52	48小时
+T2	MeasuredEntity 30 32	细胞
+T3	MeasuredProperty 46 48	孵育
+T4	Qualifier 39 44	干扰素-γ
+R1	Qualifies Arg1:T4 Arg2:T3
+R2	HasProperty Arg1:T2 Arg2:T3
+R3	HasQuantity Arg1:T3 Arg2:T1
+T5	Unit -1 -1	HR

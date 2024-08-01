@@ -1,0 +1,5 @@
+T1	Quantity -1 -1	(80/20
+T3	MeasuredProperty 31 34	金/钯
+R1	HasQuantity Arg1:T3 Arg2:T1
+T2	MeasuredEntity 41 43	合金
+R2	HasProperty Arg1:T2 Arg2:T3

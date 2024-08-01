@@ -1,0 +1,5 @@
+T13	Quantity 100 103	95%
+#13	AnnotatorNotes T13	None
+T93	MeasuredEntity 108 110	CI
+R4	HasQuantity Arg1:T93 Arg2:T13
+T3	Unit 81 82	%

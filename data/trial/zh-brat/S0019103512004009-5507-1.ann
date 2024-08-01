@@ -1,0 +1,8 @@
+T21	Quantity 29 35	接近1 μ巴
+#11	AnnotatorNotes T21	μbar
+A11	IsApproximate T21
+T41	MeasuredProperty -1 -1	基地
+R1	HasQuantity Arg1:T41 Arg2:T21
+T31	MeasuredEntity -1 -1	热H层
+R2	HasProperty Arg1:T31 Arg2:T41
+T1	Unit 33 35	μ巴

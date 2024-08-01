@@ -1,0 +1,7 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0032386113005454-2022	1	Quantity	-1	-1	T1-1	约0.1-5 μm	{'mods': ['IsApproximate', 'IsRange'], 'unit': 'μm'}
+S0032386113005454-2022	1	MeasuredProperty	230	232	T3-1	直径	{'HasQuantity': 'T1-1'}
+S0032386113005454-2022	1	MeasuredEntity	221	229	T4-1	橡胶或热塑性颗粒	{'HasProperty': 'T3-1'}
+S0032386113005454-2022	2	Quantity	-1	-1	T1-2	约5-20%	{'mods': ['IsApproximate', 'IsRange'], 'unit': '%'}
+S0032386113005454-2022	2	MeasuredProperty	244	248	T3-2	体积分数	{'HasQuantity': 'T1-2'}
+S0032386113005454-2022	2	MeasuredEntity	221	229	T4-2	橡胶或热塑性颗粒	{'HasProperty': 'T3-2'}

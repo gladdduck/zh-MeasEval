@@ -1,0 +1,4 @@
+T1	Quantity 152 153	两
+T2	MeasuredEntity 154 165	L7/L12异源二聚体
+R1	HasQuantity Arg1:T2 Arg2:T1
+A1	IsCount T1

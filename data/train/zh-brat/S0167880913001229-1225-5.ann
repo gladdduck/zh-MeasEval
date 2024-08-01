@@ -1,0 +1,5 @@
+T1	Quantity 133 140	20-40厘米
+T2	MeasuredProperty 78 80	深度
+T3	MeasuredEntity 30 35	SOC库存
+R1	HasProperty Arg1:T3 Arg2:T2
+R2	HasQuantity Arg1:T2 Arg2:T1

@@ -1,0 +1,7 @@
+T1713	Quantity -1 -1	0、1000和2000 ppm
+#113	AnnotatorNotes T1713	ppm
+T4313	MeasuredProperty 10 12	浓度
+R40	HasQuantity Arg1:T4313 Arg2:T1713
+T4213	MeasuredEntity 7 10	SO2
+R41	HasProperty Arg1:T4213 Arg2:T4313
+T1913	Unit 79 82	ppm

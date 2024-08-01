@@ -1,0 +1,8 @@
+T21	Quantity -1 -1	54.8年
+#11	AnnotatorNotes T21	None
+A11	QuantityQualifier T21 IsMean
+T31	MeasuredProperty 84 88	平均年龄
+R1	HasQuantity Arg1:T31 Arg2:T21
+T41	MeasuredEntity -1 -1	5318名参与者
+R2	HasProperty Arg1:T41 Arg2:T31
+T1	Unit 17 18	年

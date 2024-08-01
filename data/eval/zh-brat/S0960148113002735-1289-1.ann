@@ -1,0 +1,4 @@
+T1	Quantity 38 43	200千瓦
+T2	Unit -1 -1	kW
+T3	MeasuredEntity 10 12	涡轮
+R1	HasQuantity Arg1:T3 Arg2:T1

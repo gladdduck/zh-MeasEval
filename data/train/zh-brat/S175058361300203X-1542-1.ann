@@ -1,0 +1,7 @@
+T1	Quantity 22 32	34-38 °C范围
+T2	MeasuredProperty 34 36	温度
+T3	MeasuredEntity -1 -1	盐水饱和砂岩中的地震速度不取决于
+T4	Unit 28 30	°C
+R1	HasProperty Arg1:T3 Arg2:T2
+R2	HasQuantity Arg1:T2 Arg2:T1
+A1	QuantityQualifier T1 IsRange

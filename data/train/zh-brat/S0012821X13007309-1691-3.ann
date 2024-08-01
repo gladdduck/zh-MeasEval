@@ -1,0 +1,8 @@
+T1	Quantity -1 -1	-25.9至-26.5 ‰。
+A1	IsApproximate T1
+A2	QuantityQualifier T1 IsRange
+T2	Unit 222 223	‰
+T3	MeasuredEntity 195 206	δ 13 Corg记录
+T4	MeasuredProperty -1 -1	OAE 2之前背景值的狭窄变化
+R1	HasProperty Arg1:T3 Arg2:T4
+R2	HasQuantity Arg1:T4 Arg2:T1

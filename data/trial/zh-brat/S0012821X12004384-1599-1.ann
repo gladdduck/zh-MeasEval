@@ -1,0 +1,8 @@
+T21	Quantity -1 -1	从103年起
+#11	AnnotatorNotes T21	yrs
+A11	QuantityQualifier T21 IsRange
+T41	MeasuredProperty 81 83	之前
+R1	HasQuantity Arg1:T41 Arg2:T21
+T31	MeasuredEntity 256 260	IE开始
+R2	HasProperty Arg1:T31 Arg2:T41
+T1	Unit -1 -1	岁

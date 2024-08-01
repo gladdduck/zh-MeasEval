@@ -1,0 +1,6 @@
+T1	Quantity 17 22	150厘米
+T2	MeasuredEntity -1 -1	围隔
+T3	MeasuredProperty 16 17	长
+R1	HasProperty Arg1:T2 Arg2:T3
+R2	HasQuantity Arg1:T3 Arg2:T1
+T4	Unit -1 -1	cm

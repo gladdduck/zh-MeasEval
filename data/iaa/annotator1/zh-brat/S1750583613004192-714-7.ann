@@ -1,0 +1,5 @@
+T1	Quantity 133 135	3年
+T2	MeasuredEntity 38 41	CO2
+T3	MeasuredProperty 146 148	迁移
+R1	HasProperty Arg1:T2 Arg2:T3
+R2	HasQuantity Arg1:T3 Arg2:T1

@@ -1,0 +1,6 @@
+T1	Quantity 124 128	30厘米
+T2	Unit -1 -1	cm
+T3	MeasuredProperty -1 -1	与双室的距离
+T4	MeasuredEntity -1 -1	基准室
+R1	HasProperty Arg1:T4 Arg2:T3
+R2	HasQuantity Arg1:T3 Arg2:T1

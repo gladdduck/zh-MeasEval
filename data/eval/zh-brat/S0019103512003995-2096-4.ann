@@ -1,0 +1,7 @@
+T1	Quantity -1 -1	接近1 μ巴
+A1	IsApproximate T1
+T2	Unit 344 346	μ巴
+T3	MeasuredEntity 340 342	H2
+T4	MeasuredProperty 350 352	解离
+R1	HasProperty Arg1:T3 Arg2:T4
+R2	HasQuantity Arg1:T4 Arg2:T1

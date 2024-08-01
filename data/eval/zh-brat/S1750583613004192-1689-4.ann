@@ -1,0 +1,6 @@
+T1	Quantity -1 -1	10 MPa
+T2	MeasuredProperty 100 102	超压
+T3	Unit -1 -1	MPa
+T4	MeasuredEntity -1 -1	短暂冰盖负荷
+R1	HasProperty Arg1:T4 Arg2:T2
+R2	HasQuantity Arg1:T2 Arg2:T1

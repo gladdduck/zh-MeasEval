@@ -1,0 +1,6 @@
+T1	Quantity 63 67	26 m
+T2	MeasuredEntity 10 12	涡轮
+T3	MeasuredProperty 60 62	直径
+T4	Unit 76 77	M
+R1	HasQuantity Arg1:T3 Arg2:T1
+R2	HasProperty Arg1:T2 Arg2:T3

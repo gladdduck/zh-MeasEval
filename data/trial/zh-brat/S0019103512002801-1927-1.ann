@@ -1,0 +1,8 @@
+T21	Quantity 50 61	0.1-0.2 s-1
+#11	AnnotatorNotes T21	s−1
+A11	QuantityQualifier T21 IsRange
+T41	MeasuredProperty 43 48	线性增长率
+R1	HasQuantity Arg1:T41 Arg2:T21
+T31	MeasuredEntity -1 -1	不稳定凹槽
+R2	HasProperty Arg1:T31 Arg2:T41
+T1	Unit 58 61	s-1

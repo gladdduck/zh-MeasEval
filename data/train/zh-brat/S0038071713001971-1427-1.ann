@@ -1,0 +1,4 @@
+T1	Quantity 18 20	两年
+T2	Unit 19 20	年
+T3	MeasuredEntity -1 -1	收益率记录
+R1	HasQuantity Arg1:T3 Arg2:T1

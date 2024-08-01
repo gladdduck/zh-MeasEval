@@ -1,0 +1,5 @@
+T1	Quantity 92 95	10%
+T2	MeasuredProperty -1 -1	假设表面速度
+T3	MeasuredEntity 87 91	上游速度
+R2	HasQuantity Arg1:T2 Arg2:T1
+R1	HasProperty Arg1:T3 Arg2:T2

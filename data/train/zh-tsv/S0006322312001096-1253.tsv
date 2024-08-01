@@ -1,0 +1,4 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0006322312001096-1253	1	Quantity	68	71	T11-1	65岁	{'unit': 'years'}
+S0006322312001096-1253	1	MeasuredProperty	70	73	T2-1	岁之前	{'HasQuantity': 'T11-1'}
+S0006322312001096-1253	1	MeasuredEntity	-1	-1	T1-1	抑郁症状发作增加	{'HasProperty': 'T2-1'}

@@ -1,0 +1,14 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S1359645413009816-2227	1	Quantity	28	30	T1-1	14	{'mods': ['IsCount']}
+S1359645413009816-2227	1	MeasuredEntity	87	89	T2-1	样品	{'HasQuantity': 'T1-1'}
+S1359645413009816-2227	2	Quantity	19	20	T1-2	三	{'mods': ['IsCount']}
+S1359645413009816-2227	2	MeasuredEntity	-1	-1	T2-2	HPT磁盘的位置	{'HasQuantity': 'T1-2'}
+S1359645413009816-2227	3	Quantity	55	56	T1-3	六	{'mods': ['IsCount']}
+S1359645413009816-2227	3	MeasuredEntity	87	89	T2-3	样品	{'HasQuantity': 'T1-3'}
+S1359645413009816-2227	4	Quantity	-1	-1	T1-4	9mm	{'unit': 'mm'}
+S1359645413009816-2227	4	MeasuredProperty	35	37	T3-4	半径	{'HasQuantity': 'T1-4'}
+S1359645413009816-2227	4	MeasuredEntity	-1	-1	T4-4	六个样品	{'HasProperty': 'T3-4'}
+S1359645413009816-2227	4	Qualifier	-1	-1	T5-4	从磁盘上切下来	{'Qualifies': 'T4-4'}
+S1359645413009816-2227	5	Quantity	-1	-1	T1-5	9.3 r = 7.3毫米	{'mods': ['IsList'], 'unit': 'mm'}
+S1359645413009816-2227	5	MeasuredProperty	35	37	T3-5	半径	{'HasQuantity': 'T1-5'}
+S1359645413009816-2227	5	MeasuredEntity	85	89	T2-5	四个样品	{'HasProperty': 'T3-5'}

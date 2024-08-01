@@ -1,0 +1,8 @@
+T23	Quantity 184 189	大约每5年
+#13	AnnotatorNotes T23	None
+A13	IsApproximate T23
+T83	MeasuredProperty 427 429	发生
+R5	HasQuantity Arg1:T83 Arg2:T23
+T93	MeasuredEntity -1 -1	随访检查
+R6	HasProperty Arg1:T93 Arg2:T83
+T1	Unit 32 33	年

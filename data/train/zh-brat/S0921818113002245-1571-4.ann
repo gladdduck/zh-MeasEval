@@ -1,0 +1,6 @@
+T1	Quantity -1 -1	4.8 M
+T2	MeasuredProperty 228 229	长
+T3	MeasuredEntity -1 -1	沉积物核心
+T4	Unit -1 -1	M
+R1	HasProperty Arg1:T3 Arg2:T2
+R2	HasQuantity Arg1:T2 Arg2:T1

@@ -1,0 +1,10 @@
+T11	Quantity 211 216	至少5小时
+#11	AnnotatorNotes T11	None
+A11	QuantityQualifier T11 IsRange
+T1	MeasuredEntity 218 221	静脉血
+T2	MeasuredProperty -1 -1	采取
+T3	Qualifier -1 -1	吃完清淡、无脂肪的早餐后
+R1	Qualifies Arg1:T3 Arg2:T11
+R2	HasProperty Arg1:T1 Arg2:T2
+R3	HasQuantity Arg1:T2 Arg2:T11
+T4	Unit 214 216	小时

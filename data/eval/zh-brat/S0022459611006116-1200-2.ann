@@ -1,0 +1,6 @@
+T1	Quantity 122 127	0.02°
+T2	MeasuredProperty 130 132	大小
+T3	MeasuredEntity -1 -1	步骤
+R1	HasProperty Arg1:T3 Arg2:T2
+R2	HasQuantity Arg1:T2 Arg2:T1
+T4	Unit 107 108	°

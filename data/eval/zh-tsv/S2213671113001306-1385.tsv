@@ -1,0 +1,4 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S2213671113001306-1385	1	Quantity	-1	-1	T1-1	超过1周	{'mods': ['IsRange'], 'unit': 'week'}
+S2213671113001306-1385	1	MeasuredEntity	98	102	T2-1	随访检查	{'HasQuantity': 'T1-1'}
+S2213671113001306-1385	1	Qualifier	4	6	T4-1	术后	{'Qualifies': 'T1-1'}

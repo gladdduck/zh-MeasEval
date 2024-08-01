@@ -1,0 +1,7 @@
+T75	Quantity -1 -1	1536厘米-1
+#15	AnnotatorNotes T75	cm−1
+T95	MeasuredProperty 283 284	峰
+R7	HasQuantity Arg1:T95 Arg2:T75
+T175	MeasuredEntity -1 -1	现场ATR-FT光谱
+R8	HasProperty Arg1:T175 Arg2:T95
+T1	Unit -1 -1	厘米-1

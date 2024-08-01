@@ -1,0 +1,6 @@
+T1	Quantity 87 90	30度
+T2	Unit 89 90	度
+T4	MeasuredProperty 90 94	视野设置
+R2	HasQuantity Arg1:T4 Arg2:T1
+T5	MeasuredEntity 0 10	Spectralis
+R1	HasProperty Arg1:T5 Arg2:T4

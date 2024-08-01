@@ -1,0 +1,8 @@
+T1	Quantity 258 263	T+21天
+T2	Qualifier 263 266	孵育后
+T3	Unit 262 263	天
+T4	MeasuredEntity -1 -1	片段
+T5	MeasuredProperty -1 -1	移除
+R1	HasProperty Arg1:T4 Arg2:T5
+R2	HasQuantity Arg1:T5 Arg2:T1
+R3	Qualifies Arg1:T2 Arg2:T1

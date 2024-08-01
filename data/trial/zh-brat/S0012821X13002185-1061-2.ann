@@ -1,0 +1,10 @@
+T12	Quantity -1 -1	60%至100%之间
+#12	AnnotatorNotes T12	%
+A12	QuantityQualifier T12 IsRange
+T72	MeasuredProperty -1 -1	今天出现在南极洲
+R2	HasQuantity Arg1:T72 Arg2:T12
+T32	MeasuredEntity 102 104	冰量
+R3	HasProperty Arg1:T32 Arg2:T72
+T92	Qualifier -1 -1	Oi 1
+R4	Qualifies Arg1:T92 Arg2:T32
+T1	Unit 107 108	%

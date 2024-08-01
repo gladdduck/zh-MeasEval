@@ -1,0 +1,6 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S1873506113001116-978	1	Quantity	162	163	T1-1	两	{'mods': ['IsCount']}
+S1873506113001116-978	1	MeasuredEntity	-1	-1	T2-1	hiPSC系	{'HasQuantity': 'T1-1'}
+S1873506113001116-978	2	Quantity	247	250	T1-2	10代	{'unit': 'passages'}
+S1873506113001116-978	2	MeasuredProperty	67	69	T2-2	培养	{'HasQuantity': 'T1-2'}
+S1873506113001116-978	2	MeasuredEntity	-1	-1	T3-2	hiPSCs	{'HasProperty': 'T2-2'}

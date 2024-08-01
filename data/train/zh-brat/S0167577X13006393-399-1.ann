@@ -1,0 +1,7 @@
+T1	Quantity 62 75	1065-1280厘米-1
+A1	QuantityQualifier T1 IsRange
+T2	Unit 71 75	厘米-1
+T3	MeasuredEntity 54 60	纯PGA光谱
+T4	MeasuredProperty 78 85	C3 O特征带
+R1	HasProperty Arg1:T3 Arg2:T4
+R2	HasQuantity Arg1:T4 Arg2:T1

@@ -1,0 +1,6 @@
+T82	Quantity 67 73	pH 7-8
+#12	AnnotatorNotes T82	pH
+A12	QuantityQualifier T82 IsRange
+T92	MeasuredEntity 8 10	溶液
+R2	HasQuantity Arg1:T92 Arg2:T82
+T1	Unit 67 69	pH

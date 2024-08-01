@@ -1,0 +1,6 @@
+T1	Quantity 8 11	3个月
+T2	Unit 9 11	个月
+T3	MeasuredEntity -1 -1	畸胎瘤形成
+T4	MeasuredProperty 5 8	移植后
+R1	HasProperty Arg1:T3 Arg2:T4
+R2	HasQuantity Arg1:T4 Arg2:T1

@@ -1,0 +1,5 @@
+T1	Quantity 18 20	两年
+T2	Unit 19 20	年
+T3	MeasuredEntity -1 -1	收益率记录
+R1	HasQuantity Arg1:T3 Arg2:T1
+#1	AnnotatorNotes T3	TODO: Zap all these old notes. Per count rule, this is a count and a measured entity. In other circumstances this entity (elevation angle) would be used as a property.

@@ -1,0 +1,9 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S2213158213000582-751	1	Quantity	0	5	T1-1	50 ms	{'unit': 'ms'}
+S2213158213000582-751	1	MeasuredEntity	5	7	T2-1	活动	{'HasQuantity': 'T1-1'}
+S2213158213000582-751	2	Quantity	34	38	T1-2	0.05	
+S2213158213000582-751	2	MeasuredProperty	-1	-1	T2-2	Q	{'HasQuantity': 'T1-2'}
+S2213158213000582-751	2	MeasuredEntity	-1	-1	T3-2	FDR	{'HasProperty': 'T2-2'}
+S2213158213000582-751	3	Quantity	34	38	T1-3	0.05	
+S2213158213000582-751	3	MeasuredProperty	-1	-1	T3-3	Q	{'HasQuantity': 'T1-3'}
+S2213158213000582-751	3	MeasuredEntity	-1	-1	T2-3	FDR	{'HasProperty': 'T3-3'}

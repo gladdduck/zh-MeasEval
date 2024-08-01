@@ -1,0 +1,33 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0019103512003995-1910	1	Quantity	29	32	T71-1	四个半	{'mods': ['IsCount']}
+S0019103512003995-1910	1	MeasuredEntity	32	36	T81-1	太阳周期	{'HasQuantity': 'T71-1'}
+S0019103512003995-1910	1	Qualifier	-1	-1	T91-1	1947年至1999年间	{'Qualifies': 'T81-1'}
+S0019103512003995-1910	2	Quantity	-1	-1	T102-2	1947年至1999年间	{'mods': ['IsRange']}
+S0019103512003995-1910	2	MeasuredEntity	37	41	T1-2	卫星观测	{'HasQuantity': 'T102-2'}
+S0019103512003995-1910	3	Quantity	-1	-1	T13-3	1%和37%	{'mods': ['IsRange']}
+S0019103512003995-1910	3	MeasuredProperty	53	56	T113-3	变异性	{'HasQuantity': 'T13-3'}
+S0019103512003995-1910	3	MeasuredEntity	-1	-1	T123-3	莱曼阿尔法排放量	{'HasProperty': 'T113-3'}
+S0019103512003995-1910	3	Qualifier	-1	-1	T43-3	在太阳自转的一个时期	{'Qualifies': 'T113-3'}
+S0019103512003995-1910	4	Quantity	66	67	T134-4	一	{'mods': ['IsCount']}
+S0019103512003995-1910	4	MeasuredEntity	-1	-1	T144-4	太阳自转周期	{'HasQuantity': 'T134-4'}
+S0019103512003995-1910	5	Quantity	69	72	T35-5	27天	{'unit': 'days'}
+S0019103512003995-1910	5	MeasuredEntity	-1	-1	T145-5	太阳自转周期	{'HasQuantity': 'T35-5'}
+S0019103512003995-1910	6	Quantity	66	67	T196-6	一	{'mods': ['IsCount']}
+S0019103512003995-1910	6	MeasuredEntity	62	66	T206-6	太阳自转	{'HasQuantity': 'T196-6'}
+S0019103512003995-1910	7	Quantity	-1	-1	T27-7	9 ± 6%	{'mods': ['IsMeanHasTolerance'], 'unit': '%'}
+S0019103512003995-1910	7	MeasuredProperty	53	56	T177-7	变异性	{'HasQuantity': 'T27-7'}
+S0019103512003995-1910	7	MeasuredEntity	-1	-1	T127-7	莱曼阿尔法排放量	{'HasProperty': 'T177-7'}
+S0019103512003995-1910	7	Qualifier	-1	-1	T187-7	在一次太阳自转期间	{'Qualifies': 'T177-7'}
+S0019103512003995-1910	7	Qualifier	93	95	T157-7	平均	{'Qualifies': 'T27-7'}
+S0019103512003995-1910	8	Quantity	154	160	T58-8	10-11天	{'mods': ['IsRange', 'IsApproximate'], 'unit': 'days'}
+S0019103512003995-1910	8	MeasuredProperty	-1	-1	T228-8	旋转周期	{'HasQuantity': 'T58-8'}
+S0019103512003995-1910	8	MeasuredEntity	111	119	T168-8	HD209458	{'HasProperty': 'T228-8'}
+S0019103512003995-1910	8	Qualifier	126	128	T278-8	估计	{'Qualifies': 'T228-8'}
+S0019103512003995-1910	9	Quantity	187	188	T249-9	三	{'mods': ['IsCount']}
+S0019103512003995-1910	9	MeasuredEntity	192	194	T219-9	凌日	{'HasQuantity': 'T249-9'}
+S0019103512003995-1910	10	Quantity	-1	-1	T2610-10	一个半月之内	{'mods': ['IsRange'], 'unit': 'month'}
+S0019103512003995-1910	10	MeasuredProperty	195	197	T2310-10	发生	{'HasQuantity': 'T2610-10'}
+S0019103512003995-1910	10	MeasuredEntity	-1	-1	T2910-10	G140 M观察	{'HasProperty': 'T2310-10'}
+S0019103512003995-1910	11	Quantity	-1	-1	T611-11	约2小时	{'mods': ['IsApproximate'], 'unit': 'h'}
+S0019103512003995-1910	11	MeasuredProperty	210	212	T2511-11	时间	{'HasQuantity': 'T611-11'}
+S0019103512003995-1910	11	MeasuredEntity	206	208	T3011-11	观察	{'HasProperty': 'T2511-11'}

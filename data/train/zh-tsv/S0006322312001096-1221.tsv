@@ -1,0 +1,22 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0006322312001096-1221	1	Quantity	113	116	T21-1	95%	{'unit': '%'}
+S0006322312001096-1221	1	MeasuredEntity	116	120	T51-1	置信区间	{'HasQuantity': 'T21-1'}
+S0006322312001096-1221	2	Quantity	109	112	T12-2	10%	{'unit': '%'}
+S0006322312001096-1221	2	MeasuredProperty	105	109	T62-2	绝对增加	{'HasQuantity': 'T12-2'}
+S0006322312001096-1221	2	MeasuredEntity	33	37	T1-2	风险评分	{'HasProperty': 'T62-2'}
+S0006322312001096-1221	3	Quantity	157	160	T43-3	90%	{'unit': '%'}
+S0006322312001096-1221	3	MeasuredEntity	-1	-1	T93-3	功率	{'HasQuantity': 'T43-3'}
+S0006322312001096-1221	4	Quantity	146	149	T1-4	.05	
+S0006322312001096-1221	4	MeasuredEntity	-1	-1	T2-4	显著性水平	{'HasQuantity': 'T1-4'}
+S0006322312001096-1221	5	Quantity	188	192	T2-5	1.14	
+S0006322312001096-1221	5	MeasuredProperty	-1	-1	T1-5	比值比	{'HasQuantity': 'T2-5'}
+S0006322312001096-1221	5	MeasuredEntity	165	183	T3-5	弗雷明汉心血管疾病风险评分增加10%	{'HasProperty': 'T1-5'}
+S0006322312001096-1221	6	Quantity	109	112	T34-6	10%	{'unit': '%'}
+S0006322312001096-1221	6	MeasuredProperty	107	109	T74-6	增加	{'HasQuantity': 'T34-6'}
+S0006322312001096-1221	6	MeasuredEntity	165	178	T84-6	弗雷明汉心血管疾病风险评分	{'HasProperty': 'T74-6'}
+S0006322312001096-1221	7	Quantity	223	227	T1-7	1.40	
+S0006322312001096-1221	7	MeasuredProperty	-1	-1	T2-7	比值比	{'HasQuantity': 'T1-7'}
+S0006322312001096-1221	7	MeasuredEntity	-1	-1	T3-7	CES-D定义的抑郁症状	{'HasProperty': 'T2-7'}
+S0006322312001096-1221	8	Quantity	228	232	T3-8	1.24	
+S0006322312001096-1221	8	MeasuredProperty	-1	-1	T2-8	比值比	{'HasQuantity': 'T3-8'}
+S0006322312001096-1221	8	MeasuredEntity	201	206	T1-8	抗抑郁药物	{'HasProperty': 'T2-8'}

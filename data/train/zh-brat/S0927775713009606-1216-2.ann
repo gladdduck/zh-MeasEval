@@ -1,0 +1,6 @@
+T1	Quantity 66 70	0.1°
+T2	MeasuredProperty -1 -1	步长
+T3	MeasuredEntity -1 -1	衍射仪
+R1	HasProperty Arg1:T3 Arg2:T2
+R2	HasQuantity Arg1:T2 Arg2:T1
+T4	Unit 41 42	°

@@ -1,0 +1,12 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S2213158213000582-1390	1	Quantity	0	5	T1-1	50 ms	{'unit': 'ms'}
+S2213158213000582-1390	1	MeasuredEntity	7	11	T3-1	组对比图	{'HasQuantity': 'T1-1'}
+S2213158213000582-1390	2	Quantity	40	44	T3-2	0.05	
+S2213158213000582-1390	2	MeasuredProperty	-1	-1	T2-2	Q	{'HasQuantity': 'T3-2'}
+S2213158213000582-1390	2	MeasuredEntity	-1	-1	T1-2	FDR	{'HasProperty': 'T2-2'}
+S2213158213000582-1390	3	Quantity	106	111	T1-3	50-ms	{'unit': 'ms'}
+S2213158213000582-1390	3	MeasuredProperty	151	153	T4-3	活动	{'HasQuantity': 'T1-3'}
+S2213158213000582-1390	3	MeasuredEntity	-1	-1	T3-3	左右IFG（L-IFG、R-IFG）	{'HasProperty': 'T4-3'}
+S2213158213000582-1390	4	Quantity	0	5	T1-4	50 ms	{'unit': 'ms'}
+S2213158213000582-1390	4	MeasuredProperty	151	153	T3-4	活动	{'HasQuantity': 'T1-4'}
+S2213158213000582-1390	4	MeasuredEntity	134	146	T2-4	左侧缘上回（L-SMG）	{'HasProperty': 'T3-4'}

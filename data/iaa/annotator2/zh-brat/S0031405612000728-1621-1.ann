@@ -1,0 +1,7 @@
+T1	Quantity -1 -1	超过7个月
+T2	MeasuredProperty -1 -1	期间
+A1	QuantityQualifier T1 IsRange
+T3	Unit 26 27	月
+R2	HasQuantity Arg1:T2 Arg2:T1
+T5	MeasuredEntity 0 4	目前调查
+R1	HasProperty Arg1:T5 Arg2:T2

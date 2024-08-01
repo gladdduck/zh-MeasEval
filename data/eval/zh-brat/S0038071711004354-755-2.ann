@@ -1,0 +1,9 @@
+T1	Quantity 168 174	约2.5小时
+A1	IsApproximate T1
+T2	Unit -1 -1	H
+T3	MeasuredEntity 175 186	CO2的δ 13 C值
+T4	MeasuredProperty 186 188	稳定
+R1	HasProperty Arg1:T3 Arg2:T4
+R2	HasQuantity Arg1:T4 Arg2:T1
+T5	Qualifier 174 175	后
+R3	Qualifies Arg1:T5 Arg2:T1

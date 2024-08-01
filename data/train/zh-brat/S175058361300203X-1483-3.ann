@@ -1,0 +1,4 @@
+T1	Quantity 372 373	两
+A1	IsCount T1
+T3	MeasuredEntity 374 381	高孔隙度砂岩层
+R2	HasQuantity Arg1:T3 Arg2:T1

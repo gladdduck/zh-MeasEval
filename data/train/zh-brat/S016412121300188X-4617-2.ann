@@ -1,0 +1,6 @@
+T1	Quantity 99 102	11%
+T2	MeasuredEntity 93 95	最大
+T3	Qualifier 85 92	多个较小的集群
+R1	Qualifies Arg1:T3 Arg2:T2
+R2	HasQuantity Arg1:T2 Arg2:T1
+T4	Unit 76 77	%

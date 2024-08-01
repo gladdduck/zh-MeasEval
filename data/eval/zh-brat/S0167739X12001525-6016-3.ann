@@ -1,0 +1,5 @@
+T1	Quantity 147 151	八分之五
+T2	MeasuredEntity 0 2	场景
+T3	MeasuredProperty -1 -1	平均保持在5%以下
+R2	HasProperty Arg1:T2 Arg2:T3
+R3	HasQuantity Arg1:T3 Arg2:T1

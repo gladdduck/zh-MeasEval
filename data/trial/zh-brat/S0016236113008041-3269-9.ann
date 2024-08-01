@@ -1,0 +1,12 @@
+T109	Quantity -1 -1	接近10 ppm
+#19	AnnotatorNotes T109	ppm
+A19	IsApproximate T109
+T209	MeasuredProperty 10 12	浓度
+R21	HasQuantity Arg1:T209 Arg2:T109
+T319	MeasuredEntity -1 -1	Ti
+R22	HasProperty Arg1:T319 Arg2:T209
+T399	Qualifier 222 228	在两个测试中
+R23	Qualifies Arg1:T399 Arg2:T109
+T389	Qualifier -1 -1	0和2000 ppm SO2
+R24	Qualifies Arg1:T389 Arg2:T319
+T1	Unit 79 82	ppm

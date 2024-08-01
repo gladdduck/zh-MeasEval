@@ -1,0 +1,6 @@
+T1	Quantity -1 -1	每边5毫米
+T2	Unit -1 -1	每边毫米
+T3	MeasuredEntity 292 297	立方源网格
+T4	MeasuredProperty 284 286	体素
+R1	HasQuantity Arg1:T4 Arg2:T1
+R2	HasProperty Arg1:T3 Arg2:T4

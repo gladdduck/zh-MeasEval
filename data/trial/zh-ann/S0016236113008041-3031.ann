@@ -1,0 +1,100 @@
+T2	Quantity -1 -1	ppm 15 ppm
+T1	Quantity -1 -1	从ppm 20到40 ppm
+T9	Qualifier -1 -1	超过八个周期
+T10	Qualifier -1 -1	莉亚霍尔煤炭
+T11	MeasuredProperty 344 345	B
+R2	HasQuantity Arg1:T11 Arg2:T1
+R3	Qualifies Arg1:T9 Arg2:T11
+T12	MeasuredEntity -1 -1	吸附剂
+T13	MeasuredProperty 529 531	Cu
+T14	Qualifier -1 -1	在第一循环中
+T15	Quantity 94 95	2
+T16	MeasuredEntity -1 -1	不同煤种
+R7	HasQuantity Arg1:T16 Arg2:T15
+T17	Quantity -1 -1	八
+T18	MeasuredEntity -1 -1	周期
+R8	HasQuantity Arg1:T18 Arg2:T17
+T19	Quantity -1 -1	八
+T20	MeasuredEntity -1 -1	周期
+R9	HasQuantity Arg1:T20 Arg2:T19
+T21	Quantity -1 -1	两
+T22	MeasuredEntity -1 -1	煤
+R10	HasQuantity Arg1:T22 Arg2:T21
+T23	Quantity -1 -1	五
+T24	MeasuredEntity -1 -1	周期
+R11	HasQuantity Arg1:T24 Arg2:T23
+T3	Quantity -1 -1	从ppm 20至ppm 180 ppm
+T6	Quantity -1 -1	从ppm 250到ppm 550
+T5	Quantity -1 -1	从ppm 200到400 ppm
+T25	Qualifier -1 -1	莉亚霍尔煤炭
+T26	Qualifier 640 643	RDF
+T28	Quantity -1 -1	两
+T29	MeasuredEntity -1 -1	燃料
+R18	HasQuantity Arg1:T29 Arg2:T28
+T30	Quantity -1 -1	八
+T31	MeasuredEntity -1 -1	周期
+R19	HasQuantity Arg1:T31 Arg2:T30
+T7	Quantity -1 -1	从50 ppm到150 ppm
+T8	Qualifier -1 -1	在存在RDF的情况下循环五个周期
+T32	MeasuredEntity -1 -1	吸附剂
+T33	MeasuredProperty 460 462	Ti
+R20	HasProperty Arg1:T32 Arg2:T33
+R21	HasQuantity Arg1:T33 Arg2:T7
+A1	IsCount T15
+A2	IsCount T17
+A3	IsApproximate T1
+A4	QuantityQualifier T1 IsRange
+T34	Qualifier -1 -1	增加
+R23	Qualifies Arg1:T34 Arg2:T1
+#1	AnnotatorNotes T1	ppm
+A5	IsApproximate T2
+#2	AnnotatorNotes T2	ppm
+T35	Quantity -1 -1	第一
+A6	IsCount T35
+T36	MeasuredEntity -1 -1	周期
+R24	HasQuantity Arg1:T36 Arg2:T35
+R6	Qualifies Arg1:T14 Arg2:T2
+T37	Qualifier -1 -1	两种煤在八个周期内保持不变
+R25	Qualifies Arg1:T37 Arg2:T2
+A7	IsApproximate T3
+A8	QuantityQualifier T3 IsRange
+T38	Qualifier -1 -1	在存在RDF的情况下，五个周期内增加
+R13	Qualifies Arg1:T38 Arg2:T3
+T4	Qualifier -1 -1	增加
+R14	Qualifies Arg1:T4 Arg2:T5
+A9	IsApproximate T5
+A10	QuantityQualifier T5 IsRange
+#3	AnnotatorNotes T5	ppm
+A11	IsApproximate T6
+A12	QuantityQualifier T6 IsRange
+#4	AnnotatorNotes T6	ppm
+T39	MeasuredProperty 492 494	Na
+R16	HasQuantity Arg1:T39 Arg2:T6
+A13	IsCount T28
+R1	Qualifies Arg1:T10 Arg2:T1
+T40	MeasuredEntity -1 -1	石灰石
+R27	HasProperty Arg1:T40 Arg2:T11
+R4	HasProperty Arg1:T12 Arg2:T13
+R5	HasQuantity Arg1:T13 Arg2:T2
+R12	HasQuantity Arg1:T13 Arg2:T3
+T41	MeasuredEntity -1 -1	吸附剂
+R15	HasProperty Arg1:T41 Arg2:T39
+R17	HasQuantity Arg1:T39 Arg2:T5
+R26	Qualifies Arg1:T4 Arg2:T6
+R28	Qualifies Arg1:T25 Arg2:T6
+R29	Qualifies Arg1:T26 Arg2:T5
+T27	Qualifier -1 -1	增加
+R30	Qualifies Arg1:T27 Arg2:T7
+A14	IsApproximate T7
+A15	QuantityQualifier T7 IsRange
+#5	AnnotatorNotes T7	ppm
+T42	Quantity -1 -1	五
+A16	IsCount T42
+T43	MeasuredEntity -1 -1	周期
+R31	HasQuantity Arg1:T43 Arg2:T42
+R22	Qualifies Arg1:T8 Arg2:T7
+A17	IsCount T19
+A18	IsCount T21
+A19	IsCount T23
+A20	IsCount T30
+#6	AnnotatorNotes T3	ppm

@@ -1,0 +1,6 @@
+T1	Quantity -1 -1	54.68纳米
+T2	MeasuredProperty 79 84	表面粗糙度
+T3	MeasuredEntity 375 379	CVD层
+R1	HasProperty Arg1:T3 Arg2:T2
+R2	HasQuantity Arg1:T2 Arg2:T1
+T4	Unit 101 103	nm

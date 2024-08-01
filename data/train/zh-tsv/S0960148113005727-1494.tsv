@@ -1,0 +1,6 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0960148113005727-1494	1	Quantity	-1	-1	T1-1	-0.43 ± 0.05个百分点每年	{'mods': ['IsMeanHasTolerance'], 'unit': 'percentage points per year'}
+S0960148113005727-1494	1	MeasuredEntity	2	4	T4-1	措施	{'HasQuantity': 'T1-1'}
+S0960148113005727-1494	1	Qualifier	7	9	T3-1	平均	{'Qualifies': 'T1-1'}
+S0960148113005727-1494	2	Quantity	35	46	T1-2	-1.6 ± 0.2%	{'mods': ['HasTolerance'], 'unit': '%'}
+S0960148113005727-1494	2	MeasuredEntity	30	33	T2-2	年退化	{'HasQuantity': 'T1-2'}

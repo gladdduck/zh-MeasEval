@@ -1,0 +1,4 @@
+T1	Quantity 97 100	45天
+T2	MeasuredEntity 93 96	13代
+T3	Unit 99 100	天
+R1	HasQuantity Arg1:T2 Arg2:T1

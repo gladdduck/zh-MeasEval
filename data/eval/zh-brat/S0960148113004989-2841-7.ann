@@ -1,0 +1,5 @@
+T1	Quantity -1 -1	28.9秒
+A1	IsApproximate T1
+T2	Unit -1 -1	S
+T3	MeasuredEntity -1 -1	不
+R1	HasQuantity Arg1:T3 Arg2:T1

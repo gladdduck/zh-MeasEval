@@ -1,0 +1,6 @@
+T1	Quantity 51 60	1200 °C之前
+T2	MeasuredEntity 132 136	HA分解
+T3	MeasuredProperty 60 62	发生
+T4	Unit 56 58	°C
+R1	HasProperty Arg1:T2 Arg2:T3
+R2	HasQuantity Arg1:T3 Arg2:T1

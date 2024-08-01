@@ -1,0 +1,6 @@
+T1	Quantity -1 -1	1.8 cm
+T2	Unit -1 -1	cm
+T4	MeasuredProperty 12 14	HP
+T5	MeasuredEntity -1 -1	JONSWAP谱
+R1	HasProperty Arg1:T5 Arg2:T4
+R2	HasQuantity Arg1:T4 Arg2:T1

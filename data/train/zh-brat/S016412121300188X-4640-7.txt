@@ -1,0 +1,1 @@
+Indent有一个非常大的一致集群，覆盖了程序52.1%的点。该集群由分布在7个源文件上的54个函数的顶点组成。此集群捕获程序的大部分逻辑功能。在54个函数中，有26个以公共前置“handle_token”开头。这26个功能分别负责在格式化过程中处理特定令牌。例如，handle_token_colon、handle_token_comment、handle_token_comment和handle_token_lbrace分别负责处理colol、逗号、comment和左大括号标记。

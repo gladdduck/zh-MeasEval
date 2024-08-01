@@ -1,0 +1,6 @@
+T1	Quantity 96 103	0.22 nm
+T2	MeasuredProperty -1 -1	表面粗糙度RMS（均方粗糙度）
+T3	MeasuredEntity -1 -1	SiC表面
+R1	HasProperty Arg1:T3 Arg2:T2
+R2	HasQuantity Arg1:T2 Arg2:T1
+T4	Unit 101 103	nm

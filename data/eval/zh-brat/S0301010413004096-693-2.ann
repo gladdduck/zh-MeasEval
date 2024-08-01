@@ -1,0 +1,9 @@
+T1	Quantity 200 205	16wt%
+A1	IsApproximate T1
+T2	Unit -1 -1	重量%
+T3	MeasuredProperty -1 -1	总吸收能力
+R1	HasQuantity Arg1:T3 Arg2:T1
+T4	MeasuredEntity 141 143	H2
+R2	HasProperty Arg1:T4 Arg2:T3
+T5	Qualifier -1 -1	这个财政部大家庭中的几位成员
+R3	Qualifies Arg1:T5 Arg2:T3

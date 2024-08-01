@@ -1,0 +1,6 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0925443913001385-849	1	Quantity	99	108	T1-1	2、5和10 μg	{'mods': ['IsList'], 'unit': 'μg'}
+S0925443913001385-849	1	MeasuredProperty	97	98	T4-1	量	{'HasQuantity': 'T1-1'}
+S0925443913001385-849	1	MeasuredEntity	-1	-1	T3-1	RNAs	{'HasProperty': 'T4-1'}
+S0925443913001385-849	2	Quantity	152	158	T1-2	835 μg	{'unit': 'μg'}
+S0925443913001385-849	2	MeasuredEntity	-1	-1	T3-2	线粒体裂解物	{'HasQuantity': 'T1-2'}

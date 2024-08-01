@@ -1,0 +1,6 @@
+T1	Quantity 125 131	5 K/分钟
+T2	MeasuredEntity -1 -1	退火
+T3	MeasuredProperty -1 -1	加热速率
+R1	HasQuantity Arg1:T3 Arg2:T1
+R2	HasProperty Arg1:T2 Arg2:T3
+T4	Unit -1 -1	K/min

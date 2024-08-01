@@ -1,0 +1,8 @@
+T186	Quantity -1 -1	∼–1‰
+#16	AnnotatorNotes T186	‰
+A16	IsApproximate T186
+T176	MeasuredProperty -1 -1	表观30秒
+R9	HasQuantity Arg1:T176 Arg2:T186
+T166	MeasuredEntity -1 -1	2至20 μm之间尺寸分数的δ 30 Si值
+R10	HasProperty Arg1:T166 Arg2:T176
+T1	Unit 105 106	‰

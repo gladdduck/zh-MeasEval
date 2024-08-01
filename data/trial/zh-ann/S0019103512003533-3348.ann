@@ -1,0 +1,28 @@
+T1	Quantity 430 433	5 s
+T3	MeasuredProperty -1 -1	经度
+T2	Quantity 333 336	10°
+T4	Quantity 326 328	2°
+R1	HasQuantity Arg1:T3 Arg2:T2
+T5	MeasuredProperty -1 -1	纬度
+R2	HasQuantity Arg1:T5 Arg2:T4
+T6	Qualifier -1 -1	间距
+T7	MeasuredProperty -1 -1	垂直分辨率
+T8	Quantity -1 -1	0.4比例高度
+R5	HasQuantity Arg1:T7 Arg2:T8
+T10	MeasuredProperty -1 -1	时间积分步骤
+R8	HasQuantity Arg1:T10 Arg2:T1
+T14	Quantity 458 461	500
+T12	MeasuredEntity -1 -1	土星自转
+R9	HasQuantity Arg1:T12 Arg2:T14
+T13	MeasuredEntity -1 -1	本研究中的模拟
+R3	HasProperty Arg1:T13 Arg2:T5
+R4	HasProperty Arg1:T13 Arg2:T3
+R11	Qualifies Arg1:T6 Arg2:T5
+R12	Qualifies Arg1:T6 Arg2:T3
+#1	AnnotatorNotes T4	°
+#2	AnnotatorNotes T2	°
+A1	IsCount T14
+#3	AnnotatorNotes T1	s
+#4	AnnotatorNotes T8	scale heights
+R6	HasProperty Arg1:T13 Arg2:T7
+R7	HasProperty Arg1:T13 Arg2:T10

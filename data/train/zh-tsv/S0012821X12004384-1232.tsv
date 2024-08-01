@@ -1,0 +1,10 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0012821X12004384-1232	1	Quantity	-1	-1	T11-1	>0.5公里）	{'mods': ['IsRange'], 'unit': 'km'}
+S0012821X12004384-1232	1	MeasuredProperty	16	17	T51-1	深	{'HasQuantity': 'T11-1'}
+S0012821X12004384-1232	1	MeasuredEntity	12	16	T41-1	盆地中部	{'HasProperty': 'T51-1'}
+S0012821X12004384-1232	2	Quantity	-1	-1	T22-2	<10厘米	{'mods': ['IsRange'], 'unit': 'cm'}
+S0012821X12004384-1232	2	MeasuredProperty	85	86	T72-2	薄	{'HasQuantity': 'T22-2'}
+S0012821X12004384-1232	2	MeasuredEntity	87	91	T62-2	浊积砂岩	{'HasProperty': 'T72-2'}
+S0012821X12004384-1232	3	Quantity	-1	-1	T33-3	大约100 m	{'mods': ['IsApproximate'], 'unit': 'm'}
+S0012821X12004384-1232	3	MeasuredProperty	-1	-1	T83-3	下跌	{'HasQuantity': 'T33-3'}
+S0012821X12004384-1232	3	MeasuredEntity	12	14	T93-3	盆地	{'HasProperty': 'T83-3'}

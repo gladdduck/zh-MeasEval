@@ -1,0 +1,10 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S1550413113004920-1509	1	Quantity	5	8	T1-1	147	{'mods': ['IsCount']}
+S1550413113004920-1509	1	MeasuredEntity	35	37	T2-1	患者	{'HasQuantity': 'T1-1'}
+S1550413113004920-1509	2	Quantity	43	47	T1-2	6个月前	{'mods': ['IsRange'], 'unit': 'months'}
+S1550413113004920-1509	2	MeasuredProperty	-1	-1	T2-2	被诊断患有永久性糖尿病	{'HasQuantity': 'T1-2'}
+S1550413113004920-1509	2	MeasuredEntity	-1	-1	T4-2	147名近亲血统患者	{'HasProperty': 'T2-2'}
+S1550413113004920-1509	2	Qualifier	-1	-1	T3-2	年龄	{'Qualifies': 'T1-2'}
+S1550413113004920-1509	3	Quantity	62	66	T1-3	9个月前	{'mods': ['IsRange'], 'unit': 'months'}
+S1550413113004920-1509	3	MeasuredProperty	-1	-1	T3-3	被诊断患有永久性糖尿病	{'HasQuantity': 'T1-3'}
+S1550413113004920-1509	3	MeasuredEntity	-1	-1	T4-3	147名近亲血统患者	{'HasProperty': 'T3-3'}

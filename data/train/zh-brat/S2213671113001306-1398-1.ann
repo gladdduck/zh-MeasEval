@@ -1,0 +1,5 @@
+T1	Quantity -1 -1	1至2mg
+A1	QuantityQualifier T1 IsRange
+T2	Unit -1 -1	mg
+T3	MeasuredEntity -1 -1	玻璃体内注射曲安奈德（MCA）
+R1	HasQuantity Arg1:T3 Arg2:T1

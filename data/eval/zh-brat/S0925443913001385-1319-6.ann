@@ -1,0 +1,4 @@
+T1	Quantity 1308 1309	四
+T2	MeasuredEntity -1 -1	同一家庭的兄弟姐妹
+R1	HasQuantity Arg1:T2 Arg2:T1
+A1	IsCount T1

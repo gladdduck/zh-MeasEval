@@ -1,0 +1,6 @@
+T1	Quantity -1 -1	-109 °C
+T2	Unit -1 -1	°C
+T3	MeasuredEntity 103 110	S-CSR颗粒
+T4	MeasuredProperty -1 -1	空穴化
+R1	HasQuantity Arg1:T4 Arg2:T1
+R2	HasProperty Arg1:T3 Arg2:T4

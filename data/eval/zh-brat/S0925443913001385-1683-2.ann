@@ -1,0 +1,9 @@
+T1	Quantity -1 -1	~ 49%
+T2	Unit 481 482	%
+A1	IsApproximate T1
+T3	MeasuredProperty -1 -1	MRPL 12
+T4	Qualifier 466 470	患者IP
+R1	Qualifies Arg1:T4 Arg2:T3
+T5	MeasuredEntity 512 514	控制
+R2	HasProperty Arg1:T5 Arg2:T3
+R3	HasQuantity Arg1:T3 Arg2:T1

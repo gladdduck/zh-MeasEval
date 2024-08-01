@@ -1,0 +1,91 @@
+T1	Quantity 1004 1012	66.8 ppm
+T5	Quantity 359 367	1000 ppm
+T7	Quantity 359 367	1000 ppm
+T9	Quantity -1 -1	135ppm的
+T10	Quantity -1 -1	接近10 ppm
+T11	Quantity 791 798	407 ppm
+T15	Quantity 989 992	9.4
+T16	Quantity 996 1000	14.1
+T3	Quantity -1 -1	0至1000 ppm
+A1	QuantityQualifier T3 IsRange
+T4	Quantity -1 -1	1000和2000 ppm
+A2	QuantityQualifier T4 IsList
+T6	Quantity -1 -1	0和2000 ppm
+A3	QuantityQualifier T6 IsList
+T32	Qualifier -1 -1	对于单列
+T33	Qualifier -1 -1	用于循环测试
+T31	MeasuredEntity 641 643	Ti
+R14	HasProperty Arg1:T31 Arg2:T20
+T22	MeasuredEntity 29 32	SO2
+T36	MeasuredProperty -1 -1	浓度
+R2	HasProperty Arg1:T22 Arg2:T36
+R19	HasQuantity Arg1:T36 Arg2:T4
+T8	Quantity -1 -1	0和2000 ppm
+A4	QuantityQualifier T8 IsList
+T38	Qualifier -1 -1	0和2000 ppm SO2
+T39	Qualifier -1 -1	在两个测试中
+T40	MeasuredEntity 892 894	Zn
+R27	HasProperty Arg1:T40 Arg2:T21
+T42	MeasuredEntity 29 32	SO2
+T43	MeasuredProperty -1 -1	浓度
+R29	HasProperty Arg1:T42 Arg2:T43
+T20	MeasuredProperty -1 -1	浓度
+R17	HasQuantity Arg1:T20 Arg2:T9
+R18	HasQuantity Arg1:T20 Arg2:T11
+T21	MeasuredProperty -1 -1	浓度
+R24	HasQuantity Arg1:T21 Arg2:T15
+R25	HasQuantity Arg1:T21 Arg2:T16
+R26	HasQuantity Arg1:T21 Arg2:T1
+#6	AnnotatorNotes T3	ppm
+R1	HasQuantity Arg1:T36 Arg2:T3
+#7	AnnotatorNotes T4	ppm
+R3	HasQuantity Arg1:T36 Arg2:T5
+#1	AnnotatorNotes T5	ppm
+#4	AnnotatorNotes T6	ppm
+R4	HasQuantity Arg1:T36 Arg2:T6
+#5	AnnotatorNotes T7	ppm
+R5	HasQuantity Arg1:T36 Arg2:T7
+#8	AnnotatorNotes T9	ppm
+T12	Qualifier 359 371	1000 ppm SO2
+R6	Qualifies Arg1:T12 Arg2:T9
+R7	Qualifies Arg1:T12 Arg2:T11
+R8	Qualifies Arg1:T32 Arg2:T9
+R9	Qualifies Arg1:T33 Arg2:T11
+#9	AnnotatorNotes T11	ppm
+R10	HasQuantity Arg1:T36 Arg2:T8
+#2	AnnotatorNotes T8	ppm
+#10	AnnotatorNotes T10	ppm
+T13	Qualifier 301 304	ppm
+R12	Qualifies Arg1:T13 Arg2:T16
+R13	Qualifies Arg1:T13 Arg2:T15
+T14	Qualifier -1 -1	SO2浓度
+T2	Quantity 296 304	2000 ppm
+#11	AnnotatorNotes T2	ppm
+T17	Quantity 288 289	0
+#12	AnnotatorNotes T17	ppm
+T18	Quantity 287 291	1000
+#13	AnnotatorNotes T18	ppm
+T19	Qualifier 301 304	ppm
+R11	Qualifies Arg1:T19 Arg2:T18
+R15	Qualifies Arg1:T19 Arg2:T17
+R16	HasQuantity Arg1:T43 Arg2:T17
+R20	HasQuantity Arg1:T43 Arg2:T18
+R28	HasQuantity Arg1:T43 Arg2:T2
+T23	Qualifier 288 289	0
+T24	Qualifier 287 291	1000
+T25	Qualifier 296 304	2000 ppm
+R30	Qualifies Arg1:T19 Arg2:T24
+R31	Qualifies Arg1:T19 Arg2:T23
+R32	Qualifies Arg1:T14 Arg2:T23
+R33	Qualifies Arg1:T14 Arg2:T24
+R34	Qualifies Arg1:T14 Arg2:T25
+R35	Qualifies Arg1:T23 Arg2:T15
+R36	Qualifies Arg1:T24 Arg2:T16
+R37	Qualifies Arg1:T25 Arg2:T1
+#14	AnnotatorNotes T1	ppm
+#15	AnnotatorNotes T15	ppm
+#16	AnnotatorNotes T16	ppm
+A5	IsApproximate T10
+R38	HasQuantity Arg1:T20 Arg2:T10
+R21	Qualifies Arg1:T39 Arg2:T10
+R22	Qualifies Arg1:T38 Arg2:T10

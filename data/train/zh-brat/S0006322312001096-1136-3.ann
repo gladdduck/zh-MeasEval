@@ -1,0 +1,4 @@
+T1	Quantity -1 -1	5318名参与者
+T2	Unit 80 83	参与者
+T3	MeasuredEntity -1 -1	Whitehall II研究
+R1	HasQuantity Arg1:T3 Arg2:T1

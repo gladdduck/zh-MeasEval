@@ -1,0 +1,9 @@
+T1	Quantity 99 104	400公里
+T2	Qualifier -1 -1	上述
+T3	Unit 102 104	公里
+A1	QuantityQualifier T1 IsRange
+R1	Qualifies Arg1:T2 Arg2:T1
+T4	MeasuredProperty 97 99	海拔
+T5	MeasuredEntity 2 5	电离层
+R2	HasProperty Arg1:T5 Arg2:T4
+R3	HasQuantity Arg1:T4 Arg2:T1

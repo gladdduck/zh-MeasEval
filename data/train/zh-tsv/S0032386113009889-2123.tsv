@@ -1,0 +1,11 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0032386113009889-2123	1	Quantity	-1	-1	T1-1	约70mpa	{'mods': ['IsApproximate'], 'unit': 'MPa'}
+S0032386113009889-2123	1	MeasuredProperty	-1	-1	T2-1	外加单轴应力	{'HasQuantity': 'T1-1'}
+S0032386113009889-2123	1	MeasuredEntity	15	17	T3-1	脱粘	{'HasProperty': 'T2-1'}
+S0032386113009889-2123	2	Quantity	-1	-1	T1-2	约210 Mpa	{'mods': ['IsApproximate'], 'unit': 'MPa'}
+S0032386113009889-2123	2	MeasuredProperty	284	288	T2-2	静水应力	{'HasQuantity': 'T1-2'}
+S0032386113009889-2123	2	MeasuredEntity	15	17	T3-2	脱粘	{'HasProperty': 'T2-2'}
+S0032386113009889-2123	2	Qualifier	256	260	T5-2	裂纹尖端	{'Qualifies': 'T2-2'}
+S0032386113009889-2123	3	Quantity	-1	-1	T1-3	210 MPa	{'unit': 'MPa'}
+S0032386113009889-2123	3	MeasuredProperty	-1	-1	T2-3	外加静水压	{'HasQuantity': 'T1-3'}
+S0032386113009889-2123	3	MeasuredEntity	-1	-1	T4-3	有限元素分析模拟	{'HasProperty': 'T2-3'}

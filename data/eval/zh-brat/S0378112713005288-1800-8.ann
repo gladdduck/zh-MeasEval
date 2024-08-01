@@ -1,0 +1,5 @@
+T1	Quantity 364 370	超过100%
+T2	MeasuredEntity 359 363	植被覆盖
+A1	QuantityQualifier T1 IsRange
+T3	Unit 369 370	%
+R1	HasQuantity Arg1:T2 Arg2:T1

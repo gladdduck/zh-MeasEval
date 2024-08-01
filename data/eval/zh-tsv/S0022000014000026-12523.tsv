@@ -1,0 +1,5 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0022000014000026-12523	1	Quantity	552	553	T1-1	1	
+S0022000014000026-12523	1	MeasuredProperty	-1	-1	T3-1	开关	{'HasQuantity': 'T1-1'}
+S0022000014000026-12523	1	MeasuredEntity	-1	-1	T2-1	时间T、s、C	{'HasProperty': 'T3-1'}
+S0022000014000026-12523	1	Qualifier	-1	-1	T4-1	在时间tE（tR）	{'Qualifies': 'T3-1'}

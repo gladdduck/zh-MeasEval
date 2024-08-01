@@ -1,0 +1,3 @@
+T1	Quantity 172 179	公元1850年
+T2	MeasuredEntity 179 183	铅污染层
+R1	HasQuantity Arg1:T2 Arg2:T1

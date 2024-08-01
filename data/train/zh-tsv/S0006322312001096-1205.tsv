@@ -1,0 +1,4 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0006322312001096-1205	1	Quantity	24	29	T11-1	过去14天	{'mods': ['IsRange'], 'unit': 'days'}
+S0006322312001096-1205	1	MeasuredProperty	-1	-1	T2-1	使用任何药物	{'HasQuantity': 'T11-1'}
+S0006322312001096-1205	1	MeasuredEntity	15	18	T1-1	参与者	{'HasProperty': 'T2-1'}

@@ -1,0 +1,9 @@
+T1	Quantity 188 192	~80°
+T2	MeasuredEntity -1 -1	案例ES与EF
+T3	Unit 167 168	°
+T4	MeasuredProperty -1 -1	开放（区域I）和封闭场线（区域II）之间的边界
+R1	HasQuantity Arg1:T4 Arg2:T1
+A1	IsApproximate T1
+R2	HasProperty Arg1:T2 Arg2:T4
+T5	Qualifier 46 48	纬度
+R3	Qualifies Arg1:T5 Arg2:T1

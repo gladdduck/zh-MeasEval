@@ -1,0 +1,6 @@
+T1	Quantity 199 205	4.2 mm
+T2	MeasuredEntity 76 87	Spectralis的
+T3	Unit 203 205	mm
+T4	MeasuredProperty 188 194	角膜弯曲设置
+R2	HasProperty Arg1:T2 Arg2:T4
+R1	HasQuantity Arg1:T4 Arg2:T1

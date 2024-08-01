@@ -1,0 +1,7 @@
+T1	Quantity 340 344	12周内
+A1	QuantityQualifier T1 IsRange
+T2	MeasuredProperty -1 -1	产生胎瘤
+T3	MeasuredEntity -1 -1	严重联合免疫缺陷（DID）小鼠的睾丸
+R1	HasQuantity Arg1:T2 Arg2:T1
+R2	HasProperty Arg1:T3 Arg2:T2
+T4	Unit 96 97	周

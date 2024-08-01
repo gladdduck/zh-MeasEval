@@ -1,0 +1,12 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0012821X13007309-1605	1	Quantity	-1	-1	T21-1	北纬30°	{'mods': ['IsApproximate'], 'unit': '°N'}
+S0012821X13007309-1605	1	MeasuredEntity	-1	-1	T11-1	沃孔蒂盆地	{'HasQuantity': 'T21-1'}
+S0012821X13007309-1605	2	Quantity	-1	-1	T32-2	20 m	{'mods': ['IsApproximate'], 'unit': 'm thick'}
+S0012821X13007309-1605	2	MeasuredProperty	74	75	T42-2	厚	{'HasQuantity': 'T32-2'}
+S0012821X13007309-1605	2	MeasuredEntity	-1	-1	T52-2	富含有机物的黑色石灰质页岩包，被称为“尼夫火山”	{'HasProperty': 'T42-2'}
+S0012821X13007309-1605	3	Quantity	-1	-1	T63-3	24 m	{'unit': 'm'}
+S0012821X13007309-1605	3	MeasuredEntity	-1	-1	T73-3	伊索尔桥段	{'HasQuantity': 'T63-3'}
+S0012821X13007309-1605	4	Quantity	59	60	T94-4	)	
+S0012821X13007309-1605	4	MeasuredProperty	162	163	T104-4	n	{'HasQuantity': 'T94-4'}
+S0012821X13007309-1605	4	MeasuredEntity	526	530	T84-4	一些样品	{'HasProperty': 'T104-4'}
+S0012821X13007309-1605	4	Qualifier	-1	-1	T1-4	来自眩晕	{'Qualifies': 'T84-4'}

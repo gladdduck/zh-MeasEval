@@ -1,0 +1,5 @@
+T1	Quantity -1 -1	超过48年
+T2	Unit 154 155	年
+A1	QuantityQualifier T1 IsRange
+T3	MeasuredEntity 153 156	成年人
+R1	HasQuantity Arg1:T3 Arg2:T1

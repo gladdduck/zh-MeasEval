@@ -1,0 +1,11 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0165587612003680-1078	1	Quantity	62	63	T1-1	三	{'mods': ['IsCount']}
+S0165587612003680-1078	1	MeasuredEntity	64	66	T2-1	细菌	{'HasQuantity': 'T1-1'}
+S0165587612003680-1078	2	Quantity	62	63	T1-2	三	{'mods': ['IsCount']}
+S0165587612003680-1078	2	MeasuredEntity	24	31	T2-2	最常见的病原体	{'HasQuantity': 'T1-2'}
+S0165587612003680-1078	3	Quantity	228	230	T1-3	三次	{'unit': 'occasions'}
+S0165587612003680-1078	3	MeasuredProperty	93	95	T4-3	分离	{'HasQuantity': 'T1-3'}
+S0165587612003680-1078	3	MeasuredEntity	-1	-1	T3-3	S.路邓	{'HasProperty': 'T4-3'}
+S0165587612003680-1078	4	Quantity	326	329	T1-4	60%	{'unit': '%'}
+S0165587612003680-1078	4	MeasuredProperty	-1	-1	T2-4	缺点	{'HasQuantity': 'T1-4'}
+S0165587612003680-1078	4	MeasuredEntity	-1	-1	T3-4	从OME中分离的细菌	{'HasProperty': 'T2-4'}

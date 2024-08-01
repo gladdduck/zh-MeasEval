@@ -1,0 +1,6 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0012821X12004384-1415	1	Quantity	-1	-1	T11-1	从2632米到2618米	{'mods': ['IsRange'], 'unit': 'm'}
+S0012821X12004384-1415	1	MeasuredEntity	0	10	T21-1	甲藻囊群1（DA 1	{'HasQuantity': 'T11-1'}
+S0012821X12004384-1415	2	Quantity	89	93	T52-2	平均5%	{'mods': ['IsMean'], 'unit': '%'}
+S0012821X12004384-1415	2	MeasuredProperty	-1	-1	T32-2	壳样囊肿	{'HasQuantity': 'T52-2'}
+S0012821X12004384-1415	2	MeasuredEntity	-1	-1	T42-2	DA1	{'HasProperty': 'T32-2'}

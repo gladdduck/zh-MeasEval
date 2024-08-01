@@ -1,0 +1,5 @@
+T1	Quantity 120 125	15或更小
+A1	QuantityQualifier T1 IsRange
+T2	MeasuredEntity 107 113	最大离子计数
+R1	HasQuantity Arg1:T2 Arg2:T1
+A2	IsCount T1

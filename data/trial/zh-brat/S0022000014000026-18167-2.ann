@@ -1,0 +1,5 @@
+T22	Quantity -1 -1	1位
+#12	AnnotatorNotes T22	bit
+T32	MeasuredEntity -1 -1	导线
+R2	HasQuantity Arg1:T32 Arg2:T22
+T1	Unit -1 -1	位

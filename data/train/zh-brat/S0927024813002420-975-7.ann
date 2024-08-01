@@ -1,0 +1,8 @@
+T1	Quantity 299 304	1.5-3
+T2	Unit -1 -1	/秒
+A1	IsApproximate T1
+A2	QuantityQualifier T1 IsMean
+T3	MeasuredProperty -1 -1	平均总费率
+R2	HasQuantity Arg1:T3 Arg2:T1
+T5	MeasuredEntity -1 -1	PTh和C60沉积
+R3	HasProperty Arg1:T5 Arg2:T3

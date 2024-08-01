@@ -1,0 +1,5 @@
+T217	Quantity 178 179	两
+#17	AnnotatorNotes T217	count
+A17	IsCount T217
+T227	MeasuredEntity 53 54	煤
+R14	HasQuantity Arg1:T227 Arg2:T217

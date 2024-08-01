@@ -1,0 +1,8 @@
+T1	Quantity 245 247	5%
+T2	MeasuredProperty -1 -1	染色体异常细胞
+T3	MeasuredEntity -1 -1	测试批次的hiPSC和hESC
+R1	HasQuantity Arg1:T2 Arg2:T1
+R2	HasProperty Arg1:T3 Arg2:T2
+T4	Unit 246 247	%
+T5	Qualifier 196 210	在贴壁和悬浮条件下长期培养后
+R3	Qualifies Arg1:T5 Arg2:T2

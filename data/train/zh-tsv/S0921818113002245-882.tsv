@@ -1,0 +1,8 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0921818113002245-882	1	Quantity	-1	-1	T1-1	873个瓦格	{'unit': 'varves'}
+S0921818113002245-882	1	MeasuredEntity	25	27	T2-1	系列	{'HasQuantity': 'T1-1'}
+S0921818113002245-882	2	Quantity	172	179	T1-2	公元1850年	
+S0921818113002245-882	2	MeasuredEntity	179	183	T2-2	铅污染层	{'HasQuantity': 'T1-2'}
+S0921818113002245-882	3	Quantity	222	230	T1-3	10.5 m以上	{'mods': ['IsRange'], 'unit': 'm'}
+S0921818113002245-882	3	MeasuredProperty	0	2	T4-3	深度	{'HasQuantity': 'T1-3'}
+S0921818113002245-882	3	MeasuredEntity	209	212	T2-3	沉积物	{'HasProperty': 'T4-3'}

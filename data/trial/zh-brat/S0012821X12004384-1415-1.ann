@@ -1,0 +1,6 @@
+T11	Quantity -1 -1	从2632米到2618米
+#11	AnnotatorNotes T11	m
+A11	QuantityQualifier T11 IsRange
+T21	MeasuredEntity 0 10	甲藻囊群1（DA 1
+R1	HasQuantity Arg1:T21 Arg2:T11
+T1	Unit -1 -1	M

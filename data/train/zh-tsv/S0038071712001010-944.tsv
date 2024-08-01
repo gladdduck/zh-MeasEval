@@ -1,0 +1,12 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0038071712001010-944	1	Quantity	60	64	T1-1	115%	{'unit': '%'}
+S0038071712001010-944	1	MeasuredProperty	-1	-1	T2-1	G. Mosseae加G.线内组合	{'HasQuantity': 'T1-1'}
+S0038071712001010-944	1	MeasuredEntity	-1	-1	T3-1	菌丝生长	{'HasProperty': 'T2-1'}
+S0038071712001010-944	1	Qualifier	-1	-1	T5-1	整厂基础	{'Qualifies': 'T1-1'}
+S0038071712001010-944	2	Quantity	75	79	T1-2	169%	{'unit': '%'}
+S0038071712001010-944	2	MeasuredProperty	-1	-1	T2-2	G. Mosseae加G.线内组合	{'HasQuantity': 'T1-2'}
+S0038071712001010-944	2	MeasuredEntity	-1	-1	T3-2	菌丝生长	{'HasProperty': 'T2-2'}
+S0038071712001010-944	2	Qualifier	-1	-1	T5-2	唯根基础	{'Qualifies': 'T1-2'}
+S0038071712001010-944	3	Quantity	84	89	T1-3	0.001	
+S0038071712001010-944	3	MeasuredProperty	80	81	T3-3	P	{'HasQuantity': 'T1-3'}
+S0038071712001010-944	3	MeasuredEntity	53	59	T2-3	真菌生长反应	{'HasProperty': 'T3-3'}

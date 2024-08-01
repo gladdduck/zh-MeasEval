@@ -1,0 +1,8 @@
+T125	Quantity -1 -1	两次
+#15	AnnotatorNotes T125	Unspecified
+T135	MeasuredProperty -1 -1	旋转速率
+R10	HasQuantity Arg1:T135 Arg2:T125
+T145	MeasuredEntity -1 -1	HD209458
+R11	HasProperty Arg1:T145 Arg2:T135
+T185	Qualifier -1 -1	与太阳的自转速度一样快
+R13	Qualifies Arg1:T185 Arg2:T125

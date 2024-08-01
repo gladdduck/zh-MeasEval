@@ -1,0 +1,10 @@
+T166	Quantity -1 -1	0.4- 0.6wt%
+#16	AnnotatorNotes T166	wt.%
+A16	QuantityQualifier T166 IsRange
+T176	MeasuredProperty -1 -1	ClO 4-
+R12	HasQuantity Arg1:T176 Arg2:T166
+T156	MeasuredEntity 220 222	土壤
+R13	HasProperty Arg1:T156 Arg2:T176
+T186	Qualifier -1 -1	由美国宇航局的凤凰着陆器测量。
+R14	Qualifies Arg1:T186 Arg2:T176
+T1	Unit -1 -1	重量%

@@ -1,0 +1,8 @@
+T1	Quantity -1 -1	高达约3 μm
+T2	MeasuredEntity 424 427	碳颗粒
+T3	Unit 433 435	μm
+A1	IsApproximate T1
+A2	QuantityQualifier T1 IsRange
+T4	MeasuredProperty 428 430	直径
+R1	HasProperty Arg1:T2 Arg2:T4
+R2	HasQuantity Arg1:T4 Arg2:T1

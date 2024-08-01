@@ -1,0 +1,10 @@
+T1	Quantity -1 -1	摄氏100 °C以下
+T2	Unit 122 124	°C
+A1	QuantityQualifier T1 IsRange
+A2	IsApproximate T1
+T4	MeasuredEntity 16 18	样品
+T5	MeasuredProperty 201 203	冷却
+R2	HasQuantity Arg1:T5 Arg2:T1
+R3	HasProperty Arg1:T4 Arg2:T5
+T3	Qualifier 229 231	估计
+R1	Qualifies Arg1:T3 Arg2:T1

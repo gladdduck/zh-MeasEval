@@ -1,0 +1,4 @@
+T1	Quantity 26 31	180 m
+T2	Unit -1 -1	M
+T3	MeasuredEntity 22 25	门中点
+R2	HasQuantity Arg1:T3 Arg2:T1

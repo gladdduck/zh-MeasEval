@@ -1,0 +1,6 @@
+T1	Quantity 258 268	自2004年7月以来
+T2	MeasuredEntity -1 -1	卡西尼号飞船
+T3	MeasuredProperty -1 -1	正式进入土星轨道
+A1	QuantityQualifier T1 IsRange
+R1	HasProperty Arg1:T2 Arg2:T3
+R2	HasQuantity Arg1:T3 Arg2:T1

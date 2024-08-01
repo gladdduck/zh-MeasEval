@@ -1,0 +1,4 @@
+T1	Quantity 272 273	九
+T2	MeasuredEntity -1 -1	薄二氧化碳层
+R1	HasQuantity Arg1:T2 Arg2:T1
+A1	IsCount T1

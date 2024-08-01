@@ -1,0 +1,10 @@
+T25	Quantity -1 -1	ppm 15 ppm
+#15	AnnotatorNotes T25	ppm
+A15	IsApproximate T25
+T135	MeasuredProperty -1 -1	Cu
+R9	HasQuantity Arg1:T135 Arg2:T25
+T125	MeasuredEntity 64 67	吸附剂
+R10	HasProperty Arg1:T125 Arg2:T135
+T375	Qualifier -1 -1	两种煤在八个周期内保持不变
+R12	Qualifies Arg1:T375 Arg2:T25
+T1	Unit 274 277	ppm

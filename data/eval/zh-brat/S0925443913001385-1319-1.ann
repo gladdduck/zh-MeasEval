@@ -1,0 +1,5 @@
+T1	Quantity 34 37	约80
+T2	MeasuredEntity 38 40	蛋白
+A1	IsCount T1
+A2	IsApproximate T1
+R1	HasQuantity Arg1:T2 Arg2:T1

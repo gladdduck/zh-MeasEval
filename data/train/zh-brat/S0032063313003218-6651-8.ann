@@ -1,0 +1,7 @@
+T1	Quantity -1 -1	~8.8mWm-2
+T2	MeasuredEntity -1 -1	病例ES
+T3	MeasuredProperty 285 290	电子能通量
+A1	IsApproximate T1
+T4	Unit -1 -1	mWm-2
+R1	HasProperty Arg1:T2 Arg2:T3
+R2	HasQuantity Arg1:T3 Arg2:T1

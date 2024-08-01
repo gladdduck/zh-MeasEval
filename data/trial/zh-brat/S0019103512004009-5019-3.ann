@@ -1,0 +1,7 @@
+T93	Quantity 231 236	20 eV
+#13	AnnotatorNotes T93	eV
+T83	MeasuredProperty -1 -1	能源
+R5	HasQuantity Arg1:T83 Arg2:T93
+T73	MeasuredEntity -1 -1	单光子
+R6	HasProperty Arg1:T73 Arg2:T83
+T1	Unit -1 -1	EV

@@ -1,0 +1,5 @@
+T1	Quantity 43 49	至少一只耳朵
+T2	MeasuredEntity 49 56	培养/共焦阳性
+T3	Unit 12 14	耳朵
+R1	HasQuantity Arg1:T2 Arg2:T1
+A1	QuantityQualifier T1 IsRange

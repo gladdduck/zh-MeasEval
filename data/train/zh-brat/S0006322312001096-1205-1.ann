@@ -1,0 +1,8 @@
+T11	Quantity 24 29	过去14天
+#11	AnnotatorNotes T11	None
+T1	MeasuredEntity 15 18	参与者
+T2	MeasuredProperty -1 -1	使用任何药物
+R1	HasProperty Arg1:T1 Arg2:T2
+R2	HasQuantity Arg1:T2 Arg2:T11
+T3	Unit 28 29	天
+A1	QuantityQualifier T11 IsRange

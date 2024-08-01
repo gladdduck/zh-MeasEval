@@ -1,0 +1,7 @@
+T11	Quantity -1 -1	17.7 M
+#11	AnnotatorNotes T11	m
+T21	MeasuredProperty 70 71	厚
+R1	HasQuantity Arg1:T21 Arg2:T11
+T31	MeasuredEntity -1 -1	Bridge Creek石灰岩（¥ 12 m）和Hartland页岩（¥ 12.6 m）的部分
+R2	HasProperty Arg1:T31 Arg2:T21
+T1	Unit 235 236	M

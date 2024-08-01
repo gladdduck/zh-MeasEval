@@ -1,0 +1,7 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0019103511004994-1565	1	Quantity	78	83	T11-1	±10分钟	{'mods': ['IsRange'], 'unit': 'min'}
+S0019103511004994-1565	1	MeasuredEntity	61	64	T21-1	时间段	{'HasQuantity': 'T11-1'}
+S0019103511004994-1565	1	Qualifier	-1	-1	T31-1	围绕最近的接近	{'Qualifies': 'T11-1'}
+S0019103511004994-1565	2	Quantity	-1	-1	T42-2	56-100 keV	{'mods': ['IsRange'], 'unit': 'keV'}
+S0019103511004994-1565	2	MeasuredProperty	-1	-1	T62-2	测得的差强度	{'HasQuantity': 'T42-2'}
+S0019103511004994-1565	2	MeasuredEntity	38	40	T52-2	电子	{'HasProperty': 'T62-2'}

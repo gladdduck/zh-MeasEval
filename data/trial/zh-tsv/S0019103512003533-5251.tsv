@@ -1,0 +1,25 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0019103512003533-5251	1	Quantity	-1	-1	T31-1	460 K以下	{'mods': ['IsApproximate', 'IsRange'], 'unit': 'K'}
+S0019103512003533-5251	1	MeasuredProperty	-1	-1	T11-1	高纬度气温	{'HasQuantity': 'T31-1'}
+S0019103512003533-5251	1	MeasuredEntity	8	14	T21-1	土星高层大气	{'HasProperty': 'T11-1'}
+S0019103512003533-5251	2	Quantity	171	181	T62-2	440 ± 50 K	{'mods': ['HasTolerance'], 'unit': 'K'}
+S0019103512003533-5251	2	MeasuredProperty	-1	-1	T42-2	推断温度	{'HasQuantity': 'T62-2'}
+S0019103512003533-5251	2	MeasuredEntity	-1	-1	T52-2	极光卵	{'HasProperty': 'T42-2'}
+S0019103512003533-5251	3	Quantity	226	241	T93-3	（563-624）± 30 K	{'mods': ['IsRangeHasTolerance'], 'unit': 'K'}
+S0019103512003533-5251	3	MeasuredProperty	17	19	T73-3	温度	{'HasQuantity': 'T93-3'}
+S0019103512003533-5251	3	MeasuredEntity	-1	-1	T83-3	土星的极光椭圆形	{'HasProperty': 'T73-3'}
+S0019103512003533-5251	3	Qualifier	-1	-1	T2-3	源自卡西尼号GMS观测	{'Qualifies': 'T73-3'}
+S0019103512003533-5251	4	Quantity	-1	-1	T124-4	高达约650 K	{'mods': ['IsApproximate', 'IsRange'], 'unit': 'K'}
+S0019103512003533-5251	4	MeasuredProperty	257	261	T104-4	极光温度	{'HasQuantity': 'T124-4'}
+S0019103512003533-5251	4	MeasuredEntity	8	10	T114-4	土星	{'HasProperty': 'T104-4'}
+S0019103512003533-5251	5	Quantity	249	254	T135-5	650 K	{'unit': 'K'}
+S0019103512003533-5251	5	MeasuredProperty	306	310	T145-5	极地温度	{'HasQuantity': 'T135-5'}
+S0019103512003533-5251	5	MeasuredEntity	8	10	T165-5	土星	{'HasProperty': 'T145-5'}
+S0019103512003533-5251	6	Quantity	249	254	T176-6	650 K	{'mods': ['IsRange'], 'unit': 'K'}
+S0019103512003533-5251	6	MeasuredProperty	306	310	T146-6	极地温度	{'HasQuantity': 'T176-6'}
+S0019103512003533-5251	6	MeasuredEntity	8	10	T166-6	土星	{'HasProperty': 'T146-6'}
+S0019103512003533-5251	6	Qualifier	-1	-1	T156-6	观察到	{'Qualifies': 'T146-6'}
+S0019103512003533-5251	7	Quantity	-1	-1	T197-7	> 650 K	{'mods': ['IsRange'], 'unit': 'K'}
+S0019103512003533-5251	7	MeasuredProperty	306	310	T147-7	极地温度	{'HasQuantity': 'T197-7'}
+S0019103512003533-5251	7	MeasuredEntity	8	10	T167-7	土星	{'HasProperty': 'T147-7'}
+S0019103512003533-5251	7	Qualifier	-1	-1	T187-7	尚未观察到	{'Qualifies': 'T147-7'}

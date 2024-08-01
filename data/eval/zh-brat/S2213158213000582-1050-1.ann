@@ -1,0 +1,4 @@
+T1	Quantity 39 48	30至130 ms
+T2	Unit -1 -1	MS
+T3	MeasuredEntity 49 53	全脑测量
+R1	HasQuantity Arg1:T3 Arg2:T1

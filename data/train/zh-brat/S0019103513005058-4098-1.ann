@@ -1,0 +1,7 @@
+T1	Quantity -1 -1	从211 K到284 K
+T2	Unit 109 110	K
+A1	QuantityQualifier T1 IsRange
+T3	MeasuredEntity 85 89	表面温度
+T4	MeasuredProperty 110 112	增加
+R1	HasProperty Arg1:T3 Arg2:T4
+R2	HasQuantity Arg1:T4 Arg2:T1

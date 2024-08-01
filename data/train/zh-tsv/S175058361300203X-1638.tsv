@@ -1,0 +1,11 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S175058361300203X-1638	1	Quantity	50	51	T1-1	两	{'mods': ['IsCount']}
+S175058361300203X-1638	1	MeasuredEntity	-1	-1	T2-1	例	{'HasQuantity': 'T1-1'}
+S175058361300203X-1638	2	Quantity	59	64	T1-2	34 °C	{'unit': '°C'}
+S175058361300203X-1638	2	MeasuredEntity	67	69	T3-2	注射	{'HasQuantity': 'T1-2'}
+S175058361300203X-1638	3	Quantity	75	80	T1-3	38 °C	{'unit': '°C'}
+S175058361300203X-1638	3	MeasuredEntity	67	69	T2-3	注射	{'HasQuantity': 'T1-3'}
+S175058361300203X-1638	4	Quantity	50	51	T1-4	两	{'mods': ['IsCount']}
+S175058361300203X-1638	4	MeasuredEntity	-1	-1	T2-4	例	{'HasQuantity': 'T1-4'}
+S175058361300203X-1638	5	Quantity	-1	-1	T1-5	34 ℃和38 ℃	{'mods': ['IsList'], 'unit': '°C'}
+S175058361300203X-1638	5	MeasuredEntity	23	27	T4-5	储层温度	{'HasQuantity': 'T1-5'}

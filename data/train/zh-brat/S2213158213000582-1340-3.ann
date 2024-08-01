@@ -1,0 +1,9 @@
+T1	Quantity 113 119	95.81%
+T2	MeasuredProperty -1 -1	平均百分比方差解释
+T3	MeasuredEntity -1 -1	使用VESTAL的梯度计数据
+T4	Qualifier 110 112	HC
+R1	HasProperty Arg1:T3 Arg2:T2
+R2	HasQuantity Arg1:T2 Arg2:T1
+R3	Qualifies Arg1:T4 Arg2:T2
+A1	QuantityQualifier T1 IsMean
+T5	Unit 118 119	%

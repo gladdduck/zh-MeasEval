@@ -1,0 +1,4 @@
+T1	Quantity -1 -1	100兆瓦
+T2	Unit 14 16	MW
+T3	MeasuredEntity 16 19	风电场
+R1	HasQuantity Arg1:T3 Arg2:T1

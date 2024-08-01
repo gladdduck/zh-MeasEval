@@ -1,0 +1,8 @@
+T1	Quantity -1 -1	48小时后
+T2	MeasuredEntity 52 55	聚集体
+T3	MeasuredProperty 56 63	光学显微镜图像
+T4	Qualifier -1 -1	在超低附着板中接种单一悬浮BC 1细胞后
+R1	HasProperty Arg1:T2 Arg2:T3
+R2	HasQuantity Arg1:T3 Arg2:T1
+T5	Unit -1 -1	H
+R3	Qualifies Arg1:T4 Arg2:T1

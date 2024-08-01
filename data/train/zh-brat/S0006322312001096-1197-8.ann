@@ -1,0 +1,7 @@
+T43	Quantity 315 318	73%
+#13	AnnotatorNotes T43	None
+T113	MeasuredProperty 311 314	灵敏度
+R5	HasQuantity Arg1:T113 Arg2:T43
+T103	MeasuredEntity 62 65	GHQ
+R6	HasProperty Arg1:T103 Arg2:T113
+T1	Unit 245 246	%

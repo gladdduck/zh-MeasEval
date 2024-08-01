@@ -1,0 +1,6 @@
+T1	Quantity -1 -1	0.097纳米
+T2	Unit 31 33	nm
+T3	MeasuredEntity -1 -1	二价阳离子镉2 +
+T4	MeasuredProperty 20 24	离子半径
+R1	HasProperty Arg1:T3 Arg2:T4
+R2	HasQuantity Arg1:T4 Arg2:T1

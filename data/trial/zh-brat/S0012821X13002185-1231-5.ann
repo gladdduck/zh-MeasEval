@@ -1,0 +1,6 @@
+T155	Quantity 394 398	0.92
+#15	AnnotatorNotes T155	r2
+T145	MeasuredProperty 391 393	R2
+R7	HasQuantity Arg1:T145 Arg2:T155
+T165	MeasuredEntity -1 -1	2至20 μm之间尺寸分数的δ 30 Si值
+R8	HasProperty Arg1:T165 Arg2:T145

@@ -1,0 +1,7 @@
+T73	Quantity 166 170	1 μ巴
+#13	AnnotatorNotes T73	μbar
+T113	MeasuredProperty 55 57	水平
+R7	HasQuantity Arg1:T113 Arg2:T73
+T33	MeasuredEntity 32 36	高层大气
+R8	HasProperty Arg1:T33 Arg2:T113
+T1	Unit 168 170	μ巴

@@ -1,0 +1,8 @@
+T1	MeasuredProperty -1 -1	年龄和性别调整的赔率比
+T2	MeasuredEntity -1 -1	CHD风险评分-CHD事件关联
+R1	HasProperty Arg1:T2 Arg2:T1
+T3	Quantity 169 178	1.92-2.65
+A1	QuantityQualifier T3 IsRange
+T4	Qualifier -1 -1	95% CI
+R2	Qualifies Arg1:T4 Arg2:T1
+R3	HasQuantity Arg1:T1 Arg2:T3

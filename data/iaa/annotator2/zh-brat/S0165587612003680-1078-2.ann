@@ -1,0 +1,4 @@
+T1	Quantity 62 63	三
+T2	MeasuredEntity 24 31	最常见的病原体
+R1	HasQuantity Arg1:T2 Arg2:T1
+A1	IsCount T1

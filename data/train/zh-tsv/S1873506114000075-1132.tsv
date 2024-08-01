@@ -1,0 +1,5 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S1873506114000075-1132	1	Quantity	-1	-1	T1-1	48 h	{'unit': 'h'}
+S1873506114000075-1132	1	MeasuredProperty	-1	-1	T4-1	改变	{'HasQuantity': 'T1-1'}
+S1873506114000075-1132	1	MeasuredEntity	8	13	T3-1	分化培养基	{'HasProperty': 'T4-1'}
+S1873506114000075-1132	1	Qualifier	-1	-1	T5-1	在测定前	{'Qualifies': 'T1-1'}

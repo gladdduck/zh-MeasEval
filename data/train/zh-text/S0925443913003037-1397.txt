@@ -1,0 +1,1 @@
+为了研究FARS 2突变对mt-tRNAPhe稳态水平的影响，使用从患者成肌细胞提取的总RNA进行了高分辨率Northern杂交。使用mt-tRNAVal和mt-tRNALeu（Uur）的水平作为上样对照，并评估mt-tRNAPhe的水平相对于对照的百分比。与正常对照组相比，我们观察到mt-tRNAPhe水平下降了约54%（图3D）。

@@ -1,0 +1,10 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S016412121300188X-4069	1	Quantity	26	33	T1-1	9438行代码	{'unit': 'lines of code'}
+S016412121300188X-4069	1	MeasuredProperty	10	12	T3-1	包含	{'HasQuantity': 'T1-1'}
+S016412121300188X-4069	1	MeasuredEntity	3	10	T4-1	开源计算器BC	{'HasProperty': 'T3-1'}
+S016412121300188X-4069	2	Quantity	-1	-1	T1-2	7538 SDG顶点	{'unit': 'SDG vertices'}
+S016412121300188X-4069	2	MeasuredProperty	23	25	T4-2	表示	{'HasQuantity': 'T1-2'}
+S016412121300188X-4069	2	MeasuredEntity	26	33	T2-2	9438行代码	{'HasProperty': 'T4-2'}
+S016412121300188X-4069	3	Quantity	59	63	T1-3	近70%	{'mods': ['IsApproximate'], 'unit': '%'}
+S016412121300188X-4069	3	MeasuredProperty	-1	-1	T3-3	大高原	{'HasQuantity': 'T1-3'}
+S016412121300188X-4069	3	MeasuredEntity	39	42	T4-3	MSG	{'HasProperty': 'T3-3'}

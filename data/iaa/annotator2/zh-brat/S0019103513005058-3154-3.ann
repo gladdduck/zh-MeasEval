@@ -1,0 +1,8 @@
+T1	Quantity 306 311	1000倍
+T2	MeasuredEntity 271 279	高氯酸盐敏感电极
+T3	MeasuredProperty -1 -1	对高氯酸盐更敏感
+T4	Qualifier 280 282	硝酸
+R1	Qualifies Arg1:T4 Arg2:T3
+R2	HasQuantity Arg1:T3 Arg2:T1
+R3	HasProperty Arg1:T2 Arg2:T3
+T5	Unit 310 311	倍

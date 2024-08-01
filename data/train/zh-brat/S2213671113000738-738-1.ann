@@ -1,0 +1,4 @@
+T1	Quantity 133 134	两
+T2	MeasuredEntity 135 141	双盲临床试验
+A1	IsCount T1
+R1	HasQuantity Arg1:T2 Arg2:T1

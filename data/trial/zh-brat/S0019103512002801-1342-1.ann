@@ -1,0 +1,7 @@
+T31	Quantity 16 21	1 RRh
+#11	AnnotatorNotes T31	RRh
+T81	MeasuredProperty 13 15	半径
+R1	HasQuantity Arg1:T81 Arg2:T31
+T71	MeasuredEntity -1 -1	瑞亚
+R2	HasProperty Arg1:T71 Arg2:T81
+T1	Unit -1 -1	RRH

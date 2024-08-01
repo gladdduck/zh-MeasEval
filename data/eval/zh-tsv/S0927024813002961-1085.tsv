@@ -1,0 +1,7 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0927024813002961-1085	1	Quantity	109	114	T1-1	25 °C	{'unit': '°C'}
+S0927024813002961-1085	1	MeasuredProperty	103	108	T3-1	冷模块温度	{'HasQuantity': 'T1-1'}
+S0927024813002961-1085	1	MeasuredEntity	-1	-1	T2-1	STC	{'HasProperty': 'T3-1'}
+S0927024813002961-1085	2	Quantity	92	101	T1-2	1000 W/m2	{'unit': 'W/m2'}
+S0927024813002961-1085	2	MeasuredProperty	-1	-1	T3-2	高辐照度	{'HasQuantity': 'T1-2'}
+S0927024813002961-1085	2	MeasuredEntity	-1	-1	T2-2	STC	{'HasProperty': 'T3-2'}

@@ -1,0 +1,7 @@
+T1	Quantity 53 58	90%以上
+T2	MeasuredEntity -1 -1	患有OME和/或复发性AOM的儿童
+T3	MeasuredProperty -1 -1	已在人类耳膜粘液上发现生物膜
+T4	Unit 55 56	%
+A1	QuantityQualifier T1 IsRange
+R1	HasProperty Arg1:T2 Arg2:T3
+R2	HasQuantity Arg1:T3 Arg2:T1

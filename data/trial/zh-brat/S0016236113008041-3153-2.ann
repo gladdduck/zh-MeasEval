@@ -1,0 +1,8 @@
+T22	Quantity 110 116	<2 ppm
+#12	AnnotatorNotes T22	ppm
+A12	QuantityQualifier T22 IsRange
+T42	MeasuredProperty 104 106	浓度
+R2	HasQuantity Arg1:T42 Arg2:T22
+T62	MeasuredEntity -1 -1	元件
+R3	HasProperty Arg1:T62 Arg2:T42
+T1	Unit 113 116	ppm

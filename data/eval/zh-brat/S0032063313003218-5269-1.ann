@@ -1,0 +1,6 @@
+T1	Quantity 52 65	1998年9月8日至11日
+T2	MeasuredEntity 28 34	极光加热事件
+A1	QuantityQualifier T1 IsRange
+T3	MeasuredProperty 35 39	红外数据
+R2	HasQuantity Arg1:T3 Arg2:T1
+R1	HasProperty Arg1:T2 Arg2:T3

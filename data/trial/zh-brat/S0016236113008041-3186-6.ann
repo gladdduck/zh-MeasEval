@@ -1,0 +1,8 @@
+T48	Quantity 110 118	<0.1 ppm
+#18	AnnotatorNotes T48	ppm
+A18	QuantityQualifier T48 IsRange
+T158	MeasuredProperty 105 109	废气浓度
+R22	HasQuantity Arg1:T158 Arg2:T48
+T148	MeasuredEntity 5 9	微量元素
+R23	HasProperty Arg1:T148 Arg2:T158
+T1	Unit 28 31	ppm

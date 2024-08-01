@@ -1,0 +1,9 @@
+T63	Quantity -1 -1	10%
+#13	AnnotatorNotes T63	%
+T53	MeasuredProperty 1266 1268	概率
+R3	HasQuantity Arg1:T53 Arg2:T63
+T73	MeasuredEntity 146 148	节点
+R4	HasProperty Arg1:T73 Arg2:T53
+T83	Qualifier -1 -1	是有故障的
+R5	Qualifies Arg1:T83 Arg2:T53
+T1	Unit -1 -1	%

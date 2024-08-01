@@ -1,0 +1,9 @@
+T145	Quantity 453 459	77.45°
+#15	AnnotatorNotes T145	°
+T135	MeasuredProperty -1 -1	成角度的点
+R8	HasQuantity Arg1:T135 Arg2:T145
+T125	MeasuredEntity 441 447	低能量望远镜
+R9	HasProperty Arg1:T125 Arg2:T135
+T245	Qualifier -1 -1	从-z方向转向-x方向
+R10	Qualifies Arg1:T245 Arg2:T135
+T1	Unit 458 459	°

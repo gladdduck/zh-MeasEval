@@ -1,0 +1,4 @@
+T1	Quantity 122 127	36个克隆
+T2	Unit 125 127	克隆
+T3	MeasuredEntity -1 -1	通过Southern blotting进行扩展和筛选，以确定是否有类似的重组事件
+R1	HasQuantity Arg1:T3 Arg2:T1

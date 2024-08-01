@@ -1,0 +1,6 @@
+T32	Quantity -1 -1	50至100
+#12	AnnotatorNotes T32	count
+A12	QuantityQualifier T32 IsRange
+A22	IsCount T32
+T42	MeasuredEntity 170 173	针状体
+R2	HasQuantity Arg1:T42 Arg2:T32

@@ -1,0 +1,6 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0016236113008041-913	1	Quantity	14	37	T21-1	0 ppm、1000 ppm和2000 ppm	{'mods': ['IsList'], 'unit': 'ppm'}
+S0016236113008041-913	1	MeasuredProperty	8	13	T71-1	SO2浓度	{'HasQuantity': 'T21-1'}
+S0016236113008041-913	2	Quantity	43	47	T44-2	13公斤	{'unit': 'kg'}
+S0016236113008041-913	2	MeasuredProperty	47	52	T54-2	CaCO3	{'HasQuantity': 'T44-2'}
+S0016236113008041-913	2	MeasuredEntity	-1	-1	T64-2	床存量	{'HasProperty': 'T54-2'}

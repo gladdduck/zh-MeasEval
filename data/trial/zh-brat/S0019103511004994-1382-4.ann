@@ -1,0 +1,7 @@
+T24	Quantity -1 -1	27 keV至21 MeV
+#14	AnnotatorNotes T24	keV / MeV
+A14	QuantityQualifier T24 IsRange
+T74	MeasuredProperty -1 -1	能源
+R6	HasQuantity Arg1:T74 Arg2:T24
+T84	MeasuredEntity 234 236	电子
+R7	HasProperty Arg1:T84 Arg2:T74

@@ -1,0 +1,1 @@
+表达GFP的H9、BBHX 8和A1 ATD-1细胞是通过使用Lipofectamine 2000（Veritas）稳定地感染产生的（Vallier等人，2001年）。GFP阳性细胞分化为前肠细胞，然后分离为单细胞。然后将单独分离的GFP细胞转移到含有非GFP阳性hFSC的孔中。平板接种后12小时目视检查孔，并选择含有单个GFP阳性hFSC的孔进行克隆扩张。

@@ -1,0 +1,21 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0012821X12004384-1178	1	Quantity	-1	-1	T1-1	55.8马	{'unit': 'Ma'}
+S0012821X12004384-1178	1	MeasuredEntity	0	4	T3-1	PETM	{'HasQuantity': 'T1-1'}
+S0012821X12004384-1178	1	Qualifier	28	29	T4-1	前	{'Qualifies': 'T1-1'}
+S0012821X12004384-1178	2	Quantity	-1	-1	T11-2	5-8°C	{'unit': '°C'}
+S0012821X12004384-1178	2	MeasuredProperty	66	68	T31-2	上升	{'HasQuantity': 'T11-2'}
+S0012821X12004384-1178	2	MeasuredEntity	57	61	T21-2	海面温度	{'HasProperty': 'T31-2'}
+S0012821X12004384-1178	2	Qualifier	-1	-1	T41-2	从背景水平来看	{'Qualifies': 'T31-2'}
+S0012821X12004384-1178	3	Quantity	-1	-1	T1-3	超过20 ka	{'mods': ['IsRange'], 'unit': 'ka'}
+S0012821X12004384-1178	3	MeasuredProperty	-1	-1	T4-3	大量注入	{'HasQuantity': 'T1-3'}
+S0012821X12004384-1178	3	MeasuredEntity	-1	-1	T3-3	δ 13 C耗尽碳	{'HasProperty': 'T4-3'}
+S0012821X12004384-1178	3	Qualifier	-1	-1	T5-3	进入海洋大气系统	{'Qualifies': 'T4-3'}
+S0012821X12004384-1178	4	Quantity	-1	-1	T1-4	-2至-7 ‰之间	{'mods': ['IsRange'], 'unit': '‰'}
+S0012821X12004384-1178	4	MeasuredProperty	-1	-1	T3-4	负碳同位素	{'HasQuantity': 'T1-4'}
+S0012821X12004384-1178	4	MeasuredEntity	193	201	T4-4	海洋和陆地沉积物	{'HasProperty': 'T3-4'}
+S0012821X12004384-1178	5	Quantity	-1	-1	T1-5	170 ka	{'unit': 'ka'}
+S0012821X12004384-1178	5	MeasuredProperty	-1	-1	T4-5	持久	{'HasQuantity': 'T1-5'}
+S0012821X12004384-1178	5	MeasuredEntity	-1	-1	T3-5	负碳同位素漂移（CIC）	{'HasProperty': 'T4-5'}
+S0012821X12004384-1178	6	Quantity	-1	-1	T1-6	<-60 ‰	{'mods': ['IsRange'], 'unit': '‰'}
+S0012821X12004384-1178	6	MeasuredProperty	-1	-1	T2-6	δ 13 C	{'HasQuantity': 'T1-6'}
+S0012821X12004384-1178	6	MeasuredEntity	-1	-1	T4-6	含有生物甲烷的海洋水龟	{'HasProperty': 'T2-6'}

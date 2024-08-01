@@ -1,0 +1,7 @@
+T2	Unit 37 38	M
+T3	MeasuredEntity -1 -1	盐斜分层和陆上输入增强
+T1	Quantity -1 -1	从4m
+A1	QuantityQualifier T1 IsRange
+T4	Qualifier -1 -1	在英国国际经济委员会之前
+R1	HasQuantity Arg1:T3 Arg2:T1
+R2	Qualifies Arg1:T4 Arg2:T1

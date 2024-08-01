@@ -1,0 +1,3 @@
+T1	Quantity 1 3	室温
+T2	MeasuredEntity 425 427	样品
+R1	HasQuantity Arg1:T2 Arg2:T1

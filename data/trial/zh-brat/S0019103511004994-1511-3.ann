@@ -1,0 +1,5 @@
+T233	Quantity 204 205	五
+#13	AnnotatorNotes T233	count
+A13	IsCount T233
+T223	MeasuredEntity -1 -1	检测器
+R5	HasQuantity Arg1:T223 Arg2:T233

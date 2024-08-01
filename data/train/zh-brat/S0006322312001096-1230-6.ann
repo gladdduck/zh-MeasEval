@@ -1,0 +1,7 @@
+T46	Quantity 221 225	9.2%
+#16	AnnotatorNotes T46	None
+T156	MeasuredProperty -1 -1	使用过的抗抑郁药物
+R11	HasQuantity Arg1:T156 Arg2:T46
+T166	MeasuredEntity -1 -1	有CES-D抑郁症状的人
+R12	HasProperty Arg1:T166 Arg2:T156
+T1	Unit 96 97	%

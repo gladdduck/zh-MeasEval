@@ -1,0 +1,8 @@
+T44	Quantity 82 86	长达1周
+#14	AnnotatorNotes T44	week
+T84	MeasuredProperty -1 -1	通过湿碱性消化溶解
+R6	HasQuantity Arg1:T84 Arg2:T44
+A1	QuantityQualifier T44 IsRange
+T1	Unit 85 86	周
+T2	MeasuredEntity -1 -1	清洁海绵
+R1	HasProperty Arg1:T2 Arg2:T84

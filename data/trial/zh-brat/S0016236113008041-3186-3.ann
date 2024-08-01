@@ -1,0 +1,9 @@
+T63	Quantity 75 79	0.42
+#13	AnnotatorNotes T63	ppm
+T123	MeasuredProperty 12 14	浓度
+R9	HasQuantity Arg1:T123 Arg2:T63
+T113	MeasuredEntity 36 37	W
+R10	HasProperty Arg1:T113 Arg2:T123
+T163	Unit 28 31	ppm
+T193	Qualifier 52 53	6
+R12	Qualifies Arg1:T193 Arg2:T123

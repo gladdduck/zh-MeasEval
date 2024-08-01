@@ -1,0 +1,9 @@
+T41	Quantity 118 120	2°
+#11	AnnotatorNotes T41	°
+T51	MeasuredProperty 107 109	纬度
+R1	HasQuantity Arg1:T51 Arg2:T41
+T131	MeasuredEntity 95 102	本研究中的模拟
+R2	HasProperty Arg1:T131 Arg2:T51
+T61	Qualifier -1 -1	间距
+R3	Qualifies Arg1:T61 Arg2:T51
+T1	Unit 119 120	°

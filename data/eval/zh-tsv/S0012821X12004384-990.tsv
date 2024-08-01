@@ -1,0 +1,22 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0012821X12004384-990	1	Quantity	6	7	T1-1	两	{'mods': ['IsCount']}
+S0012821X12004384-990	1	MeasuredEntity	8	9	T2-1	轴	{'HasQuantity': 'T1-1'}
+S0012821X12004384-990	1	Qualifier	-1	-1	T3-1	第一	{'Qualifies': 'T1-1'}
+S0012821X12004384-990	2	Quantity	35	38	T1-2	39%	{'unit': '%'}
+S0012821X12004384-990	2	MeasuredProperty	-1	-1	T4-2	轴线1	{'HasQuantity': 'T1-2'}
+S0012821X12004384-990	2	MeasuredEntity	31	34	T3-2	总方差	{'HasProperty': 'T4-2'}
+S0012821X12004384-990	2	Qualifier	22	27	T2-2	每克总计数	{'Qualifies': 'T3-2'}
+S0012821X12004384-990	3	Quantity	46	49	T1-3	17%	{'unit': '%'}
+S0012821X12004384-990	3	MeasuredProperty	-1	-1	T2-3	轴线2	{'HasQuantity': 'T1-3'}
+S0012821X12004384-990	3	MeasuredEntity	31	34	T3-3	总方差	{'HasProperty': 'T2-3'}
+S0012821X12004384-990	3	Qualifier	22	27	T4-3	每克总计数	{'Qualifies': 'T3-3'}
+S0012821X12004384-990	4	Quantity	72	75	T1-4	31%	{'unit': '%'}
+S0012821X12004384-990	4	MeasuredProperty	-1	-1	T4-4	轴线1	{'HasQuantity': 'T1-4'}
+S0012821X12004384-990	4	MeasuredEntity	31	34	T5-4	总方差	{'HasProperty': 'T4-4'}
+S0012821X12004384-990	4	Qualifier	22	27	T3-4	每克总计数	{'Qualifies': 'T5-4'}
+S0012821X12004384-990	5	Quantity	83	86	T1-5	11%	{'unit': '%'}
+S0012821X12004384-990	5	MeasuredProperty	-1	-1	T3-5	轴线2	{'HasQuantity': 'T1-5'}
+S0012821X12004384-990	5	MeasuredEntity	31	34	T2-5	总方差	{'HasProperty': 'T3-5'}
+S0012821X12004384-990	5	Qualifier	22	27	T4-5	每克总计数	{'Qualifies': 'T2-5'}
+S0012821X12004384-990	6	Quantity	-1	-1	T1-6	2619.60 m和2614.71 m	{'mods': ['IsList'], 'unit': 'm'}
+S0012821X12004384-990	6	MeasuredEntity	185	187	T3-6	样品	{'HasQuantity': 'T1-6'}

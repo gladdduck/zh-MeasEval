@@ -1,0 +1,4 @@
+T1	Quantity -1 -1	38 °C
+T2	MeasuredEntity 333 336	注入点
+R1	HasQuantity Arg1:T2 Arg2:T1
+T3	Unit 148 150	°C

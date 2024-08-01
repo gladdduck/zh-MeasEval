@@ -1,0 +1,7 @@
+T93	Quantity 264 268	0.1%
+#13	AnnotatorNotes T93	%
+T83	MeasuredProperty 246 254	时间平均火山通量
+R6	HasQuantity Arg1:T83 Arg2:T93
+T103	MeasuredEntity 255 263	现代陆地火山通量
+R7	HasProperty Arg1:T103 Arg2:T83
+T1	Unit 267 268	%

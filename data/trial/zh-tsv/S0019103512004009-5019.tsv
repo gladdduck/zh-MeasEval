@@ -1,0 +1,13 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0019103512004009-5019	1	Quantity	101	108	T41-1	30 nbar	{'unit': 'nbar'}
+S0019103512004009-5019	1	MeasuredProperty	-1	-1	T31-1	下边界	{'HasQuantity': 'T41-1'}
+S0019103512004009-5019	1	MeasuredEntity	7	9	T51-1	模型	{'HasProperty': 'T31-1'}
+S0019103512004009-5019	2	Quantity	112	118	T12-2	1000 K	{'unit': 'K'}
+S0019103512004009-5019	2	MeasuredProperty	109	111	T22-2	温度	{'HasQuantity': 'T12-2'}
+S0019103512004009-5019	2	MeasuredEntity	7	9	T52-2	模型	{'HasProperty': 'T22-2'}
+S0019103512004009-5019	3	Quantity	231	236	T93-3	20 eV	{'unit': 'eV'}
+S0019103512004009-5019	3	MeasuredProperty	-1	-1	T83-3	能源	{'HasQuantity': 'T93-3'}
+S0019103512004009-5019	3	MeasuredEntity	-1	-1	T73-3	单光子	{'HasProperty': 'T83-3'}
+S0019103512004009-5019	4	Quantity	214	224	T104-4	0.45 W m-2	{'unit': 'W m−2'}
+S0019103512004009-5019	4	MeasuredEntity	209	213	T114-4	恒星通量	{'HasQuantity': 'T104-4'}
+S0019103512004009-5019	4	Qualifier	-1	-1	T64-4	HD 209458 b的轨道位置	{'Qualifies': 'T114-4'}

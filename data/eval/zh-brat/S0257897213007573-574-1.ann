@@ -1,0 +1,6 @@
+T1	Quantity 13 22	2 x 2 μm2
+T2	MeasuredEntity -1 -1	SiC晶片
+R1	HasQuantity Arg1:T2 Arg2:T1
+T3	Unit 19 22	μm2
+T4	Qualifier -1 -1	AFM图像
+R2	Qualifies Arg1:T4 Arg2:T2

@@ -1,0 +1,3 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0032386113005454-1270	1	Quantity	18	23	T1-1	20 °C	{'unit': '°C'}
+S0032386113005454-1270	1	MeasuredEntity	0	17	T2-1	未改性和S-CSR改性的环氧聚合物	{'HasQuantity': 'T1-1'}

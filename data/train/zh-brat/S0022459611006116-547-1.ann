@@ -1,0 +1,4 @@
+T1	Quantity -1 -1	298 K。
+T2	MeasuredEntity -1 -1	来自PWD和NSO的（1）的细化晶体学参数
+R1	HasQuantity Arg1:T2 Arg2:T1
+T3	Unit 5 6	K

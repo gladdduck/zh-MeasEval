@@ -1,0 +1,1 @@
+50 ms时的组对比图（图3）显示STG和非STG区域的组差异（HDR q < 0.05）。HC的左侧和右侧STG（L-STG、R-STG）、右侧颞下回（R-ITG）以及左侧和右侧IFG（L-IFG、R-IFG）50-ms活性比AZ强。ZZ的右侧额上回（R-SFG）和左侧缘上回（L-SMG）50 ms活动强于HC。

@@ -1,0 +1,6 @@
+T1	Quantity 40 45	0.64%
+T2	Unit 44 45	%
+T3	MeasuredProperty -1 -1	BS 1的分数积分差亮度
+T4	MeasuredEntity -1 -1	H滤波器
+R1	HasProperty Arg1:T4 Arg2:T3
+R2	HasQuantity Arg1:T3 Arg2:T1

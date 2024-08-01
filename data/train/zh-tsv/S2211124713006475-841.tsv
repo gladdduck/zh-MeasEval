@@ -1,0 +1,4 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S2211124713006475-841	1	Quantity	21	23	T1-1	6周	{'unit': 'weeks'}
+S2211124713006475-841	1	MeasuredProperty	18	21	T3-1	移植后	{'HasQuantity': 'T1-1'}
+S2211124713006475-841	1	MeasuredEntity	26	32	T2-1	GH血浆水平	{'HasProperty': 'T3-1'}

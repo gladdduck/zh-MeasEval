@@ -1,0 +1,9 @@
+T1	Quantity 8 17	50和100 ms
+T2	Unit -1 -1	MS
+A1	QuantityQualifier T1 IsList
+T3	MeasuredEntity 18 21	STG
+T4	MeasuredProperty 21 23	活动
+R1	HasProperty Arg1:T3 Arg2:T4
+R2	HasQuantity Arg1:T4 Arg2:T1
+T5	Qualifier -1 -1	双边
+R3	Qualifies Arg1:T5 Arg2:T3

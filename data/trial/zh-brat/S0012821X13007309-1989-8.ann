@@ -1,0 +1,7 @@
+T28	Quantity 583 586	25%
+#18	AnnotatorNotes T28	%
+T68	MeasuredProperty -1 -1	从唇部
+R19	HasQuantity Arg1:T68 Arg2:T28
+T48	MeasuredEntity -1 -1	O输入
+R20	HasProperty Arg1:T48 Arg2:T68
+T1	Unit 479 480	%

@@ -1,0 +1,5 @@
+T25	Quantity -1 -1	500纳米x 500纳米
+#15	AnnotatorNotes T25	nm x nm
+T35	MeasuredEntity 152 156	扫描区域
+R5	HasQuantity Arg1:T35 Arg2:T25
+T1	Unit 142 144	nm

@@ -1,0 +1,5 @@
+T2	Quantity 0 11	1.5毫米和8.5毫米
+A1	QuantityQualifier T2 IsList
+T3	MeasuredEntity 11 13	海滩
+R1	HasQuantity Arg1:T3 Arg2:T2
+T1	Unit -1 -1	mm

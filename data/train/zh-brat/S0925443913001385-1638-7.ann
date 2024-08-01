@@ -1,0 +1,8 @@
+T1	Quantity 242 245	22%
+T2	Unit 29 30	%
+T3	MeasuredProperty -1 -1	12 S mRNA水平
+T4	Qualifier 20 22	降低
+R1	Qualifies Arg1:T4 Arg2:T3
+R2	HasQuantity Arg1:T3 Arg2:T1
+T5	MeasuredEntity 23 25	控制
+R3	HasProperty Arg1:T5 Arg2:T3

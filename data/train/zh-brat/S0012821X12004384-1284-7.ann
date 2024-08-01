@@ -1,0 +1,5 @@
+T22	Quantity 363 365	5%
+#12	AnnotatorNotes T22	None
+T72	MeasuredEntity 366 369	HCl
+R4	HasQuantity Arg1:T72 Arg2:T22
+T1	Unit 90 91	%

@@ -1,0 +1,6 @@
+T1	Quantity 99 105	99.95%
+T2	Unit 104 105	%
+T3	MeasuredEntity 73 75	铁片
+T4	MeasuredProperty 105 107	纯度
+R1	HasQuantity Arg1:T4 Arg2:T1
+R2	HasProperty Arg1:T3 Arg2:T4

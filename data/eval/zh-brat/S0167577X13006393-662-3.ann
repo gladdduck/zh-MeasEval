@@ -1,0 +1,6 @@
+T1	Quantity -1 -1	12.2 kV
+T2	Unit -1 -1	kV
+T3	MeasuredProperty 61 63	电压
+R1	HasQuantity Arg1:T3 Arg2:T1
+T4	MeasuredEntity 56 60	电纺喷嘴
+R2	HasProperty Arg1:T4 Arg2:T3

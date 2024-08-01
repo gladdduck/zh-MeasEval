@@ -1,0 +1,4 @@
+T1	Quantity -1 -1	1.0 kg
+T2	Unit -1 -1	kg
+T3	MeasuredEntity 24 25	板
+R1	HasQuantity Arg1:T3 Arg2:T1

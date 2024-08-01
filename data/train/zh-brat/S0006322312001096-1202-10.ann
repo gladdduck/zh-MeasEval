@@ -1,0 +1,9 @@
+T25	Quantity 266 269	89%
+#15	AnnotatorNotes T25	None
+T85	MeasuredProperty -1 -1	灵敏度
+R1	HasQuantity Arg1:T85 Arg2:T25
+T105	Qualifier 194 203	CES-D抑郁症状
+R2	Qualifies Arg1:T105 Arg2:T85
+T1	Unit 268 269	%
+T2	MeasuredEntity -1 -1	结构性精神病学访谈
+R3	HasProperty Arg1:T2 Arg2:T85

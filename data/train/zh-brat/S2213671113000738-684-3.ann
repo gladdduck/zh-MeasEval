@@ -1,0 +1,6 @@
+T1	Quantity 108 111	2个月
+T2	MeasuredEntity 117 130	血清干扰素-γ水平暂时升高
+R1	HasQuantity Arg1:T2 Arg2:T1
+T3	Unit 35 37	个月
+T4	Qualifier -1 -1	三只动物移植后
+R2	Qualifies Arg1:T4 Arg2:T1

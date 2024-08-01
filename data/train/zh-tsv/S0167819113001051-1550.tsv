@@ -1,0 +1,4 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0167819113001051-1550	1	Quantity	-1	-1	T1-1	大约2%	{'mods': ['IsApproximate'], 'unit': '%'}
+S0167819113001051-1550	1	MeasuredProperty	-1	-1	T4-1	常规单元陷入僵局	{'HasQuantity': 'T1-1'}
+S0167819113001051-1550	1	MeasuredEntity	-1	-1	T2-1	出现故障的时候	{'HasProperty': 'T4-1'}

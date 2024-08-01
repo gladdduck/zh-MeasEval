@@ -1,0 +1,8 @@
+T44	Quantity 377 381	>90%
+#14	AnnotatorNotes T44	None
+A14	QuantityQualifier T44 IsRange
+T1	MeasuredEntity -1 -1	>250 μm级分
+T2	MeasuredProperty -1 -1	无定形有机物（AOM）
+R1	HasProperty Arg1:T1 Arg2:T2
+R2	HasQuantity Arg1:T2 Arg2:T44
+T3	Unit 380 381	%

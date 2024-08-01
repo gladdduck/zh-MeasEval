@@ -1,0 +1,11 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0168945213001805-4454	1	Quantity	119	121	T1-1	八年	{'unit': 'year'}
+S0168945213001805-4454	1	MeasuredEntity	121	123	T2-1	研究	{'HasQuantity': 'T1-1'}
+S0168945213001805-4454	2	Quantity	144	150	T1-2	42-48%	{'mods': ['IsRange'], 'unit': '%'}
+S0168945213001805-4454	2	MeasuredProperty	137	144	T3-2	净光合作用增加	{'HasQuantity': 'T1-2'}
+S0168945213001805-4454	2	MeasuredEntity	115	118	T6-2	落叶林	{'HasProperty': 'T3-2'}
+S0168945213001805-4454	2	Qualifier	-1	-1	T2-2	碳富集	{'Qualifies': 'T3-2'}
+S0168945213001805-4454	2	Qualifier	-1	-1	T5-2	相对于对照	{'Qualifies': 'T1-2'}
+S0168945213001805-4454	3	Quantity	202	208	T1-3	15-27%	{'mods': ['IsRange'], 'unit': '%'}
+S0168945213001805-4454	3	MeasuredProperty	-1	-1	T2-3	增加的生物量产量	{'HasQuantity': 'T1-3'}
+S0168945213001805-4454	3	MeasuredEntity	-1	-1	T5-3	田间地块中通过补充CO2进行自由空气浓缩	{'HasProperty': 'T2-3'}

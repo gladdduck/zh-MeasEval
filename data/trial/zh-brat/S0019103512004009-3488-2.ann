@@ -1,0 +1,12 @@
+T12	Quantity -1 -1	1300 K至3500 K
+#12	AnnotatorNotes T12	K
+A12	QuantityQualifier T12 IsRange
+T52	MeasuredProperty 38 40	温度
+R3	HasQuantity Arg1:T52 Arg2:T12
+T32	MeasuredEntity 32 36	高层大气
+R4	HasProperty Arg1:T32 Arg2:T52
+T42	Qualifier -1 -1	增加
+R5	Qualifies Arg1:T42 Arg2:T12
+T62	Qualifier -1 -1	接近1 μ巴水平
+R6	Qualifies Arg1:T62 Arg2:T52
+T1	Unit 180 181	K

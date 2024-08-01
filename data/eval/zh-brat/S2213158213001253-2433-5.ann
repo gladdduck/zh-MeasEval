@@ -1,0 +1,9 @@
+T1	Quantity 159 165	接近100%
+T2	Unit 164 165	%
+T3	MeasuredProperty 155 159	假阳性率
+T4	MeasuredEntity 34 41	sMRI分类器
+R1	HasProperty Arg1:T4 Arg2:T3
+R2	HasQuantity Arg1:T3 Arg2:T1
+A1	QuantityQualifier T1 IsRange
+T5	Qualifier 22 25	ROC
+R3	Qualifies Arg1:T5 Arg2:T4

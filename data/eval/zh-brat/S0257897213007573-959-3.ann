@@ -1,0 +1,6 @@
+T1	Quantity 297 304	1.46 nm
+T2	MeasuredProperty 79 84	表面粗糙度
+T3	Unit 101 103	nm
+T4	MeasuredEntity 11 15	CDC层
+R1	HasProperty Arg1:T4 Arg2:T2
+R2	HasQuantity Arg1:T2 Arg2:T1

@@ -1,0 +1,7 @@
+T1	Quantity -1 -1	5 Mt之后
+T2	Unit 35 37	Mt
+A1	QuantityQualifier T1 IsRange
+T3	MeasuredEntity 38 41	CO2
+T4	MeasuredProperty 31 33	注入
+R1	HasProperty Arg1:T3 Arg2:T4
+R2	HasQuantity Arg1:T4 Arg2:T1

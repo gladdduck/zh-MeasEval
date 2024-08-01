@@ -1,0 +1,7 @@
+T1	Quantity 552 553	1
+T2	MeasuredEntity -1 -1	时间T、s、C
+T3	MeasuredProperty -1 -1	开关
+T4	Qualifier -1 -1	在时间tE（tR）
+R1	Qualifies Arg1:T4 Arg2:T3
+R2	HasProperty Arg1:T2 Arg2:T3
+R3	HasQuantity Arg1:T3 Arg2:T1

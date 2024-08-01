@@ -1,0 +1,7 @@
+T1	Quantity -1 -1	14.8°C
+T2	MeasuredEntity -1 -1	网站
+T3	MeasuredProperty -1 -1	年均温
+R1	HasProperty Arg1:T2 Arg2:T3
+R2	HasQuantity Arg1:T3 Arg2:T1
+A1	QuantityQualifier T1 IsMean
+T4	Unit 14 16	°C

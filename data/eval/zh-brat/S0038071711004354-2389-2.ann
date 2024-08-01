@@ -1,0 +1,6 @@
+T1	Quantity 51 54	56%
+T2	MeasuredEntity -1 -1	Rs
+T3	MeasuredProperty -1 -1	0.18克CO2 m-2 h-1的自营通量
+R1	HasProperty Arg1:T2 Arg2:T3
+R2	HasQuantity Arg1:T3 Arg2:T1
+T4	Unit 53 54	%

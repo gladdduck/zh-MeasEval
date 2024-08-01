@@ -1,0 +1,7 @@
+T1	Quantity -1 -1	60或63毫米
+T2	MeasuredEntity -1 -1	PVC管
+A1	QuantityQualifier T1 IsList
+T3	Unit 204 206	mm
+T4	MeasuredProperty 198 200	内径
+R1	HasProperty Arg1:T2 Arg2:T4
+R2	HasQuantity Arg1:T4 Arg2:T1

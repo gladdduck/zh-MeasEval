@@ -1,0 +1,7 @@
+T1	Quantity -1 -1	~ 70%
+T3	MeasuredProperty 38 40	蛋白
+T4	Unit 1502 1503	%
+A1	IsApproximate T1
+R2	HasQuantity Arg1:T3 Arg2:T1
+T2	MeasuredEntity -1 -1	人类有丝分裂体
+R1	HasProperty Arg1:T2 Arg2:T3

@@ -1,0 +1,5 @@
+T238	Quantity 358 359	五
+#18	AnnotatorNotes T238	count
+A18	IsCount T238
+T248	MeasuredEntity 267 269	周期
+R15	HasQuantity Arg1:T248 Arg2:T238

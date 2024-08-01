@@ -1,0 +1,9 @@
+T155	Quantity 204 208	1：60
+#15	AnnotatorNotes T155	ratio
+A15	IsApproximate T155
+T225	MeasuredProperty 201 203	比率
+R14	HasQuantity Arg1:T225 Arg2:T155
+T145	MeasuredEntity 193 201	高氯酸盐：硝酸盐
+R15	HasProperty Arg1:T145 Arg2:T225
+T165	Qualifier -1 -1	以EETA 79001测量
+R16	Qualifies Arg1:T165 Arg2:T145

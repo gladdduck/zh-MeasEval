@@ -1,0 +1,5 @@
+T1	Quantity 215 217	60
+T2	MeasuredProperty 211 212	n
+T3	MeasuredEntity 17 21	双室测试
+R1	HasProperty Arg1:T3 Arg2:T2
+R2	HasQuantity Arg1:T2 Arg2:T1

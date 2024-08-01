@@ -1,0 +1,6 @@
+T1	Quantity -1 -1	10 - 5 mbar
+T2	MeasuredEntity 90 93	电离层
+T3	MeasuredProperty 95 99	密度水平
+T4	Unit -1 -1	毫巴
+R1	HasProperty Arg1:T2 Arg2:T3
+R2	HasQuantity Arg1:T3 Arg2:T1

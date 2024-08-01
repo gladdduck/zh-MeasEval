@@ -1,0 +1,4 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0019103512003995-1283	1	Quantity	28	34	T1-1	7200 K	{'mods': ['IsMean'], 'unit': 'K'}
+S0019103512003995-1283	1	MeasuredProperty	23	27	T3-1	平均温度	{'HasQuantity': 'T1-1'}
+S0019103512003995-1283	1	MeasuredEntity	-1	-1	T2-1	K10的经验模型	{'HasProperty': 'T3-1'}

@@ -1,0 +1,4 @@
+T1	Quantity -1 -1	873个瓦格
+T2	MeasuredEntity 25 27	系列
+R1	HasQuantity Arg1:T2 Arg2:T1
+T3	Unit -1 -1	纹泥

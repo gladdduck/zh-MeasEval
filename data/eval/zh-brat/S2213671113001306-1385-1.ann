@@ -1,0 +1,7 @@
+T1	Quantity -1 -1	超过1周
+T2	MeasuredEntity 98 102	随访检查
+R1	HasQuantity Arg1:T2 Arg2:T1
+A1	QuantityQualifier T1 IsRange
+T3	Unit 67 68	周
+T4	Qualifier 4 6	术后
+R2	Qualifies Arg1:T4 Arg2:T1

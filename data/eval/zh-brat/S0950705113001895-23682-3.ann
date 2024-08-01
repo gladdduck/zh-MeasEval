@@ -1,0 +1,4 @@
+T1	Quantity 143 145	5%
+T2	Unit 144 145	%
+T3	MeasuredEntity 97 100	更新率
+R1	HasQuantity Arg1:T3 Arg2:T1

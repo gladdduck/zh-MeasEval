@@ -1,0 +1,6 @@
+T1	Quantity -1 -1	60 x 10 x 3 mm3
+T2	MeasuredEntity -1 -1	试样
+T3	MeasuredProperty -1 -1	大小
+T4	Unit -1 -1	mm3
+R1	HasProperty Arg1:T2 Arg2:T3
+R2	HasQuantity Arg1:T3 Arg2:T1

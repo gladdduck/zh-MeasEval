@@ -1,0 +1,4 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S095741741101342X-726	1	Quantity	1	7	T1-1	85/15%	{'mods': ['IsList'], 'unit': '%'}
+S095741741101342X-726	1	MeasuredProperty	-1	-1	T4-1	好/坏的观察结果	{'HasQuantity': 'T1-1'}
+S095741741101342X-726	1	MeasuredEntity	17	21	T3-1	AR比较	{'HasProperty': 'T4-1'}
